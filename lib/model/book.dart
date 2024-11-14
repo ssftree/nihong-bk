@@ -4,11 +4,13 @@ class Book {
   final String bookId;
   final String title;
   final List<Lesson> lessons;
+  final int totalVocabularies;
 
   Book({
     required this.bookId,
     required this.title,
     required this.lessons,
+    required this.totalVocabularies,
   });
 
   // Factory method to parse from JSON
@@ -19,6 +21,7 @@ class Book {
       lessons: (json['lessons'] as List)
           .map((lessonJson) => Lesson.fromJson(lessonJson as Map<String, dynamic>))
           .toList(),
+      totalVocabularies: (json['total_vocabulary'] as int),
     );
   }
 
@@ -27,6 +30,7 @@ class Book {
     return {
       'book_id': bookId,
       'title': title,
+      "total_vocabulary": totalVocabularies,
       'lessons': lessons.map((lesson) => lesson.toJson()).toList(),
     };
   }

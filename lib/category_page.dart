@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:daily_word/shared_preferences_helper.dart';
 import 'package:flutter/material.dart';
-import 'flushcard.dart';
+import 'flashcard_page.dart';
 import 'model/book.dart';
 import 'model/lesson.dart';
 
@@ -60,7 +60,7 @@ class _CategoryPageState extends State<CategoryPage> {
                   context: context,
                   builder: (BuildContext context) {
                     return AlertDialog(
-                      title: const Text('Language Selection'),
+                      title: const Text('Language'),
                       content: const Text('Only Chinese is supported now'),
                       actions: <Widget>[
                         TextButton(
@@ -163,7 +163,7 @@ class _CategoryPageState extends State<CategoryPage> {
                         itemCount: books.length,
                         itemBuilder: (context, index) {
                           final book = books[index];
-                          return _buildCategoryItem(book, 0, 100);
+                          return _buildCategoryItem(book, 0, book.totalVocabularies);
                         },
                       );
                     }
@@ -230,6 +230,7 @@ class _CategoryPageState extends State<CategoryPage> {
     return GestureDetector(
         onTap: () async {
           final progress = await SharedPreferencesHelper().getProgressForBook(book.bookId);
+          final books = await _futureBooks;
           Navigator.push(
             context,
             MaterialPageRoute(
@@ -237,7 +238,8 @@ class _CategoryPageState extends State<CategoryPage> {
                       bookTitle: book.title,
                       lesson: Lesson(lessonId: "1", lessonTitle: "李さんは 中国人です"),
                       vocabularyID: '1',
-                      // progress: progress,
+                      // books: books,
+                      // progress: progress!,
                     )),
           );
         },

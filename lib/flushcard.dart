@@ -2,18 +2,24 @@ import 'dart:convert';
 import 'package:daily_word/model/vocabulary.dart';
 import 'package:flutter/material.dart';
 import 'package:audioplayers/audioplayers.dart';
+import 'model/book.dart';
 import 'model/lesson.dart';
+import 'model/progress.dart';
 
 class FlashcardPage extends StatefulWidget {
   final String bookTitle;
   final Lesson lesson;
   final String vocabularyID;
+  final List<Book> books;
+  Progress progress;
 
-  const FlashcardPage({
+  FlashcardPage({
     Key? key,
     required this.bookTitle,
     required this.lesson,
     required this.vocabularyID,
+    required this.books,
+    required this.progress,
   }) : super(key: key);
 
   @override
@@ -78,10 +84,10 @@ class _FlashcardPageState extends State<FlashcardPage> {
                   ],
                 ),
                 itemBuilder: (BuildContext context) {
-                  return {'Option 1', 'Option 2', 'Option 3'}.map((String choice) {
+                  return widget.books.map((Book book) {
                     return PopupMenuItem<String>(
-                      value: choice,
-                      child: Text(choice),
+                      value: book.title,
+                      child: Text(book.title),
                     );
                   }).toList();
                 },
@@ -242,7 +248,7 @@ class _FlashcardPageState extends State<FlashcardPage> {
                           child: const Icon(
                             Icons.check_circle,
                             color: Colors.green,
-                            size: 40,
+                            size: 42,
                           ),
                         ),
                         Positioned(
@@ -251,7 +257,7 @@ class _FlashcardPageState extends State<FlashcardPage> {
                           child: const Icon(
                             Icons.star,
                             color: Colors.amber,
-                            size: 40,
+                            size: 42,
                           ),
                         ),
                         Positioned(
