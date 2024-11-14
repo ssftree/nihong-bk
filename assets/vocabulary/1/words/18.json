@@ -1,0 +1,306 @@
+[
+    {
+        "id": "0",
+        "japanese": "おと",
+        "kanji": "音",
+        "type": "〔名〕",
+        "chinese": "声音，响声",
+        "romaji": "oto"
+    },
+    {
+        "id": "1",
+        "japanese": "こえ",
+        "kanji": "声",
+        "type": "〔名〕",
+        "chinese": "声音",
+        "romaji": "koe"
+    },
+    {
+        "id": "2",
+        "japanese": "くうき",
+        "kanji": "空気",
+        "type": "〔名〕",
+        "chinese": "空气",
+        "romaji": "kūki"
+    },
+    {
+        "id": "3",
+        "japanese": "むすこ",
+        "kanji": "息子",
+        "type": "〔名〕",
+        "chinese": "儿子",
+        "romaji": "musuko"
+    },
+    {
+        "id": "4",
+        "japanese": "いしゃ",
+        "kanji": "医者",
+        "type": "〔名〕",
+        "chinese": "医生",
+        "romaji": "isha"
+    },
+    {
+        "id": "5",
+        "japanese": "おじょうさん",
+        "kanji": "お嬢さん",
+        "type": "〔名〕",
+        "chinese": "令爱",
+        "romaji": "ojōsan"
+    },
+    {
+        "id": "6",
+        "japanese": "しゃかいじん",
+        "kanji": "社会人",
+        "type": "〔名〕",
+        "chinese": "社会的一员，成人",
+        "romaji": "shakaijin"
+    },
+    {
+        "id": "7",
+        "japanese": "りょこうガイド",
+        "kanji": "旅行～",
+        "type": "〔名〕",
+        "chinese": "旅行导游",
+        "romaji": "ryokō gaido"
+    },
+    {
+        "id": "8",
+        "japanese": "がくしゃ",
+        "kanji": "学者",
+        "type": "〔名〕",
+        "chinese": "学者",
+        "romaji": "gakusha"
+    },
+    {
+        "id": "9",
+        "japanese": "パイロット",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "飞行员",
+        "romaji": "pairotto"
+    },
+    {
+        "id": "10",
+        "japanese": "デザイナー",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "设计者，设计家",
+        "romaji": "dezainā"
+    },
+    {
+        "id": "11",
+        "japanese": "タイムサービス",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "时段廉价销售",
+        "romaji": "taimu sābisu"
+    },
+    {
+        "id": "12",
+        "japanese": "しんしゅんセール",
+        "kanji": "新春～",
+        "type": "〔名〕",
+        "chinese": "新年大甩卖",
+        "romaji": "shinshun sēru"
+    },
+    {
+        "id": "13",
+        "japanese": "さんわりびき",
+        "kanji": "３割引",
+        "type": "〔名〕",
+        "chinese": "七折",
+        "romaji": "sanwaribiki"
+    },
+    {
+        "id": "14",
+        "japanese": "でいか",
+        "kanji": "定価",
+        "type": "〔名〕",
+        "chinese": "定价",
+        "romaji": "teika"
+    },
+    {
+        "id": "15",
+        "japanese": "はんがく",
+        "kanji": "半額",
+        "type": "〔名〕",
+        "chinese": "半价",
+        "romaji": "hangaku"
+    },
+    {
+        "id": "16",
+        "japanese": "ねだん",
+        "kanji": "値段",
+        "type": "〔名〕",
+        "chinese": "价格",
+        "romaji": "nedan"
+    },
+    {
+        "id": "17",
+        "japanese": "シャツ",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "衬衫",
+        "romaji": "shatsu"
+    },
+    {
+        "id": "18",
+        "japanese": "スカート",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "裙子",
+        "romaji": "sukāto"
+    },
+    {
+        "id": "19",
+        "japanese": "いろ",
+        "kanji": "色",
+        "type": "〔名〕",
+        "chinese": "颜色",
+        "romaji": "iro"
+    },
+    {
+        "id": "20",
+        "japanese": "あか",
+        "kanji": "赤",
+        "type": "〔名〕",
+        "chinese": "红色",
+        "romaji": "aka"
+    },
+    {
+        "id": "21",
+        "japanese": "あお",
+        "kanji": "青",
+        "type": "〔名〕",
+        "chinese": "蓝色",
+        "romaji": "ao"
+    },
+    {
+        "id": "22",
+        "japanese": "おしょうがつ",
+        "kanji": "お正月",
+        "type": "〔名〕",
+        "chinese": "过年，新年",
+        "romaji": "oshōgatsu"
+    },
+    {
+        "id": "23",
+        "japanese": "じかん",
+        "kanji": "時間",
+        "type": "〔名〕",
+        "chinese": "时间",
+        "romaji": "jikan"
+    },
+    {
+        "id": "24",
+        "japanese": "しょうらい",
+        "kanji": "将来",
+        "type": "〔名〕",
+        "chinese": "将来",
+        "romaji": "shōrai"
+    },
+    {
+        "id": "25",
+        "japanese": "じゅんび",
+        "kanji": "準備",
+        "type": "〔名〕",
+        "chinese": "准备",
+        "romaji": "junbi"
+    },
+    {
+        "id": "26",
+        "japanese": "びょうき",
+        "kanji": "病気",
+        "type": "〔名〕",
+        "chinese": "疾病",
+        "romaji": "byōki"
+    },
+    {
+        "id": "27",
+        "japanese": "なります",
+        "kanji": "",
+        "type": "〔动1〕",
+        "chinese": "变，当，变成，成为",
+        "romaji": "narimasu"
+    },
+    {
+        "id": "28",
+        "japanese": "あきます",
+        "kanji": "開きます",
+        "type": "〔动1〕",
+        "chinese": "开",
+        "romaji": "akimasu"
+    },
+    {
+        "id": "29",
+        "japanese": "にあいます",
+        "kanji": "似合います",
+        "type": "〔动1〕",
+        "chinese": "适合，相称",
+        "romaji": "niaimasu"
+    },
+    {
+        "id": "31",
+        "japanese": "うるさい",
+        "kanji": "",
+        "type": "〔形1〕",
+        "chinese": "闹，使人心烦",
+        "romaji": "urusai"
+    },
+    {
+        "id": "32",
+        "japanese": "シンプル",
+        "kanji": "",
+        "type": "〔形2〕",
+        "chinese": "单纯，简洁",
+        "romaji": "shinpuru"
+    },
+    {
+        "id": "33",
+        "japanese": "まもなく",
+        "kanji": "間もなく",
+        "type": "〔副〕",
+        "chinese": "马上，一会儿，不久",
+        "romaji": "mamonaku"
+    },
+    {
+        "id": "34",
+        "japanese": "さらに∕もっと",
+        "kanji": "",
+        "type": "〔副〕",
+        "chinese": "更加，更",
+        "romaji": "sarani/motto"
+    },
+    {
+        "id": "35",
+        "japanese": "さあ",
+        "kanji": "",
+        "type": "〔叹〕",
+        "chinese": "啊，喂",
+        "romaji": "saa"
+    },
+    {
+        "id": "36",
+        "japanese": "できるだけ",
+        "kanji": "",
+        "type": "",
+        "chinese": "尽量，尽可能",
+        "romaji": "dekirudake"
+    },
+    {
+        "id": "37",
+        "japanese": "まとめて",
+        "kanji": "",
+        "type": "",
+        "chinese": "一下子，一起，汇总，汇集",
+        "romaji": "matomete"
+    },
+    {
+        "id": "38",
+        "japanese": "いまから",
+        "kanji": "今から",
+        "type": "",
+        "chinese": "从现在起",
+        "romaji": "imakara"
+    }
+]

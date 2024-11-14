@@ -1,0 +1,402 @@
+[
+    {
+        "id": "0",
+        "japanese": "もみじ",
+        "kanji": "紅葉",
+        "type": "〔名〕",
+        "chinese": "红叶",
+        "romaji": "momiji"
+    },
+    {
+        "id": "1",
+        "japanese": "こきょう",
+        "kanji": "故郷",
+        "type": "〔名〕",
+        "chinese": "故乡",
+        "romaji": "kokyō"
+    },
+    {
+        "id": "2",
+        "japanese": "とおり",
+        "kanji": "通り",
+        "type": "〔名〕",
+        "chinese": "大街",
+        "romaji": "tōri"
+    },
+    {
+        "id": "3",
+        "japanese": "まち",
+        "kanji": "町",
+        "type": "〔名〕",
+        "chinese": "城市，街道",
+        "romaji": "machi"
+    },
+    {
+        "id": "4",
+        "japanese": "ところ",
+        "kanji": "所",
+        "type": "〔名〕",
+        "chinese": "场所",
+        "romaji": "tokoro"
+    },
+    {
+        "id": "5",
+        "japanese": "おみせ",
+        "kanji": "お店",
+        "type": "〔名〕",
+        "chinese": "餐馆；商店",
+        "romaji": "omise"
+    },
+    {
+        "id": "6",
+        "japanese": "にんぎょう",
+        "kanji": "人形",
+        "type": "〔名〕",
+        "chinese": "玩偶",
+        "romaji": "ningyō"
+    },
+    {
+        "id": "7",
+        "japanese": "さくひん",
+        "kanji": "作品",
+        "type": "〔名〕",
+        "chinese": "作品",
+        "romaji": "sakuhin"
+    },
+    {
+        "id": "8",
+        "japanese": "ちょうこく",
+        "kanji": "彫刻",
+        "type": "〔名〕",
+        "chinese": "雕刻",
+        "romaji": "chōkoku"
+    },
+    {
+        "id": "9",
+        "japanese": "じどうしゃ",
+        "kanji": "自動車",
+        "type": "〔名〕",
+        "chinese": "汽车",
+        "romaji": "jidōsha"
+    },
+    {
+        "id": "10",
+        "japanese": "どうぐ",
+        "kanji": "道具",
+        "type": "〔名〕",
+        "chinese": "工具",
+        "romaji": "dōgu"
+    },
+    {
+        "id": "11",
+        "japanese": "さかな",
+        "kanji": "魚",
+        "type": "〔名〕",
+        "chinese": "鱼",
+        "romaji": "sakana"
+    },
+    {
+        "id": "12",
+        "japanese": "おかし",
+        "kanji": "お菓子",
+        "type": "〔名〕",
+        "chinese": "点心",
+        "romaji": "okashi"
+    },
+    {
+        "id": "13",
+        "japanese": "もの",
+        "kanji": "物",
+        "type": "〔名〕",
+        "chinese": "物品，东西",
+        "romaji": "mono"
+    },
+    {
+        "id": "14",
+        "japanese": "シーズン",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "季节",
+        "romaji": "shīzun"
+    },
+    {
+        "id": "15",
+        "japanese": "しゅうがくりょこう",
+        "kanji": "修学旅行",
+        "type": "〔名〕",
+        "chinese": "修学旅行",
+        "romaji": "shūgaku ryokō"
+    },
+    {
+        "id": "16",
+        "japanese": "かんこうきゃく",
+        "kanji": "観光客",
+        "type": "〔名〕",
+        "chinese": "游客",
+        "romaji": "kankōkyaku"
+    },
+    {
+        "id": "17",
+        "japanese": "さっか",
+        "kanji": "作家",
+        "type": "〔名〕",
+        "chinese": "作家",
+        "romaji": "sakka"
+    },
+    {
+        "id": "18",
+        "japanese": "ぶちょう",
+        "kanji": "部長",
+        "type": "〔名〕",
+        "chinese": "部长",
+        "romaji": "buchō"
+    },
+    {
+        "id": "19",
+        "japanese": "へいじつ",
+        "kanji": "平日",
+        "type": "〔名〕",
+        "chinese": "平日，非休息日",
+        "romaji": "heijitsu"
+    },
+    {
+        "id": "20",
+        "japanese": "ひ",
+        "kanji": "日",
+        "type": "〔名〕",
+        "chinese": "日子",
+        "romaji": "hi"
+    },
+    {
+        "id": "21",
+        "japanese": "せいかつ",
+        "kanji": "生活",
+        "type": "〔名〕",
+        "chinese": "生活",
+        "romaji": "seikatsu"
+    },
+    {
+        "id": "22",
+        "japanese": "せかい",
+        "kanji": "世界",
+        "type": "〔名〕",
+        "chinese": "世界",
+        "romaji": "sekai"
+    },
+    {
+        "id": "23",
+        "japanese": "はれ",
+        "kanji": "晴れ",
+        "type": "〔名〕",
+        "chinese": "晴天",
+        "romaji": "hare"
+    },
+    {
+        "id": "24",
+        "japanese": "あめ",
+        "kanji": "雨",
+        "type": "〔名〕",
+        "chinese": "雨，下雨",
+        "romaji": "ame"
+    },
+    {
+        "id": "25",
+        "japanese": "くもり",
+        "kanji": "曇り",
+        "type": "〔名〕",
+        "chinese": "阴天",
+        "romaji": "kumori"
+    },
+    {
+        "id": "26",
+        "japanese": "ゆき",
+        "kanji": "雪",
+        "type": "〔名〕",
+        "chinese": "雪",
+        "romaji": "yuki"
+    },
+    {
+        "id": "27",
+        "japanese": "きたない",
+        "kanji": "汚い",
+        "type": "〔形1〕",
+        "chinese": "脏",
+        "romaji": "kitanai"
+    },
+    {
+        "id": "28",
+        "japanese": "きれい",
+        "kanji": "",
+        "type": "〔形2〕",
+        "chinese": "漂亮，干净",
+        "romaji": "kirei"
+    },
+    {
+        "id": "29",
+        "japanese": "ゆうめい",
+        "kanji": "有名",
+        "type": "〔形1〕",
+        "chinese": "有名",
+        "romaji": "yūmei"
+    },
+    {
+        "id": "31",
+        "japanese": "にぎやか",
+        "kanji": "",
+        "type": "〔形2〕",
+        "chinese": "热闹，繁华",
+        "romaji": "nigiyaka"
+    },
+    {
+        "id": "32",
+        "japanese": "しずか",
+        "kanji": "静か",
+        "type": "〔形2〕",
+        "chinese": "安静",
+        "romaji": "shizuka"
+    },
+    {
+        "id": "33",
+        "japanese": "ひま",
+        "kanji": "暇",
+        "type": "〔形2〕",
+        "chinese": "空闲",
+        "romaji": "hima"
+    },
+    {
+        "id": "34",
+        "japanese": "しんせつ",
+        "kanji": "親切",
+        "type": "〔形2〕",
+        "chinese": "热情",
+        "romaji": "shinsetsu"
+    },
+    {
+        "id": "35",
+        "japanese": "すき",
+        "kanji": "好き",
+        "type": "〔形2〕",
+        "chinese": "喜欢",
+        "romaji": "suki"
+    },
+    {
+        "id": "36",
+        "japanese": "きらい",
+        "kanji": "嫌い",
+        "type": "〔形2〕",
+        "chinese": "讨厌",
+        "romaji": "kirai"
+    },
+    {
+        "id": "37",
+        "japanese": "べんり",
+        "kanji": "便利",
+        "type": "〔形2〕",
+        "chinese": "方便",
+        "romaji": "benri"
+    },
+    {
+        "id": "38",
+        "japanese": "ふべん",
+        "kanji": "不便",
+        "type": "〔形2〕",
+        "chinese": "不方便",
+        "romaji": "fuben"
+    },
+    {
+        "id": "39",
+        "japanese": "げんき",
+        "kanji": "元気",
+        "type": "〔形2〕",
+        "chinese": "健康，有精神",
+        "romaji": "genki"
+    },
+    {
+        "id": "40",
+        "japanese": "ハンサム",
+        "kanji": "",
+        "type": "〔形2〕",
+        "chinese": "英俊，帅气",
+        "romaji": "hansamu"
+    },
+    {
+        "id": "41",
+        "japanese": "どんな",
+        "kanji": "",
+        "type": "〔疑〕",
+        "chinese": "什么样的，怎样的",
+        "romaji": "donna"
+    },
+    {
+        "id": "42",
+        "japanese": "どう",
+        "kanji": "",
+        "type": "〔副〕",
+        "chinese": "怎样，如何",
+        "romaji": "dō"
+    },
+    {
+        "id": "43",
+        "japanese": "いかが",
+        "kanji": "",
+        "type": "〔副〕",
+        "chinese": "如何",
+        "romaji": "ikaga"
+    },
+    {
+        "id": "44",
+        "japanese": "いろいろ",
+        "kanji": "",
+        "type": "〔副〕",
+        "chinese": "各种各样",
+        "romaji": "iroiro"
+    },
+    {
+        "id": "45",
+        "japanese": "でも",
+        "kanji": "",
+        "type": "〔连〕",
+        "chinese": "可是，不过",
+        "romaji": "demo"
+    },
+    {
+        "id": "46",
+        "japanese": "そして",
+        "kanji": "",
+        "type": "〔连〕",
+        "chinese": "而且，于是",
+        "romaji": "soshite"
+    },
+    {
+        "id": "47",
+        "japanese": "ところで",
+        "kanji": "",
+        "type": "〔连〕",
+        "chinese": "（转换话题） 哎",
+        "romaji": "tokorode"
+    },
+    {
+        "id": "48",
+        "japanese": "あれえ",
+        "kanji": "",
+        "type": "〔叹〕",
+        "chinese": "咦",
+        "romaji": "aree"
+    },
+    {
+        "id": "49",
+        "japanese": "もうすこし",
+        "kanji": "もう少し",
+        "type": "",
+        "chinese": "再～一点",
+        "romaji": "mō sukoshi"
+    },
+    {
+        "id": "50",
+        "japanese": "～じゅう",
+        "kanji": "～中",
+        "type": "",
+        "chinese": "",
+        "romaji": "〜jū"
+    }
+]

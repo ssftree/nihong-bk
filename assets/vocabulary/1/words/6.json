@@ -1,0 +1,354 @@
+[
+    {
+        "id": "0",
+        "japanese": "らいげつ",
+        "kanji": "来月",
+        "type": "〔名〕",
+        "chinese": "下个月",
+        "romaji": "raigetsu"
+    },
+    {
+        "id": "1",
+        "japanese": "せんげつ",
+        "kanji": "先月",
+        "type": "〔名〕",
+        "chinese": "上个月",
+        "romaji": "sengetsu"
+    },
+    {
+        "id": "2",
+        "japanese": "よなか",
+        "kanji": "夜中",
+        "type": "〔名〕",
+        "chinese": "午夜，半夜",
+        "romaji": "yonaka"
+    },
+    {
+        "id": "3",
+        "japanese": "ゆうべ",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "昨天晚上",
+        "romaji": "yūbe"
+    },
+    {
+        "id": "4",
+        "japanese": "コンサート",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "音乐会",
+        "romaji": "konsāto"
+    },
+    {
+        "id": "5",
+        "japanese": "クリスマス",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "圣诞节",
+        "romaji": "kurisumasu"
+    },
+    {
+        "id": "6",
+        "japanese": "たんじょうび",
+        "kanji": "誕生日",
+        "type": "〔名〕",
+        "chinese": "生日",
+        "romaji": "tanjōbi"
+    },
+    {
+        "id": "7",
+        "japanese": "こどものひ",
+        "kanji": "こどもの日",
+        "type": "〔名〕",
+        "chinese": "儿童节",
+        "romaji": "kodomono hi"
+    },
+    {
+        "id": "8",
+        "japanese": "なつやすみ",
+        "kanji": "夏休み",
+        "type": "〔名〕",
+        "chinese": "暑假",
+        "romaji": "natsuyasumi"
+    },
+    {
+        "id": "9",
+        "japanese": "こうつうきかん",
+        "kanji": "交通機関",
+        "type": "〔名〕",
+        "chinese": "交通工具",
+        "romaji": "kōtsūkikan"
+    },
+    {
+        "id": "10",
+        "japanese": "しんかんせん",
+        "kanji": "新幹線",
+        "type": "〔名〕",
+        "chinese": "新干线",
+        "romaji": "shinkansen"
+    },
+    {
+        "id": "11",
+        "japanese": "ひこうき",
+        "kanji": "飛行機",
+        "type": "〔名〕",
+        "chinese": "飞机",
+        "romaji": "hikouki"
+    },
+    {
+        "id": "12",
+        "japanese": "フェリー",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "渡轮",
+        "romaji": "ferī"
+    },
+    {
+        "id": "13",
+        "japanese": "でんしゃ",
+        "kanji": "電車",
+        "type": "〔名〕",
+        "chinese": "电车",
+        "romaji": "densha"
+    },
+    {
+        "id": "14",
+        "japanese": "バス",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "公共汽车",
+        "romaji": "basu"
+    },
+    {
+        "id": "15",
+        "japanese": "タクシー",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "出租车",
+        "romaji": "takushī"
+    },
+    {
+        "id": "16",
+        "japanese": "びじゅつかん",
+        "kanji": "美術館",
+        "type": "〔名〕",
+        "chinese": "美术馆",
+        "romaji": "bijutsukan"
+    },
+    {
+        "id": "17",
+        "japanese": "アパート",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "公寓",
+        "romaji": "apāto"
+    },
+    {
+        "id": "18",
+        "japanese": "うち",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "家",
+        "romaji": "uchi"
+    },
+    {
+        "id": "19",
+        "japanese": "プール",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "游泳池",
+        "romaji": "pūru"
+    },
+    {
+        "id": "20",
+        "japanese": "ともだち",
+        "kanji": "友達",
+        "type": "〔名〕",
+        "chinese": "朋友",
+        "romaji": "tomodachi"
+    },
+    {
+        "id": "21",
+        "japanese": "おとうと",
+        "kanji": "弟",
+        "type": "〔名〕",
+        "chinese": "弟弟",
+        "romaji": "otōto"
+    },
+    {
+        "id": "22",
+        "japanese": "いきます",
+        "kanji": "行きます",
+        "type": "〔动1〕",
+        "chinese": "去",
+        "romaji": "ikimasu"
+    },
+    {
+        "id": "23",
+        "japanese": "かえります",
+        "kanji": "帰ります",
+        "type": "〔动1〕",
+        "chinese": "回来，回去",
+        "romaji": "kaerimasu"
+    },
+    {
+        "id": "24",
+        "japanese": "きます",
+        "kanji": "来ます",
+        "type": "〔动3〕",
+        "chinese": "来",
+        "romaji": "kimasu"
+    },
+    {
+        "id": "25",
+        "japanese": "たしか",
+        "kanji": "",
+        "type": "〔副〕",
+        "chinese": "好像是，大概；的确",
+        "romaji": "tashika"
+    },
+    {
+        "id": "26",
+        "japanese": "まっすぐ",
+        "kanji": "",
+        "type": "〔副〕",
+        "chinese": "径直，笔直",
+        "romaji": "massugu"
+    },
+    {
+        "id": "27",
+        "japanese": "いっしょに",
+        "kanji": "",
+        "type": "〔副〕",
+        "chinese": "一起",
+        "romaji": "issho ni"
+    },
+    {
+        "id": "28",
+        "japanese": "さとう",
+        "kanji": "佐藤",
+        "type": "〔专〕",
+        "chinese": "佐藤",
+        "romaji": "satō"
+    },
+    {
+        "id": "29",
+        "japanese": "ペキン",
+        "kanji": "北京",
+        "type": "〔专〕",
+        "chinese": "北京",
+        "romaji": "pekin"
+    },
+    {
+        "id": "30",
+        "japanese": "アメリカ",
+        "kanji": "",
+        "type": "〔专〕",
+        "chinese": "美国",
+        "romaji": "Amerika"
+    },
+    {
+        "id": "31",
+        "japanese": "かんこく",
+        "kanji": "韓国",
+        "type": "〔专〕",
+        "chinese": "韩国",
+        "romaji": "kankoku"
+    },
+    {
+        "id": "32",
+        "japanese": "フランス",
+        "kanji": "",
+        "type": "〔专〕",
+        "chinese": "法国",
+        "romaji": "Furansu"
+    },
+    {
+        "id": "33",
+        "japanese": "ひろしま",
+        "kanji": "広島",
+        "type": "〔专〕",
+        "chinese": "广岛",
+        "romaji": "Hiroshima"
+    },
+    {
+        "id": "34",
+        "japanese": "きょうと",
+        "kanji": "京都",
+        "type": "〔专〕",
+        "chinese": "京都",
+        "romaji": "Kyōto"
+    },
+    {
+        "id": "35",
+        "japanese": "ほっかいどう",
+        "kanji": "北海道",
+        "type": "〔专〕",
+        "chinese": "北海道",
+        "romaji": "Hokkaidō"
+    },
+    {
+        "id": "36",
+        "japanese": "はこね",
+        "kanji": "箱根",
+        "type": "〔专〕",
+        "chinese": "箱根",
+        "romaji": "Hakone"
+    },
+    {
+        "id": "37",
+        "japanese": "ぎんざ",
+        "kanji": "銀座",
+        "type": "〔专〕",
+        "chinese": "银座",
+        "romaji": "Ginza"
+    },
+    {
+        "id": "38",
+        "japanese": "しぶや",
+        "kanji": "渋谷",
+        "type": "〔专〕",
+        "chinese": "涩谷",
+        "romaji": "Shibuya"
+    },
+    {
+        "id": "39",
+        "japanese": "しんじゅく",
+        "kanji": "新宿",
+        "type": "〔专〕",
+        "chinese": "新宿",
+        "romaji": "Shinjuku"
+    },
+    {
+        "id": "40",
+        "japanese": "おつかれさまでした",
+        "kanji": "お疲れ様でした",
+        "type": "",
+        "chinese": "够累的",
+        "romaji": "otsukaresama deshita"
+    },
+    {
+        "id": "41",
+        "japanese": "おさきにしつれいします",
+        "kanji": "お先に失礼します",
+        "type": "",
+        "chinese": "我先走了，我先告辞了",
+        "romaji": "osaki ni shitsurei shimasu"
+    },
+    {
+        "id": "42",
+        "japanese": "あるいて",
+        "kanji": "歩いて",
+        "type": "",
+        "chinese": "步行",
+        "romaji": "aruite"
+    },
+    {
+        "id": "43",
+        "japanese": "たいへんですね",
+        "kanji": "大変ですね",
+        "type": "",
+        "chinese": "真不容易，够受的，不得了",
+        "romaji": "taihen desu ne"
+    }
+]

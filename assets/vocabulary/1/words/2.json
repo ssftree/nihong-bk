@@ -1,0 +1,442 @@
+[
+    {
+        "id": "1",
+        "japanese": "ほん",
+        "kanji": "本",
+        "type": "〔名〕",
+        "chinese": "书",
+        "romaji": "hon"
+    },
+    {
+        "id": "2",
+        "japanese": "かばん",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "包，公文包",
+        "romaji": "kaban"
+    },
+    {
+        "id": "3",
+        "japanese": "ノート",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "笔记本，本子",
+        "romaji": "nōto"
+    },
+    {
+        "id": "4",
+        "japanese": "えんぴつ",
+        "kanji": "鉛筆",
+        "type": "〔名〕",
+        "chinese": "铅笔",
+        "romaji": "enpitsu"
+    },
+    {
+        "id": "5",
+        "japanese": "かさ",
+        "kanji": "傘",
+        "type": "〔名〕",
+        "chinese": "伞",
+        "romaji": "kasa"
+    },
+    {
+        "id": "6",
+        "japanese": "くつ",
+        "kanji": "靴",
+        "type": "〔名〕",
+        "chinese": "鞋",
+        "romaji": "kutsu"
+    },
+    {
+        "id": "7",
+        "japanese": "しんぶん",
+        "kanji": "新聞",
+        "type": "〔名〕",
+        "chinese": "报纸",
+        "romaji": "shinbun"
+    },
+    {
+        "id": "8",
+        "japanese": "ざっし",
+        "kanji": "雑誌",
+        "type": "〔名〕",
+        "chinese": "杂志",
+        "romaji": "zasshi"
+    },
+    {
+        "id": "9",
+        "japanese": "じしょ",
+        "kanji": "辞書",
+        "type": "〔名〕",
+        "chinese": "词典",
+        "romaji": "jisho"
+    },
+    {
+        "id": "10",
+        "japanese": "テレビ",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "电视机",
+        "romaji": "terebi"
+    },
+    {
+        "id": "11",
+        "japanese": "パソコン",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "个人电脑",
+        "romaji": "pasokon"
+    },
+    {
+        "id": "12",
+        "japanese": "ラジオ",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "收音机",
+        "romaji": "rajio"
+    },
+    {
+        "id": "13",
+        "japanese": "でんわ",
+        "kanji": "電話",
+        "type": "〔名〕",
+        "chinese": "电话",
+        "romaji": "denwa"
+    },
+    {
+        "id": "14",
+        "japanese": "つくえ",
+        "kanji": "机",
+        "type": "〔名〕",
+        "chinese": "桌子，书桌",
+        "romaji": "tsukue"
+    },
+    {
+        "id": "15",
+        "japanese": "いす",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "椅子",
+        "romaji": "isu"
+    },
+    {
+        "id": "16",
+        "japanese": "かぎ",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "钥匙，锁",
+        "romaji": "kagi"
+    },
+    {
+        "id": "17",
+        "japanese": "とけい",
+        "kanji": "時計",
+        "type": "〔名〕",
+        "chinese": "钟，表",
+        "romaji": "tokei"
+    },
+    {
+        "id": "18",
+        "japanese": "てちょう",
+        "kanji": "手帳",
+        "type": "〔名〕",
+        "chinese": "记事本",
+        "romaji": "techō"
+    },
+    {
+        "id": "19",
+        "japanese": "しゃしん",
+        "kanji": "写真",
+        "type": "〔名〕",
+        "chinese": "照片",
+        "romaji": "shashin"
+    },
+    {
+        "id": "20",
+        "japanese": "くるま",
+        "kanji": "車",
+        "type": "〔名〕",
+        "chinese": "车",
+        "romaji": "kuruma"
+    },
+    {
+        "id": "21",
+        "japanese": "じてんしゃ",
+        "kanji": "自転車",
+        "type": "〔名〕",
+        "chinese": "自行车",
+        "romaji": "jitensha"
+    },
+    {
+        "id": "22",
+        "japanese": "おみやげ",
+        "kanji": "お土産",
+        "type": "〔名〕",
+        "chinese": "礼物",
+        "romaji": "omiyage"
+    },
+    {
+        "id": "23",
+        "japanese": "めいさんひん",
+        "kanji": "名産品",
+        "type": "〔名〕",
+        "chinese": "特产，名产",
+        "romaji": "meisanhin"
+    },
+    {
+        "id": "24",
+        "japanese": "シルク",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "丝绸",
+        "romaji": "shiruku"
+    },
+    {
+        "id": "25",
+        "japanese": "ハンカチ",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "手绢",
+        "romaji": "hankachi"
+    },
+    {
+        "id": "26",
+        "japanese": "かいしゃ",
+        "kanji": "会社",
+        "type": "〔名〕",
+        "chinese": "公司",
+        "romaji": "kaisha"
+    },
+    {
+        "id": "27",
+        "japanese": "かた",
+        "kanji": "方",
+        "type": "〔名〕",
+        "chinese": "（敬称）位，人",
+        "romaji": "kata"
+    },
+    {
+        "id": "28",
+        "japanese": "ひと",
+        "kanji": "人",
+        "type": "〔名〕",
+        "chinese": "人",
+        "romaji": "hito"
+    },
+    {
+        "id": "29",
+        "japanese": "かぞく",
+        "kanji": "家族",
+        "type": "〔名〕",
+        "chinese": "家人，家属",
+        "romaji": "kazoku"
+    },
+    {
+        "id": "30",
+        "japanese": "はは",
+        "kanji": "母",
+        "type": "〔名〕",
+        "chinese": "（我）母亲",
+        "romaji": "haha"
+    },
+    {
+        "id": "31",
+        "japanese": "おかあさん",
+        "kanji": "お母さん",
+        "type": "〔名〕",
+        "chinese": "母亲",
+        "romaji": "okāsan"
+    },
+    {
+        "id": "32",
+        "japanese": "にほんご",
+        "kanji": "日本語",
+        "type": "〔名〕",
+        "chinese": "日语",
+        "romaji": "nihongo"
+    },
+    {
+        "id": "33",
+        "japanese": "ちゅうごくご",
+        "kanji": "中国語",
+        "type": "〔名〕",
+        "chinese": "汉语，中文",
+        "romaji": "chūgokugo"
+    },
+    {
+        "id": "34",
+        "japanese": "これ",
+        "kanji": "",
+        "type": "〔代〕",
+        "chinese": "这，这个",
+        "romaji": "kore"
+    },
+    {
+        "id": "35",
+        "japanese": "それ",
+        "kanji": "",
+        "type": "〔代〕",
+        "chinese": "那，那个",
+        "romaji": "sore"
+    },
+    {
+        "id": "36",
+        "japanese": "あれ",
+        "kanji": "",
+        "type": "〔代〕",
+        "chinese": "那，那个",
+        "romaji": "are"
+    },
+    {
+        "id": "37",
+        "japanese": "どれ",
+        "kanji": "",
+        "type": "〔疑〕",
+        "chinese": "哪个",
+        "romaji": "dore"
+    },
+    {
+        "id": "38",
+        "japanese": "なん",
+        "kanji": "何",
+        "type": "〔疑〕",
+        "chinese": "什么",
+        "romaji": "nan"
+    },
+    {
+        "id": "39",
+        "japanese": "だれ",
+        "kanji": "",
+        "type": "〔疑〕",
+        "chinese": "谁",
+        "romaji": "dare"
+    },
+    {
+        "id": "40",
+        "japanese": "どなた",
+        "kanji": "",
+        "type": "〔疑〕",
+        "chinese": "哪位",
+        "romaji": "donata"
+    },
+    {
+        "id": "41",
+        "japanese": "この",
+        "kanji": "",
+        "type": "〔连体〕",
+        "chinese": "这，这个",
+        "romaji": "kono"
+    },
+    {
+        "id": "42",
+        "japanese": "その",
+        "kanji": "",
+        "type": "〔连体〕",
+        "chinese": "那，那个",
+        "romaji": "sono"
+    },
+    {
+        "id": "43",
+        "japanese": "あの",
+        "kanji": "",
+        "type": "〔连体〕",
+        "chinese": "那，那个",
+        "romaji": "ano"
+    },
+    {
+        "id": "44",
+        "japanese": "どの",
+        "kanji": "",
+        "type": "〔连体〕",
+        "chinese": "哪个",
+        "romaji": "dono"
+    },
+    {
+        "id": "45",
+        "japanese": "えっ",
+        "kanji": "",
+        "type": "〔叹〕",
+        "chinese": "啊",
+        "romaji": "e"
+    },
+    {
+        "id": "46",
+        "japanese": "わあ",
+        "kanji": "",
+        "type": "〔叹〕",
+        "chinese": "哇",
+        "romaji": "waa"
+    },
+    {
+        "id": "47",
+        "japanese": "ええ",
+        "kanji": "",
+        "type": "〔叹〕",
+        "chinese": "（应答）嗯，是",
+        "romaji": "ee"
+    },
+    {
+        "id": "48",
+        "japanese": "ながしま",
+        "kanji": "長島",
+        "type": "〔专〕",
+        "chinese": "长岛",
+        "romaji": "nagashima"
+    },
+    {
+        "id": "49",
+        "japanese": "にほん",
+        "kanji": "日本",
+        "type": "〔专〕",
+        "chinese": "日本",
+        "romaji": "nihon"
+    },
+    {
+        "id": "50",
+        "japanese": "スワトウ",
+        "kanji": "",
+        "type": "〔专〕",
+        "chinese": "汕头",
+        "romaji": "suwatou"
+    },
+    {
+        "id": "51",
+        "japanese": "ロンドン",
+        "kanji": "",
+        "type": "〔专〕",
+        "chinese": "伦敦",
+        "romaji": "rondon"
+    },
+    {
+        "id": "52",
+        "japanese": "ありがとうございます",
+        "kanji": "",
+        "type": "",
+        "chinese": "谢谢",
+        "romaji": "arigatou gozaimasu"
+    },
+    {
+        "id": "53",
+        "japanese": "おいくつ",
+        "kanji": "",
+        "type": "",
+        "chinese": "多大",
+        "romaji": "oikutsu"
+    },
+    {
+        "id": "54",
+        "japanese": "なん～",
+        "kanji": "何～",
+        "type": "",
+        "chinese": "",
+        "romaji": "nan~"
+    },
+    {
+        "id": "55",
+        "japanese": "～さい",
+        "kanji": "～歳",
+        "type": "",
+        "chinese": "",
+        "romaji": "~sai"
+    }
+]
