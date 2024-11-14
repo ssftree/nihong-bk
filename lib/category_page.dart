@@ -1,4 +1,5 @@
 import 'dart:convert';
+import 'package:daily_word/shared_preferences_helper.dart';
 import 'package:flutter/material.dart';
 import 'flushcard.dart';
 import 'model/book.dart';
@@ -162,7 +163,7 @@ class _CategoryPageState extends State<CategoryPage> {
                         itemCount: books.length,
                         itemBuilder: (context, index) {
                           final book = books[index];
-                          return _buildCategoryItem(book.title, 0, 100);
+                          return _buildCategoryItem(book, 0, 100);
                         },
                       );
                     }
@@ -225,16 +226,18 @@ class _CategoryPageState extends State<CategoryPage> {
     );
   }
 
-  Widget _buildCategoryItem(String title, int completed, int total) {
+  Widget _buildCategoryItem(Book book, int completed, int total) {
     return GestureDetector(
-        onTap: () {
+        onTap: () async {
+          final progress = await SharedPreferencesHelper().getProgressForBook(book.bookId);
           Navigator.push(
             context,
             MaterialPageRoute(
                 builder: (context) => FlashcardPage(
-                      bookTitle: '',
+                      bookTitle: book.title,
                       lesson: Lesson(lessonId: "1", lessonTitle: "李さんは 中国人です"),
                       vocabularyID: '1',
+                      // progress: progress,
                     )),
           );
         },
@@ -260,7 +263,7 @@ class _CategoryPageState extends State<CategoryPage> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   Text(
-                    title,
+                    book.title,
                     style: const TextStyle(
                       fontSize: 18,
                       fontWeight: FontWeight.w500,

@@ -1,9 +1,7 @@
 import 'dart:convert';
-
 import 'package:daily_word/model/vocabulary.dart';
 import 'package:flutter/material.dart';
 import 'package:audioplayers/audioplayers.dart';
-
 import 'model/lesson.dart';
 
 class FlashcardPage extends StatefulWidget {
@@ -11,12 +9,12 @@ class FlashcardPage extends StatefulWidget {
   final Lesson lesson;
   final String vocabularyID;
 
-  const FlashcardPage(
-      {Key? key,
-      required this.bookTitle,
-      required this.lesson,
-      required this.vocabularyID})
-      : super(key: key);
+  const FlashcardPage({
+    Key? key,
+    required this.bookTitle,
+    required this.lesson,
+    required this.vocabularyID,
+  }) : super(key: key);
 
   @override
   _FlashcardPageState createState() => _FlashcardPageState();
@@ -24,7 +22,7 @@ class FlashcardPage extends StatefulWidget {
 
 class _FlashcardPageState extends State<FlashcardPage> {
   List<Vocabulary> _vocabulary = [];
-  bool _isLoading = true; // Track loading state
+  bool _isLoading = true;
   final AudioPlayer _audioPlayer = AudioPlayer();
 
   @override
@@ -39,10 +37,10 @@ class _FlashcardPageState extends State<FlashcardPage> {
           'assets/vocabulary/${widget.lesson.lessonId}/words/${widget.lesson.lessonId}.json');
       _vocabulary = Vocabulary.listFromJson(json.decode(response));
     } catch (e) {
-      print('Error loading vocabulary: $e'); // Print any errors
+      print('Error loading vocabulary: $e');
     } finally {
       setState(() {
-        _isLoading = false; // Update loading state
+        _isLoading = false;
       });
     }
   }
@@ -50,82 +48,76 @@ class _FlashcardPageState extends State<FlashcardPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color(0xFF6A1B9A), // Deep purple background
+      backgroundColor: const Color(0xFF6A1B9A),
       appBar: AppBar(
         backgroundColor: const Color(0xFF6A1B9A),
         elevation: 0,
         title: Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            Row(
-              children: [
-                const Icon(Icons.book, color: Colors.white),
-                const SizedBox(width: 8),
-                PopupMenuButton<String>(
-                  onSelected: (String value) {
-                    // Handle the action for the left dropdown selection
-                    print('Selected: $value');
-                  },
-                  child: Row(
-                    children: [
-                      Text(
+            Flexible(
+              child: PopupMenuButton<String>(
+                onSelected: (String value) {
+                  print('Selected: $value');
+                },
+                child: Row(
+                  children: [
+                    Flexible(
+                      child: Text(
                         widget.bookTitle,
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 16,
                           fontWeight: FontWeight.w600,
                         ),
+                        overflow: TextOverflow.ellipsis,
+                        maxLines: 1,
                       ),
-                      const SizedBox(width: 4),
-                      const Icon(
-                        Icons.arrow_drop_down,
-                        color: Colors.white,
-                      ),
-                    ],
-                  ),
-                  itemBuilder: (BuildContext context) {
-                    return {'Option 1', 'Option 2', 'Option 3'}
-                        .map((String choice) {
-                      return PopupMenuItem<String>(
-                        value: choice,
-                        child: Text(choice),
-                      );
-                    }).toList();
-                  },
-                ),
-              ],
-            ),
-            PopupMenuButton<String>(
-              onSelected: (String value) {
-                // Handle the action for the right dropdown selection
-                print('Selected: $value');
-              },
-              child: Row(
-                children: [
-                  Text(
-                    widget.lesson.lessonTitle,
-                    style: const TextStyle(
-                      color: Colors.white,
-                      fontSize: 16,
-                      fontWeight: FontWeight.w600,
                     ),
-                  ),
-                  const SizedBox(width: 4),
-                  const Icon(
-                    Icons.arrow_drop_down,
-                    color: Colors.white,
-                  ),
-                ],
+                    const Icon(Icons.arrow_drop_down, color: Colors.white),
+                  ],
+                ),
+                itemBuilder: (BuildContext context) {
+                  return {'Option 1', 'Option 2', 'Option 3'}.map((String choice) {
+                    return PopupMenuItem<String>(
+                      value: choice,
+                      child: Text(choice),
+                    );
+                  }).toList();
+                },
               ),
-              itemBuilder: (BuildContext context) {
-                return {'Sentence 1', 'Sentence 2', 'Sentence 3'}
-                    .map((String choice) {
-                  return PopupMenuItem<String>(
-                    value: choice,
-                    child: Text(choice),
-                  );
-                }).toList();
-              },
+            ),
+            Flexible(
+              child: PopupMenuButton<String>(
+                onSelected: (String value) {
+                  print('Selected: $value');
+                },
+                child: Row(
+                  children: [
+                    Flexible(
+                      child: Text(
+                        widget.lesson.lessonTitle,
+                        style: const TextStyle(
+                          color: Colors.white,
+                          fontSize: 16,
+                          fontWeight: FontWeight.w600,
+                        ),
+                        overflow: TextOverflow.ellipsis,
+                        maxLines: 1,
+                      ),
+                    ),
+                    const Icon(Icons.arrow_drop_down, color: Colors.white),
+                  ],
+                ),
+                itemBuilder: (BuildContext context) {
+                  return {'Sentence 1', 'Sentence 2', 'Sentence 3'}.map((String choice) {
+                    return PopupMenuItem<String>(
+                      value: choice,
+                      child: Text(choice),
+                    );
+                  }).toList();
+                },
+              ),
             ),
           ],
         ),
@@ -133,10 +125,8 @@ class _FlashcardPageState extends State<FlashcardPage> {
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          // Progress Bar
           Padding(
-            padding:
-                const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
+            padding: const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
             child: Row(
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
@@ -160,18 +150,15 @@ class _FlashcardPageState extends State<FlashcardPage> {
             ),
           ),
           const SizedBox(height: 16),
-          // Flashcard Stack
           Expanded(
             child: Center(
               child: Stack(
                 alignment: Alignment.center,
                 children: [
-                  // Flashcard Stack
                   _buildBackgroundCard(context, 0.76, 24),
                   _buildBackgroundCard(context, 0.8, 16),
                   _buildBackgroundCard(context, 0.84, 8),
-                  // Foreground Card
-                  if (_isLoading) // Show loading indicator while loading
+                  if (_isLoading)
                     const CircularProgressIndicator()
                   else
                     Container(
@@ -199,7 +186,8 @@ class _FlashcardPageState extends State<FlashcardPage> {
                                 alignment: Alignment.topRight,
                                 child: GestureDetector(
                                   onTap: () async {
-                                    await _audioPlayer.play(AssetSource('vocabulary/1/mp3/1/1.mp3'));
+                                    await _audioPlayer.play(
+                                        AssetSource('vocabulary/1/mp3/1/1.mp3'));
                                   },
                                   child: Icon(
                                     Icons.play_arrow_outlined,
@@ -285,12 +273,11 @@ class _FlashcardPageState extends State<FlashcardPage> {
                           ),
                         ),
                       ]),
-                    )
+                    ),
                 ],
               ),
             ),
           ),
-          // Bottom Button
           Padding(
             padding: const EdgeInsets.symmetric(vertical: 16.0),
             child: Center(
@@ -301,8 +288,7 @@ class _FlashcardPageState extends State<FlashcardPage> {
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(16),
                   ),
-                  padding:
-                      const EdgeInsets.symmetric(horizontal: 40, vertical: 14),
+                  padding: const EdgeInsets.symmetric(horizontal: 40, vertical: 14),
                 ),
                 child: const Icon(
                   Icons.visibility_off,
@@ -317,7 +303,6 @@ class _FlashcardPageState extends State<FlashcardPage> {
     );
   }
 
-  // Helper method to build background cards for a layered effect
   Widget _buildBackgroundCard(
       BuildContext context, double scale, double topOffset) {
     return Positioned(
