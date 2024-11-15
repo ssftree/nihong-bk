@@ -1,24 +1,25 @@
 import 'dart:convert';
-
+import 'package:daily_word/model/TripleVoc.dart';
+import 'package:daily_word/model/vocabulary.dart';
 import 'package:flutter/material.dart';
 import 'package:audioplayers/audioplayers.dart';
-import 'components/flashcard/audio_button.dart';
-import 'components/flashcard/flashcard.dart';
-import 'components/flashcard/flashcard_app_bar.dart';
-import 'components/flashcard/progress_bar.dart';
+import 'helpers/vocabulary_nevigate.dart';
+import 'model/book.dart';
 import 'model/lesson.dart';
-import 'model/vocabulary.dart';
+import 'model/progress.dart';
 
 class FlashcardPage extends StatefulWidget {
-  final String bookTitle;
-  final Lesson lesson;
-  final String vocabularyID;
+  final List<Book> books;
+  Progress progress;
+  int selectedBookIndex;
+  int selectedLessonIndex;
 
-  const FlashcardPage({
+  FlashcardPage({
     Key? key,
-    required this.bookTitle,
-    required this.lesson,
-    required this.vocabularyID,
+    required this.books,
+    required this.progress,
+    required this.selectedBookIndex,
+    required this.selectedLessonIndex,
   }) : super(key: key);
 
   @override
@@ -28,55 +29,350 @@ class FlashcardPage extends StatefulWidget {
 class _FlashcardPageState extends State<FlashcardPage> {
   List<Vocabulary> _vocabulary = [];
   bool _isLoading = true;
+  int _totalVocabularies = 0;
   final AudioPlayer _audioPlayer = AudioPlayer();
+  late Lesson _lesson;
+  late TripleVoc currentTripleVoc;
 
   @override
   void initState() {
     super.initState();
-    _loadVocabulary();
+    _initVariables();
+    _loadVocabulary(widget.books[widget.selectedBookIndex-1].bookId,
+    widget.selectedLessonIndex.toString());
   }
 
-  Future<void> _loadVocabulary() async {
+  void _initVariables() {
+    _totalVocabularies =
+        widget.books[widget.selectedBookIndex-1].totalVocabularies;
+    // _lesson = widget
+    //     .books[widget.selectedBookIndex].lessons[widget.selectedLessonIndex];
+    currentTripleVoc = TripleVoc(
+      lessonId: widget.selectedLessonIndex,
+      vocabularyId: 0,
+      bookId: int.parse(widget.books[widget.selectedBookIndex-1].bookId),
+    );
+  }
+
+  Future<void> _loadVocabulary(String bookId, String lessonId) async {
+    print('assets/vocabulary/${bookId}/words/${lessonId}.json');
     try {
       final String response = await DefaultAssetBundle.of(context).loadString(
-          'assets/vocabulary/${widget.lesson.lessonId}/words/${widget.lesson.lessonId}.json');
-      setState(() {
-        _vocabulary = Vocabulary.listFromJson(json.decode(response));
-        _isLoading = false;
-      });
+          'assets/vocabulary/${bookId}/words/${lessonId}.json');
+      _vocabulary = Vocabulary.listFromJson(json.decode(response));
     } catch (e) {
       print('Error loading vocabulary: $e');
+    } finally {
       setState(() {
         _isLoading = false;
       });
     }
   }
 
+  void _navigateToPreviousVocabulary() {
+    final result = getPrevVocabulary(widget.books[widget.selectedBookIndex-1], currentTripleVoc);
+    setState(() {
+      currentTripleVoc = result.$1; // Update currentTripleVoc
+      if (widget.selectedLessonIndex != currentTripleVoc.lessonId) {
+        widget.selectedLessonIndex = currentTripleVoc.lessonId; // Update selectedLessonIndex
+        _loadVocabulary(widget.books[widget.selectedBookIndex-1].bookId, widget.selectedLessonIndex.toString());
+      }
+      widget.progress = Progress(lastLesson: widget.selectedLessonIndex, lastVocabulary: currentTripleVoc.vocabularyId); // Update progress
+
+    });
+  }
+
+  void _navigateToNextVocabulary() {
+    final result = getNextVocabulary(widget.books[widget.selectedBookIndex-1], currentTripleVoc);
+    setState(() {
+      currentTripleVoc = result.$1; // Update currentTripleVoc
+      if (widget.selectedLessonIndex != currentTripleVoc.lessonId) {
+        widget.selectedLessonIndex = currentTripleVoc.lessonId; // Update selectedLessonIndex
+        _loadVocabulary(widget.books[widget.selectedBookIndex-1].bookId, widget.selectedLessonIndex.toString());
+      }
+      widget.progress = Progress(lastLesson: widget.selectedLessonIndex, lastVocabulary: currentTripleVoc.vocabularyId); // Update progress
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: const Color(0xFF6A1B9A),
-      appBar: FlashcardAppBar(
-        bookTitle: widget.bookTitle,
-        lessonTitle: widget.lesson.lessonTitle,
+      appBar: AppBar(
+        backgroundColor: const Color(0xFF6A1B9A),
+        elevation: 0,
+        title: Row(
+          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          children: [
+            Flexible(
+              child: PopupMenuButton<String>(
+                onSelected: (String value) {
+                  print('Selected: $value');
+                },
+                child: Row(
+                  children: [
+                    Flexible(
+                      child: Text(
+                        widget.books[widget.selectedBookIndex-1].title,
+                        style: TextStyle(
+                          color: Colors.white,
+                          fontSize: 16,
+                          fontWeight: FontWeight.w600,
+                        ),
+                        overflow: TextOverflow.ellipsis,
+                        maxLines: 1,
+                      ),
+                    ),
+                    const Icon(Icons.arrow_drop_down, color: Colors.white),
+                  ],
+                ),
+                itemBuilder: (BuildContext context) {
+                  return widget.books.map((Book book) {
+                    return PopupMenuItem<String>(
+                      value: book.title,
+                      child: Text(book.title),
+                    );
+                  }).toList();
+                },
+              ),
+            ),
+            Flexible(
+              child: PopupMenuButton<String>(
+                onSelected: (String value) {
+                  print('Selected: $value');
+                },
+                child: Row(
+                  children: [
+                    Flexible(
+                      child: Text(
+                        _lesson.lessonTitle,
+                        style: const TextStyle(
+                          color: Colors.white,
+                          fontSize: 16,
+                          fontWeight: FontWeight.w600,
+                        ),
+                        overflow: TextOverflow.ellipsis,
+                        maxLines: 1,
+                      ),
+                    ),
+                    const Icon(Icons.arrow_drop_down, color: Colors.white),
+                  ],
+                ),
+                itemBuilder: (BuildContext context) {
+                  return widget.books[widget.selectedBookIndex].lessons
+                      .map((Lesson lesson) {
+                    return PopupMenuItem<String>(
+                      value: lesson.lessonTitle,
+                      child: Text(lesson.lessonTitle),
+                    );
+                  }).toList();
+                },
+              ),
+            ),
+          ],
+        ),
       ),
       body: Column(
+        crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          const ProgressBar(current: 15, total: 150),
-          const SizedBox(height: 16),
-          Expanded(
-            child: Center(
-              child: _isLoading
-                  ? const CircularProgressIndicator()
-                  : Flashcard(
-                vocabulary: _vocabulary.isNotEmpty ? _vocabulary[0] : null,
-                audioPlayer: _audioPlayer,
-              ),
+          Padding(
+            padding:
+                const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Expanded(
+                  child: ClipRRect(
+                    borderRadius: BorderRadius.circular(20),
+                    child: LinearProgressIndicator(
+                      value: 15 / _totalVocabularies,
+                      backgroundColor: Colors.grey[300],
+                      valueColor: AlwaysStoppedAnimation<Color>(Colors.teal),
+                      minHeight: 8,
+                    ),
+                  ),
+                ),
+                const SizedBox(width: 8),
+                Text(
+                  '15/${_totalVocabularies.toString()}',
+                  style: TextStyle(color: Colors.white, fontSize: 14),
+                ),
+              ],
             ),
           ),
           const SizedBox(height: 16),
-          AudioButton(audioPlayer: _audioPlayer),
+          Expanded(
+            child: Center(
+              child: Stack(
+                alignment: Alignment.center,
+                children: [
+                  _buildBackgroundCard(context, 0.76, 24),
+                  _buildBackgroundCard(context, 0.8, 16),
+                  _buildBackgroundCard(context, 0.84, 8),
+                  if (_isLoading)
+                    const CircularProgressIndicator()
+                  else
+                    Container(
+                      width: MediaQuery.of(context).size.width * 0.88,
+                      height: MediaQuery.of(context).size.height * 0.5,
+                      decoration: BoxDecoration(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(30),
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.black.withOpacity(0.1),
+                            spreadRadius: 5,
+                            blurRadius: 20,
+                            offset: const Offset(0, 10),
+                          ),
+                        ],
+                      ),
+                      child: Stack(children: [
+                        Column(
+                          mainAxisAlignment: MainAxisAlignment.center,
+                          children: [
+                            Padding(
+                              padding:
+                                  const EdgeInsets.only(top: 8.0, right: 12.0),
+                              child: Align(
+                                alignment: Alignment.topRight,
+                                child: GestureDetector(
+                                  onTap: () async {
+                                    await _audioPlayer.play(AssetSource(
+                                        "vocabulary/${widget.selectedBookIndex}/mp3/1/1.mp3"));
+                                  },
+                                  child: Icon(
+                                    Icons.play_arrow_outlined,
+                                    color: Colors.orange,
+                                    size: 42,
+                                  ),
+                                ),
+                              ),
+                            ),
+                            const Spacer(),
+                            Text(
+                              _vocabulary[widget.progress.lastVocabulary].kanji.isNotEmpty
+                                  ? _vocabulary[widget.progress.lastVocabulary].kanji
+                                  : _vocabulary[widget.progress.lastVocabulary].japanese,
+                              style: TextStyle(
+                                  fontSize: 36,
+                                  fontWeight: FontWeight.bold,
+                                  color: Colors.black87),
+                            ),
+                            const SizedBox(height: 20),
+                            Text(
+                              _vocabulary[widget.progress.lastVocabulary].kanji.isNotEmpty
+                                  ? _vocabulary[widget.progress.lastVocabulary].japanese
+                                  : '',
+                              style: TextStyle(
+                                  fontSize: 28,
+                                  fontWeight: FontWeight.normal,
+                                  color: Colors.black54),
+                            ),
+                            const SizedBox(height: 10),
+                            Text(
+                              "[${_vocabulary[widget.progress.lastVocabulary].romaji}]",
+                              style: TextStyle(
+                                  fontSize: 22,
+                                  fontWeight: FontWeight.normal,
+                                  color: Colors.grey[600]),
+                            ),
+                            const SizedBox(height: 16),
+                            Text(
+                              _vocabulary[widget.progress.lastVocabulary].chinese,
+                              style: TextStyle(
+                                  fontSize: 28,
+                                  fontWeight: FontWeight.normal,
+                                  color: Colors.black54),
+                            ),
+                            const Spacer(),
+                          ],
+                        ),
+                        Positioned(
+                          bottom: 20,
+                          left: 20,
+                          child: const Icon(
+                            Icons.check_circle,
+                            color: Colors.green,
+                            size: 42,
+                          ),
+                        ),
+                        Positioned(
+                          bottom: 20,
+                          right: 20,
+                          child: const Icon(
+                            Icons.star,
+                            color: Colors.amber,
+                            size: 42,
+                          ),
+                        ),
+                        Positioned(
+                          left: 16,
+                          top: MediaQuery.of(context).size.height * 0.2,
+                          child: GestureDetector(
+                            onTap: _navigateToPreviousVocabulary, // Navigate to previous vocabulary
+                            child: const Icon(
+                              Icons.keyboard_arrow_left_outlined,
+                              color: Colors.grey,
+                              size: 36,
+                            ),
+                          ),
+                        ),
+                        Positioned(
+                          right: 16,
+                          top: MediaQuery.of(context).size.height * 0.2,
+                          child: GestureDetector(
+                            onTap: _navigateToNextVocabulary, // Navigate to next vocabulary
+                            child: const Icon(
+                              Icons.keyboard_arrow_right_outlined,
+                              color: Colors.grey,
+                              size: 36,
+                            ),
+                          ),
+                        ),
+                      ]),
+                    ),
+                ],
+              ),
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.symmetric(vertical: 16.0),
+            child: Center(
+              child: ElevatedButton(
+                onPressed: () {},
+                style: ElevatedButton.styleFrom(
+                  backgroundColor: const Color(0xFFFFAB91),
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.circular(16),
+                  ),
+                  padding:
+                      const EdgeInsets.symmetric(horizontal: 40, vertical: 14),
+                ),
+                child: const Icon(
+                  Icons.visibility_off,
+                  color: Colors.white,
+                  size: 28,
+                ),
+              ),
+            ),
+          ),
         ],
+      ),
+    );
+  }
+
+  Widget _buildBackgroundCard(
+      BuildContext context, double scale, double topOffset) {
+    return Positioned(
+      top: topOffset,
+      child: Container(
+        width: MediaQuery.of(context).size.width * scale,
+        height: MediaQuery.of(context).size.height * 0.5,
+        decoration: BoxDecoration(
+          color: Colors.white.withOpacity(0.5),
+          borderRadius: BorderRadius.circular(20),
+        ),
       ),
     );
   }

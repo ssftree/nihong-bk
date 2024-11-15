@@ -1,418 +1,242 @@
 [
     {
         "id": "0",
-        "japanese": "ふなびん",
-        "kanji": "船便",
+        "japanese": "ようふく",
+        "kanji": "洋服",
         "type": "〔名〕",
-        "chinese": "海运",
-        "romaji": "funabin"
+        "chinese": "西服",
+        "romaji": "yōfuku"
     },
     {
         "id": "1",
-        "japanese": "しょるい",
-        "kanji": "書類",
+        "japanese": "セーター",
+        "kanji": "",
         "type": "〔名〕",
-        "chinese": "文件，文稿",
-        "romaji": "shorui"
+        "chinese": "毛衣",
+        "romaji": "sētā"
     },
     {
         "id": "2",
-        "japanese": "げんこう",
-        "kanji": "原稿",
+        "japanese": "ノートパソコン",
+        "kanji": "",
         "type": "〔名〕",
-        "chinese": "稿子，原稿",
-        "romaji": "genkō"
+        "chinese": "笔记本电脑",
+        "romaji": "nōtopasokon"
     },
     {
         "id": "3",
-        "japanese": "きじ",
-        "kanji": "記事",
+        "japanese": "バイク",
+        "kanji": "",
         "type": "〔名〕",
-        "chinese": "报道",
-        "romaji": "kiji"
+        "chinese": "摩托车",
+        "romaji": "baiku"
     },
     {
         "id": "4",
-        "japanese": "メモ",
-        "kanji": "",
+        "japanese": "おしるこ",
+        "kanji": "お汁粉",
         "type": "〔名〕",
-        "chinese": "记录",
-        "romaji": "memo"
+        "chinese": "年糕小豆汤",
+        "romaji": "oshiruko"
     },
     {
         "id": "5",
-        "japanese": "えきまえ",
-        "kanji": "駅前",
+        "japanese": "てんぷら",
+        "kanji": "天ぷら",
         "type": "〔名〕",
-        "chinese": "车站一带",
-        "romaji": "ekimae"
+        "chinese": "天麸罗",
+        "romaji": "tenpura"
     },
     {
         "id": "6",
-        "japanese": "はし",
-        "kanji": "橋",
+        "japanese": "はつもうで",
+        "kanji": "初詣",
         "type": "〔名〕",
-        "chinese": "桥，桥梁",
-        "romaji": "hashi"
+        "chinese": "新年后首次参拜",
+        "romaji": "hatsumōde"
     },
     {
         "id": "7",
-        "japanese": "かど",
-        "kanji": "角",
+        "japanese": "けんこう",
+        "kanji": "健康",
         "type": "〔名〕",
-        "chinese": "拐角",
-        "romaji": "kado"
+        "chinese": "健康",
+        "romaji": "kenkō"
     },
     {
         "id": "8",
-        "japanese": "おうだんほどう",
-        "kanji": "横断歩道",
+        "japanese": "れんあい",
+        "kanji": "恋愛",
         "type": "〔名〕",
-        "chinese": "人行横道",
-        "romaji": "ōdan hodō"
+        "chinese": "恋爱",
+        "romaji": "ren'ai"
     },
     {
         "id": "9",
-        "japanese": "みぎ",
-        "kanji": "右",
+        "japanese": "ドラマ",
+        "kanji": "",
         "type": "〔名〕",
-        "chinese": "右，右边",
-        "romaji": "migi"
+        "chinese": "连续剧",
+        "romaji": "dorama"
     },
     {
         "id": "10",
-        "japanese": "ひだり",
-        "kanji": "左",
+        "japanese": "あいて",
+        "kanji": "相手",
         "type": "〔名〕",
-        "chinese": "左，左边",
-        "romaji": "hidari"
+        "chinese": "对象，对方",
+        "romaji": "aite"
     },
     {
         "id": "11",
-        "japanese": "こうさてん",
-        "kanji": "交差点",
+        "japanese": "こいびと",
+        "kanji": "恋人",
         "type": "〔名〕",
-        "chinese": "十字路口",
-        "romaji": "kōsaten"
+        "chinese": "恋人",
+        "romaji": "koibito"
     },
     {
         "id": "12",
-        "japanese": "みち",
-        "kanji": "道",
+        "japanese": "せんぱい",
+        "kanji": "先輩",
         "type": "〔名〕",
-        "chinese": "路，道路",
-        "romaji": "michi"
+        "chinese": "前辈",
+        "romaji": "senpai"
     },
     {
         "id": "13",
-        "japanese": "ドア",
-        "kanji": "",
+        "japanese": "だんせい",
+        "kanji": "男性",
         "type": "〔名〕",
-        "chinese": "门",
-        "romaji": "doa"
+        "chinese": "男性",
+        "romaji": "dansei"
     },
     {
         "id": "14",
-        "japanese": "でんき",
-        "kanji": "電気",
+        "japanese": "がいこくじん",
+        "kanji": "外国人",
         "type": "〔名〕",
-        "chinese": "电，电力",
-        "romaji": "denki"
+        "chinese": "外国人",
+        "romaji": "gaikokujin"
     },
     {
         "id": "15",
-        "japanese": "たいきょくけん",
-        "kanji": "太極拳",
+        "japanese": "なつ",
+        "kanji": "夏",
         "type": "〔名〕",
-        "chinese": "太极拳",
-        "romaji": "taikyokuken"
+        "chinese": "夏天",
+        "romaji": "natsu"
     },
     {
         "id": "16",
-        "japanese": "あさごはん",
-        "kanji": "朝ご飯",
-        "type": "〔名〕",
-        "chinese": "早饭",
-        "romaji": "asagohan"
+        "japanese": "はじめます",
+        "kanji": "始めます",
+        "type": "〔动2〕",
+        "chinese": "开始",
+        "romaji": "hajimemasu"
     },
     {
         "id": "17",
-        "japanese": "ばんごはん",
-        "kanji": "晩ご飯",
-        "type": "〔名〕",
-        "chinese": "晚饭",
-        "romaji": "bangohan"
+        "japanese": "れんらくしあす",
+        "kanji": "連絡～",
+        "type": "〔动3〕",
+        "chinese": "联系",
+        "romaji": "renrakushimasu"
     },
     {
         "id": "18",
-        "japanese": "バーベキュー",
-        "kanji": "",
-        "type": "〔名〕",
-        "chinese": "户外烧烤",
-        "romaji": "bābekyū"
+        "japanese": "ほしい",
+        "kanji": "欲しい",
+        "type": "〔形1〕",
+        "chinese": "想要",
+        "romaji": "hoshii"
     },
     {
         "id": "19",
-        "japanese": "とおります",
-        "kanji": "通ります",
-        "type": "〔动1〕",
-        "chinese": "通过，经过",
-        "romaji": "toorimasu"
-    },
-    {
-        "id": "20",
-        "japanese": "いそぎます",
-        "kanji": "急ぎます",
-        "type": "〔动1〕",
-        "chinese": "急，急忙",
-        "romaji": "isogimasu"
+        "japanese": "りっぱ",
+        "kanji": "立派",
+        "type": "〔形1〕",
+        "chinese": "美观，杰出",
+        "romaji": "rippa"
     },
     {
         "id": "21",
-        "japanese": "とびます",
-        "kanji": "飛びます",
-        "type": "〔动1〕",
-        "chinese": "飞，飞行",
-        "romaji": "tobimasu"
+        "japanese": "こんど",
+        "kanji": "今度",
+        "type": "〔副〕",
+        "chinese": "下次；这回",
+        "romaji": "kondo"
     },
     {
         "id": "22",
-        "japanese": "しにます",
-        "kanji": "死にます",
-        "type": "〔动1〕",
-        "chinese": "死，死亡",
-        "romaji": "shinimasu"
+        "japanese": "ぜひ",
+        "kanji": "",
+        "type": "〔副〕",
+        "chinese": "一定",
+        "romaji": "zehi"
     },
     {
         "id": "23",
-        "japanese": "まちます",
-        "kanji": "待ちます",
-        "type": "〔动1〕",
-        "chinese": "等待，等候",
-        "romaji": "machimasu"
+        "japanese": "そろそろ",
+        "kanji": "",
+        "type": "〔副〕",
+        "chinese": "快要",
+        "romaji": "sorosoro"
     },
     {
         "id": "24",
-        "japanese": "うります",
-        "kanji": "売ります",
-        "type": "〔动1〕",
-        "chinese": "卖，销售",
-        "romaji": "urimasu"
+        "japanese": "まず",
+        "kanji": "",
+        "type": "〔副〕",
+        "chinese": "先，首先",
+        "romaji": "mazu"
     },
     {
         "id": "25",
-        "japanese": "はなします",
-        "kanji": "話します",
-        "type": "〔动1〕",
-        "chinese": "说话，说",
-        "romaji": "hanashimasu"
+        "japanese": "ベートーベン",
+        "kanji": "",
+        "type": "〔专〕",
+        "chinese": "贝多芬",
+        "romaji": "bētōben"
     },
     {
         "id": "26",
-        "japanese": "わたります",
-        "kanji": "渡ります",
-        "type": "〔动1〕",
-        "chinese": "过（桥，河），穿过（马路）",
-        "romaji": "watarimasu"
+        "japanese": "ショパン",
+        "kanji": "",
+        "type": "〔专〕",
+        "chinese": "肖邦",
+        "romaji": "shopan"
     },
     {
         "id": "27",
-        "japanese": "おろします",
-        "kanji": "下ろします",
-        "type": "〔动1〕",
-        "chinese": "取，卸货",
-        "romaji": "oroshimasu"
+        "japanese": "こきゅう",
+        "kanji": "故宮",
+        "type": "〔专〕",
+        "chinese": "故宫",
+        "romaji": "kokyū"
     },
     {
         "id": "28",
-        "japanese": "えらびます",
-        "kanji": "選びます",
-        "type": "〔动1〕",
-        "chinese": "挑选，选择",
-        "romaji": "erabimasu"
+        "japanese": "ヨーロッパ",
+        "kanji": "",
+        "type": "〔专〕",
+        "chinese": "欧洲",
+        "romaji": "yōroppa"
     },
     {
         "id": "29",
-        "japanese": "けします",
-        "kanji": "消します",
-        "type": "〔动1〕",
-        "chinese": "关（灯），消除，去除",
-        "romaji": "keshimasu"
+        "japanese": "ホンコン",
+        "kanji": "香港",
+        "type": "〔专〕",
+        "chinese": "香港",
+        "romaji": "honkon"
     },
     {
-        "id": "31",
-        "japanese": "あるきます",
-        "kanji": "歩きます",
-        "type": "〔动1〕",
-        "chinese": "步行，行走",
-        "romaji": "arukimasu"
-    },
-    {
-        "id": "32",
-        "japanese": "まがります",
-        "kanji": "曲がります",
-        "type": "〔动1〕",
-        "chinese": "拐弯，曲折",
-        "romaji": "magarimasu"
-    },
-    {
-        "id": "33",
-        "japanese": "あらいます",
-        "kanji": "洗います",
-        "type": "〔动1〕",
-        "chinese": "洗，洗涤",
-        "romaji": "araimasu"
-    },
-    {
-        "id": "34",
-        "japanese": "でます",
-        "kanji": "出ます",
-        "type": "〔动2〕",
-        "chinese": "离开",
-        "romaji": "demasu"
-    },
-    {
-        "id": "35",
-        "japanese": "でかけます",
-        "kanji": "出かけます",
-        "type": "〔动2〕",
-        "chinese": "外出，出门",
-        "romaji": "dekakemasu"
-    },
-    {
-        "id": "36",
-        "japanese": "あけます",
-        "kanji": "開けます",
-        "type": "〔动2〕",
-        "chinese": "开，打开，开启",
-        "romaji": "akemasu"
-    },
-    {
-        "id": "37",
-        "japanese": "すぎます",
-        "kanji": "過ぎます",
-        "type": "〔动2〕",
-        "chinese": "过",
-        "romaji": "sugimasu"
-    },
-    {
-        "id": "38",
-        "japanese": "みせます",
-        "kanji": "見せます",
-        "type": "〔动2〕",
-        "chinese": "给～看；出示",
-        "romaji": "misemasu"
-    },
-    {
-        "id": "39",
-        "japanese": "つけます",
-        "kanji": "",
-        "type": "〔动2〕",
-        "chinese": "开（灯）",
-        "romaji": "tsukemasu"
-    },
-    {
-        "id": "40",
-        "japanese": "かいものします",
-        "kanji": "買い物～",
-        "type": "〔动3〕",
-        "chinese": "买东西",
-        "romaji": "kaimonoshimasu"
-    },
-    {
-        "id": "41",
-        "japanese": "そつぎょうします",
-        "kanji": "卒業～",
-        "type": "〔动3〕",
-        "chinese": "毕业",
-        "romaji": "sotsugyōshimasu"
-    },
-    {
-        "id": "42",
-        "japanese": "しょくじします",
-        "kanji": "食事～",
-        "type": "〔动3〕",
-        "chinese": "吃饭，用餐",
-        "romaji": "shokujishimasu"
-    },
-    {
-        "id": "43",
-        "japanese": "せいりします",
-        "kanji": "整理～",
-        "type": "〔动3〕",
-        "chinese": "整理",
-        "romaji": "seirishimasu"
-    },
-    {
-        "id": "44",
-        "japanese": "コピーします",
-        "kanji": "",
-        "type": "〔动3〕",
-        "chinese": "复印",
-        "romaji": "kopīshimasu"
-    },
-    {
-        "id": "45",
-        "japanese": "くらい",
-        "kanji": "暗い",
-        "type": "〔形1〕",
-        "chinese": "黑暗，昏暗",
-        "romaji": "kurai"
-    },
-    {
-        "id": "46",
-        "japanese": "たいへん",
-        "kanji": "大変",
-        "type": "〔形2〕",
-        "chinese": "够受的，不得了",
-        "romaji": "taihen"
-    },
-    {
-        "id": "47",
-        "japanese": "なかなか",
-        "kanji": "",
-        "type": "〔副〕",
-        "chinese": "相当，很，非常",
-        "romaji": "nakanaka"
-    },
-    {
-        "id": "48",
-        "japanese": "こう",
-        "kanji": "",
-        "type": "〔副〕",
-        "chinese": "这样，如此",
-        "romaji": "kō"
-    },
-    {
-        "id": "49",
-        "japanese": "そう∕ああ",
-        "kanji": "",
-        "type": "〔副〕",
-        "chinese": "那样",
-        "romaji": "sō/ā"
-    },
-    {
-        "id": "50",
-        "japanese": "あとで",
-        "kanji": "後で",
-        "type": "〔副〕",
-        "chinese": "过会儿",
-        "romaji": "ato de"
-    },
-    {
-        "id": "51",
-        "japanese": "それから",
-        "kanji": "",
-        "type": "〔连〕",
-        "chinese": "然后",
-        "romaji": "sorekara"
-    },
-    {
-        "id": "52",
-        "japanese": "すみませんが",
-        "kanji": "",
+        "id": "30",
+        "japanese": "～じゅうに",
+        "kanji": "～中に",
         "type": "",
-        "chinese": "对不起……，劳驾……",
-        "romaji": "sumimasen ga"
+        "chinese": "",
+        "romaji": "〜jū ni"
     }
 ]

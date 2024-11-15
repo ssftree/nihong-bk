@@ -1,170 +1,250 @@
 [
     {
-        "id": "1",
-        "japanese": "しゅうまつ",
-        "kanji": "週末",
+        "id": "0",
+        "japanese": "ハイキング",
+        "kanji": "",
         "type": "〔名〕",
-        "chinese": "周末",
-        "romaji": "shūmatsu"
+        "chinese": "郊游，远足",
+        "romaji": "haikingu"
+    },
+    {
+        "id": "1",
+        "japanese": "おわかれ",
+        "kanji": "お別れ",
+        "type": "〔名〕",
+        "chinese": "分别，分手",
+        "romaji": "owakare"
     },
     {
         "id": "2",
-        "japanese": "スケート",
-        "kanji": "",
+        "japanese": "はなし",
+        "kanji": "話",
         "type": "〔名〕",
-        "chinese": "滑冰，溜冰",
-        "romaji": "sukēto"
+        "chinese": "说话",
+        "romaji": "hanashi"
     },
     {
         "id": "3",
-        "japanese": "あじ",
-        "kanji": "味",
+        "japanese": "みおくり",
+        "kanji": "見送り",
         "type": "〔名〕",
-        "chinese": "口味，（食物的）味道",
-        "romaji": "aji"
+        "chinese": "送行，送别",
+        "romaji": "miokuri"
     },
     {
         "id": "4",
-        "japanese": "まいかい",
-        "kanji": "毎回",
+        "japanese": "あいだ",
+        "kanji": "間",
         "type": "〔名〕",
-        "chinese": "每次，每回",
-        "romaji": "maikai"
+        "chinese": "时间，期间",
+        "romaji": "aida"
     },
     {
         "id": "5",
-        "japanese": "つうきん",
-        "kanji": "通勤",
+        "japanese": "ほうりつ",
+        "kanji": "法律",
         "type": "〔名〕",
-        "chinese": "上下班，通勤",
-        "romaji": "tsūkin"
+        "chinese": "法律",
+        "romaji": "hōritsu"
     },
     {
         "id": "6",
-        "japanese": "ふね",
-        "kanji": "船",
-        "type": "〔名〕",
-        "chinese": "船",
-        "romaji": "fune"
+        "japanese": "おもいます",
+        "kanji": "思います",
+        "type": "〔动1〕",
+        "chinese": "想，思考",
+        "romaji": "omoimasu"
     },
     {
         "id": "7",
-        "japanese": "きじ",
-        "kanji": "生地",
-        "type": "〔名〕",
-        "chinese": "布料，衣料",
-        "romaji": "kiji"
+        "japanese": "いいます",
+        "kanji": "言います",
+        "type": "〔动1〕",
+        "chinese": "说，讲",
+        "romaji": "iimasu"
     },
     {
         "id": "8",
-        "japanese": "へいてんじこく",
-        "kanji": "閉店時刻",
-        "type": "〔名〕",
-        "chinese": "关门时间",
-        "romaji": "heitenjikoku"
+        "japanese": "さがします",
+        "kanji": "探します",
+        "type": "〔动1〕",
+        "chinese": "找，寻找，寻求",
+        "romaji": "sagashimasu"
     },
     {
         "id": "9",
-        "japanese": "そつぎょうしき",
-        "kanji": "卒業式",
-        "type": "〔名〕",
-        "chinese": "毕业典礼",
-        "romaji": "sotsugyōshiki"
+        "japanese": "わらいます",
+        "kanji": "笑います",
+        "type": "〔动1〕",
+        "chinese": "笑",
+        "romaji": "waraimasu"
     },
     {
         "id": "10",
-        "japanese": "こみます",
-        "kanji": "込みます",
-        "type": "〔动1〕",
-        "chinese": "拥挤，混杂",
-        "romaji": "komimasu"
+        "japanese": "やめます",
+        "kanji": "",
+        "type": "〔动2〕",
+        "chinese": "戒，停止，放弃",
+        "romaji": "yamemasu"
     },
     {
         "id": "11",
-        "japanese": "きまります",
-        "kanji": "決まります",
-        "type": "〔动1〕",
-        "chinese": "定，决定",
-        "romaji": "kimarimasu"
+        "japanese": "きめます",
+        "kanji": "決めます",
+        "type": "〔动2〕",
+        "chinese": "决定",
+        "romaji": "kimemasu"
     },
     {
         "id": "12",
-        "japanese": "しらせます",
-        "kanji": "知らせます",
-        "type": "〔动2〕",
-        "chinese": "告诉",
-        "romaji": "shirasemasu"
+        "japanese": "ねぼうします",
+        "kanji": "寝坊～",
+        "type": "〔动3〕",
+        "chinese": "睡懒觉",
+        "romaji": "neboushimasu"
     },
     {
         "id": "13",
-        "japanese": "たしかめます",
-        "kanji": "確かめます",
-        "type": "〔动2〕",
-        "chinese": "查（看），弄清",
-        "romaji": "tashikamemasu"
+        "japanese": "がいしゅつします",
+        "kanji": "外出～",
+        "type": "〔动3〕",
+        "chinese": "外出，出去",
+        "romaji": "gaishutsushimasu"
     },
     {
         "id": "14",
-        "japanese": "こい",
-        "kanji": "濃い",
-        "type": "〔形1〕",
-        "chinese": "（口味）重；浓",
-        "romaji": "koi"
+        "japanese": "けんきゅうします",
+        "kanji": "研究～",
+        "type": "〔动3〕",
+        "chinese": "研究",
+        "romaji": "kenkyūshimasu"
     },
     {
         "id": "15",
-        "japanese": "うすい",
-        "kanji": "薄い",
+        "japanese": "おかしい",
+        "kanji": "",
         "type": "〔形1〕",
-        "chinese": "（口味）轻；薄",
-        "romaji": "usui"
+        "chinese": "可笑，滑稽",
+        "romaji": "okashii"
     },
     {
         "id": "16",
-        "japanese": "はやい",
-        "kanji": "早い",
-        "type": "〔形1〕",
-        "chinese": "早",
-        "romaji": "hayai"
+        "japanese": "いっぱい",
+        "kanji": "",
+        "type": "〔副〕",
+        "chinese": "满",
+        "romaji": "ippai"
     },
     {
         "id": "17",
-        "japanese": "おそい",
-        "kanji": "遅い",
-        "type": "〔形1〕",
-        "chinese": "晚，慢",
-        "romaji": "osoi"
+        "japanese": "す ご い",
+        "kanji": "",
+        "type": "〔副〕",
+        "chinese": "惊人的，了不起",
+        "romaji": "sugoi"
     },
     {
         "id": "18",
-        "japanese": "たぶん",
+        "japanese": "とうとう",
         "kanji": "",
         "type": "〔副〕",
-        "chinese": "可能，大概",
-        "romaji": "tabun"
+        "chinese": "终于，终究，到底",
+        "romaji": "toutou"
     },
     {
         "id": "19",
-        "japanese": "とうきょうえき",
-        "kanji": "東京駅",
+        "japanese": "ぜったいに",
+        "kanji": "絶対に",
+        "type": "〔副〕",
+        "chinese": "绝对",
+        "romaji": "zettai ni"
+    },
+    {
+        "id": "20",
+        "japanese": "ば",
+        "kanji": "馬",
         "type": "〔专〕",
-        "chinese": "东京站",
-        "romaji": "tōkyō eki"
+        "chinese": "马",
+        "romaji": "ba"
     },
     {
         "id": "21",
-        "japanese": "～によって",
-        "kanji": "",
+        "japanese": "おせわになりました",
+        "kanji": "お世話になりました",
         "type": "",
-        "chinese": "",
-        "romaji": "〜niyotte"
+        "chinese": "承蒙照顾",
+        "romaji": "osewa ni narimashita"
     },
     {
         "id": "22",
-        "japanese": "～によります",
+        "japanese": "よろしくおつたえください",
+        "kanji": "～お伝えください",
+        "type": "",
+        "chinese": "请代问好",
+        "romaji": "yoroshiku otsutae kudasai"
+    },
+    {
+        "id": "23",
+        "japanese": "おげんきで",
+        "kanji": "お元気で",
+        "type": "",
+        "chinese": "请多保重",
+        "romaji": "ogenki de"
+    },
+    {
+        "id": "24",
+        "japanese": "おきをつけて",
+        "kanji": "お気をつけて",
+        "type": "",
+        "chinese": "小心点儿",
+        "romaji": "okiwotsukete"
+    },
+    {
+        "id": "25",
+        "japanese": "さようなら",
+        "kanji": "",
+        "type": "",
+        "chinese": "再见",
+        "romaji": "sayōnara"
+    },
+    {
+        "id": "26",
+        "japanese": "どうやって",
+        "kanji": "",
+        "type": "",
+        "chinese": "怎样，如何",
+        "romaji": "dōyatte"
+    },
+    {
+        "id": "27",
+        "japanese": "やくにたちます",
+        "kanji": "役に立ちます",
+        "type": "",
+        "chinese": "有用",
+        "romaji": "yaku ni tachimasu"
+    },
+    {
+        "id": "28",
+        "japanese": "おなかがいっぱいです",
+        "kanji": "",
+        "type": "",
+        "chinese": "吃饱，饱",
+        "romaji": "onaka ga ippai desu"
+    },
+    {
+        "id": "29",
+        "japanese": "～ちゅう",
+        "kanji": "～中",
+        "type": "",
+        "chinese": "",
+        "romaji": "~chū"
+    },
+    {
+        "id": "30",
+        "japanese": "～について",
         "kanji": "",
         "type": "",
         "chinese": "",
-        "romaji": "〜niyorimasu"
+        "romaji": "ni tsuite"
     }
 ]

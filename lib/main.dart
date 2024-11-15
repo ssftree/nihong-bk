@@ -1,8 +1,5 @@
 import 'package:daily_word/category_page.dart';
-import 'package:daily_word/model/lesson.dart';
 import 'package:flutter/material.dart';
-
-import 'flushcard.dart';
 
 
 void main() async {

@@ -1,346 +1,242 @@
 [
     {
         "id": "0",
-        "japanese": "ボート",
-        "kanji": "",
+        "japanese": "ようふく",
+        "kanji": "洋服",
         "type": "〔名〕",
-        "chinese": "小船，小艇",
-        "romaji": "bōto"
+        "chinese": "西服",
+        "romaji": "yōfuku"
     },
     {
         "id": "1",
-        "japanese": "ベンチ",
+        "japanese": "セーター",
         "kanji": "",
         "type": "〔名〕",
-        "chinese": "长椅，长凳",
-        "romaji": "benchi"
+        "chinese": "毛衣",
+        "romaji": "sētā"
     },
     {
         "id": "2",
-        "japanese": "しやくしょ",
-        "kanji": "市役所",
+        "japanese": "ノートパソコン",
+        "kanji": "",
         "type": "〔名〕",
-        "chinese": "市政府",
-        "romaji": "shiyakusho"
+        "chinese": "笔记本电脑",
+        "romaji": "nōtopasokon"
     },
     {
         "id": "3",
-        "japanese": "けいたいでんわ",
-        "kanji": "携帯電話",
+        "japanese": "バイク",
+        "kanji": "",
         "type": "〔名〕",
-        "chinese": "手机",
-        "romaji": "keitai denwa"
+        "chinese": "摩托车",
+        "romaji": "baiku"
     },
     {
         "id": "4",
-        "japanese": "きんえん",
-        "kanji": "禁煙",
+        "japanese": "おしるこ",
+        "kanji": "お汁粉",
         "type": "〔名〕",
-        "chinese": "禁止吸烟",
-        "romaji": "kin'en"
+        "chinese": "年糕小豆汤",
+        "romaji": "oshiruko"
     },
     {
         "id": "5",
-        "japanese": "かぜ",
-        "kanji": "風邪",
+        "japanese": "てんぷら",
+        "kanji": "天ぷら",
         "type": "〔名〕",
-        "chinese": "感冒",
-        "romaji": "kaze"
+        "chinese": "天麸罗",
+        "romaji": "tenpura"
     },
     {
         "id": "6",
-        "japanese": "ねつ",
-        "kanji": "熱",
+        "japanese": "はつもうで",
+        "kanji": "初詣",
         "type": "〔名〕",
-        "chinese": "发烧，体温",
-        "romaji": "netsu"
+        "chinese": "新年后首次参拜",
+        "romaji": "hatsumōde"
     },
     {
         "id": "7",
-        "japanese": "すいみん",
-        "kanji": "睡眠",
+        "japanese": "けんこう",
+        "kanji": "健康",
         "type": "〔名〕",
-        "chinese": "睡眠",
-        "romaji": "suimin"
+        "chinese": "健康",
+        "romaji": "kenkō"
     },
     {
         "id": "8",
-        "japanese": "おふろ",
-        "kanji": "お風呂",
+        "japanese": "れんあい",
+        "kanji": "恋愛",
         "type": "〔名〕",
-        "chinese": "澡堂，浴室",
-        "romaji": "ofuro"
+        "chinese": "恋爱",
+        "romaji": "ren'ai"
     },
     {
         "id": "9",
-        "japanese": "やっきょく",
-        "kanji": "薬局",
+        "japanese": "ドラマ",
+        "kanji": "",
         "type": "〔名〕",
-        "chinese": "药店",
-        "romaji": "yakkyoku"
+        "chinese": "连续剧",
+        "romaji": "dorama"
     },
     {
         "id": "10",
-        "japanese": "クーラー",
-        "kanji": "",
+        "japanese": "あいて",
+        "kanji": "相手",
         "type": "〔名〕",
-        "chinese": "空调",
-        "romaji": "kūrā"
+        "chinese": "对象，对方",
+        "romaji": "aite"
     },
     {
         "id": "11",
-        "japanese": "ひ",
-        "kanji": "火",
+        "japanese": "こいびと",
+        "kanji": "恋人",
         "type": "〔名〕",
-        "chinese": "火",
-        "romaji": "hi"
+        "chinese": "恋人",
+        "romaji": "koibito"
     },
     {
         "id": "12",
-        "japanese": "き",
-        "kanji": "気",
+        "japanese": "せんぱい",
+        "kanji": "先輩",
         "type": "〔名〕",
-        "chinese": "精神，意识",
-        "romaji": "ki"
+        "chinese": "前辈",
+        "romaji": "senpai"
     },
     {
         "id": "13",
-        "japanese": "うちあわせ",
-        "kanji": "打ち合わせ",
+        "japanese": "だんせい",
+        "kanji": "男性",
         "type": "〔名〕",
-        "chinese": "事先商量，碰头，商洽",
-        "romaji": "uchiawase"
+        "chinese": "男性",
+        "romaji": "dansei"
     },
     {
         "id": "14",
-        "japanese": "むり",
-        "kanji": "無理",
+        "japanese": "がいこくじん",
+        "kanji": "外国人",
         "type": "〔名〕",
-        "chinese": "勉强，难以办到",
-        "romaji": "muri"
+        "chinese": "外国人",
+        "romaji": "gaikokujin"
     },
     {
         "id": "15",
-        "japanese": "ちゅうしゃきんし",
-        "kanji": "駐車禁止",
+        "japanese": "なつ",
+        "kanji": "夏",
         "type": "〔名〕",
-        "chinese": "禁止停车",
-        "romaji": "chūshakinshi"
+        "chinese": "夏天",
+        "romaji": "natsu"
     },
     {
         "id": "16",
-        "japanese": "たちいりきんし",
-        "kanji": "立入禁止",
-        "type": "〔名〕",
-        "chinese": "禁止进入",
-        "romaji": "tachiirikinshi"
+        "japanese": "はじめます",
+        "kanji": "始めます",
+        "type": "〔动2〕",
+        "chinese": "开始",
+        "romaji": "hajimemasu"
     },
     {
         "id": "17",
-        "japanese": "かきげんきん",
-        "kanji": "火気厳禁",
-        "type": "〔名〕",
-        "chinese": "严禁烟火",
-        "romaji": "kakigenkin"
+        "japanese": "れんらくしあす",
+        "kanji": "連絡～",
+        "type": "〔动3〕",
+        "chinese": "联系",
+        "romaji": "renrakushimasu"
     },
     {
         "id": "18",
-        "japanese": "さつえいきんし",
-        "kanji": "撮影禁止",
-        "type": "〔名〕",
-        "chinese": "禁止拍照",
-        "romaji": "satsueikinshi"
+        "japanese": "ほしい",
+        "kanji": "欲しい",
+        "type": "〔形1〕",
+        "chinese": "想要",
+        "romaji": "hoshii"
     },
     {
         "id": "19",
-        "japanese": "のります",
-        "kanji": "乗ります",
-        "type": "〔动1〕",
-        "chinese": "乘坐，乘",
-        "romaji": "norimasu"
+        "japanese": "りっぱ",
+        "kanji": "立派",
+        "type": "〔形1〕",
+        "chinese": "美观，杰出",
+        "romaji": "rippa"
     },
     {
         "id": "21",
-        "japanese": "つかいます",
-        "kanji": "使います",
-        "type": "〔动1〕",
-        "chinese": "用，使用",
-        "romaji": "tsukaimasu"
+        "japanese": "こんど",
+        "kanji": "今度",
+        "type": "〔副〕",
+        "chinese": "下次；这回",
+        "romaji": "kondo"
     },
     {
         "id": "22",
-        "japanese": "すわります",
-        "kanji": "座ります",
-        "type": "〔动1〕",
-        "chinese": "坐，落座",
-        "romaji": "suwarimasu"
+        "japanese": "ぜひ",
+        "kanji": "",
+        "type": "〔副〕",
+        "chinese": "一定",
+        "romaji": "zehi"
     },
     {
         "id": "23",
-        "japanese": "はいります",
-        "kanji": "入ります",
-        "type": "〔动1〕",
-        "chinese": "进入，加入",
-        "romaji": "hairimasu"
+        "japanese": "そろそろ",
+        "kanji": "",
+        "type": "〔副〕",
+        "chinese": "快要",
+        "romaji": "sorosoro"
     },
     {
         "id": "24",
-        "japanese": "もうします",
-        "kanji": "申します",
-        "type": "〔动1〕",
-        "chinese": "是，说，讲，告诉",
-        "romaji": "mōshimasu"
+        "japanese": "まず",
+        "kanji": "",
+        "type": "〔副〕",
+        "chinese": "先，首先",
+        "romaji": "mazu"
     },
     {
         "id": "25",
-        "japanese": "とります",
+        "japanese": "ベートーベン",
         "kanji": "",
-        "type": "〔动1〕",
-        "chinese": "取，取得",
-        "romaji": "torimasu"
+        "type": "〔专〕",
+        "chinese": "贝多芬",
+        "romaji": "bētōben"
     },
     {
         "id": "26",
-        "japanese": "うたいます",
-        "kanji": "歌います",
-        "type": "〔动1〕",
-        "chinese": "唱，歌唱",
-        "romaji": "utaimasu"
+        "japanese": "ショパン",
+        "kanji": "",
+        "type": "〔专〕",
+        "chinese": "肖邦",
+        "romaji": "shopan"
     },
     {
         "id": "27",
-        "japanese": "つたえます",
-        "kanji": "伝えます",
-        "type": "〔动2〕",
-        "chinese": "说，传达，转告",
-        "romaji": "tsutaemasu"
+        "japanese": "こきゅう",
+        "kanji": "故宮",
+        "type": "〔专〕",
+        "chinese": "故宫",
+        "romaji": "kokyū"
     },
     {
         "id": "28",
-        "japanese": "とめます",
-        "kanji": "止めます",
-        "type": "〔动2〕",
-        "chinese": "停，制止",
-        "romaji": "tomemasu"
+        "japanese": "ヨーロッパ",
+        "kanji": "",
+        "type": "〔专〕",
+        "chinese": "欧洲",
+        "romaji": "yōroppa"
     },
     {
         "id": "29",
-        "japanese": "あたたかい",
-        "kanji": "暖かい",
-        "type": "〔形1〕",
-        "chinese": "热乎，温暖",
-        "romaji": "atatakai"
+        "japanese": "ホンコン",
+        "kanji": "香港",
+        "type": "〔专〕",
+        "chinese": "香港",
+        "romaji": "honkon"
     },
     {
         "id": "30",
-        "japanese": "だいじょうぶ",
-        "kanji": "大丈夫",
-        "type": "〔形2〕",
-        "chinese": "没关系，放心",
-        "romaji": "daijōbu"
-    },
-    {
-        "id": "31",
-        "japanese": "だめ",
-        "kanji": "",
-        "type": "〔形2〕",
-        "chinese": "不行，不可以",
-        "romaji": "dame"
-    },
-    {
-        "id": "32",
-        "japanese": "じゅうぶん",
-        "kanji": "十分",
-        "type": "〔副〕",
-        "chinese": "好好地，充足地",
-        "romaji": "jūbun"
-    },
-    {
-        "id": "33",
-        "japanese": "もちろん",
-        "kanji": "",
-        "type": "〔副〕",
-        "chinese": "当然，不用说",
-        "romaji": "mochiron"
-    },
-    {
-        "id": "34",
-        "japanese": "ゆっくり",
-        "kanji": "",
-        "type": "〔副〕",
-        "chinese": "好好地，安静地",
-        "romaji": "yukkuri"
-    },
-    {
-        "id": "35",
-        "japanese": "もしもし",
-        "kanji": "",
-        "type": "〔叹〕",
-        "chinese": "喂",
-        "romaji": "moshi moshi"
-    },
-    {
-        "id": "36",
-        "japanese": "いえ",
-        "kanji": "",
-        "type": "〔叹〕",
-        "chinese": "不，不是",
-        "romaji": "ie"
-    },
-    {
-        "id": "37",
-        "japanese": "おだいじに",
-        "kanji": "お大事に",
+        "japanese": "～じゅうに",
+        "kanji": "～中に",
         "type": "",
-        "chinese": "请多保重",
-        "romaji": "o-daijini"
-    },
-    {
-        "id": "38",
-        "japanese": "いけません",
-        "kanji": "",
-        "type": "",
-        "chinese": "不行，不可以",
-        "romaji": "ikemasen"
-    },
-    {
-        "id": "39",
-        "japanese": "かまいません",
-        "kanji": "",
-        "type": "",
-        "chinese": "没关系，不要紧",
-        "romaji": "kamai-masen"
-    },
-    {
-        "id": "40",
-        "japanese": "きをつけます",
-        "kanji": "気をつけます",
-        "type": "",
-        "chinese": "注意",
-        "romaji": "ki o tsukemasu"
-    },
-    {
-        "id": "41",
-        "japanese": "むりをします",
-        "kanji": "無理をします",
-        "type": "",
-        "chinese": "勉强",
-        "romaji": "muri o shimasu"
-    },
-    {
-        "id": "42",
-        "japanese": "すいみんをとります",
-        "kanji": "睡眠をとります",
-        "type": "",
-        "chinese": "睡觉",
-        "romaji": "suimin o torimasu"
-    },
-    {
-        "id": "43",
-        "japanese": "おふろにはいります",
-        "kanji": "お風呂にはいります",
-        "type": "",
-        "chinese": "洗澡",
-        "romaji": "ofuro ni hairimasu"
+        "chinese": "",
+        "romaji": "〜jū ni"
     }
 ]

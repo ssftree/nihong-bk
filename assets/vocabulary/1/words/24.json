@@ -1,6 +1,6 @@
 [
     {
-        "id": "1",
+        "id": "0",
         "japanese": "ハイキング",
         "kanji": "",
         "type": "〔名〕",
@@ -8,7 +8,7 @@
         "romaji": "haikingu"
     },
     {
-        "id": "2",
+        "id": "1",
         "japanese": "おわかれ",
         "kanji": "お別れ",
         "type": "〔名〕",
@@ -16,7 +16,7 @@
         "romaji": "owakare"
     },
     {
-        "id": "3",
+        "id": "2",
         "japanese": "はなし",
         "kanji": "話",
         "type": "〔名〕",
@@ -24,7 +24,7 @@
         "romaji": "hanashi"
     },
     {
-        "id": "4",
+        "id": "3",
         "japanese": "みおくり",
         "kanji": "見送り",
         "type": "〔名〕",
@@ -32,7 +32,7 @@
         "romaji": "miokuri"
     },
     {
-        "id": "5",
+        "id": "4",
         "japanese": "あいだ",
         "kanji": "間",
         "type": "〔名〕",
@@ -40,7 +40,7 @@
         "romaji": "aida"
     },
     {
-        "id": "6",
+        "id": "5",
         "japanese": "ほうりつ",
         "kanji": "法律",
         "type": "〔名〕",
@@ -48,7 +48,7 @@
         "romaji": "hōritsu"
     },
     {
-        "id": "7",
+        "id": "6",
         "japanese": "おもいます",
         "kanji": "思います",
         "type": "〔动1〕",
@@ -56,7 +56,7 @@
         "romaji": "omoimasu"
     },
     {
-        "id": "8",
+        "id": "7",
         "japanese": "いいます",
         "kanji": "言います",
         "type": "〔动1〕",
@@ -64,7 +64,7 @@
         "romaji": "iimasu"
     },
     {
-        "id": "9",
+        "id": "8",
         "japanese": "さがします",
         "kanji": "探します",
         "type": "〔动1〕",
@@ -72,7 +72,7 @@
         "romaji": "sagashimasu"
     },
     {
-        "id": "10",
+        "id": "9",
         "japanese": "わらいます",
         "kanji": "笑います",
         "type": "〔动1〕",
@@ -80,7 +80,7 @@
         "romaji": "waraimasu"
     },
     {
-        "id": "11",
+        "id": "10",
         "japanese": "やめます",
         "kanji": "",
         "type": "〔动2〕",
@@ -88,7 +88,7 @@
         "romaji": "yamemasu"
     },
     {
-        "id": "12",
+        "id": "11",
         "japanese": "きめます",
         "kanji": "決めます",
         "type": "〔动2〕",
@@ -96,7 +96,7 @@
         "romaji": "kimemasu"
     },
     {
-        "id": "13",
+        "id": "12",
         "japanese": "ねぼうします",
         "kanji": "寝坊～",
         "type": "〔动3〕",
@@ -104,7 +104,7 @@
         "romaji": "neboushimasu"
     },
     {
-        "id": "14",
+        "id": "13",
         "japanese": "がいしゅつします",
         "kanji": "外出～",
         "type": "〔动3〕",
@@ -112,7 +112,7 @@
         "romaji": "gaishutsushimasu"
     },
     {
-        "id": "15",
+        "id": "14",
         "japanese": "けんきゅうします",
         "kanji": "研究～",
         "type": "〔动3〕",
@@ -120,7 +120,7 @@
         "romaji": "kenkyūshimasu"
     },
     {
-        "id": "16",
+        "id": "15",
         "japanese": "おかしい",
         "kanji": "",
         "type": "〔形1〕",
@@ -128,7 +128,7 @@
         "romaji": "okashii"
     },
     {
-        "id": "17",
+        "id": "16",
         "japanese": "いっぱい",
         "kanji": "",
         "type": "〔副〕",
@@ -136,7 +136,7 @@
         "romaji": "ippai"
     },
     {
-        "id": "18",
+        "id": "17",
         "japanese": "す ご い",
         "kanji": "",
         "type": "〔副〕",
@@ -144,7 +144,7 @@
         "romaji": "sugoi"
     },
     {
-        "id": "19",
+        "id": "18",
         "japanese": "とうとう",
         "kanji": "",
         "type": "〔副〕",
@@ -152,7 +152,7 @@
         "romaji": "toutou"
     },
     {
-        "id": "20",
+        "id": "19",
         "japanese": "ぜったいに",
         "kanji": "絶対に",
         "type": "〔副〕",
@@ -160,7 +160,7 @@
         "romaji": "zettai ni"
     },
     {
-        "id": "21",
+        "id": "20",
         "japanese": "ば",
         "kanji": "馬",
         "type": "〔专〕",
@@ -168,7 +168,7 @@
         "romaji": "ba"
     },
     {
-        "id": "22",
+        "id": "21",
         "japanese": "おせわになりました",
         "kanji": "お世話になりました",
         "type": "",
@@ -176,7 +176,7 @@
         "romaji": "osewa ni narimashita"
     },
     {
-        "id": "23",
+        "id": "22",
         "japanese": "よろしくおつたえください",
         "kanji": "～お伝えください",
         "type": "",
@@ -184,7 +184,7 @@
         "romaji": "yoroshiku otsutae kudasai"
     },
     {
-        "id": "24",
+        "id": "23",
         "japanese": "おげんきで",
         "kanji": "お元気で",
         "type": "",
@@ -192,7 +192,7 @@
         "romaji": "ogenki de"
     },
     {
-        "id": "25",
+        "id": "24",
         "japanese": "おきをつけて",
         "kanji": "お気をつけて",
         "type": "",
@@ -200,7 +200,7 @@
         "romaji": "okiwotsukete"
     },
     {
-        "id": "26",
+        "id": "25",
         "japanese": "さようなら",
         "kanji": "",
         "type": "",
@@ -208,7 +208,7 @@
         "romaji": "sayōnara"
     },
     {
-        "id": "27",
+        "id": "26",
         "japanese": "どうやって",
         "kanji": "",
         "type": "",
@@ -216,7 +216,7 @@
         "romaji": "dōyatte"
     },
     {
-        "id": "28",
+        "id": "27",
         "japanese": "やくにたちます",
         "kanji": "役に立ちます",
         "type": "",
@@ -224,7 +224,7 @@
         "romaji": "yaku ni tachimasu"
     },
     {
-        "id": "29",
+        "id": "28",
         "japanese": "おなかがいっぱいです",
         "kanji": "",
         "type": "",
@@ -232,7 +232,7 @@
         "romaji": "onaka ga ippai desu"
     },
     {
-        "id": "30",
+        "id": "29",
         "japanese": "～ちゅう",
         "kanji": "～中",
         "type": "",
@@ -240,7 +240,7 @@
         "romaji": "~chū"
     },
     {
-        "id": "31",
+        "id": "30",
         "japanese": "～について",
         "kanji": "",
         "type": "",

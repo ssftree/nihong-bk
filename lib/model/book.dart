@@ -1,3 +1,4 @@
+import 'TripleVoc.dart';
 import 'lesson.dart';
 
 class Book {

@@ -2,6 +2,7 @@ import 'dart:convert';
 import 'package:daily_word/shared_preferences_helper.dart';
 import 'package:flutter/material.dart';
 import 'flashcard_page.dart';
+import 'model/TripleVoc.dart';
 import 'model/book.dart';
 import 'model/lesson.dart';
 
@@ -14,6 +15,7 @@ class CategoryPage extends StatefulWidget {
 
 class _CategoryPageState extends State<CategoryPage> {
   late Future<List<Book>> _futureBooks;
+
 
   @override
   void initState() {
@@ -235,11 +237,10 @@ class _CategoryPageState extends State<CategoryPage> {
             context,
             MaterialPageRoute(
                 builder: (context) => FlashcardPage(
-                      bookTitle: book.title,
-                      lesson: Lesson(lessonId: "1", lessonTitle: "李さんは 中国人です"),
-                      vocabularyID: '1',
-                      // books: books,
-                      // progress: progress!,
+                      books: books,
+                      progress: progress!,
+                      selectedBookIndex: 1,
+                      selectedLessonIndex: 1,
                     )),
           );
         },
@@ -293,4 +294,5 @@ class _CategoryPageState extends State<CategoryPage> {
           ),
         ));
   }
+
 }

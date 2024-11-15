@@ -1,378 +1,386 @@
 [
     {
         "id": "0",
-        "japanese": "デパート",
-        "kanji": "",
+        "japanese": "へや",
+        "kanji": "部屋",
         "type": "〔名〕",
-        "chinese": "百货商店",
-        "romaji": "depāto"
+        "chinese": "房间，屋子",
+        "romaji": "heya"
     },
     {
         "id": "1",
-        "japanese": "しょくどう",
-        "kanji": "食堂",
+        "japanese": "にわ",
+        "kanji": "庭",
         "type": "〔名〕",
-        "chinese": "食堂",
-        "romaji": "shokudō"
+        "chinese": "院子",
+        "romaji": "niwa"
     },
     {
         "id": "2",
-        "japanese": "ゆうびんきょく",
-        "kanji": "郵便局",
+        "japanese": "いえ",
+        "kanji": "家",
         "type": "〔名〕",
-        "chinese": "邮局",
-        "romaji": "yūbinkyoku"
+        "chinese": "家",
+        "romaji": "ie"
     },
     {
         "id": "3",
-        "japanese": "ぎんこう",
-        "kanji": "銀行",
+        "japanese": "いま",
+        "kanji": "居間",
         "type": "〔名〕",
-        "chinese": "银行",
-        "romaji": "ginkō"
+        "chinese": "起居室",
+        "romaji": "ima"
     },
     {
         "id": "4",
-        "japanese": "としょかん",
-        "kanji": "図書館",
+        "japanese": "れいぞうこ",
+        "kanji": "冷蔵庫",
         "type": "〔名〕",
-        "chinese": "图书馆",
-        "romaji": "toshokan"
+        "chinese": "冰箱",
+        "romaji": "reizōko"
     },
     {
         "id": "5",
-        "japanese": "マンション",
-        "kanji": "",
+        "japanese": "かべ",
+        "kanji": "壁",
         "type": "〔名〕",
-        "chinese": "（高级）公寓",
-        "romaji": "manshon"
+        "chinese": "墙壁",
+        "romaji": "kabe"
     },
     {
         "id": "6",
-        "japanese": "ホテル",
+        "japanese": "スイッチ",
         "kanji": "",
         "type": "〔名〕",
-        "chinese": "宾馆",
-        "romaji": "hoteru"
+        "chinese": "开关",
+        "romaji": "suicchi"
     },
     {
         "id": "7",
-        "japanese": "コンビニ",
-        "kanji": "",
+        "japanese": "ほんだな",
+        "kanji": "本棚",
         "type": "〔名〕",
-        "chinese": "便利店",
-        "romaji": "konbini"
+        "chinese": "书架",
+        "romaji": "hondana"
     },
     {
         "id": "8",
-        "japanese": "きっさてん",
-        "kanji": "喫茶店",
+        "japanese": "ベッド",
+        "kanji": "",
         "type": "〔名〕",
-        "chinese": "咖啡馆",
-        "romaji": "kissaten"
+        "chinese": "床",
+        "romaji": "beddo"
     },
     {
         "id": "9",
-        "japanese": "びょういん",
-        "kanji": "病院",
+        "japanese": "ねこ",
+        "kanji": "猫",
         "type": "〔名〕",
-        "chinese": "医院",
-        "romaji": "byōin"
-    },
-    {
-        "id": "10",
-        "japanese": "ほんや",
-        "kanji": "本屋",
-        "type": "〔名〕",
-        "chinese": "书店",
-        "romaji": "honya"
+        "chinese": "猫",
+        "romaji": "neko"
     },
     {
         "id": "11",
-        "japanese": "レストラン",
-        "kanji": "",
+        "japanese": "いぬ",
+        "kanji": "犬",
         "type": "〔名〕",
-        "chinese": "餐馆，西餐馆",
-        "romaji": "resutoran"
+        "chinese": "狗",
+        "romaji": "inu"
     },
     {
         "id": "12",
-        "japanese": "ビル",
-        "kanji": "",
+        "japanese": "はこ",
+        "kanji": "箱",
         "type": "〔名〕",
-        "chinese": "大楼，大厦",
-        "romaji": "biru"
+        "chinese": "盒子，箱子",
+        "romaji": "hako"
     },
     {
         "id": "13",
-        "japanese": "たてもの",
-        "kanji": "建物",
+        "japanese": "めがね",
+        "kanji": "眼鏡",
         "type": "〔名〕",
-        "chinese": "大楼，建筑物",
-        "romaji": "tatemono"
+        "chinese": "眼镜",
+        "romaji": "megane"
     },
     {
         "id": "14",
-        "japanese": "うりば",
-        "kanji": "売り場",
+        "japanese": "ビデオ",
+        "kanji": "",
         "type": "〔名〕",
-        "chinese": "柜台，出售处",
-        "romaji": "uriba"
+        "chinese": "录像机",
+        "romaji": "bideo"
     },
     {
         "id": "15",
-        "japanese": "トイレ",
+        "japanese": "サッカーボール",
         "kanji": "",
         "type": "〔名〕",
-        "chinese": "厕所，盥洗室",
-        "romaji": "toire"
+        "chinese": "足球",
+        "romaji": "sakkābōru"
     },
     {
         "id": "16",
-        "japanese": "いりぐち",
-        "kanji": "入り口",
+        "japanese": "ビール",
+        "kanji": "",
         "type": "〔名〕",
-        "chinese": "入口",
-        "romaji": "iriguchi"
+        "chinese": "啤酒",
+        "romaji": "bīru"
     },
     {
         "id": "17",
-        "japanese": "じむしょ",
-        "kanji": "事務所",
+        "japanese": "ウイスキー",
+        "kanji": "",
         "type": "〔名〕",
-        "chinese": "事务所，办事处",
-        "romaji": "jimusho"
+        "chinese": "威士忌",
+        "romaji": "uisukī"
     },
     {
         "id": "18",
-        "japanese": "うけつけ",
-        "kanji": "受付",
+        "japanese": "こども",
+        "kanji": "子供",
         "type": "〔名〕",
-        "chinese": "接待处",
-        "romaji": "uketsuke"
+        "chinese": "孩子，小孩",
+        "romaji": "kodomo"
     },
     {
         "id": "19",
-        "japanese": "バーゲンかいじょう",
-        "kanji": "バーゲン会場",
+        "japanese": "きょうだい",
+        "kanji": "兄弟",
         "type": "〔名〕",
-        "chinese": "降价处理大卖场",
-        "romaji": "bāgen kaijō"
+        "chinese": "兄弟姐妹",
+        "romaji": "kyōdai"
     },
     {
         "id": "20",
-        "japanese": "エスカレーター",
-        "kanji": "",
+        "japanese": "りょうしん",
+        "kanji": "両親",
         "type": "〔名〕",
-        "chinese": "自动扶梯",
-        "romaji": "esukarētā"
+        "chinese": "父母，双亲",
+        "romaji": "ryōshin"
     },
     {
         "id": "21",
-        "japanese": "ふく",
-        "kanji": "服",
+        "japanese": "いもうと",
+        "kanji": "妹",
         "type": "〔名〕",
-        "chinese": "衣服",
-        "romaji": "fuku"
+        "chinese": "妹妹",
+        "romaji": "imōto"
     },
     {
         "id": "22",
-        "japanese": "コート",
-        "kanji": "",
+        "japanese": "おとこ",
+        "kanji": "男",
         "type": "〔名〕",
-        "chinese": "风衣，大衣",
-        "romaji": "kōto"
+        "chinese": "男",
+        "romaji": "otoko"
     },
     {
         "id": "23",
-        "japanese": "デジカメ",
-        "kanji": "",
+        "japanese": "おんな",
+        "kanji": "女",
         "type": "〔名〕",
-        "chinese": "数码相机",
-        "romaji": "dejikame"
+        "chinese": "女",
+        "romaji": "onna"
     },
     {
         "id": "24",
-        "japanese": "くに",
-        "kanji": "国",
+        "japanese": "せいと",
+        "kanji": "生徒",
         "type": "〔名〕",
-        "chinese": "国，国家",
-        "romaji": "kuni"
+        "chinese": "学生",
+        "romaji": "seito"
     },
     {
         "id": "25",
-        "japanese": "ちず",
-        "kanji": "地図",
+        "japanese": "うえ",
+        "kanji": "上",
         "type": "〔名〕",
-        "chinese": "地图",
-        "romaji": "chizu"
+        "chinese": "上面",
+        "romaji": "ue"
     },
     {
         "id": "26",
-        "japanese": "となり",
-        "kanji": "隣",
+        "japanese": "そと",
+        "kanji": "外",
         "type": "〔名〕",
-        "chinese": "旁边",
-        "romaji": "tonari"
+        "chinese": "外面",
+        "romaji": "soto"
     },
     {
         "id": "27",
-        "japanese": "しゅうへん",
-        "kanji": "周辺",
+        "japanese": "なか",
+        "kanji": "中",
         "type": "〔名〕",
-        "chinese": "附近，周边",
-        "romaji": "shūhen"
+        "chinese": "里面，内部，中间",
+        "romaji": "naka"
     },
     {
         "id": "28",
-        "japanese": "きょう",
-        "kanji": "今日",
+        "japanese": "した",
+        "kanji": "下",
         "type": "〔名〕",
-        "chinese": "今天",
-        "romaji": "kyō"
+        "chinese": "下面",
+        "romaji": "shita"
     },
     {
         "id": "29",
-        "japanese": "すいようび",
-        "kanji": "水曜日",
+        "japanese": "まえ",
+        "kanji": "前",
         "type": "〔名〕",
-        "chinese": "星期三",
-        "romaji": "suiyōbi"
+        "chinese": "前，前面",
+        "romaji": "mae"
     },
     {
         "id": "30",
-        "japanese": "もくようび",
-        "kanji": "木曜日",
+        "japanese": "ちかく",
+        "kanji": "近く",
         "type": "〔名〕",
-        "chinese": "星期四",
-        "romaji": "mokuyōbi"
+        "chinese": "附近，近旁",
+        "romaji": "chikaku"
     },
     {
         "id": "31",
-        "japanese": "ここ",
-        "kanji": "",
-        "type": "〔代〕",
-        "chinese": "这里，这儿",
-        "romaji": "koko"
+        "japanese": "ばしょ",
+        "kanji": "場所",
+        "type": "〔名〕",
+        "chinese": "所在地，地方，场所",
+        "romaji": "basho"
     },
     {
         "id": "32",
-        "japanese": "そこ",
-        "kanji": "",
-        "type": "〔代〕",
-        "chinese": "那里，那儿",
-        "romaji": "soko"
+        "japanese": "きょうしつ",
+        "kanji": "教室",
+        "type": "〔名〕",
+        "chinese": "教室",
+        "romaji": "kyōshitsu"
     },
     {
         "id": "33",
-        "japanese": "あそこ",
-        "kanji": "",
-        "type": "〔代〕",
-        "chinese": "那里，那儿",
-        "romaji": "asoko"
+        "japanese": "かいぎしつ",
+        "kanji": "会議室",
+        "type": "〔名〕",
+        "chinese": "会议室",
+        "romaji": "kaigishitsu"
     },
     {
         "id": "34",
-        "japanese": "こちら",
-        "kanji": "",
-        "type": "〔代〕",
-        "chinese": "这儿，这边",
-        "romaji": "kochira"
+        "japanese": "としょしつ",
+        "kanji": "図書室",
+        "type": "〔名〕",
+        "chinese": "图书室",
+        "romaji": "toshoshitsu"
     },
     {
         "id": "35",
-        "japanese": "そちら",
-        "kanji": "",
-        "type": "〔代〕",
-        "chinese": "那儿，那边",
-        "romaji": "sochira"
+        "japanese": "こうえん",
+        "kanji": "公園",
+        "type": "〔名〕",
+        "chinese": "公园",
+        "romaji": "kōen"
     },
     {
         "id": "36",
-        "japanese": "あちら",
-        "kanji": "",
-        "type": "〔代〕",
-        "chinese": "那儿，那边",
-        "romaji": "achira"
+        "japanese": "はなや",
+        "kanji": "花屋",
+        "type": "〔名〕",
+        "chinese": "花店",
+        "romaji": "hanaya"
     },
     {
         "id": "37",
-        "japanese": "どこ",
-        "kanji": "",
-        "type": "〔疑〕",
-        "chinese": "哪里，哪儿",
-        "romaji": "doko"
+        "japanese": "ばいてん",
+        "kanji": "売店",
+        "type": "〔名〕",
+        "chinese": "小卖部，售货亭",
+        "romaji": "baiten"
     },
     {
         "id": "38",
-        "japanese": "どちら",
-        "kanji": "",
-        "type": "〔疑〕",
-        "chinese": "哪儿，哪边",
-        "romaji": "dochira"
+        "japanese": "えき",
+        "kanji": "駅",
+        "type": "〔名〕",
+        "chinese": "车站",
+        "romaji": "eki"
     },
     {
         "id": "39",
-        "japanese": "あのう",
-        "kanji": "",
-        "type": "〔叹〕",
-        "chinese": "请问，对不起",
-        "romaji": "anō"
+        "japanese": "ちかてつ",
+        "kanji": "地下鉄",
+        "type": "〔名〕",
+        "chinese": "地铁",
+        "romaji": "chikatetsu"
     },
     {
         "id": "40",
-        "japanese": "シャンハイ",
-        "kanji": "上海",
-        "type": "〔专〕",
-        "chinese": "上海",
-        "romaji": "shan hai"
+        "japanese": "き",
+        "kanji": "樹",
+        "type": "〔名〕",
+        "chinese": "树，树木",
+        "romaji": "ki"
     },
     {
         "id": "41",
-        "japanese": "とうきょう",
-        "kanji": "東京",
-        "type": "〔专〕",
-        "chinese": "东京",
-        "romaji": "tōkyō"
+        "japanese": "ひとりぐらし",
+        "kanji": "一人暮らし",
+        "type": "〔名〕",
+        "chinese": "单身生活",
+        "romaji": "hitorigurashi"
     },
     {
         "id": "42",
-        "japanese": "いくら",
+        "japanese": "あります",
         "kanji": "",
-        "type": "",
-        "chinese": "多少钱",
-        "romaji": "ikura"
+        "type": "〔动1〕",
+        "chinese": "有，在（非意志者）",
+        "romaji": "arimasu"
     },
     {
         "id": "43",
-        "japanese": "お～",
+        "japanese": "います",
         "kanji": "",
-        "type": "",
-        "chinese": "",
-        "romaji": "o-"
+        "type": "〔动2〕",
+        "chinese": "有，在（具意志者）",
+        "romaji": "imasu"
     },
     {
         "id": "44",
-        "japanese": "～かい",
-        "kanji": "～階",
-        "type": "",
-        "chinese": "",
-        "romaji": "-kai"
+        "japanese": "ええと",
+        "kanji": "",
+        "type": "〔叹〕",
+        "chinese": "啊，嗯",
+        "romaji": "eeto"
     },
     {
         "id": "45",
-        "japanese": "～えん",
-        "kanji": "～円",
-        "type": "",
-        "chinese": "",
-        "romaji": "-en"
+        "japanese": "よこはま",
+        "kanji": "横浜",
+        "type": "〔专〕",
+        "chinese": "横滨",
+        "romaji": "yokohama"
     },
     {
         "id": "46",
-        "japanese": "～日ようび",
-        "kanji": "～曜",
-        "type": "",
-        "chinese": "",
-        "romaji": "-nichiyōbi"
+        "japanese": "なごや",
+        "kanji": "名古屋",
+        "type": "〔专〕",
+        "chinese": "名古屋",
+        "romaji": "nagoya"
+    },
+    {
+        "id": "47",
+        "japanese": "おおさか",
+        "kanji": "大阪",
+        "type": "〔专〕",
+        "chinese": "大阪",
+        "romaji": "oosaka"
+    },
+    {
+        "id": "48",
+        "japanese": "ジェーアール",
+        "kanji": "ＪＲ",
+        "type": "〔专〕",
+        "chinese": "JR",
+        "romaji": "jēārū"
     }
 ]

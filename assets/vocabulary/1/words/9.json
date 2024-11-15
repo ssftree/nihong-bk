@@ -1,578 +1,402 @@
 [
     {
         "id": "0",
-        "japanese": "りょうり",
-        "kanji": "料理",
+        "japanese": "もみじ",
+        "kanji": "紅葉",
         "type": "〔名〕",
-        "chinese": "菜肴，饭菜",
-        "romaji": "ryōri"
+        "chinese": "红叶",
+        "romaji": "momiji"
     },
     {
         "id": "1",
-        "japanese": "しせんりょうり",
-        "kanji": "四川料理",
+        "japanese": "こきょう",
+        "kanji": "故郷",
         "type": "〔名〕",
-        "chinese": "四川菜",
-        "romaji": "shisenryōri"
+        "chinese": "故乡",
+        "romaji": "kokyō"
     },
     {
         "id": "2",
-        "japanese": "スーブ",
-        "kanji": "",
+        "japanese": "とおり",
+        "kanji": "通り",
         "type": "〔名〕",
-        "chinese": "汤",
-        "romaji": "sūbu"
+        "chinese": "大街",
+        "romaji": "tōri"
     },
     {
         "id": "3",
-        "japanese": "ぺキンダック",
-        "kanji": "北京～",
+        "japanese": "まち",
+        "kanji": "町",
         "type": "〔名〕",
-        "chinese": "北京烤鸭",
-        "romaji": "pekindakku"
+        "chinese": "城市，街道",
+        "romaji": "machi"
     },
     {
         "id": "4",
-        "japanese": "たべもの",
-        "kanji": "食べ物",
+        "japanese": "ところ",
+        "kanji": "所",
         "type": "〔名〕",
-        "chinese": "食物，食品",
-        "romaji": "tabemono"
+        "chinese": "场所",
+        "romaji": "tokoro"
     },
     {
         "id": "5",
-        "japanese": "すきやき",
-        "kanji": "すき焼き",
+        "japanese": "おみせ",
+        "kanji": "お店",
         "type": "〔名〕",
-        "chinese": "日式牛肉火锅",
-        "romaji": "sukiyaki"
+        "chinese": "餐馆；商店",
+        "romaji": "omise"
     },
     {
         "id": "6",
-        "japanese": "おんせん",
-        "kanji": "温泉",
+        "japanese": "にんぎょう",
+        "kanji": "人形",
         "type": "〔名〕",
-        "chinese": "温泉",
-        "romaji": "onsen"
+        "chinese": "玩偶",
+        "romaji": "ningyō"
     },
     {
         "id": "7",
-        "japanese": "おゆ",
-        "kanji": "お湯",
+        "japanese": "さくひん",
+        "kanji": "作品",
         "type": "〔名〕",
-        "chinese": "热水，开水",
-        "romaji": "oyu"
+        "chinese": "作品",
+        "romaji": "sakuhin"
     },
     {
         "id": "8",
-        "japanese": "みず",
-        "kanji": "水",
+        "japanese": "ちょうこく",
+        "kanji": "彫刻",
         "type": "〔名〕",
-        "chinese": "水，凉水",
-        "romaji": "mizu"
+        "chinese": "雕刻",
+        "romaji": "chōkoku"
     },
     {
         "id": "9",
-        "japanese": "ゆかた",
-        "kanji": "浴衣",
+        "japanese": "じどうしゃ",
+        "kanji": "自動車",
         "type": "〔名〕",
-        "chinese": "浴衣，夏季和服",
-        "romaji": "yukata"
+        "chinese": "汽车",
+        "romaji": "jidōsha"
     },
     {
         "id": "10",
-        "japanese": "ながめ",
-        "kanji": "眺め",
+        "japanese": "どうぐ",
+        "kanji": "道具",
         "type": "〔名〕",
-        "chinese": "景色，风景",
-        "romaji": "nagame"
+        "chinese": "工具",
+        "romaji": "dōgu"
     },
     {
         "id": "11",
-        "japanese": "くすり",
-        "kanji": "薬",
+        "japanese": "さかな",
+        "kanji": "魚",
         "type": "〔名〕",
-        "chinese": "药",
-        "romaji": "kusuri"
+        "chinese": "鱼",
+        "romaji": "sakana"
     },
     {
         "id": "12",
-        "japanese": "てんき",
-        "kanji": "天気",
+        "japanese": "おかし",
+        "kanji": "お菓子",
         "type": "〔名〕",
-        "chinese": "天气",
-        "romaji": "tenki"
+        "chinese": "点心",
+        "romaji": "okashi"
     },
     {
         "id": "13",
-        "japanese": "うみ",
-        "kanji": "海",
+        "japanese": "もの",
+        "kanji": "物",
         "type": "〔名〕",
-        "chinese": "大海",
-        "romaji": "umi"
+        "chinese": "物品，东西",
+        "romaji": "mono"
     },
     {
         "id": "14",
-        "japanese": "やま",
-        "kanji": "山",
+        "japanese": "シーズン",
+        "kanji": "",
         "type": "〔名〕",
-        "chinese": "山",
-        "romaji": "yama"
+        "chinese": "季节",
+        "romaji": "shīzun"
     },
     {
         "id": "15",
-        "japanese": "かみ",
-        "kanji": "紙",
+        "japanese": "しゅうがくりょこう",
+        "kanji": "修学旅行",
         "type": "〔名〕",
-        "chinese": "纸",
-        "romaji": "kami"
+        "chinese": "修学旅行",
+        "romaji": "shūgaku ryokō"
     },
     {
         "id": "16",
-        "japanese": "ニュース",
-        "kanji": "",
+        "japanese": "かんこうきゃく",
+        "kanji": "観光客",
         "type": "〔名〕",
-        "chinese": "新闻",
-        "romaji": "nyūsu"
+        "chinese": "游客",
+        "romaji": "kankōkyaku"
     },
     {
         "id": "17",
-        "japanese": "じょせい",
-        "kanji": "女性",
+        "japanese": "さっか",
+        "kanji": "作家",
         "type": "〔名〕",
-        "chinese": "女性",
-        "romaji": "josei"
+        "chinese": "作家",
+        "romaji": "sakka"
     },
     {
         "id": "18",
-        "japanese": "おきゃくさま",
-        "kanji": "お客様",
+        "japanese": "ぶちょう",
+        "kanji": "部長",
         "type": "〔名〕",
-        "chinese": "来宾",
-        "romaji": "okyakusama"
+        "chinese": "部长",
+        "romaji": "buchō"
     },
     {
         "id": "19",
-        "japanese": "グラス",
-        "kanji": "",
+        "japanese": "へいじつ",
+        "kanji": "平日",
         "type": "〔名〕",
-        "chinese": "玻璃杯",
-        "romaji": "gurasu"
+        "chinese": "平日，非休息日",
+        "romaji": "heijitsu"
     },
     {
         "id": "20",
-        "japanese": "かぶき",
-        "kanji": "歌舞伎",
+        "japanese": "ひ",
+        "kanji": "日",
         "type": "〔名〕",
-        "chinese": "歌舞伎",
-        "romaji": "kabuki"
+        "chinese": "日子",
+        "romaji": "hi"
     },
     {
         "id": "21",
-        "japanese": "きもち",
-        "kanji": "気持ち",
+        "japanese": "せいかつ",
+        "kanji": "生活",
         "type": "〔名〕",
-        "chinese": "心情",
-        "romaji": "kimochi"
+        "chinese": "生活",
+        "romaji": "seikatsu"
     },
     {
         "id": "22",
-        "japanese": "たくさん",
-        "kanji": "",
+        "japanese": "せかい",
+        "kanji": "世界",
         "type": "〔名〕",
-        "chinese": "很多",
-        "romaji": "takusan"
+        "chinese": "世界",
+        "romaji": "sekai"
     },
     {
         "id": "23",
-        "japanese": "からい",
-        "kanji": "辛い",
-        "type": "〔形1〕",
-        "chinese": "辣",
-        "romaji": "karai"
+        "japanese": "はれ",
+        "kanji": "晴れ",
+        "type": "〔名〕",
+        "chinese": "晴天",
+        "romaji": "hare"
     },
     {
         "id": "24",
-        "japanese": "あまい",
-        "kanji": "甘い",
-        "type": "〔形1〕",
-        "chinese": "甜",
-        "romaji": "amai"
+        "japanese": "あめ",
+        "kanji": "雨",
+        "type": "〔名〕",
+        "chinese": "雨，下雨",
+        "romaji": "ame"
     },
     {
         "id": "25",
-        "japanese": "しおからい",
-        "kanji": "塩辛い",
-        "type": "〔形1〕",
-        "chinese": "咸",
-        "romaji": "shiokarai"
+        "japanese": "くもり",
+        "kanji": "曇り",
+        "type": "〔名〕",
+        "chinese": "阴天",
+        "romaji": "kumori"
     },
     {
         "id": "26",
-        "japanese": "しょっぱい",
-        "kanji": "",
-        "type": "〔形1〕",
-        "chinese": "咸",
-        "romaji": "shoppai"
+        "japanese": "ゆき",
+        "kanji": "雪",
+        "type": "〔名〕",
+        "chinese": "雪",
+        "romaji": "yuki"
     },
     {
         "id": "27",
-        "japanese": "すっぱい",
-        "kanji": "酸っぱい",
+        "japanese": "きたない",
+        "kanji": "汚い",
         "type": "〔形1〕",
-        "chinese": "酸",
-        "romaji": "suppai"
+        "chinese": "脏",
+        "romaji": "kitanai"
     },
     {
         "id": "28",
-        "japanese": "にがい",
-        "kanji": "苦い",
-        "type": "〔形1〕",
-        "chinese": "苦",
-        "romaji": "nigai"
+        "japanese": "きれい",
+        "kanji": "",
+        "type": "〔形2〕",
+        "chinese": "漂亮，干净",
+        "romaji": "kirei"
     },
     {
         "id": "29",
-        "japanese": "おいしい",
-        "kanji": "",
+        "japanese": "ゆうめい",
+        "kanji": "有名",
         "type": "〔形1〕",
-        "chinese": "好吃，可口",
-        "romaji": "oishii"
-    },
-    {
-        "id": "30",
-        "japanese": "あつい",
-        "kanji": "",
-        "type": "〔形1〕",
-        "chinese": "热，烫",
-        "romaji": "atsui"
+        "chinese": "有名",
+        "romaji": "yūmei"
     },
     {
         "id": "31",
-        "japanese": "つめたい",
-        "kanji": "冷たい",
-        "type": "〔形1〕",
-        "chinese": "凉",
-        "romaji": "tsumetai"
+        "japanese": "にぎやか",
+        "kanji": "",
+        "type": "〔形2〕",
+        "chinese": "热闹，繁华",
+        "romaji": "nigiyaka"
     },
     {
         "id": "32",
-        "japanese": "たのしい",
-        "kanji": "楽しい",
-        "type": "〔形1〕",
-        "chinese": "愉快，快乐",
-        "romaji": "tanoshii"
+        "japanese": "しずか",
+        "kanji": "静か",
+        "type": "〔形2〕",
+        "chinese": "安静",
+        "romaji": "shizuka"
     },
     {
         "id": "33",
-        "japanese": "おもしろい",
-        "kanji": "",
-        "type": "〔形1〕",
-        "chinese": "有趣，有意思",
-        "romaji": "omoshiroi"
+        "japanese": "ひま",
+        "kanji": "暇",
+        "type": "〔形2〕",
+        "chinese": "空闲",
+        "romaji": "hima"
     },
     {
         "id": "34",
-        "japanese": "つまらない",
-        "kanji": "",
-        "type": "〔形1〕",
-        "chinese": "无聊",
-        "romaji": "tsumaranai"
+        "japanese": "しんせつ",
+        "kanji": "親切",
+        "type": "〔形2〕",
+        "chinese": "热情",
+        "romaji": "shinsetsu"
     },
     {
         "id": "35",
-        "japanese": "ひろい",
-        "kanji": "広い",
-        "type": "〔形1〕",
-        "chinese": "广阔，宽敞",
-        "romaji": "hiroi"
+        "japanese": "すき",
+        "kanji": "好き",
+        "type": "〔形2〕",
+        "chinese": "喜欢",
+        "romaji": "suki"
     },
     {
         "id": "36",
-        "japanese": "せまい",
-        "kanji": "狭い",
-        "type": "〔形1〕",
-        "chinese": "狭窄",
-        "romaji": "semai"
+        "japanese": "きらい",
+        "kanji": "嫌い",
+        "type": "〔形2〕",
+        "chinese": "讨厌",
+        "romaji": "kirai"
     },
     {
         "id": "37",
-        "japanese": "おおきい",
-        "kanji": "大きい",
-        "type": "〔形1〕",
-        "chinese": "大",
-        "romaji": "ōkii"
+        "japanese": "べんり",
+        "kanji": "便利",
+        "type": "〔形2〕",
+        "chinese": "方便",
+        "romaji": "benri"
     },
     {
         "id": "38",
-        "japanese": "ちいさい",
-        "kanji": "小さい",
-        "type": "〔形1〕",
-        "chinese": "小",
-        "romaji": "chiisai"
+        "japanese": "ふべん",
+        "kanji": "不便",
+        "type": "〔形2〕",
+        "chinese": "不方便",
+        "romaji": "fuben"
     },
     {
         "id": "39",
-        "japanese": "いそがしい",
-        "kanji": "忙しい",
-        "type": "〔形1〕",
-        "chinese": "忙，忙碌",
-        "romaji": "isogashii"
+        "japanese": "げんき",
+        "kanji": "元気",
+        "type": "〔形2〕",
+        "chinese": "健康，有精神",
+        "romaji": "genki"
+    },
+    {
+        "id": "40",
+        "japanese": "ハンサム",
+        "kanji": "",
+        "type": "〔形2〕",
+        "chinese": "英俊，帅气",
+        "romaji": "hansamu"
     },
     {
         "id": "41",
-        "japanese": "いい",
+        "japanese": "どんな",
         "kanji": "",
-        "type": "〔形1〕",
-        "chinese": "好",
-        "romaji": "ii"
+        "type": "〔疑〕",
+        "chinese": "什么样的，怎样的",
+        "romaji": "donna"
     },
     {
         "id": "42",
-        "japanese": "わるい",
-        "kanji": "悪い",
-        "type": "〔形1〕",
-        "chinese": "不好，坏",
-        "romaji": "warui"
+        "japanese": "どう",
+        "kanji": "",
+        "type": "〔副〕",
+        "chinese": "怎样，如何",
+        "romaji": "dō"
     },
     {
         "id": "43",
-        "japanese": "すばらしい",
+        "japanese": "いかが",
         "kanji": "",
-        "type": "〔形1〕",
-        "chinese": "极好，绝佳",
-        "romaji": "subarashii"
+        "type": "〔副〕",
+        "chinese": "如何",
+        "romaji": "ikaga"
     },
     {
         "id": "44",
-        "japanese": "とおい",
-        "kanji": "遠い",
-        "type": "〔形1〕",
-        "chinese": "远",
-        "romaji": "tooi"
+        "japanese": "いろいろ",
+        "kanji": "",
+        "type": "〔副〕",
+        "chinese": "各种各样",
+        "romaji": "iroiro"
     },
     {
         "id": "45",
-        "japanese": "ちかい",
-        "kanji": "近い",
-        "type": "〔形1〕",
-        "chinese": "近",
-        "romaji": "chikai"
+        "japanese": "でも",
+        "kanji": "",
+        "type": "〔连〕",
+        "chinese": "可是，不过",
+        "romaji": "demo"
     },
     {
         "id": "46",
-        "japanese": "たかい",
-        "kanji": "高い",
-        "type": "〔形1〕",
-        "chinese": "高，贵",
-        "romaji": "takai"
+        "japanese": "そして",
+        "kanji": "",
+        "type": "〔连〕",
+        "chinese": "而且，于是",
+        "romaji": "soshite"
     },
     {
         "id": "47",
-        "japanese": "ひくい",
-        "kanji": "低い",
-        "type": "〔形1〕",
-        "chinese": "低",
-        "romaji": "hikui"
+        "japanese": "ところで",
+        "kanji": "",
+        "type": "〔连〕",
+        "chinese": "（转换话题） 哎",
+        "romaji": "tokorode"
     },
     {
         "id": "48",
-        "japanese": "やすい",
-        "kanji": "安い",
-        "type": "〔形1〕",
-        "chinese": "便宜",
-        "romaji": "yasui"
+        "japanese": "あれえ",
+        "kanji": "",
+        "type": "〔叹〕",
+        "chinese": "咦",
+        "romaji": "aree"
     },
     {
         "id": "49",
-        "japanese": "さむい",
-        "kanji": "寒い",
-        "type": "〔形1〕",
-        "chinese": "寒冷",
-        "romaji": "samui"
+        "japanese": "もうすこし",
+        "kanji": "もう少し",
+        "type": "",
+        "chinese": "再～一点",
+        "romaji": "mō sukoshi"
     },
     {
         "id": "50",
-        "japanese": "あおい",
-        "kanji": "青い",
-        "type": "〔形1〕",
-        "chinese": "蓝色的",
-        "romaji": "aoi"
-    },
-    {
-        "id": "51",
-        "japanese": "しろい",
-        "kanji": "白い",
-        "type": "〔形1〕",
-        "chinese": "白色的",
-        "romaji": "shiroi"
-    },
-    {
-        "id": "52",
-        "japanese": "あたらしい",
-        "kanji": "新しい",
-        "type": "〔形1〕",
-        "chinese": "新",
-        "romaji": "atarashii"
-    },
-    {
-        "id": "53",
-        "japanese": "ふるい",
-        "kanji": "古い",
-        "type": "〔形1〕",
-        "chinese": "旧",
-        "romaji": "furui"
-    },
-    {
-        "id": "54",
-        "japanese": "むずかしい",
-        "kanji": "難しい",
-        "type": "〔形1〕",
-        "chinese": "难",
-        "romaji": "muzukashii"
-    },
-    {
-        "id": "55",
-        "japanese": "やさしい",
-        "kanji": "易しい",
-        "type": "〔形1〕",
-        "chinese": "容易",
-        "romaji": "yasashii"
-    },
-    {
-        "id": "56",
-        "japanese": "おおい",
-        "kanji": "多い",
-        "type": "〔形1〕",
-        "chinese": "多",
-        "romaji": "ooi"
-    },
-    {
-        "id": "57",
-        "japanese": "すくない",
-        "kanji": "少ない",
-        "type": "〔形1〕",
-        "chinese": "少",
-        "romaji": "sukunai"
-    },
-    {
-        "id": "58",
-        "japanese": "かわいい",
-        "kanji": "",
-        "type": "〔形1〕",
-        "chinese": "可爱",
-        "romaji": "kawaii"
-    },
-    {
-        "id": "59",
-        "japanese": "ほんとうに",
-        "kanji": "本当に",
-        "type": "〔副〕",
-        "chinese": "真的，实在是",
-        "romaji": "hontōni"
-    },
-    {
-        "id": "61",
-        "japanese": "あまり",
-        "kanji": "",
-        "type": "〔副〕",
-        "chinese": "不（太）～，不很～",
-        "romaji": "amari"
-    },
-    {
-        "id": "62",
-        "japanese": "とても",
-        "kanji": "",
-        "type": "〔副〕",
-        "chinese": "很，非常",
-        "romaji": "totemo"
-    },
-    {
-        "id": "63",
-        "japanese": "たいへん",
-        "kanji": "",
-        "type": "〔副〕",
-        "chinese": "很，非常",
-        "romaji": "taihen"
-    },
-    {
-        "id": "64",
-        "japanese": "すこし",
-        "kanji": "少し",
-        "type": "〔副〕",
-        "chinese": "一点儿",
-        "romaji": "sukoshi"
-    },
-    {
-        "id": "65",
-        "japanese": "ちょっと",
-        "kanji": "",
-        "type": "〔副〕",
-        "chinese": "一点儿",
-        "romaji": "chotto"
-    },
-    {
-        "id": "66",
-        "japanese": "ぜんぜん",
-        "kanji": "全然",
-        "type": "〔副〕",
-        "chinese": "根本（不），全然（不）",
-        "romaji": "zenzen"
-    },
-    {
-        "id": "67",
-        "japanese": "ちょうど",
-        "kanji": "",
-        "type": "〔副〕",
-        "chinese": "正好，恰好",
-        "romaji": "choudo"
-    },
-    {
-        "id": "68",
-        "japanese": "あら",
-        "kanji": "",
-        "type": "〔叹〕",
-        "chinese": "哎呀，咦",
-        "romaji": "ara"
-    },
-    {
-        "id": "69",
-        "japanese": "あれ",
-        "kanji": "",
-        "type": "〔叹〕",
-        "chinese": "哎呀，咦",
-        "romaji": "are"
-    },
-    {
-        "id": "70",
-        "japanese": "～よう",
-        "kanji": "～用",
+        "japanese": "～じゅう",
+        "kanji": "～中",
         "type": "",
         "chinese": "",
-        "romaji": "yō"
-    },
-    {
-        "id": "71",
-        "japanese": "てんあんもん",
-        "kanji": "天安門",
-        "type": "〔专〕",
-        "chinese": "天安门",
-        "romaji": "ten'anmon"
-    },
-    {
-        "id": "72",
-        "japanese": "ばんりのちょうじょう",
-        "kanji": "万里の長城",
-        "type": "〔专〕",
-        "chinese": "万里长城",
-        "romaji": "banri no choujou"
-    },
-    {
-        "id": "73",
-        "japanese": "きもちがいい",
-        "kanji": "気持ちがいい",
-        "type": "",
-        "chinese": "感觉舒服，心情愉快",
-        "romaji": "kimochi ga ii"
+        "romaji": "〜jū"
     }
 ]

@@ -1,218 +1,234 @@
 [
     {
         "id": "0",
-        "japanese": "ことば",
-        "kanji": "言葉",
+        "japanese": "スキーじょう",
+        "kanji": "スキー場",
         "type": "〔名〕",
-        "chinese": "语言",
-        "romaji": "kotoba"
+        "chinese": "滑雪场",
+        "romaji": "sukījō"
     },
     {
         "id": "1",
-        "japanese": "メールアドレス",
-        "kanji": "",
+        "japanese": "そうべつかい",
+        "kanji": "送別会",
         "type": "〔名〕",
-        "chinese": "邮件地址",
-        "romaji": "mēru adoresu"
+        "chinese": "欢送会",
+        "romaji": "sōbetsukai"
     },
     {
         "id": "2",
-        "japanese": "れんきゅう",
-        "kanji": "連休",
+        "japanese": "つごう",
+        "kanji": "都合",
         "type": "〔名〕",
-        "chinese": "连休",
-        "romaji": "renkyū"
+        "chinese": "方便；情况",
+        "romaji": "tsugō"
     },
     {
         "id": "3",
-        "japanese": "ゴールデンウィーク",
-        "kanji": "",
+        "japanese": "よてい",
+        "kanji": "予定",
         "type": "〔名〕",
-        "chinese": "黄金周",
-        "romaji": "gōruden u~īku"
+        "chinese": "预约",
+        "romaji": "yotei"
     },
     {
         "id": "4",
-        "japanese": "おわり",
-        "kanji": "終わり",
+        "japanese": "おもちゃ",
+        "kanji": "",
         "type": "〔名〕",
-        "chinese": "结束",
-        "romaji": "owari"
+        "chinese": "玩具",
+        "romaji": "omocha"
     },
     {
         "id": "5",
-        "japanese": "きゅうけいじかん",
-        "kanji": "休憩時間",
+        "japanese": "かじ",
+        "kanji": "火事",
         "type": "〔名〕",
-        "chinese": "休息时间",
-        "romaji": "kyūkei jikan"
+        "chinese": "火灾",
+        "romaji": "kaji"
     },
     {
         "id": "6",
-        "japanese": "きょうげき",
-        "kanji": "京劇",
+        "japanese": "きかん",
+        "kanji": "期間",
         "type": "〔名〕",
-        "chinese": "京剧",
-        "romaji": "kyōgeki"
+        "chinese": "时间，期间",
+        "romaji": "kikan"
     },
     {
         "id": "7",
-        "japanese": "きっぷ",
-        "kanji": "切符",
+        "japanese": "てんきん",
+        "kanji": "転勤",
         "type": "〔名〕",
-        "chinese": "票（券）",
-        "romaji": "kippu"
+        "chinese": "调动工作",
+        "romaji": "tenkin"
     },
     {
         "id": "8",
-        "japanese": "からだ",
-        "kanji": "体",
+        "japanese": "けいたい",
+        "kanji": "携帯",
         "type": "〔名〕",
-        "chinese": "身体",
-        "romaji": "karada"
+        "chinese": "手机",
+        "romaji": "keitai"
     },
     {
         "id": "9",
-        "japanese": "じしん",
-        "kanji": "地震",
+        "japanese": "バドミントン",
+        "kanji": "",
         "type": "〔名〕",
-        "chinese": "地震",
-        "romaji": "jishin"
+        "chinese": "羽毛球",
+        "romaji": "badominton"
     },
     {
         "id": "10",
-        "japanese": "どろぼう",
-        "kanji": "泥棒",
+        "japanese": "ラケット",
+        "kanji": "",
         "type": "〔名〕",
-        "chinese": "小偷，盗贼",
-        "romaji": "dorobō"
+        "chinese": "球拍",
+        "romaji": "raketto"
     },
     {
         "id": "11",
-        "japanese": "ちゅうしゃじょう",
-        "kanji": "駐車場",
+        "japanese": "おくさん",
+        "kanji": "奥さん",
         "type": "〔名〕",
-        "chinese": "停车场",
-        "romaji": "chūshajō"
+        "chinese": "夫人，（别人的）爱人",
+        "romaji": "okusan"
     },
     {
         "id": "12",
-        "japanese": "わたします",
-        "kanji": "渡します",
-        "type": "〔动1〕",
-        "chinese": "交给",
-        "romaji": "watashimasu"
+        "japanese": "かしゅ",
+        "kanji": "歌手",
+        "type": "〔名〕",
+        "chinese": "歌手",
+        "romaji": "kashu"
     },
     {
         "id": "13",
-        "japanese": "おくれます",
-        "kanji": "遅れます",
-        "type": "〔动2〕",
-        "chinese": "迟到",
-        "romaji": "okuremasu"
+        "japanese": "だいとうりょう",
+        "kanji": "大統領",
+        "type": "〔名〕",
+        "chinese": "总统",
+        "romaji": "daitōryō"
     },
     {
         "id": "14",
-        "japanese": "かんがえます",
-        "kanji": "考えます",
-        "type": "〔动2〕",
-        "chinese": "考虑",
-        "romaji": "kangaemasu"
+        "japanese": "やります",
+        "kanji": "",
+        "type": "〔动1〕",
+        "chinese": "做",
+        "romaji": "yarimasu"
     },
     {
         "id": "15",
-        "japanese": "しらべます",
-        "kanji": "調べます",
-        "type": "〔动2〕",
-        "chinese": "调查",
-        "romaji": "shirabemasu"
+        "japanese": "うれしい",
+        "kanji": "",
+        "type": "〔形1〕",
+        "chinese": "高兴",
+        "romaji": "ureshii"
     },
     {
         "id": "16",
-        "japanese": "きます",
-        "kanji": "着ます",
-        "type": "〔动2〕",
-        "chinese": "穿",
-        "romaji": "kimasu"
+        "japanese": "ねむい",
+        "kanji": "眠い",
+        "type": "〔形1〕",
+        "chinese": "困倦",
+        "romaji": "nemui"
     },
     {
         "id": "17",
-        "japanese": "よやくします",
-        "kanji": "予約します",
-        "type": "〔动3〕",
-        "chinese": "预约",
-        "romaji": "yoyakushimasu"
+        "japanese": "おもい",
+        "kanji": "重い",
+        "type": "〔形1〕",
+        "chinese": "重，沉重",
+        "romaji": "omoi"
     },
     {
         "id": "18",
-        "japanese": "かんしゃします",
-        "kanji": "感謝します",
-        "type": "〔动3〕",
-        "chinese": "感谢",
-        "romaji": "kanshashimasu"
+        "japanese": "きゅう",
+        "kanji": "急",
+        "type": "〔形2〕",
+        "chinese": "突然；紧急",
+        "romaji": "kyū"
     },
     {
         "id": "19",
-        "japanese": "うんどうします",
-        "kanji": "運動します",
-        "type": "〔动3〕",
-        "chinese": "运动",
-        "romaji": "undōshimasu"
+        "japanese": "まあまあ",
+        "kanji": "",
+        "type": "〔副〕",
+        "chinese": "大致，还算",
+        "romaji": "māmā"
     },
     {
         "id": "20",
-        "japanese": "せんたくします",
-        "kanji": "洗濯します",
-        "type": "〔动3〕",
-        "chinese": "洗涤，洗",
-        "romaji": "sentakushimasu"
+        "japanese": "ごめん",
+        "kanji": "",
+        "type": "〔叹〕",
+        "chinese": "抱歉，请原谅",
+        "romaji": "gomen"
     },
     {
         "id": "21",
-        "japanese": "ほうこくします",
-        "kanji": "報告します",
-        "type": "〔动3〕",
-        "chinese": "报告",
-        "romaji": "houkokushimasu"
+        "japanese": "ううん∕いや",
+        "kanji": "",
+        "type": "〔叹〕",
+        "chinese": "不",
+        "romaji": "uun / iya"
     },
     {
         "id": "22",
-        "japanese": "あぶない",
-        "kanji": "危ない",
-        "type": "〔形1〕",
-        "chinese": "危险",
-        "romaji": "abunai"
+        "japanese": "うん",
+        "kanji": "",
+        "type": "〔叹〕",
+        "chinese": "嗯",
+        "romaji": "un"
     },
     {
         "id": "23",
-        "japanese": "これとも",
-        "kanji": "",
-        "type": "〔连〕",
-        "chinese": "还是，或者",
-        "romaji": "koretomo"
+        "japanese": "しみず",
+        "kanji": "清水",
+        "type": "〔专〕",
+        "chinese": "清水",
+        "romaji": "shimizu"
     },
     {
         "id": "24",
-        "japanese": "とうきょうタワー",
-        "kanji": "東京タワー",
+        "japanese": "おおた",
+        "kanji": "太田",
         "type": "〔专〕",
-        "chinese": "东京塔",
-        "romaji": "toukyou tawā"
+        "chinese": "太田",
+        "romaji": "oota"
     },
     {
         "id": "25",
-        "japanese": "そんなに",
+        "japanese": "モーツァルト",
         "kanji": "",
-        "type": "",
-        "chinese": "那么",
-        "romaji": "sonnani"
+        "type": "〔专〕",
+        "chinese": "莫扎特",
+        "romaji": "mōtsaruto"
     },
     {
         "id": "26",
-        "japanese": "～すぎ",
-        "kanji": "～過",
+        "japanese": "ディズニーランド",
+        "kanji": "",
+        "type": "〔专〕",
+        "chinese": "迪斯尼乐园",
+        "romaji": "dizunīrando"
+    },
+    {
+        "id": "27",
+        "japanese": "～いがい",
+        "kanji": "～以外",
         "type": "",
         "chinese": "",
-        "romaji": "sugi"
+        "romaji": "～igai"
+    },
+    {
+        "id": "28",
+        "japanese": "～かた",
+        "kanji": "～方",
+        "type": "",
+        "chinese": "",
+        "romaji": "～kata"
     }
 ]
