@@ -38,19 +38,19 @@ class _FlashcardPageState extends State<FlashcardPage> {
   void initState() {
     super.initState();
     _initVariables();
-    _loadVocabulary(widget.books[widget.selectedBookIndex-1].bookId,
+    _loadVocabulary(widget.books[widget.selectedBookIndex].bookId,
     widget.selectedLessonIndex.toString());
   }
 
   void _initVariables() {
     _totalVocabularies =
-        widget.books[widget.selectedBookIndex-1].totalVocabularies;
-    // _lesson = widget
-    //     .books[widget.selectedBookIndex].lessons[widget.selectedLessonIndex];
+        widget.books[widget.selectedBookIndex].totalVocabularies;
+    _lesson = widget
+        .books[widget.selectedBookIndex].lessons[widget.selectedLessonIndex];
     currentTripleVoc = TripleVoc(
       lessonId: widget.selectedLessonIndex,
       vocabularyId: 0,
-      bookId: int.parse(widget.books[widget.selectedBookIndex-1].bookId),
+      bookId: int.parse(widget.books[widget.selectedBookIndex].bookId),
     );
   }
 
@@ -70,12 +70,12 @@ class _FlashcardPageState extends State<FlashcardPage> {
   }
 
   void _navigateToPreviousVocabulary() {
-    final result = getPrevVocabulary(widget.books[widget.selectedBookIndex-1], currentTripleVoc);
+    final result = getPrevVocabulary(widget.books[widget.selectedBookIndex], currentTripleVoc);
     setState(() {
       currentTripleVoc = result.$1; // Update currentTripleVoc
       if (widget.selectedLessonIndex != currentTripleVoc.lessonId) {
         widget.selectedLessonIndex = currentTripleVoc.lessonId; // Update selectedLessonIndex
-        _loadVocabulary(widget.books[widget.selectedBookIndex-1].bookId, widget.selectedLessonIndex.toString());
+        _loadVocabulary(widget.books[widget.selectedBookIndex].bookId, widget.selectedLessonIndex.toString());
       }
       widget.progress = Progress(lastLesson: widget.selectedLessonIndex, lastVocabulary: currentTripleVoc.vocabularyId); // Update progress
 
@@ -83,12 +83,12 @@ class _FlashcardPageState extends State<FlashcardPage> {
   }
 
   void _navigateToNextVocabulary() {
-    final result = getNextVocabulary(widget.books[widget.selectedBookIndex-1], currentTripleVoc);
+    final result = getNextVocabulary(widget.books[widget.selectedBookIndex], currentTripleVoc);
     setState(() {
       currentTripleVoc = result.$1; // Update currentTripleVoc
       if (widget.selectedLessonIndex != currentTripleVoc.lessonId) {
         widget.selectedLessonIndex = currentTripleVoc.lessonId; // Update selectedLessonIndex
-        _loadVocabulary(widget.books[widget.selectedBookIndex-1].bookId, widget.selectedLessonIndex.toString());
+        _loadVocabulary(widget.books[widget.selectedBookIndex].bookId, widget.selectedLessonIndex.toString());
       }
       widget.progress = Progress(lastLesson: widget.selectedLessonIndex, lastVocabulary: currentTripleVoc.vocabularyId); // Update progress
     });
@@ -113,7 +113,7 @@ class _FlashcardPageState extends State<FlashcardPage> {
                   children: [
                     Flexible(
                       child: Text(
-                        widget.books[widget.selectedBookIndex-1].title,
+                        widget.books[widget.selectedBookIndex].title,
                         style: TextStyle(
                           color: Colors.white,
                           fontSize: 16,
@@ -238,8 +238,9 @@ class _FlashcardPageState extends State<FlashcardPage> {
                                 alignment: Alignment.topRight,
                                 child: GestureDetector(
                                   onTap: () async {
+                                    print("vocabulary/${widget.selectedBookIndex}/mp3/${widget.selectedLessonIndex}/${widget.progress.lastVocabulary}.mp3");
                                     await _audioPlayer.play(AssetSource(
-                                        "vocabulary/${widget.selectedBookIndex}/mp3/1/1.mp3"));
+                                        "vocabulary/${widget.selectedBookIndex}/mp3/${widget.selectedLessonIndex}/${widget.progress.lastVocabulary}.mp3"));
                                   },
                                   child: Icon(
                                     Icons.play_arrow_outlined,

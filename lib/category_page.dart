@@ -25,7 +25,7 @@ class _CategoryPageState extends State<CategoryPage> {
 
   Future<List<Book>> _loadBookModel() async {
     final String response = await DefaultAssetBundle.of(context)
-        .loadString('assets/vocabulary/1/metadata/metadata.json');
+        .loadString('assets/vocabulary/0/metadata/metadata.json');
     final book = Book.fromJson(json.decode(response));
     return [book];
   }
@@ -239,8 +239,8 @@ class _CategoryPageState extends State<CategoryPage> {
                 builder: (context) => FlashcardPage(
                       books: books,
                       progress: progress!,
-                      selectedBookIndex: 1,
-                      selectedLessonIndex: 1,
+                      selectedBookIndex: 0,
+                      selectedLessonIndex: 0,
                     )),
           );
         },
