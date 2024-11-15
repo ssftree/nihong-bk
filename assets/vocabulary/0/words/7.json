@@ -1,11 +1,11 @@
 [
     {
         "id": "0",
-        "japanese": "ブレゼント",
+        "japanese": "プレゼント",
         "kanji": "",
         "type": "〔名〕",
         "chinese": "礼物",
-        "romaji": "burezento"
+        "romaji": "purezento"
     },
     {
         "id": "1",
@@ -17,11 +17,11 @@
     },
     {
         "id": "2",
-        "japanese": "バンフレット",
+        "japanese": "パンフレット",
         "kanji": "",
         "type": "〔名〕",
         "chinese": "小册子",
-        "romaji": "banfuretto"
+        "romaji": "panfuretto"
     },
     {
         "id": "3",
@@ -34,10 +34,10 @@
     {
         "id": "4",
         "japanese": "スケジュールひょう",
-        "kanji": "スケジュール表",
+        "kanji": "～表",
         "type": "〔名〕",
         "chinese": "日程表",
-        "romaji": "sukejūruhyou"
+        "romaji": "sukejūru hyō"
     },
     {
         "id": "5",
@@ -80,7 +80,7 @@
         "romaji": "shukudai"
     },
     {
-        "id": "11",
+        "id": "10",
         "japanese": "こうくうびん",
         "kanji": "航空便",
         "type": "〔名〕",
@@ -88,7 +88,7 @@
         "romaji": "kōkūbin"
     },
     {
-        "id": "12",
+        "id": "11",
         "japanese": "そくたつ",
         "kanji": "速達",
         "type": "〔名〕",
@@ -96,7 +96,7 @@
         "romaji": "sokutatsu"
     },
     {
-        "id": "13",
+        "id": "12",
         "japanese": "ファックス",
         "kanji": "",
         "type": "〔名〕",
@@ -104,7 +104,7 @@
         "romaji": "fakkusu"
     },
     {
-        "id": "14",
+        "id": "13",
         "japanese": "メール",
         "kanji": "",
         "type": "〔名〕",
@@ -112,15 +112,15 @@
         "romaji": "mēru"
     },
     {
-        "id": "15",
+        "id": "14",
         "japanese": "でんわばんごう",
         "kanji": "電話番号",
         "type": "〔名〕",
         "chinese": "电话号码",
-        "romaji": "denwabangō"
+        "romaji": "denwa bangō"
     },
     {
-        "id": "16",
+        "id": "15",
         "japanese": "じゅうしょ",
         "kanji": "住所",
         "type": "〔名〕",
@@ -128,7 +128,7 @@
         "romaji": "jūsho"
     },
     {
-        "id": "17",
+        "id": "16",
         "japanese": "なまえ",
         "kanji": "名前",
         "type": "〔名〕",
@@ -136,7 +136,7 @@
         "romaji": "namae"
     },
     {
-        "id": "18",
+        "id": "17",
         "japanese": "けん",
         "kanji": "件",
         "type": "〔名〕",
@@ -144,12 +144,20 @@
         "romaji": "ken"
     },
     {
-        "id": "19",
-        "japanese": "しんぶんし",
-        "kanji": "新聞紙",
+        "id": "18",
+        "japanese": "しんぶん",
+        "kanji": "新聞",
         "type": "〔名〕",
         "chinese": "报纸",
-        "romaji": "shinbunshi"
+        "romaji": "shinbun"
+    },
+    {
+        "id": "19",
+        "japanese": "かみひこうき",
+        "kanji": "紙飛行機",
+        "type": "〔名〕",
+        "chinese": "纸折的飞机",
+        "romaji": "kamihikōki"
     },
     {
         "id": "20",
@@ -185,11 +193,11 @@
     },
     {
         "id": "24",
-        "japanese": "スプーン",
+        "japanese": "ステーキ",
         "kanji": "",
         "type": "〔名〕",
-        "chinese": "勺子",
-        "romaji": "supūn"
+        "chinese": "句子",
+        "romaji": "sutēki"
     },
     {
         "id": "25",
@@ -197,7 +205,7 @@
         "kanji": "お兄さん",
         "type": "〔名〕",
         "chinese": "哥哥",
-        "romaji": "oniisan"
+        "romaji": "onīsan"
     },
     {
         "id": "26",
@@ -268,7 +276,7 @@
         "japanese": "だします",
         "kanji": "出します",
         "type": "〔动1〕",
-        "chinese": "寄（信）",
+        "chinese": "寄",
         "romaji": "dashimasu"
     },
     {
@@ -282,7 +290,7 @@
     {
         "id": "36",
         "japanese": "かきます",
-        "kanji": "",
+        "kanji": "描きます",
         "type": "〔动1〕",
         "chinese": "画",
         "romaji": "kakimasu"
@@ -312,7 +320,7 @@
         "romaji": "agemasu"
     },
     {
-        "id": "41",
+        "id": "40",
         "japanese": "かけます",
         "kanji": "",
         "type": "〔动2〕",
@@ -320,7 +328,7 @@
         "romaji": "kakemasu"
     },
     {
-        "id": "42",
+        "id": "41",
         "japanese": "かります",
         "kanji": "借ります",
         "type": "〔动2〕",
@@ -328,7 +336,7 @@
         "romaji": "karimasu"
     },
     {
-        "id": "43",
+        "id": "42",
         "japanese": "おしえます",
         "kanji": "教えます",
         "type": "〔动2〕",
@@ -336,7 +344,7 @@
         "romaji": "oshiemasu"
     },
     {
-        "id": "44",
+        "id": "43",
         "japanese": "もう",
         "kanji": "",
         "type": "〔副〕",
@@ -344,7 +352,7 @@
         "romaji": "mō"
     },
     {
-        "id": "45",
+        "id": "44",
         "japanese": "さっき",
         "kanji": "",
         "type": "〔副〕",
@@ -352,7 +360,7 @@
         "romaji": "sakki"
     },
     {
-        "id": "46",
+        "id": "45",
         "japanese": "たったいま",
         "kanji": "たった今",
         "type": "〔副〕",
@@ -360,7 +368,7 @@
         "romaji": "tattaima"
     },
     {
-        "id": "47",
+        "id": "46",
         "japanese": "もういちど",
         "kanji": "もう一度",
         "type": "〔副〕",
@@ -368,7 +376,7 @@
         "romaji": "mō ichido"
     },
     {
-        "id": "48",
+        "id": "47",
         "japanese": "まえに",
         "kanji": "前に",
         "type": "〔副〕",
@@ -376,7 +384,7 @@
         "romaji": "mae ni"
     },
     {
-        "id": "49",
+        "id": "48",
         "japanese": "ちん",
         "kanji": "陳",
         "type": "〔专〕",
@@ -384,10 +392,18 @@
         "romaji": "chin"
     },
     {
+        "id": "49",
+        "japanese": "どうですか",
+        "kanji": "",
+        "type": "",
+        "chinese": "怎样，如何",
+        "romaji": "dō desu ka"
+    },
+    {
         "id": "50",
         "japanese": "おねがいします",
         "kanji": "お願いします",
-        "type": "〔なし〕",
+        "type": "",
         "chinese": "拜托了",
         "romaji": "onegai shimasu"
     },
@@ -395,7 +411,7 @@
         "id": "51",
         "japanese": "わかりました",
         "kanji": "分かりました",
-        "type": "〔なし〕",
+        "type": "",
         "chinese": "明白了",
         "romaji": "wakarimashita"
     },
@@ -403,7 +419,7 @@
         "id": "52",
         "japanese": "よかったです",
         "kanji": "",
-        "type": "〔なし〕",
+        "type": "",
         "chinese": "太好了",
         "romaji": "yokatta desu"
     },
@@ -411,8 +427,8 @@
         "id": "53",
         "japanese": "～さま",
         "kanji": "～様",
-        "type": "〔なし〕",
-        "chinese": "",
-        "romaji": "sama"
+        "type": "",
+        "chinese": "～様",
+        "romaji": "~sama"
     }
 ]

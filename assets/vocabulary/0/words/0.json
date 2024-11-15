@@ -26,25 +26,25 @@
     {
         "id": "3",
         "japanese": "アメリカじん",
-        "kanji": "アメリカ人",
+        "kanji": "～人",
         "type": "〔名〕",
         "chinese": "美国人",
-        "romaji": "amerika jin"
+        "romaji": "amerika-jin"
     },
     {
         "id": "4",
         "japanese": "フランスじん",
-        "kanji": "フランス人",
+        "kanji": "～人",
         "type": "〔名〕",
         "chinese": "法国人",
-        "romaji": "furansu jin"
+        "romaji": "furansu-jin"
     },
     {
         "id": "5",
         "japanese": "がくせい",
         "kanji": "学生",
         "type": "〔名〕",
-        "chinese": "（大）学生",
+        "chinese": "学生",
         "romaji": "gakusei"
     },
     {
@@ -105,11 +105,11 @@
     },
     {
         "id": "13",
-        "japanese": "きぎょう",
+        "japanese": "ぎょうしゃ",
         "kanji": "企業",
         "type": "〔名〕",
         "chinese": "企业",
-        "romaji": "kigyō"
+        "romaji": "gyōsha"
     },
     {
         "id": "14",
@@ -124,7 +124,7 @@
         "japanese": "ちち",
         "kanji": "父",
         "type": "〔名〕",
-        "chinese": "（我）父亲",
+        "chinese": "(我)父亲",
         "romaji": "chichi"
     },
     {
@@ -177,18 +177,18 @@
     },
     {
         "id": "22",
-        "japanese": "どうも",
+        "japanese": "とても",
         "kanji": "",
         "type": "〔副〕",
         "chinese": "非常，很",
-        "romaji": "dōmo"
+        "romaji": "totemo"
     },
     {
         "id": "23",
         "japanese": "はい",
         "kanji": "",
         "type": "〔叹〕",
-        "chinese": "哎，是（应答）；是的",
+        "chinese": "哎，是(应答);是的",
         "romaji": "hai"
     },
     {
@@ -201,11 +201,11 @@
     },
     {
         "id": "25",
-        "japanese": "あっ",
+        "japanese": "あの",
         "kanji": "",
         "type": "〔叹〕",
         "chinese": "哎，哎呀",
-        "romaji": "a"
+        "romaji": "ano"
     },
     {
         "id": "26",
@@ -221,7 +221,7 @@
         "kanji": "王",
         "type": "〔专〕",
         "chinese": "王",
-        "romaji": "ou"
+        "romaji": "ō"
     },
     {
         "id": "28",
@@ -365,7 +365,7 @@
         "kanji": "日中商事",
         "type": "〔专〕",
         "chinese": "日中商社",
-        "romaji": "nitchū shōji"
+        "romaji": "nicchū shōji"
     },
     {
         "id": "46",
@@ -380,7 +380,7 @@
         "japanese": "すみません",
         "kanji": "",
         "type": "",
-        "chinese": "对不起，请问",
+        "chinese": "对不起; 请问",
         "romaji": "sumimasen"
     },
     {
@@ -394,7 +394,7 @@
     {
         "id": "49",
         "japanese": "よろしくおねがいします",
-        "kanji": "～お願いします",
+        "kanji": "お願いします",
         "type": "",
         "chinese": "请多关照",
         "romaji": "yoroshiku onegaishimasu"
@@ -412,16 +412,16 @@
         "japanese": "こちらこそ",
         "kanji": "",
         "type": "",
-        "chinese": "我才要（请您～）",
-        "romaji": "kochirakoso"
+        "chinese": "我才要(请您～)",
+        "romaji": "kochira koso"
     },
     {
         "id": "52",
         "japanese": "そうです",
         "kanji": "",
         "type": "",
-        "chinese": "是（这样）",
-        "romaji": "sōdesu"
+        "chinese": "是(这样)",
+        "romaji": "sō desu"
     },
     {
         "id": "53",
@@ -449,26 +449,10 @@
     },
     {
         "id": "56",
-        "japanese": "～さん",
+        "japanese": "～さん/～ちゃん",
         "kanji": "",
         "type": "",
-        "chinese": "",
-        "romaji": "san"
-    },
-    {
-        "id": "57",
-        "japanese": "～ちゃん",
-        "kanji": "",
-        "type": "",
-        "chinese": "",
-        "romaji": "chan"
-    },
-    {
-        "id": "58",
-        "japanese": "～くん",
-        "kanji": "～君",
-        "type": "",
-        "chinese": "",
-        "romaji": "kun"
+        "chinese": "～君",
+        "romaji": "~san/~chan"
     }
 ]

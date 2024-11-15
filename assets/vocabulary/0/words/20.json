@@ -29,7 +29,7 @@
         "kanji": "",
         "type": "〔名〕",
         "chinese": "黄金周",
-        "romaji": "gōruden u~īku"
+        "romaji": "gōruden wīku"
     },
     {
         "id": "4",
@@ -138,42 +138,42 @@
     {
         "id": "17",
         "japanese": "よやくします",
-        "kanji": "予約します",
+        "kanji": "予約～",
         "type": "〔动3〕",
-        "chinese": "预约",
-        "romaji": "yoyakushimasu"
+        "chinese": "预约，预定",
+        "romaji": "yoyaku shimasu"
     },
     {
         "id": "18",
         "japanese": "かんしゃします",
-        "kanji": "感謝します",
+        "kanji": "感謝～",
         "type": "〔动3〕",
         "chinese": "感谢",
-        "romaji": "kanshashimasu"
+        "romaji": "kansha shimasu"
     },
     {
         "id": "19",
         "japanese": "うんどうします",
-        "kanji": "運動します",
+        "kanji": "運動～",
         "type": "〔动3〕",
         "chinese": "运动",
-        "romaji": "undōshimasu"
+        "romaji": "undō shimasu"
     },
     {
         "id": "20",
         "japanese": "せんたくします",
-        "kanji": "洗濯します",
+        "kanji": "洗濯～",
         "type": "〔动3〕",
         "chinese": "洗涤，洗",
-        "romaji": "sentakushimasu"
+        "romaji": "sentaku shimasu"
     },
     {
         "id": "21",
         "japanese": "ほうこくします",
-        "kanji": "報告します",
+        "kanji": "報告～",
         "type": "〔动3〕",
         "chinese": "报告",
-        "romaji": "houkokushimasu"
+        "romaji": "hōkoku shimasu"
     },
     {
         "id": "22",
@@ -185,19 +185,19 @@
     },
     {
         "id": "23",
-        "japanese": "これとも",
+        "japanese": "それとも",
         "kanji": "",
         "type": "〔连〕",
         "chinese": "还是，或者",
-        "romaji": "koretomo"
+        "romaji": "soretomo"
     },
     {
         "id": "24",
         "japanese": "とうきょうタワー",
-        "kanji": "東京タワー",
+        "kanji": "東京～",
         "type": "〔专〕",
         "chinese": "东京塔",
-        "romaji": "toukyou tawā"
+        "romaji": "tōkyō tawā"
     },
     {
         "id": "25",
@@ -205,14 +205,14 @@
         "kanji": "",
         "type": "",
         "chinese": "那么",
-        "romaji": "sonnani"
+        "romaji": "sonna ni"
     },
     {
         "id": "26",
         "japanese": "～すぎ",
-        "kanji": "～過",
+        "kanji": "",
         "type": "",
-        "chinese": "",
-        "romaji": "sugi"
+        "chinese": "～过ぎ",
+        "romaji": "~sugi"
     }
 ]

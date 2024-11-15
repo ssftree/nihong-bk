@@ -90,15 +90,15 @@
     {
         "id": "11",
         "japanese": "ウーロンちゃ",
-        "kanji": "ウーロン茶",
+        "kanji": "～茶",
         "type": "〔名〕",
         "chinese": "乌龙茶",
-        "romaji": "ūroncha"
+        "romaji": "ūrōncha"
     },
     {
         "id": "12",
         "japanese": "ジャスミンちゃ",
-        "kanji": "ジャスミン茶",
+        "kanji": "～茶",
         "type": "〔名〕",
         "chinese": "茉莉花茶",
         "romaji": "jasumincha"
@@ -241,7 +241,7 @@
     },
     {
         "id": "30",
-        "japanese": "やはり∕やっぱり",
+        "japanese": "やはり/やっぱり",
         "kanji": "",
         "type": "〔副〕",
         "chinese": "仍然，还是",
@@ -249,11 +249,11 @@
     },
     {
         "id": "31",
-        "japanese": "エベレスト",
-        "kanji": "",
+        "japanese": "チョモランマ",
+        "kanji": "珠穆朗玛",
         "type": "〔专〕",
         "chinese": "珠穆朗玛峰",
-        "romaji": "eberesuto"
+        "romaji": "chomoranma"
     },
     {
         "id": "32",
@@ -268,7 +268,7 @@
         "japanese": "～ねんかん",
         "kanji": "～年間",
         "type": "",
-        "chinese": "",
-        "romaji": "nenkan"
+        "chinese": "～年间",
+        "romaji": "~nenkan"
     }
 ]

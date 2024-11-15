@@ -80,7 +80,7 @@
         "romaji": "neko"
     },
     {
-        "id": "11",
+        "id": "10",
         "japanese": "いぬ",
         "kanji": "犬",
         "type": "〔名〕",
@@ -88,7 +88,7 @@
         "romaji": "inu"
     },
     {
-        "id": "12",
+        "id": "11",
         "japanese": "はこ",
         "kanji": "箱",
         "type": "〔名〕",
@@ -96,7 +96,7 @@
         "romaji": "hako"
     },
     {
-        "id": "13",
+        "id": "12",
         "japanese": "めがね",
         "kanji": "眼鏡",
         "type": "〔名〕",
@@ -104,7 +104,7 @@
         "romaji": "megane"
     },
     {
-        "id": "14",
+        "id": "13",
         "japanese": "ビデオ",
         "kanji": "",
         "type": "〔名〕",
@@ -112,7 +112,7 @@
         "romaji": "bideo"
     },
     {
-        "id": "15",
+        "id": "14",
         "japanese": "サッカーボール",
         "kanji": "",
         "type": "〔名〕",
@@ -120,7 +120,7 @@
         "romaji": "sakkābōru"
     },
     {
-        "id": "16",
+        "id": "15",
         "japanese": "ビール",
         "kanji": "",
         "type": "〔名〕",
@@ -128,7 +128,7 @@
         "romaji": "bīru"
     },
     {
-        "id": "17",
+        "id": "16",
         "japanese": "ウイスキー",
         "kanji": "",
         "type": "〔名〕",
@@ -136,7 +136,7 @@
         "romaji": "uisukī"
     },
     {
-        "id": "18",
+        "id": "17",
         "japanese": "こども",
         "kanji": "子供",
         "type": "〔名〕",
@@ -144,7 +144,7 @@
         "romaji": "kodomo"
     },
     {
-        "id": "19",
+        "id": "18",
         "japanese": "きょうだい",
         "kanji": "兄弟",
         "type": "〔名〕",
@@ -152,7 +152,7 @@
         "romaji": "kyōdai"
     },
     {
-        "id": "20",
+        "id": "19",
         "japanese": "りょうしん",
         "kanji": "両親",
         "type": "〔名〕",
@@ -160,7 +160,7 @@
         "romaji": "ryōshin"
     },
     {
-        "id": "21",
+        "id": "20",
         "japanese": "いもうと",
         "kanji": "妹",
         "type": "〔名〕",
@@ -168,7 +168,7 @@
         "romaji": "imōto"
     },
     {
-        "id": "22",
+        "id": "21",
         "japanese": "おとこ",
         "kanji": "男",
         "type": "〔名〕",
@@ -176,7 +176,7 @@
         "romaji": "otoko"
     },
     {
-        "id": "23",
+        "id": "22",
         "japanese": "おんな",
         "kanji": "女",
         "type": "〔名〕",
@@ -184,7 +184,7 @@
         "romaji": "onna"
     },
     {
-        "id": "24",
+        "id": "23",
         "japanese": "せいと",
         "kanji": "生徒",
         "type": "〔名〕",
@@ -192,7 +192,7 @@
         "romaji": "seito"
     },
     {
-        "id": "25",
+        "id": "24",
         "japanese": "うえ",
         "kanji": "上",
         "type": "〔名〕",
@@ -200,7 +200,7 @@
         "romaji": "ue"
     },
     {
-        "id": "26",
+        "id": "25",
         "japanese": "そと",
         "kanji": "外",
         "type": "〔名〕",
@@ -208,7 +208,7 @@
         "romaji": "soto"
     },
     {
-        "id": "27",
+        "id": "26",
         "japanese": "なか",
         "kanji": "中",
         "type": "〔名〕",
@@ -216,7 +216,7 @@
         "romaji": "naka"
     },
     {
-        "id": "28",
+        "id": "27",
         "japanese": "した",
         "kanji": "下",
         "type": "〔名〕",
@@ -224,12 +224,20 @@
         "romaji": "shita"
     },
     {
-        "id": "29",
+        "id": "28",
         "japanese": "まえ",
         "kanji": "前",
         "type": "〔名〕",
         "chinese": "前，前面",
         "romaji": "mae"
+    },
+    {
+        "id": "29",
+        "japanese": "うしろ",
+        "kanji": "後ろ",
+        "type": "〔名〕",
+        "chinese": "后，后面",
+        "romaji": "ushiro"
     },
     {
         "id": "30",
@@ -314,7 +322,7 @@
     {
         "id": "40",
         "japanese": "き",
-        "kanji": "樹",
+        "kanji": "木",
         "type": "〔名〕",
         "chinese": "树，树木",
         "romaji": "ki"
@@ -349,7 +357,7 @@
         "kanji": "",
         "type": "〔叹〕",
         "chinese": "啊，嗯",
-        "romaji": "eeto"
+        "romaji": "ēto"
     },
     {
         "id": "45",
@@ -373,7 +381,7 @@
         "kanji": "大阪",
         "type": "〔专〕",
         "chinese": "大阪",
-        "romaji": "oosaka"
+        "romaji": "ōsaka"
     },
     {
         "id": "48",
@@ -381,6 +389,6 @@
         "kanji": "ＪＲ",
         "type": "〔专〕",
         "chinese": "JR",
-        "romaji": "jēārū"
+        "romaji": "jē ār"
     }
 ]

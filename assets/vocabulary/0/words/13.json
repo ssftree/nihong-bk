@@ -157,14 +157,14 @@
         "kanji": "通ります",
         "type": "〔动1〕",
         "chinese": "通过，经过",
-        "romaji": "toorimasu"
+        "romaji": "tōrimasu"
     },
     {
         "id": "20",
         "japanese": "いそぎます",
         "kanji": "急ぎます",
         "type": "〔动1〕",
-        "chinese": "急，急忙",
+        "chinese": "急，匆忙",
         "romaji": "isogimasu"
     },
     {
@@ -240,7 +240,7 @@
         "romaji": "keshimasu"
     },
     {
-        "id": "31",
+        "id": "30",
         "japanese": "あるきます",
         "kanji": "歩きます",
         "type": "〔动1〕",
@@ -248,7 +248,7 @@
         "romaji": "arukimasu"
     },
     {
-        "id": "32",
+        "id": "31",
         "japanese": "まがります",
         "kanji": "曲がります",
         "type": "〔动1〕",
@@ -256,7 +256,7 @@
         "romaji": "magarimasu"
     },
     {
-        "id": "33",
+        "id": "32",
         "japanese": "あらいます",
         "kanji": "洗います",
         "type": "〔动1〕",
@@ -264,7 +264,7 @@
         "romaji": "araimasu"
     },
     {
-        "id": "34",
+        "id": "33",
         "japanese": "でます",
         "kanji": "出ます",
         "type": "〔动2〕",
@@ -272,7 +272,7 @@
         "romaji": "demasu"
     },
     {
-        "id": "35",
+        "id": "34",
         "japanese": "でかけます",
         "kanji": "出かけます",
         "type": "〔动2〕",
@@ -280,7 +280,7 @@
         "romaji": "dekakemasu"
     },
     {
-        "id": "36",
+        "id": "35",
         "japanese": "あけます",
         "kanji": "開けます",
         "type": "〔动2〕",
@@ -288,7 +288,7 @@
         "romaji": "akemasu"
     },
     {
-        "id": "37",
+        "id": "36",
         "japanese": "すぎます",
         "kanji": "過ぎます",
         "type": "〔动2〕",
@@ -296,7 +296,7 @@
         "romaji": "sugimasu"
     },
     {
-        "id": "38",
+        "id": "37",
         "japanese": "みせます",
         "kanji": "見せます",
         "type": "〔动2〕",
@@ -304,7 +304,7 @@
         "romaji": "misemasu"
     },
     {
-        "id": "39",
+        "id": "38",
         "japanese": "つけます",
         "kanji": "",
         "type": "〔动2〕",
@@ -312,12 +312,20 @@
         "romaji": "tsukemasu"
     },
     {
+        "id": "39",
+        "japanese": "おります",
+        "kanji": "降ります",
+        "type": "〔动2〕",
+        "chinese": "下（车，山）",
+        "romaji": "orimasu"
+    },
+    {
         "id": "40",
         "japanese": "かいものします",
         "kanji": "買い物～",
         "type": "〔动3〕",
         "chinese": "买东西",
-        "romaji": "kaimonoshimasu"
+        "romaji": "kaimono shimasu"
     },
     {
         "id": "41",
@@ -325,7 +333,7 @@
         "kanji": "卒業～",
         "type": "〔动3〕",
         "chinese": "毕业",
-        "romaji": "sotsugyōshimasu"
+        "romaji": "sotsugyō shimasu"
     },
     {
         "id": "42",
@@ -333,7 +341,7 @@
         "kanji": "食事～",
         "type": "〔动3〕",
         "chinese": "吃饭，用餐",
-        "romaji": "shokujishimasu"
+        "romaji": "shokuji shimasu"
     },
     {
         "id": "43",
@@ -341,7 +349,7 @@
         "kanji": "整理～",
         "type": "〔动3〕",
         "chinese": "整理",
-        "romaji": "seirishimasu"
+        "romaji": "seiri shimasu"
     },
     {
         "id": "44",
@@ -349,7 +357,7 @@
         "kanji": "",
         "type": "〔动3〕",
         "chinese": "复印",
-        "romaji": "kopīshimasu"
+        "romaji": "kopī shimasu"
     },
     {
         "id": "45",
@@ -385,7 +393,7 @@
     },
     {
         "id": "49",
-        "japanese": "そう∕ああ",
+        "japanese": "そう/ああ",
         "kanji": "",
         "type": "〔副〕",
         "chinese": "那样",
@@ -397,14 +405,14 @@
         "kanji": "後で",
         "type": "〔副〕",
         "chinese": "过会儿",
-        "romaji": "ato de"
+        "romaji": "atode"
     },
     {
         "id": "51",
         "japanese": "それから",
         "kanji": "",
         "type": "〔连〕",
-        "chinese": "然后",
+        "chinese": "然后；另外",
         "romaji": "sorekara"
     },
     {

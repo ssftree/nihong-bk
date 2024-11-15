@@ -17,11 +17,11 @@
     },
     {
         "id": "2",
-        "japanese": "くうき",
-        "kanji": "空気",
+        "japanese": "てんき",
+        "kanji": "天气",
         "type": "〔名〕",
         "chinese": "空气",
-        "romaji": "kūki"
+        "romaji": "tenki"
     },
     {
         "id": "3",
@@ -113,7 +113,7 @@
     },
     {
         "id": "14",
-        "japanese": "でいか",
+        "japanese": "ていか",
         "kanji": "定価",
         "type": "〔名〕",
         "chinese": "定价",
@@ -240,7 +240,7 @@
         "romaji": "niaimasu"
     },
     {
-        "id": "31",
+        "id": "30",
         "japanese": "うるさい",
         "kanji": "",
         "type": "〔形1〕",
@@ -248,7 +248,7 @@
         "romaji": "urusai"
     },
     {
-        "id": "32",
+        "id": "31",
         "japanese": "シンプル",
         "kanji": "",
         "type": "〔形2〕",
@@ -256,7 +256,7 @@
         "romaji": "shinpuru"
     },
     {
-        "id": "33",
+        "id": "32",
         "japanese": "まもなく",
         "kanji": "間もなく",
         "type": "〔副〕",
@@ -264,8 +264,16 @@
         "romaji": "mamonaku"
     },
     {
+        "id": "33",
+        "japanese": "もうすぐ",
+        "kanji": "",
+        "type": "〔副〕",
+        "chinese": "马上",
+        "romaji": "mō sugu"
+    },
+    {
         "id": "34",
-        "japanese": "さらに∕もっと",
+        "japanese": "さらに/もっと",
         "kanji": "",
         "type": "〔副〕",
         "chinese": "更加，更",
@@ -277,7 +285,7 @@
         "kanji": "",
         "type": "〔叹〕",
         "chinese": "啊，喂",
-        "romaji": "saa"
+        "romaji": "sā"
     },
     {
         "id": "36",
@@ -285,7 +293,7 @@
         "kanji": "",
         "type": "",
         "chinese": "尽量，尽可能",
-        "romaji": "dekirudake"
+        "romaji": "dekiru dake"
     },
     {
         "id": "37",
@@ -301,6 +309,6 @@
         "kanji": "今から",
         "type": "",
         "chinese": "从现在起",
-        "romaji": "imakara"
+        "romaji": "ima kara"
     }
 ]

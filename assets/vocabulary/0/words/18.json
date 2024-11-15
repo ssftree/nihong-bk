@@ -1,322 +1,322 @@
 [
     {
         "id": "0",
-        "japanese": "しゅみ",
-        "kanji": "趣味",
+        "japanese": "しなもの",
+        "kanji": "品物",
         "type": "〔名〕",
-        "chinese": "爱好",
-        "romaji": "shumi"
+        "chinese": "物品，商品",
+        "romaji": "shinamono"
     },
     {
         "id": "1",
-        "japanese": "とくぎ",
-        "kanji": "特技",
+        "japanese": "おさら",
+        "kanji": "お皿",
         "type": "〔名〕",
-        "chinese": "特长，拿手的技术",
-        "romaji": "tokugi"
+        "chinese": "盘子",
+        "romaji": "osara"
     },
     {
         "id": "2",
-        "japanese": "きょうみ",
-        "kanji": "興味",
+        "japanese": "ごみ",
+        "kanji": "",
         "type": "〔名〕",
-        "chinese": "兴趣",
-        "romaji": "kyōmi"
+        "chinese": "垃圾",
+        "romaji": "gomi"
     },
     {
         "id": "3",
-        "japanese": "ゆめ",
-        "kanji": "夢",
+        "japanese": "しょしんしゃ",
+        "kanji": "初心者",
         "type": "〔名〕",
-        "chinese": "梦，理想",
-        "romaji": "yume"
+        "chinese": "初学者",
+        "romaji": "shoshinsha"
     },
     {
         "id": "4",
-        "japanese": "ギター",
-        "kanji": "",
+        "japanese": "じょうきゅうしゃ",
+        "kanji": "上級者",
         "type": "〔名〕",
-        "chinese": "吉他",
-        "romaji": "gitā"
+        "chinese": "熟练者",
+        "romaji": "jōkyūsha"
     },
     {
         "id": "5",
-        "japanese": "こきゅう",
-        "kanji": "胡弓",
+        "japanese": "こうきゅう",
+        "kanji": "高級",
         "type": "〔名〕",
-        "chinese": "胡琴",
-        "romaji": "kokyū"
+        "chinese": "高级",
+        "romaji": "kōkyū"
     },
     {
         "id": "6",
-        "japanese": "しょどう",
-        "kanji": "書道",
+        "japanese": "じょうきゅうクラス",
+        "kanji": "上級～",
         "type": "〔名〕",
-        "chinese": "书法",
-        "romaji": "shodō"
+        "chinese": "高级班",
+        "romaji": "jōkyū kurasu"
     },
     {
         "id": "7",
-        "japanese": "つり",
-        "kanji": "釣り",
+        "japanese": "えいかいわ",
+        "kanji": "英会話",
         "type": "〔名〕",
-        "chinese": "钓鱼",
-        "romaji": "tsuri"
+        "chinese": "英语会话",
+        "romaji": "eikaiwa"
     },
     {
         "id": "8",
-        "japanese": "ドライブ",
+        "japanese": "コース",
         "kanji": "",
         "type": "〔名〕",
-        "chinese": "兜风，开汽车远游",
-        "romaji": "doraibu"
+        "chinese": "路线，滑道",
+        "romaji": "kōsu"
     },
     {
         "id": "9",
-        "japanese": "あみもの",
-        "kanji": "編み物",
-        "type": "",
-        "chinese": "编制；编织品",
-        "romaji": "amimono"
+        "japanese": "スキー",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "滑雪",
+        "romaji": "sukī"
     },
     {
         "id": "10",
-        "japanese": "てづくり",
-        "kanji": "手作り",
+        "japanese": "レポート",
+        "kanji": "",
         "type": "〔名〕",
-        "chinese": "手工做，自己做，手制",
-        "romaji": "tezukuri"
+        "chinese": "报告",
+        "romaji": "repōto"
     },
     {
         "id": "11",
-        "japanese": "ちゅうかがい",
-        "kanji": "中華街",
+        "japanese": "パスポート",
+        "kanji": "",
         "type": "〔名〕",
-        "chinese": "中华街",
-        "romaji": "chūkagai"
+        "chinese": "护照",
+        "romaji": "pasupōto"
     },
     {
         "id": "12",
-        "japanese": "ちゅうかりょうり",
-        "kanji": "中華料理",
+        "japanese": "のど",
+        "kanji": "",
         "type": "〔名〕",
-        "chinese": "中国菜",
-        "romaji": "chūka ryōri"
+        "chinese": "喉咙",
+        "romaji": "nodo"
     },
     {
         "id": "13",
-        "japanese": "ギョーザ",
-        "kanji": "餃子",
-        "type": "〔名〕",
-        "chinese": "饺子",
-        "romaji": "gyōza"
+        "japanese": "さわります",
+        "kanji": "触ります",
+        "type": "〔动1〕",
+        "chinese": "碰，触",
+        "romaji": "sawarimasu"
     },
     {
         "id": "14",
-        "japanese": "かわ",
-        "kanji": "皮",
-        "type": "〔名〕",
-        "chinese": "皮",
-        "romaji": "kawa"
+        "japanese": "ぬぎます",
+        "kanji": "脱ぎます",
+        "type": "〔动1〕",
+        "chinese": "脱",
+        "romaji": "nugimasu"
     },
     {
         "id": "15",
-        "japanese": "しゅんせつ",
-        "kanji": "春節",
-        "type": "〔名〕",
-        "chinese": "春节",
-        "romaji": "shunsetsu"
+        "japanese": "ころびます",
+        "kanji": "転びます",
+        "type": "〔动1〕",
+        "chinese": "摔，跌倒，滚动",
+        "romaji": "korobimasu"
     },
     {
         "id": "16",
-        "japanese": "ししまい",
-        "kanji": "獅子舞",
-        "type": "〔名〕",
-        "chinese": "狮子舞",
-        "romaji": "shishimai"
+        "japanese": "かわきます",
+        "kanji": "渇きます",
+        "type": "〔动1〕",
+        "chinese": "渴",
+        "romaji": "kawakimasu"
     },
     {
         "id": "17",
-        "japanese": "りょう",
-        "kanji": "寮",
-        "type": "〔名〕",
-        "chinese": "宿舍",
-        "romaji": "ryō"
+        "japanese": "なおります",
+        "kanji": "治ります",
+        "type": "〔动1〕",
+        "chinese": "痊愈，医好",
+        "romaji": "naorimasu"
     },
     {
         "id": "18",
-        "japanese": "せんたくき",
-        "kanji": "洗濯機",
-        "type": "〔名〕",
-        "chinese": "洗衣机",
-        "romaji": "sentakuki"
+        "japanese": "すべります",
+        "kanji": "滑ります",
+        "type": "〔动1〕",
+        "chinese": "滑，滑行",
+        "romaji": "suberimasu"
     },
     {
         "id": "19",
-        "japanese": "シャワー",
-        "kanji": "",
-        "type": "〔名〕",
-        "chinese": "淋浴",
-        "romaji": "shawā"
+        "japanese": "よびます",
+        "kanji": "呼びます",
+        "type": "〔动1〕",
+        "chinese": "呼唤",
+        "romaji": "yobimasu"
     },
     {
         "id": "20",
-        "japanese": "おなか",
-        "kanji": "",
-        "type": "〔名〕",
-        "chinese": "肚子",
-        "romaji": "onaka"
+        "japanese": "かえします",
+        "kanji": "返します",
+        "type": "〔动1〕",
+        "chinese": "归还",
+        "romaji": "kaeshimasu"
     },
     {
         "id": "21",
-        "japanese": "じゅぎょう",
-        "kanji": "授業",
-        "type": "〔名〕",
-        "chinese": "授课，上课",
-        "romaji": "jugyō"
+        "japanese": "てつだいます",
+        "kanji": "手伝います",
+        "type": "〔动1〕",
+        "chinese": "帮忙",
+        "romaji": "tetsudaimasu"
     },
     {
         "id": "22",
-        "japanese": "しりょう",
-        "kanji": "資料",
-        "type": "〔名〕",
-        "chinese": "资料",
-        "romaji": "shiryō"
+        "japanese": "はこびます",
+        "kanji": "運びます",
+        "type": "〔动1〕",
+        "chinese": "搬运",
+        "romaji": "hakobimasu"
     },
     {
         "id": "23",
-        "japanese": "フランスご",
-        "kanji": "～語",
-        "type": "〔名〕",
-        "chinese": "法语",
-        "romaji": "furansugo"
+        "japanese": "なくします",
+        "kanji": "",
+        "type": "〔动1〕",
+        "chinese": "丢，丢失",
+        "romaji": "nakushimasu"
     },
     {
         "id": "24",
-        "japanese": "しょうせつ",
-        "kanji": "小説",
-        "type": "〔名〕",
-        "chinese": "小说",
-        "romaji": "shōsetsu"
+        "japanese": "おとします",
+        "kanji": "落とします",
+        "type": "〔动1〕",
+        "chinese": "掉，使落下",
+        "romaji": "otoshimasu"
     },
     {
         "id": "25",
-        "japanese": "かいがん",
-        "kanji": "海岸",
-        "type": "〔名〕",
-        "chinese": "海岸",
-        "romaji": "kaigan"
+        "japanese": "おきます",
+        "kanji": "置きます",
+        "type": "〔动1〕",
+        "chinese": "放置",
+        "romaji": "okimasu"
     },
     {
         "id": "26",
-        "japanese": "ふゆやすみ",
-        "kanji": "冬休み",
-        "type": "〔名〕",
-        "chinese": "寒假",
-        "romaji": "fuyuyasumi"
+        "japanese": "はらいます",
+        "kanji": "払います",
+        "type": "〔动1〕",
+        "chinese": "支付",
+        "romaji": "haraimasu"
     },
     {
         "id": "27",
-        "japanese": "キャンプ",
-        "kanji": "",
-        "type": "〔名〕",
-        "chinese": "野营",
-        "romaji": "kyanpu"
+        "japanese": "たちます",
+        "kanji": "立ちます",
+        "type": "〔动1〕",
+        "chinese": "站，立",
+        "romaji": "tachimasu"
     },
     {
         "id": "28",
-        "japanese": "みんな",
-        "kanji": "",
-        "type": "〔名〕",
-        "chinese": "大家",
-        "romaji": "minna"
+        "japanese": "わすれます",
+        "kanji": "忘れます",
+        "type": "〔动2〕",
+        "chinese": "忘记",
+        "romaji": "wasuremasu"
     },
     {
         "id": "29",
-        "japanese": "じぶん",
-        "kanji": "自分",
-        "type": "〔名〕",
-        "chinese": "自己",
-        "romaji": "jibun"
+        "japanese": "あわてます",
+        "kanji": "慌てます",
+        "type": "〔动2〕",
+        "chinese": "慌张，惊慌，着急",
+        "romaji": "awatemasu"
     },
     {
         "id": "30",
-        "japanese": "ぜんいん",
-        "kanji": "全員",
-        "type": "〔名〕",
-        "chinese": "全员",
-        "romaji": "zen'in"
+        "japanese": "すてます",
+        "kanji": "捨てます",
+        "type": "〔动2〕",
+        "chinese": "扔，扔掉",
+        "romaji": "sutemasu"
     },
     {
         "id": "31",
-        "japanese": "ひきます",
-        "kanji": "弾きます",
-        "type": "〔动1〕",
-        "chinese": "弹",
-        "romaji": "hikimasu"
+        "japanese": "ざんぎょうします",
+        "kanji": "残業～",
+        "type": "〔动3〕",
+        "chinese": "加班",
+        "romaji": "zangyō shimasu"
     },
     {
         "id": "32",
-        "japanese": "すきます",
-        "kanji": "",
-        "type": "〔动1〕",
-        "chinese": "（肚子）饿，空",
-        "romaji": "sukimasu"
+        "japanese": "しんぱいします",
+        "kanji": "心配～",
+        "type": "〔动3〕",
+        "chinese": "担心",
+        "romaji": "shinpai shimasu"
     },
     {
         "id": "33",
-        "japanese": "のぼります",
-        "kanji": "登ります",
-        "type": "〔动1〕",
-        "chinese": "登，上",
-        "romaji": "noborimasu"
+        "japanese": "ほんとう",
+        "kanji": "本当",
+        "type": "〔形2〕",
+        "chinese": "真的，真正",
+        "romaji": "hontō"
     },
     {
         "id": "34",
-        "japanese": "あつめます",
-        "kanji": "集めます",
-        "type": "〔动2〕",
-        "chinese": "收集",
-        "romaji": "atsumemasu"
+        "japanese": "はやく",
+        "kanji": "早く",
+        "type": "〔副〕",
+        "chinese": "早点儿",
+        "romaji": "hayaku"
     },
     {
         "id": "35",
-        "japanese": "あびます",
-        "kanji": "浴びます",
-        "type": "〔动2〕",
-        "chinese": "淋；浇",
-        "romaji": "abimasu"
+        "japanese": "やっと",
+        "kanji": "",
+        "type": "〔副〕",
+        "chinese": "好不容易，终于",
+        "romaji": "yatto"
     },
     {
         "id": "36",
-        "japanese": "ごちそうします",
+        "japanese": "だいぶ",
         "kanji": "",
-        "type": "〔动3〕",
-        "chinese": "请客，摆盛宴",
-        "romaji": "gochisō shimasu"
+        "type": "〔副〕",
+        "chinese": "很，相当地",
+        "romaji": "daibu"
     },
     {
         "id": "37",
-        "japanese": "きこくします",
-        "kanji": "帰国～",
-        "type": "〔动3〕",
-        "chinese": "回国",
-        "romaji": "kikoku shimasu"
+        "japanese": "はじめて",
+        "kanji": "初めて",
+        "type": "〔副〕",
+        "chinese": "第一次",
+        "romaji": "hajimete"
     },
     {
         "id": "38",
-        "japanese": "とくに",
-        "kanji": "特に",
+        "japanese": "さきに",
+        "kanji": "先に",
         "type": "〔副〕",
-        "chinese": "特别",
-        "romaji": "toku ni"
+        "chinese": "先",
+        "romaji": "sakini"
     },
     {
         "id": "39",
-        "japanese": "おなかがすきます",
+        "japanese": "まだ",
         "kanji": "",
-        "type": "",
-        "chinese": "肚子饿",
-        "romaji": "onaka ga sukimasu"
+        "type": "〔专〕",
+        "chinese": "山田",
+        "romaji": "mada"
     }
 ]

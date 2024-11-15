@@ -25,11 +25,11 @@
     },
     {
         "id": "3",
-        "japanese": "ボブッス",
+        "japanese": "ポップス",
         "kanji": "",
         "type": "〔名〕",
         "chinese": "流行音乐",
-        "romaji": "bobussu"
+        "romaji": "poppusu"
     },
     {
         "id": "4",
@@ -153,14 +153,22 @@
     },
     {
         "id": "19",
-        "japanese": "コンピュータ",
+        "japanese": "バラ",
         "kanji": "",
         "type": "〔名〕",
-        "chinese": "计算机，电脑",
-        "romaji": "konpyūta"
+        "chinese": "蔷薇，玫瑰",
+        "romaji": "bara"
     },
     {
         "id": "20",
+        "japanese": "コンピューター",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "计算机，电脑",
+        "romaji": "konpyūtā"
+    },
+    {
+        "id": "21",
         "japanese": "まど",
         "kanji": "窓",
         "type": "〔名〕",
@@ -168,7 +176,7 @@
         "romaji": "mado"
     },
     {
-        "id": "21",
+        "id": "22",
         "japanese": "けっこんしき",
         "kanji": "結婚式",
         "type": "〔名〕",
@@ -176,7 +184,7 @@
         "romaji": "kekkonshiki"
     },
     {
-        "id": "22",
+        "id": "23",
         "japanese": "しゃしんてん",
         "kanji": "写真展",
         "type": "〔名〕",
@@ -184,7 +192,7 @@
         "romaji": "shashinten"
     },
     {
-        "id": "23",
+        "id": "24",
         "japanese": "りょかん",
         "kanji": "旅館",
         "type": "〔名〕",
@@ -192,7 +200,7 @@
         "romaji": "ryokan"
     },
     {
-        "id": "24",
+        "id": "25",
         "japanese": "べっそう",
         "kanji": "別荘",
         "type": "〔名〕",
@@ -200,23 +208,23 @@
         "romaji": "bessō"
     },
     {
-        "id": "25",
+        "id": "26",
         "japanese": "よせぎざいく",
         "kanji": "寄木細工",
         "type": "〔名〕",
-        "chinese": "木片儿拼花工艺品",
+        "chinese": "木片拼花工艺品",
         "romaji": "yosegizaiku"
     },
     {
-        "id": "26",
-        "japanese": "もよう",
-        "kanji": "模様",
+        "id": "27",
+        "japanese": "はなよう",
+        "kanji": "花桜",
         "type": "〔名〕",
         "chinese": "花纹，纹案",
-        "romaji": "moyou"
+        "romaji": "hanayō"
     },
     {
-        "id": "27",
+        "id": "28",
         "japanese": "がいこく",
         "kanji": "外国",
         "type": "〔名〕",
@@ -290,10 +298,10 @@
     {
         "id": "37",
         "japanese": "さんぽします",
-        "kanji": "散歩～",
+        "kanji": "散歩します",
         "type": "〔动3〕",
         "chinese": "散步",
-        "romaji": "sanposhimasu"
+        "romaji": "sanpo shimasu"
     },
     {
         "id": "38",
@@ -348,7 +356,7 @@
         "japanese": "ときどき",
         "kanji": "時々",
         "type": "〔副〕",
-        "chinese": "有时，时不时",
+        "chinese": "有时，时而",
         "romaji": "tokidoki"
     },
     {
@@ -385,7 +393,7 @@
     },
     {
         "id": "49",
-        "japanese": "だから∕ですから",
+        "japanese": "だから/ですから",
         "kanji": "",
         "type": "〔连〕",
         "chinese": "所以，因此",
@@ -404,8 +412,8 @@
         "japanese": "けっこうです",
         "kanji": "結構です",
         "type": "",
-        "chinese": "不用，不要",
-        "romaji": "kekkōdesu"
+        "chinese": "不用了，不要",
+        "romaji": "kekkō desu"
     },
     {
         "id": "52",
@@ -413,6 +421,14 @@
         "kanji": "気に入ります",
         "type": "",
         "chinese": "喜欢，中意",
-        "romaji": "kini irimasu"
+        "romaji": "ki ni irimasu"
+    },
+    {
+        "id": "53",
+        "japanese": "など",
+        "kanji": "",
+        "type": "",
+        "chinese": "等等",
+        "romaji": "nado"
     }
 ]

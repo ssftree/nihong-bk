@@ -21,7 +21,7 @@
         "kanji": "",
         "type": "〔名〕",
         "chinese": "笔记本电脑",
-        "romaji": "nōtopasokon"
+        "romaji": "nōto pasokon"
     },
     {
         "id": "3",
@@ -129,6 +129,14 @@
     },
     {
         "id": "16",
+        "japanese": "ことし",
+        "kanji": "今年",
+        "type": "〔名〕",
+        "chinese": "今年",
+        "romaji": "kotoshi"
+    },
+    {
+        "id": "17",
         "japanese": "はじめます",
         "kanji": "始めます",
         "type": "〔动2〕",
@@ -136,15 +144,15 @@
         "romaji": "hajimemasu"
     },
     {
-        "id": "17",
-        "japanese": "れんらくしあす",
+        "id": "18",
+        "japanese": "れんらくします",
         "kanji": "連絡～",
         "type": "〔动3〕",
         "chinese": "联系",
-        "romaji": "renrakushimasu"
+        "romaji": "renraku shimasu"
     },
     {
-        "id": "18",
+        "id": "19",
         "japanese": "ほしい",
         "kanji": "欲しい",
         "type": "〔形1〕",
@@ -152,10 +160,10 @@
         "romaji": "hoshii"
     },
     {
-        "id": "19",
+        "id": "20",
         "japanese": "りっぱ",
         "kanji": "立派",
-        "type": "〔形1〕",
+        "type": "〔形2〕",
         "chinese": "美观，杰出",
         "romaji": "rippa"
     },
@@ -233,10 +241,10 @@
     },
     {
         "id": "30",
-        "japanese": "～じゅうに",
-        "kanji": "～中に",
-        "type": "",
-        "chinese": "",
-        "romaji": "〜jū ni"
+        "japanese": "スイス",
+        "kanji": "",
+        "type": "〔专〕",
+        "chinese": "瑞士",
+        "romaji": "suisu"
     }
 ]

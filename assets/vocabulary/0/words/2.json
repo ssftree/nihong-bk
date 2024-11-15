@@ -44,7 +44,7 @@
         "japanese": "マンション",
         "kanji": "",
         "type": "〔名〕",
-        "chinese": "（高级）公寓",
+        "chinese": "(高级)公寓",
         "romaji": "manshon"
     },
     {
@@ -154,7 +154,7 @@
     {
         "id": "19",
         "japanese": "バーゲンかいじょう",
-        "kanji": "バーゲン会場",
+        "kanji": "～会場",
         "type": "〔名〕",
         "chinese": "降价处理大卖场",
         "romaji": "bāgen kaijō"
@@ -196,7 +196,7 @@
         "japanese": "くに",
         "kanji": "国",
         "type": "〔名〕",
-        "chinese": "国，国家",
+        "chinese": "国家",
         "romaji": "kuni"
     },
     {
@@ -276,7 +276,7 @@
         "japanese": "こちら",
         "kanji": "",
         "type": "〔代〕",
-        "chinese": "这儿，这边",
+        "chinese": "这边，这边儿",
         "romaji": "kochira"
     },
     {
@@ -284,7 +284,7 @@
         "japanese": "そちら",
         "kanji": "",
         "type": "〔代〕",
-        "chinese": "那儿，那边",
+        "chinese": "那边，那边儿",
         "romaji": "sochira"
     },
     {
@@ -292,7 +292,7 @@
         "japanese": "あちら",
         "kanji": "",
         "type": "〔代〕",
-        "chinese": "那儿，那边",
+        "chinese": "那边，那边儿",
         "romaji": "achira"
     },
     {
@@ -308,7 +308,7 @@
         "japanese": "どちら",
         "kanji": "",
         "type": "〔疑〕",
-        "chinese": "哪儿，哪边",
+        "chinese": "哪儿，哪里",
         "romaji": "dochira"
     },
     {
@@ -325,7 +325,7 @@
         "kanji": "上海",
         "type": "〔专〕",
         "chinese": "上海",
-        "romaji": "shan hai"
+        "romaji": "shanhai"
     },
     {
         "id": "41",
@@ -345,34 +345,10 @@
     },
     {
         "id": "43",
-        "japanese": "お～",
+        "japanese": "お～/～かい/～えん/～ようび",
         "kanji": "",
         "type": "",
-        "chinese": "",
-        "romaji": "o-"
-    },
-    {
-        "id": "44",
-        "japanese": "～かい",
-        "kanji": "～階",
-        "type": "",
-        "chinese": "",
-        "romaji": "-kai"
-    },
-    {
-        "id": "45",
-        "japanese": "～えん",
-        "kanji": "～円",
-        "type": "",
-        "chinese": "",
-        "romaji": "-en"
-    },
-    {
-        "id": "46",
-        "japanese": "～日ようび",
-        "kanji": "～曜",
-        "type": "",
-        "chinese": "",
-        "romaji": "-nichiyōbi"
+        "chinese": "多大/～层/～円/～曜日",
+        "romaji": "o～/～kai/～en/～yōbi"
     }
 ]

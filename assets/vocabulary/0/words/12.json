@@ -81,11 +81,11 @@
     },
     {
         "id": "10",
-        "japanese": "なま",
-        "kanji": "生ビール",
+        "japanese": "なまビール",
+        "kanji": "生～",
         "type": "〔名〕",
         "chinese": "生啤",
-        "romaji": "nama"
+        "romaji": "nama bīru"
     },
     {
         "id": "11",
@@ -153,6 +153,14 @@
     },
     {
         "id": "19",
+        "japanese": "かかります",
+        "kanji": "",
+        "type": "〔动1〕",
+        "chinese": "花费（时间，金钱）",
+        "romaji": "kakarimasu"
+    },
+    {
+        "id": "20",
         "japanese": "さきます",
         "kanji": "咲きます",
         "type": "〔动1〕",
@@ -160,7 +168,7 @@
         "romaji": "sakimasu"
     },
     {
-        "id": "20",
+        "id": "21",
         "japanese": "およぎます",
         "kanji": "泳ぎます",
         "type": "〔动1〕",
@@ -168,7 +176,7 @@
         "romaji": "oyogimasu"
     },
     {
-        "id": "21",
+        "id": "22",
         "japanese": "あそびます",
         "kanji": "遊びます",
         "type": "〔动1〕",
@@ -176,7 +184,7 @@
         "romaji": "asobimasu"
     },
     {
-        "id": "22",
+        "id": "23",
         "japanese": "すいます",
         "kanji": "吸います",
         "type": "〔动1〕",
@@ -184,7 +192,7 @@
         "romaji": "suimasu"
     },
     {
-        "id": "23",
+        "id": "24",
         "japanese": "きります",
         "kanji": "切ります",
         "type": "〔动1〕",
@@ -192,7 +200,7 @@
         "romaji": "kirimasu"
     },
     {
-        "id": "24",
+        "id": "25",
         "japanese": "だいたい",
         "kanji": "",
         "type": "〔副〕",
@@ -200,7 +208,7 @@
         "romaji": "daitai"
     },
     {
-        "id": "25",
+        "id": "26",
         "japanese": "とりあえず",
         "kanji": "",
         "type": "〔副〕",
@@ -208,171 +216,19 @@
         "romaji": "toriaezu"
     },
     {
-        "id": "26",
-        "japanese": "どのぐらい∕どれぐらい",
+        "id": "27",
+        "japanese": "どのぐらい/どれぐらい",
         "kanji": "",
         "type": "",
         "chinese": "多久，多少钱",
-        "romaji": "donogurai / doregurai"
-    },
-    {
-        "id": "27",
-        "japanese": "～さつ",
-        "kanji": "～冊",
-        "type": "",
-        "chinese": "",
-        "romaji": "~satsu"
+        "romaji": "dono gurai/dore gurai"
     },
     {
         "id": "28",
-        "japanese": "～かい",
-        "kanji": "～回",
+        "japanese": "～さつ/～かい/～まい/～こ/～はい/～にん/～だい/～ほん/～とう/～ひき/～つ/～ちゃく/～わ/～ばん/～そく/～ど/～キロメートル/～さら/～じかん/～しゅうかん/～かげつ/～たち",
+        "kanji": "",
         "type": "",
-        "chinese": "",
-        "romaji": "~kai"
-    },
-    {
-        "id": "30",
-        "japanese": "～まい",
-        "kanji": "～枚",
-        "type": "",
-        "chinese": "",
-        "romaji": "mai"
-    },
-    {
-        "id": "31",
-        "japanese": "～こ",
-        "kanji": "～個",
-        "type": "",
-        "chinese": "",
-        "romaji": "ko"
-    },
-    {
-        "id": "32",
-        "japanese": "～はい",
-        "kanji": "～杯",
-        "type": "",
-        "chinese": "",
-        "romaji": "hai"
-    },
-    {
-        "id": "33",
-        "japanese": "～にん",
-        "kanji": "～人",
-        "type": "",
-        "chinese": "",
-        "romaji": "nin"
-    },
-    {
-        "id": "34",
-        "japanese": "～だい",
-        "kanji": "～台",
-        "type": "",
-        "chinese": "",
-        "romaji": "dai"
-    },
-    {
-        "id": "35",
-        "japanese": "～ほん",
-        "kanji": "～本",
-        "type": "",
-        "chinese": "",
-        "romaji": "hon"
-    },
-    {
-        "id": "36",
-        "japanese": "～とう",
-        "kanji": "～頭",
-        "type": "",
-        "chinese": "",
-        "romaji": "tō"
-    },
-    {
-        "id": "37",
-        "japanese": "～ひき",
-        "kanji": "～匹",
-        "type": "",
-        "chinese": "",
-        "romaji": "hiki"
-    },
-    {
-        "id": "38",
-        "japanese": "～ちゃく",
-        "kanji": "～着",
-        "type": "",
-        "chinese": "",
-        "romaji": "chaku"
-    },
-    {
-        "id": "39",
-        "japanese": "～わ",
-        "kanji": "～羽",
-        "type": "",
-        "chinese": "",
-        "romaji": "wa"
-    },
-    {
-        "id": "40",
-        "japanese": "～ばん",
-        "kanji": "～番",
-        "type": "",
-        "chinese": "",
-        "romaji": "～ban"
-    },
-    {
-        "id": "41",
-        "japanese": "～そく",
-        "kanji": "～足",
-        "type": "",
-        "chinese": "",
-        "romaji": "～soku"
-    },
-    {
-        "id": "42",
-        "japanese": "～ど",
-        "kanji": "～度",
-        "type": "",
-        "chinese": "",
-        "romaji": "～do"
-    },
-    {
-        "id": "43",
-        "japanese": "～キロメートル",
-        "kanji": "〜km",
-        "type": "",
-        "chinese": "",
-        "romaji": "～kiromētoru"
-    },
-    {
-        "id": "44",
-        "japanese": "～さら",
-        "kanji": "～皿",
-        "type": "",
-        "chinese": "",
-        "romaji": "～sara"
-    },
-    {
-        "id": "45",
-        "japanese": "～じかん",
-        "kanji": "～時間",
-        "type": "",
-        "chinese": "",
-        "romaji": "～jikan"
-    },
-    {
-        "id": "46",
-        "japanese": "～しゅうかん",
-        "kanji": "～週間",
-        "type": "",
-        "chinese": "",
-        "romaji": "～shūkan"
-    },
-    {
-        "id": "47",
-        "japanese": "～かげつ",
-        "kanji": "〜か月",
-        "type": "",
-        "chinese": "",
-        "romaji": "～kagetsu"
+        "chinese": "～册/～回/～枚/～个/～杯/～人/～台/～本/～头/～匹/～个/～着/～羽/～番/～足/～度/～公里/～盘/～小时/～周间/～个月/～们",
+        "romaji": "~satsu/~kai/~mai/~ko/~hai/~nin/~dai/~hon/~tō/~hiki/~tsu/~chaku/~wa/~ban/~soku/~do/~kiromētoru/~sara/~jikan/~shūkan/~kagetsu/~tachi"
     }
 ]

@@ -101,15 +101,15 @@
         "kanji": "寝坊～",
         "type": "〔动3〕",
         "chinese": "睡懒觉",
-        "romaji": "neboushimasu"
+        "romaji": "nebō shimasu"
     },
     {
         "id": "13",
         "japanese": "がいしゅつします",
         "kanji": "外出～",
         "type": "〔动3〕",
-        "chinese": "外出，出去",
-        "romaji": "gaishutsushimasu"
+        "chinese": "外出，出门",
+        "romaji": "gaishutsu shimasu"
     },
     {
         "id": "14",
@@ -117,7 +117,7 @@
         "kanji": "研究～",
         "type": "〔动3〕",
         "chinese": "研究",
-        "romaji": "kenkyūshimasu"
+        "romaji": "kenkyū shimasu"
     },
     {
         "id": "15",
@@ -137,9 +137,9 @@
     },
     {
         "id": "17",
-        "japanese": "す ご い",
+        "japanese": "すごい",
         "kanji": "",
-        "type": "〔副〕",
+        "type": "〔形1〕",
         "chinese": "惊人的，了不起",
         "romaji": "sugoi"
     },
@@ -149,10 +149,18 @@
         "kanji": "",
         "type": "〔副〕",
         "chinese": "终于，终究，到底",
-        "romaji": "toutou"
+        "romaji": "tōtō"
     },
     {
         "id": "19",
+        "japanese": "かならず",
+        "kanji": "必ず",
+        "type": "〔副〕",
+        "chinese": "一定，必定",
+        "romaji": "kanarazu"
+    },
+    {
+        "id": "20",
         "japanese": "ぜったいに",
         "kanji": "絶対に",
         "type": "〔副〕",
@@ -160,15 +168,15 @@
         "romaji": "zettai ni"
     },
     {
-        "id": "20",
-        "japanese": "ば",
+        "id": "21",
+        "japanese": "うま",
         "kanji": "馬",
         "type": "〔专〕",
         "chinese": "马",
-        "romaji": "ba"
+        "romaji": "uma"
     },
     {
-        "id": "21",
+        "id": "22",
         "japanese": "おせわになりました",
         "kanji": "お世話になりました",
         "type": "",
@@ -176,15 +184,15 @@
         "romaji": "osewa ni narimashita"
     },
     {
-        "id": "22",
+        "id": "23",
         "japanese": "よろしくおつたえください",
-        "kanji": "～お伝えください",
+        "kanji": "よろしくお伝えください",
         "type": "",
         "chinese": "请代问好",
         "romaji": "yoroshiku otsutae kudasai"
     },
     {
-        "id": "23",
+        "id": "24",
         "japanese": "おげんきで",
         "kanji": "お元気で",
         "type": "",
@@ -192,15 +200,15 @@
         "romaji": "ogenki de"
     },
     {
-        "id": "24",
+        "id": "25",
         "japanese": "おきをつけて",
         "kanji": "お気をつけて",
         "type": "",
         "chinese": "小心点儿",
-        "romaji": "okiwotsukete"
+        "romaji": "oki o tsukete"
     },
     {
-        "id": "25",
+        "id": "26",
         "japanese": "さようなら",
         "kanji": "",
         "type": "",
@@ -208,15 +216,15 @@
         "romaji": "sayōnara"
     },
     {
-        "id": "26",
+        "id": "27",
         "japanese": "どうやって",
         "kanji": "",
         "type": "",
         "chinese": "怎样，如何",
-        "romaji": "dōyatte"
+        "romaji": "dō yatte"
     },
     {
-        "id": "27",
+        "id": "28",
         "japanese": "やくにたちます",
         "kanji": "役に立ちます",
         "type": "",
@@ -224,7 +232,7 @@
         "romaji": "yaku ni tachimasu"
     },
     {
-        "id": "28",
+        "id": "29",
         "japanese": "おなかがいっぱいです",
         "kanji": "",
         "type": "",
@@ -232,19 +240,11 @@
         "romaji": "onaka ga ippai desu"
     },
     {
-        "id": "29",
-        "japanese": "～ちゅう",
-        "kanji": "～中",
-        "type": "",
-        "chinese": "",
-        "romaji": "~chū"
-    },
-    {
         "id": "30",
-        "japanese": "～について",
+        "japanese": "～ちゅう/～について",
         "kanji": "",
         "type": "",
-        "chinese": "",
-        "romaji": "ni tsuite"
+        "chinese": "～中/～について",
+        "romaji": "~chū/~ni tsuite"
     }
 ]

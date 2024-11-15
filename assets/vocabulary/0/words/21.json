@@ -2,7 +2,7 @@
     {
         "id": "0",
         "japanese": "スキーじょう",
-        "kanji": "スキー場",
+        "kanji": "～場",
         "type": "〔名〕",
         "chinese": "滑雪场",
         "romaji": "sukījō"
@@ -28,7 +28,7 @@
         "japanese": "よてい",
         "kanji": "予定",
         "type": "〔名〕",
-        "chinese": "预约",
+        "chinese": "预订，预定",
         "romaji": "yotei"
     },
     {
@@ -161,6 +161,14 @@
     },
     {
         "id": "20",
+        "japanese": "あんまり",
+        "kanji": "",
+        "type": "〔副〕",
+        "chinese": "太，非常，过于",
+        "romaji": "anmari"
+    },
+    {
+        "id": "21",
         "japanese": "ごめん",
         "kanji": "",
         "type": "〔叹〕",
@@ -168,15 +176,15 @@
         "romaji": "gomen"
     },
     {
-        "id": "21",
-        "japanese": "ううん∕いや",
+        "id": "22",
+        "japanese": "ううん/いや",
         "kanji": "",
         "type": "〔叹〕",
         "chinese": "不",
-        "romaji": "uun / iya"
+        "romaji": "ūn/iya"
     },
     {
-        "id": "22",
+        "id": "23",
         "japanese": "うん",
         "kanji": "",
         "type": "〔叹〕",
@@ -184,7 +192,7 @@
         "romaji": "un"
     },
     {
-        "id": "23",
+        "id": "24",
         "japanese": "しみず",
         "kanji": "清水",
         "type": "〔专〕",
@@ -192,15 +200,15 @@
         "romaji": "shimizu"
     },
     {
-        "id": "24",
+        "id": "25",
         "japanese": "おおた",
         "kanji": "太田",
         "type": "〔专〕",
         "chinese": "太田",
-        "romaji": "oota"
+        "romaji": "ōta"
     },
     {
-        "id": "25",
+        "id": "26",
         "japanese": "モーツァルト",
         "kanji": "",
         "type": "〔专〕",
@@ -208,7 +216,7 @@
         "romaji": "mōtsaruto"
     },
     {
-        "id": "26",
+        "id": "27",
         "japanese": "ディズニーランド",
         "kanji": "",
         "type": "〔专〕",
@@ -216,19 +224,11 @@
         "romaji": "dizunīrando"
     },
     {
-        "id": "27",
-        "japanese": "～いがい",
-        "kanji": "～以外",
-        "type": "",
-        "chinese": "",
-        "romaji": "～igai"
-    },
-    {
         "id": "28",
-        "japanese": "～かた",
-        "kanji": "～方",
+        "japanese": "～いがい/～しかた",
+        "kanji": "",
         "type": "",
-        "chinese": "",
-        "romaji": "～kata"
+        "chinese": "～以外/～一方",
+        "romaji": "~igai/~shikata"
     }
 ]

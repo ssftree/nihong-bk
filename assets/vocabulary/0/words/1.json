@@ -73,6 +73,14 @@
     },
     {
         "id": "9",
+        "japanese": "カメラ",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "照相机",
+        "romaji": "kamera"
+    },
+    {
+        "id": "10",
         "japanese": "テレビ",
         "kanji": "",
         "type": "〔名〕",
@@ -80,7 +88,7 @@
         "romaji": "terebi"
     },
     {
-        "id": "10",
+        "id": "11",
         "japanese": "パソコン",
         "kanji": "",
         "type": "〔名〕",
@@ -88,7 +96,7 @@
         "romaji": "pasokon"
     },
     {
-        "id": "11",
+        "id": "12",
         "japanese": "ラジオ",
         "kanji": "",
         "type": "〔名〕",
@@ -96,7 +104,7 @@
         "romaji": "rajio"
     },
     {
-        "id": "12",
+        "id": "13",
         "japanese": "でんわ",
         "kanji": "電話",
         "type": "〔名〕",
@@ -104,7 +112,7 @@
         "romaji": "denwa"
     },
     {
-        "id": "13",
+        "id": "14",
         "japanese": "つくえ",
         "kanji": "机",
         "type": "〔名〕",
@@ -112,7 +120,7 @@
         "romaji": "tsukue"
     },
     {
-        "id": "14",
+        "id": "15",
         "japanese": "いす",
         "kanji": "",
         "type": "〔名〕",
@@ -120,7 +128,7 @@
         "romaji": "isu"
     },
     {
-        "id": "15",
+        "id": "16",
         "japanese": "かぎ",
         "kanji": "",
         "type": "〔名〕",
@@ -128,7 +136,7 @@
         "romaji": "kagi"
     },
     {
-        "id": "16",
+        "id": "17",
         "japanese": "とけい",
         "kanji": "時計",
         "type": "〔名〕",
@@ -136,7 +144,7 @@
         "romaji": "tokei"
     },
     {
-        "id": "17",
+        "id": "18",
         "japanese": "てちょう",
         "kanji": "手帳",
         "type": "〔名〕",
@@ -144,7 +152,7 @@
         "romaji": "techō"
     },
     {
-        "id": "18",
+        "id": "19",
         "japanese": "しゃしん",
         "kanji": "写真",
         "type": "〔名〕",
@@ -152,7 +160,7 @@
         "romaji": "shashin"
     },
     {
-        "id": "19",
+        "id": "20",
         "japanese": "くるま",
         "kanji": "車",
         "type": "〔名〕",
@@ -160,7 +168,7 @@
         "romaji": "kuruma"
     },
     {
-        "id": "20",
+        "id": "21",
         "japanese": "じてんしゃ",
         "kanji": "自転車",
         "type": "〔名〕",
@@ -168,7 +176,7 @@
         "romaji": "jitensha"
     },
     {
-        "id": "21",
+        "id": "22",
         "japanese": "おみやげ",
         "kanji": "お土産",
         "type": "〔名〕",
@@ -176,7 +184,7 @@
         "romaji": "omiyage"
     },
     {
-        "id": "22",
+        "id": "23",
         "japanese": "めいさんひん",
         "kanji": "名産品",
         "type": "〔名〕",
@@ -184,7 +192,7 @@
         "romaji": "meisanhin"
     },
     {
-        "id": "23",
+        "id": "24",
         "japanese": "シルク",
         "kanji": "",
         "type": "〔名〕",
@@ -192,7 +200,7 @@
         "romaji": "shiruku"
     },
     {
-        "id": "24",
+        "id": "25",
         "japanese": "ハンカチ",
         "kanji": "",
         "type": "〔名〕",
@@ -200,7 +208,7 @@
         "romaji": "hankachi"
     },
     {
-        "id": "25",
+        "id": "26",
         "japanese": "かいしゃ",
         "kanji": "会社",
         "type": "〔名〕",
@@ -208,15 +216,15 @@
         "romaji": "kaisha"
     },
     {
-        "id": "26",
+        "id": "27",
         "japanese": "かた",
         "kanji": "方",
         "type": "〔名〕",
-        "chinese": "（敬称）位，人",
+        "chinese": "(敬称)位，人",
         "romaji": "kata"
     },
     {
-        "id": "27",
+        "id": "28",
         "japanese": "ひと",
         "kanji": "人",
         "type": "〔名〕",
@@ -224,7 +232,7 @@
         "romaji": "hito"
     },
     {
-        "id": "28",
+        "id": "29",
         "japanese": "かぞく",
         "kanji": "家族",
         "type": "〔名〕",
@@ -232,15 +240,15 @@
         "romaji": "kazoku"
     },
     {
-        "id": "29",
+        "id": "30",
         "japanese": "はは",
         "kanji": "母",
         "type": "〔名〕",
-        "chinese": "（我）母亲",
+        "chinese": "(我)母亲",
         "romaji": "haha"
     },
     {
-        "id": "30",
+        "id": "31",
         "japanese": "おかあさん",
         "kanji": "お母さん",
         "type": "〔名〕",
@@ -248,7 +256,7 @@
         "romaji": "okāsan"
     },
     {
-        "id": "31",
+        "id": "32",
         "japanese": "にほんご",
         "kanji": "日本語",
         "type": "〔名〕",
@@ -256,7 +264,7 @@
         "romaji": "nihongo"
     },
     {
-        "id": "32",
+        "id": "33",
         "japanese": "ちゅうごくご",
         "kanji": "中国語",
         "type": "〔名〕",
@@ -264,7 +272,7 @@
         "romaji": "chūgokugo"
     },
     {
-        "id": "33",
+        "id": "34",
         "japanese": "これ",
         "kanji": "",
         "type": "〔代〕",
@@ -272,7 +280,7 @@
         "romaji": "kore"
     },
     {
-        "id": "34",
+        "id": "35",
         "japanese": "それ",
         "kanji": "",
         "type": "〔代〕",
@@ -280,7 +288,7 @@
         "romaji": "sore"
     },
     {
-        "id": "35",
+        "id": "36",
         "japanese": "あれ",
         "kanji": "",
         "type": "〔代〕",
@@ -288,7 +296,7 @@
         "romaji": "are"
     },
     {
-        "id": "36",
+        "id": "37",
         "japanese": "どれ",
         "kanji": "",
         "type": "〔疑〕",
@@ -296,7 +304,7 @@
         "romaji": "dore"
     },
     {
-        "id": "37",
+        "id": "38",
         "japanese": "なん",
         "kanji": "何",
         "type": "〔疑〕",
@@ -304,7 +312,7 @@
         "romaji": "nan"
     },
     {
-        "id": "38",
+        "id": "39",
         "japanese": "だれ",
         "kanji": "",
         "type": "〔疑〕",
@@ -312,7 +320,7 @@
         "romaji": "dare"
     },
     {
-        "id": "39",
+        "id": "40",
         "japanese": "どなた",
         "kanji": "",
         "type": "〔疑〕",
@@ -320,7 +328,7 @@
         "romaji": "donata"
     },
     {
-        "id": "40",
+        "id": "41",
         "japanese": "この",
         "kanji": "",
         "type": "〔连体〕",
@@ -328,7 +336,7 @@
         "romaji": "kono"
     },
     {
-        "id": "41",
+        "id": "42",
         "japanese": "その",
         "kanji": "",
         "type": "〔连体〕",
@@ -336,7 +344,7 @@
         "romaji": "sono"
     },
     {
-        "id": "42",
+        "id": "43",
         "japanese": "あの",
         "kanji": "",
         "type": "〔连体〕",
@@ -344,7 +352,7 @@
         "romaji": "ano"
     },
     {
-        "id": "43",
+        "id": "44",
         "japanese": "どの",
         "kanji": "",
         "type": "〔连体〕",
@@ -352,7 +360,7 @@
         "romaji": "dono"
     },
     {
-        "id": "44",
+        "id": "45",
         "japanese": "えっ",
         "kanji": "",
         "type": "〔叹〕",
@@ -360,23 +368,23 @@
         "romaji": "e"
     },
     {
-        "id": "45",
+        "id": "46",
         "japanese": "わあ",
         "kanji": "",
         "type": "〔叹〕",
         "chinese": "哇",
-        "romaji": "waa"
-    },
-    {
-        "id": "46",
-        "japanese": "ええ",
-        "kanji": "",
-        "type": "〔叹〕",
-        "chinese": "（应答）嗯，是",
-        "romaji": "ee"
+        "romaji": "wā"
     },
     {
         "id": "47",
+        "japanese": "ええ",
+        "kanji": "",
+        "type": "〔叹〕",
+        "chinese": "(应答)嗯，是",
+        "romaji": "ē"
+    },
+    {
+        "id": "48",
         "japanese": "ながしま",
         "kanji": "長島",
         "type": "〔专〕",
@@ -384,7 +392,7 @@
         "romaji": "nagashima"
     },
     {
-        "id": "48",
+        "id": "49",
         "japanese": "にほん",
         "kanji": "日本",
         "type": "〔专〕",
@@ -392,7 +400,7 @@
         "romaji": "nihon"
     },
     {
-        "id": "49",
+        "id": "50",
         "japanese": "スワトウ",
         "kanji": "",
         "type": "〔专〕",
@@ -400,7 +408,7 @@
         "romaji": "suwatou"
     },
     {
-        "id": "50",
+        "id": "51",
         "japanese": "ロンドン",
         "kanji": "",
         "type": "〔专〕",
@@ -408,15 +416,15 @@
         "romaji": "rondon"
     },
     {
-        "id": "51",
+        "id": "52",
         "japanese": "ありがとうございます",
         "kanji": "",
-        "type": "",
+        "type": "〔感〕",
         "chinese": "谢谢",
         "romaji": "arigatou gozaimasu"
     },
     {
-        "id": "52",
+        "id": "53",
         "japanese": "おいくつ",
         "kanji": "",
         "type": "",
@@ -424,19 +432,11 @@
         "romaji": "oikutsu"
     },
     {
-        "id": "53",
-        "japanese": "なん～",
-        "kanji": "何～",
-        "type": "",
-        "chinese": "",
-        "romaji": "nan~"
-    },
-    {
         "id": "54",
-        "japanese": "～さい",
-        "kanji": "～歳",
+        "japanese": "何～/～歳",
+        "kanji": "なん/～さい",
         "type": "",
-        "chinese": "",
-        "romaji": "~sai"
+        "chinese": "何～/～岁",
+        "romaji": "nan/～sai"
     }
 ]

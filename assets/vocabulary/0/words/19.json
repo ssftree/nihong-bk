@@ -75,8 +75,8 @@
         "id": "9",
         "japanese": "あみもの",
         "kanji": "編み物",
-        "type": "",
-        "chinese": "编制；编织品",
+        "type": "〔名〕",
+        "chinese": "编织，编织品",
         "romaji": "amimono"
     },
     {
@@ -85,7 +85,7 @@
         "kanji": "手作り",
         "type": "〔名〕",
         "chinese": "手工做，自己做，手制",
-        "romaji": "tezukuri"
+        "romaji": "tedzukuri"
     },
     {
         "id": "11",
@@ -260,7 +260,7 @@
         "japanese": "すきます",
         "kanji": "",
         "type": "〔动1〕",
-        "chinese": "（肚子）饿，空",
+        "chinese": "(肚子)饿，空",
         "romaji": "sukimasu"
     },
     {
@@ -273,18 +273,18 @@
     },
     {
         "id": "34",
-        "japanese": "あつめます",
-        "kanji": "集めます",
+        "japanese": "あつまります",
+        "kanji": "集まります",
         "type": "〔动2〕",
         "chinese": "收集",
-        "romaji": "atsumemasu"
+        "romaji": "atsumarimasu"
     },
     {
         "id": "35",
         "japanese": "あびます",
         "kanji": "浴びます",
         "type": "〔动2〕",
-        "chinese": "淋；浇",
+        "chinese": "淋，洒",
         "romaji": "abimasu"
     },
     {
@@ -309,7 +309,7 @@
         "kanji": "特に",
         "type": "〔副〕",
         "chinese": "特别",
-        "romaji": "toku ni"
+        "romaji": "tokuni"
     },
     {
         "id": "39",
