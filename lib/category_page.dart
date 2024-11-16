@@ -4,7 +4,6 @@ import 'package:flutter/material.dart';
 import 'flashcard_page.dart';
 import 'model/triplevoc.dart';
 import 'model/book.dart';
-import 'model/lesson.dart';
 
 class CategoryPage extends StatefulWidget {
   const CategoryPage({Key? key}) : super(key: key);
@@ -16,7 +15,15 @@ class CategoryPage extends StatefulWidget {
 class _CategoryPageState extends State<CategoryPage> {
   late Future<List<Book>> _futureBooks;
   late Map<String, Map<String, String>> _completedVocabularies = {};
+  late Map<String, Map<String, String>> _favoriteVocabularies = {};
 
+  int _getTotalFavoriteSize() {
+    int total = 0;
+    _favoriteVocabularies.forEach((key, value) {
+      total += value.length;
+    });
+    return total;
+  }
   @override
   void initState() {
     super.initState();
@@ -34,6 +41,7 @@ class _CategoryPageState extends State<CategoryPage> {
   void _loadCompletedVocabularies() async {
     final SharedPreferencesHelper prefs = SharedPreferencesHelper();
     _completedVocabularies = await prefs.getCompletedVocabularies();
+    _favoriteVocabularies = await prefs.getFavoriteVocabularies();
   }
 
   @override
@@ -139,7 +147,7 @@ class _CategoryPageState extends State<CategoryPage> {
                     child: _buildCard(
                       icon: Icons.star,
                       title: '我的收藏',
-                      count: '345 cards',
+                      count: '${_getTotalFavoriteSize()} cards',
                       iconColor: Colors.pink[200]!,
                     ),
                   ),
@@ -147,7 +155,7 @@ class _CategoryPageState extends State<CategoryPage> {
                   Expanded(
                     child: _buildCard(
                       icon: Icons.add,
-                      title: 'New set',
+                      title: '新合集',
                       count: '',
                       iconColor: Colors.pink[200]!,
                     ),
@@ -172,7 +180,8 @@ class _CategoryPageState extends State<CategoryPage> {
                         itemBuilder: (context, index) {
                           final book = books[index];
                           final completedVocabularies = _completedVocabularies[book.bookId] ?? {};
-                          return _buildCategoryItem(book, completedVocabularies);
+                          final favoriteVocabularies = _favoriteVocabularies[book.bookId] ?? {};
+                          return _buildCategoryItem(book, completedVocabularies, favoriteVocabularies);
                         },
                       );
                     }
@@ -235,7 +244,8 @@ class _CategoryPageState extends State<CategoryPage> {
     );
   }
 
-  Widget _buildCategoryItem(Book book, Map<String, String> completedVocabularies) {
+  Widget _buildCategoryItem(Book book, Map<String, String> completedVocabularies,
+      Map<String, String> favoriteVocabularies) {
     var total = book.totalVocabularies;
     var completed = completedVocabularies.length;
     return GestureDetector(
@@ -247,7 +257,8 @@ class _CategoryPageState extends State<CategoryPage> {
                 builder: (context) => FlashcardPage(
                       books: books,
                       curVoc: TripleVoc(bookId: 0, lessonId: 0, vocabularyId: 0),
-                    completedVocabularies: completedVocabularies,
+                      completedVocabularies: completedVocabularies,
+                    favoriteVocabularies: favoriteVocabularies,
                     )),
           );
         },
@@ -301,5 +312,4 @@ class _CategoryPageState extends State<CategoryPage> {
           ),
         ));
   }
-
 }

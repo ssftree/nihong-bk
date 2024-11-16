@@ -13,13 +13,16 @@ class FlashcardPage extends StatefulWidget {
   final List<Book> books;
   TripleVoc curVoc;
   Map<String, String> completedVocabularies;
+  Map<String, String> favoriteVocabularies;
 
   FlashcardPage({
     Key? key,
     required this.books,
     required this.curVoc,
     Map<String, String>? completedVocabularies,
+    Map<String, String>? favoriteVocabularies,
   })  : completedVocabularies = completedVocabularies ?? {},
+        favoriteVocabularies = favoriteVocabularies ?? {},
         super(key: key);
 
   @override
@@ -34,7 +37,7 @@ class _FlashcardPageState extends State<FlashcardPage> {
   final AudioPlayer _audioPlayer = AudioPlayer();
   bool _isVisible = true;
   final SharedPreferencesHelper prefs = SharedPreferencesHelper();
-  bool _isCompleted = false;
+  bool _isFavorite = false;
 
   @override
   void initState() {
@@ -64,28 +67,36 @@ class _FlashcardPageState extends State<FlashcardPage> {
     }
   }
 
-  void _navigateToPreviousVocabulary() {
-    final result = getPrevVocabulary(widget.books[widget.curVoc.bookId], widget.curVoc, widget.completedVocabularies);
+  void _navigateVocabulary(bool isNext) {
+    final result = isNext
+        ? getNextVocabulary(widget.books[widget.curVoc.bookId], widget.curVoc, widget.completedVocabularies)
+        : getPrevVocabulary(widget.books[widget.curVoc.bookId], widget.curVoc, widget.completedVocabularies);
+    
     setState(() {
       var preLess = widget.curVoc.lessonId;
       widget.curVoc = result.$1; // Update widget.curVoc
       if (preLess != widget.curVoc.lessonId) {
         _loadVocabulary(widget.curVoc.getBookIdString(), widget.curVoc.getLessonIdString());
-        setState(() {}); // Trigger a rebuild to update the dropdown menu
       }
+      _isFavorite = widget.favoriteVocabularies.containsKey("${widget.curVoc.getLessonIdString()}-${widget.curVoc.getVocabularyIdString()}");
     });
   }
 
+  void _navigateToPreviousVocabulary() {
+    _navigateVocabulary(false); // Navigate to previous
+  }
+
   void _navigateToNextVocabulary() {
-    final result = getNextVocabulary(widget.books[widget.curVoc.bookId], widget.curVoc, widget.completedVocabularies);
-    setState(() {
-      var preLess = widget.curVoc.lessonId;
-      widget.curVoc = result.$1; // Update widget.curVoc
-      if (preLess != widget.curVoc.lessonId) {
-        _loadVocabulary(widget.curVoc.getBookIdString(), widget.curVoc.getLessonIdString());
-        setState(() {}); // Trigger a rebuild to update the dropdown menu
-      }
-    });
+    _navigateVocabulary(true); // Navigate to next
+  }
+
+  void _showSnackBar(String message) {
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(
+        content: Text(message, style: TextStyle(fontSize: 18)),
+        duration: Duration(seconds: 2),
+      ),
+    );
   }
 
   void _markAsCompleted() {
@@ -93,6 +104,21 @@ class _FlashcardPageState extends State<FlashcardPage> {
     widget.completedVocabularies[currentVocabularyId] = currentVocabularyId; // Mark as completed
     prefs.addCompletedVocabulary(widget.curVoc.getBookIdString(), currentVocabularyId); // Save to shared preferences
     _completedSize = widget.completedVocabularies.length;
+    _showSnackBar(' 🎉 Congratulations! You learned this vocabulary!'); // Show completion message
+  }
+
+  void _markAsFavorite() {
+    String currentVocabularyId = "${widget.curVoc.getLessonIdString()}-${widget.curVoc.getVocabularyIdString()}";
+    widget.favoriteVocabularies[currentVocabularyId] = DateTime.now().toIso8601String(); // Mark as favorite
+    prefs.addFavoriteVocabulary(widget.curVoc.getBookIdString(), currentVocabularyId); // Save to shared preferences
+    _showSnackBar('添加到我的收藏'); // Show favorite message
+  }
+
+  void _removeFromFavorite() {
+    String currentVocabularyId = "${widget.curVoc.getLessonIdString()}-${widget.curVoc.getVocabularyIdString()}";
+    widget.favoriteVocabularies.remove(currentVocabularyId); // Remove from favorites
+    prefs.removeFavoriteVocabulary(widget.curVoc.getBookIdString(), currentVocabularyId); // Save to shared preferences
+    _showSnackBar('取消收藏'); // Show unfavorite message
   }
 
   @override
@@ -105,24 +131,6 @@ class _FlashcardPageState extends State<FlashcardPage> {
           _navigateToNextVocabulary(); // 左滑，导航到下一个词汇
         }
       },
-      // onVerticalDragEnd: (details) {
-      //   if (details.velocity.pixelsPerSecond.dy < 0) {
-      //     // 上滑
-      //     _markAsCompleted();
-      //     setState(() {
-      //       _isCompleted = true; // 更新状态以指示完成
-      //     });
-      //     ScaffoldMessenger.of(context).showSnackBar(
-      //       SnackBar(
-      //         content: Text(' 🎉 Congratulations! You learned this vocabulary!'),
-      //         duration: Duration(seconds: 2), // Duration for the message
-      //       ),
-      //     );
-      //     Future.delayed(Duration(seconds: 2), () {
-      //       _navigateToNextVocabulary(); // Move to the next vocabulary after the message
-      //     });
-      //   }
-      // },
       child: Scaffold(
         backgroundColor: const Color(0xFF6A1B9A),
         appBar: AppBar(
@@ -340,16 +348,9 @@ class _FlashcardPageState extends State<FlashcardPage> {
                             left: 24,
                             child: GestureDetector(
                               onTap: () {
-                                // Show a congratulatory message
-                                ScaffoldMessenger.of(context).showSnackBar(
-                                  SnackBar(
-                                    content: Text(' 🎉 Congratulations! You learned this vocabulary!', style: TextStyle(fontSize: 18)),
-                                    duration: Duration(seconds: 2), // Duration for the message
-                                  ),
-                                );
                                 _markAsCompleted(); // Mark the current vocabulary as completed
                                 setState(() {
-                                  _isCompleted = true; // Update the state to indicate completion
+                                  _isFavorite = true; // Update the state to indicate completion
                                 });
                                 Future.delayed(Duration(seconds: 2), () {
                                   _navigateToNextVocabulary(); // Move to the next vocabulary after the message
@@ -366,10 +367,26 @@ class _FlashcardPageState extends State<FlashcardPage> {
                           Positioned(
                             bottom: 20,
                             right: 24,
-                            child: const Icon(
-                              Icons.star,
-                              color: Colors.amber,
-                              size: 46,
+                            child: GestureDetector(
+                              onTap: () {
+                                if (!_isFavorite) {
+                                  _markAsFavorite(); // Mark the current vocabulary as completed
+                                  setState(() {
+                                    _isFavorite =
+                                    true; // Update the state to indicate completion
+                                  });
+                                } else {
+                                  _removeFromFavorite(); // Mark the current vocabulary as completed
+                                  setState(() {
+                                    _isFavorite = false; // Update the state to indicate completion
+                                  });
+                                }
+                              },
+                              child: Icon(
+                                _isFavorite ? Icons.star : Icons.star_border,
+                                color: Colors.amber, // Change color based on completion state
+                                size: 46,
+                              ),
                             ),
                           ),
                           Positioned(
