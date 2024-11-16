@@ -34,6 +34,7 @@ class _FlashcardPageState extends State<FlashcardPage> {
   final AudioPlayer _audioPlayer = AudioPlayer();
   bool _isVisible = true;
   final SharedPreferencesHelper prefs = SharedPreferencesHelper();
+  bool _isCompleted = false;
 
   @override
   void initState() {
@@ -91,6 +92,7 @@ class _FlashcardPageState extends State<FlashcardPage> {
     String currentVocabularyId = "${widget.curVoc.getLessonIdString()}-${widget.curVoc.getVocabularyIdString()}";
     widget.completedVocabularies[currentVocabularyId] = currentVocabularyId; // Mark as completed
     prefs.addCompletedVocabulary(widget.curVoc.getBookIdString(), currentVocabularyId); // Save to shared preferences
+    _completedSize = widget.completedVocabularies.length;
   }
 
   @override
@@ -103,6 +105,24 @@ class _FlashcardPageState extends State<FlashcardPage> {
           _navigateToNextVocabulary(); // 左滑，导航到下一个词汇
         }
       },
+      // onVerticalDragEnd: (details) {
+      //   if (details.velocity.pixelsPerSecond.dy < 0) {
+      //     // 上滑
+      //     _markAsCompleted();
+      //     setState(() {
+      //       _isCompleted = true; // 更新状态以指示完成
+      //     });
+      //     ScaffoldMessenger.of(context).showSnackBar(
+      //       SnackBar(
+      //         content: Text(' 🎉 Congratulations! You learned this vocabulary!'),
+      //         duration: Duration(seconds: 2), // Duration for the message
+      //       ),
+      //     );
+      //     Future.delayed(Duration(seconds: 2), () {
+      //       _navigateToNextVocabulary(); // Move to the next vocabulary after the message
+      //     });
+      //   }
+      // },
       child: Scaffold(
         backgroundColor: const Color(0xFF6A1B9A),
         appBar: AppBar(
@@ -323,18 +343,22 @@ class _FlashcardPageState extends State<FlashcardPage> {
                                 // Show a congratulatory message
                                 ScaffoldMessenger.of(context).showSnackBar(
                                   SnackBar(
-                                    content: Text(' 🎉 Congratulations! You learned this vocabulary!'),
+                                    content: Text(' 🎉 Congratulations! You learned this vocabulary!', style: TextStyle(fontSize: 18)),
                                     duration: Duration(seconds: 2), // Duration for the message
                                   ),
                                 );
                                 _markAsCompleted(); // Mark the current vocabulary as completed
+                                setState(() {
+                                  _isCompleted = true; // Update the state to indicate completion
+                                });
                                 Future.delayed(Duration(seconds: 2), () {
                                   _navigateToNextVocabulary(); // Move to the next vocabulary after the message
                                 });
+
                               },
                               child: Icon(
                                 Icons.check_circle,
-                                color: Colors.grey, // Initial color is grey
+                                color: Colors.green, // Change color based on completion state
                                 size: 46,
                               ),
                             ),
