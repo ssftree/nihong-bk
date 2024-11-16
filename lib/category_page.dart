@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:daily_word/shared_preferences_helper.dart';
 import 'package:flutter/material.dart';
 import 'flashcard_page.dart';
-import 'model/TripleVoc.dart';
+import 'model/triplevoc.dart';
 import 'model/book.dart';
 import 'model/lesson.dart';
 
@@ -15,12 +15,13 @@ class CategoryPage extends StatefulWidget {
 
 class _CategoryPageState extends State<CategoryPage> {
   late Future<List<Book>> _futureBooks;
-
+  late Map<String, Map<String, String>> _completedVocabularies = {};
 
   @override
   void initState() {
     super.initState();
     _futureBooks = _loadBookModel();
+    _loadCompletedVocabularies();
   }
 
   Future<List<Book>> _loadBookModel() async {
@@ -28,6 +29,11 @@ class _CategoryPageState extends State<CategoryPage> {
         .loadString('assets/vocabulary/0/metadata/metadata.json');
     final book = Book.fromJson(json.decode(response));
     return [book];
+  }
+
+  void _loadCompletedVocabularies() async {
+    final SharedPreferencesHelper prefs = SharedPreferencesHelper();
+    _completedVocabularies = await prefs.getCompletedVocabularies();
   }
 
   @override
@@ -165,7 +171,8 @@ class _CategoryPageState extends State<CategoryPage> {
                         itemCount: books.length,
                         itemBuilder: (context, index) {
                           final book = books[index];
-                          return _buildCategoryItem(book, 0, book.totalVocabularies);
+                          final completedVocabularies = _completedVocabularies[book.bookId] ?? {};
+                          return _buildCategoryItem(book, completedVocabularies);
                         },
                       );
                     }
@@ -228,19 +235,19 @@ class _CategoryPageState extends State<CategoryPage> {
     );
   }
 
-  Widget _buildCategoryItem(Book book, int completed, int total) {
+  Widget _buildCategoryItem(Book book, Map<String, String> completedVocabularies) {
+    var total = book.totalVocabularies;
+    var completed = completedVocabularies.length;
     return GestureDetector(
         onTap: () async {
-          final progress = await SharedPreferencesHelper().getProgressForBook(book.bookId);
           final books = await _futureBooks;
           Navigator.push(
             context,
             MaterialPageRoute(
                 builder: (context) => FlashcardPage(
                       books: books,
-                      progress: progress!,
-                      selectedBookIndex: 0,
-                      selectedLessonIndex: 0,
+                      curVoc: TripleVoc(bookId: 0, lessonId: 0, vocabularyId: 0),
+                    completedVocabularies: completedVocabularies,
                     )),
           );
         },

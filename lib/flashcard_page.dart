@@ -1,26 +1,26 @@
 import 'dart:convert';
-import 'package:daily_word/model/TripleVoc.dart';
+import 'package:daily_word/model/triplevoc.dart';
 import 'package:daily_word/model/vocabulary.dart';
+import 'package:daily_word/shared_preferences_helper.dart';
 import 'package:flutter/material.dart';
 import 'package:audioplayers/audioplayers.dart';
 import 'helpers/vocabulary_nevigate.dart';
 import 'model/book.dart';
 import 'model/lesson.dart';
-import 'model/progress.dart';
+
 
 class FlashcardPage extends StatefulWidget {
   final List<Book> books;
-  Progress progress;
-  int selectedBookIndex;
-  int selectedLessonIndex;
+  TripleVoc curVoc;
+  Map<String, String> completedVocabularies;
 
   FlashcardPage({
     Key? key,
     required this.books,
-    required this.progress,
-    required this.selectedBookIndex,
-    required this.selectedLessonIndex,
-  }) : super(key: key);
+    required this.curVoc,
+    Map<String, String>? completedVocabularies,
+  })  : completedVocabularies = completedVocabularies ?? {},
+        super(key: key);
 
   @override
   _FlashcardPageState createState() => _FlashcardPageState();
@@ -30,26 +30,22 @@ class _FlashcardPageState extends State<FlashcardPage> {
   List<Vocabulary> _vocabulary = [];
   bool _isLoading = true;
   int _totalVocabularies = 0;
+  int _completedSize = 0;
   final AudioPlayer _audioPlayer = AudioPlayer();
-  late TripleVoc currentTripleVoc;
   bool _isVisible = true;
+  final SharedPreferencesHelper prefs = SharedPreferencesHelper();
 
   @override
   void initState() {
     super.initState();
     _initVariables();
-    _loadVocabulary(widget.books[widget.selectedBookIndex].bookId,
-    widget.selectedLessonIndex.toString());
+    _loadVocabulary(widget.curVoc.getBookIdString(), widget.curVoc.getLessonIdString());
   }
 
   void _initVariables() {
     _totalVocabularies =
-        widget.books[widget.selectedBookIndex].totalVocabularies;
-    currentTripleVoc = TripleVoc(
-      lessonId: widget.selectedLessonIndex,
-      vocabularyId: 0,
-      bookId: int.parse(widget.books[widget.selectedBookIndex].bookId),
-    );
+        widget.books[widget.curVoc.bookId].totalVocabularies;
+    _completedSize = widget.completedVocabularies.length;
   }
 
   Future<void> _loadVocabulary(String bookId, String lessonId) async {
@@ -68,30 +64,33 @@ class _FlashcardPageState extends State<FlashcardPage> {
   }
 
   void _navigateToPreviousVocabulary() {
-    final result = getPrevVocabulary(widget.books[widget.selectedBookIndex], currentTripleVoc);
+    final result = getPrevVocabulary(widget.books[widget.curVoc.bookId], widget.curVoc, widget.completedVocabularies);
     setState(() {
-      currentTripleVoc = result.$1; // Update currentTripleVoc
-      if (widget.selectedLessonIndex != currentTripleVoc.lessonId) {
-        widget.selectedLessonIndex = currentTripleVoc.lessonId; // Update selectedLessonIndex
-        _loadVocabulary(widget.books[widget.selectedBookIndex].bookId, widget.selectedLessonIndex.toString());
+      var preLess = widget.curVoc.lessonId;
+      widget.curVoc = result.$1; // Update widget.curVoc
+      if (preLess != widget.curVoc.lessonId) {
+        _loadVocabulary(widget.curVoc.getBookIdString(), widget.curVoc.getLessonIdString());
         setState(() {}); // Trigger a rebuild to update the dropdown menu
       }
-      widget.progress = Progress(lastLesson: widget.selectedLessonIndex, lastVocabulary: currentTripleVoc.vocabularyId); // Update progress
-
     });
   }
 
   void _navigateToNextVocabulary() {
-    final result = getNextVocabulary(widget.books[widget.selectedBookIndex], currentTripleVoc);
+    final result = getNextVocabulary(widget.books[widget.curVoc.bookId], widget.curVoc, widget.completedVocabularies);
     setState(() {
-      currentTripleVoc = result.$1; // Update currentTripleVoc
-      if (widget.selectedLessonIndex != currentTripleVoc.lessonId) {
-        widget.selectedLessonIndex = currentTripleVoc.lessonId; // Update selectedLessonIndex
-        _loadVocabulary(widget.books[widget.selectedBookIndex].bookId, widget.selectedLessonIndex.toString());
+      var preLess = widget.curVoc.lessonId;
+      widget.curVoc = result.$1; // Update widget.curVoc
+      if (preLess != widget.curVoc.lessonId) {
+        _loadVocabulary(widget.curVoc.getBookIdString(), widget.curVoc.getLessonIdString());
         setState(() {}); // Trigger a rebuild to update the dropdown menu
       }
-      widget.progress = Progress(lastLesson: widget.selectedLessonIndex, lastVocabulary: currentTripleVoc.vocabularyId); // Update progress
     });
+  }
+
+  void _markAsCompleted() {
+    String currentVocabularyId = "${widget.curVoc.getLessonIdString()}-${widget.curVoc.getVocabularyIdString()}";
+    widget.completedVocabularies[currentVocabularyId] = currentVocabularyId; // Mark as completed
+    prefs.addCompletedVocabulary(widget.curVoc.getBookIdString(), currentVocabularyId); // Save to shared preferences
   }
 
   @override
@@ -121,7 +120,7 @@ class _FlashcardPageState extends State<FlashcardPage> {
                     children: [
                       Flexible(
                         child: Text(
-                          widget.books[widget.selectedBookIndex].title,
+                          widget.books[widget.curVoc.bookId].title,
                           style: TextStyle(
                             color: Colors.white,
                             fontSize: 16,
@@ -148,30 +147,28 @@ class _FlashcardPageState extends State<FlashcardPage> {
                 child: PopupMenuButton<String>(
                   onSelected: (String value) {
                     // Find the index of the selected lesson
-                    final selectedLesson = widget.books[widget.selectedBookIndex].lessons.firstWhere(
+                    final selectedLesson = widget.books[widget.curVoc.bookId].lessons.firstWhere(
                       (lesson) => lesson.lessonTitle == value,
-                      orElse: () => widget.books[widget.selectedBookIndex].lessons[widget.selectedLessonIndex], // Fallback
+                      orElse: () => widget.books[widget.curVoc.bookId].lessons[widget.curVoc.lessonId], // Fallback
                     );
                     setState(() {
-                      widget.selectedLessonIndex = widget.books[widget.selectedBookIndex].lessons.indexOf(selectedLesson); // Update selectedLessonIndex
+                      widget.curVoc.lessonId = widget.books[widget.curVoc.bookId].lessons.indexOf(selectedLesson); // Update selectedLessonIndex
                       print(selectedLesson.lessonTitle);
                       print(selectedLesson.lessonId);
-                      _loadVocabulary(widget.books[widget.selectedBookIndex].bookId, widget.selectedLessonIndex.toString()); // Load vocabulary for the selected lesson
-                      currentTripleVoc.lessonId = widget.selectedLessonIndex; // Update lessonId in currentTripleVoc
-                      currentTripleVoc.vocabularyId = 0;
+                      _loadVocabulary(widget.curVoc.getBookIdString(), widget.curVoc.lessonId.toString()); // Load vocabulary for the selected lesson
+                      widget.curVoc.lessonId = widget.curVoc.lessonId; // Update lessonId in widget.curVoc
+                      widget.curVoc.vocabularyId = 0;
                       setState(() {
 
                       });
                     });
-                    widget.progress = Progress(lastLesson: widget.selectedLessonIndex, lastVocabulary: 0);
-
                   },
                   child: Row(
                     children: [
                       Flexible(
                         child: Text(
                           widget
-                              .books[widget.selectedBookIndex].lessons[widget.selectedLessonIndex].lessonTitle,
+                              .books[widget.curVoc.bookId].lessons[widget.curVoc.lessonId].lessonTitle,
                           style: const TextStyle(
                             color: Colors.white,
                             fontSize: 16,
@@ -185,7 +182,7 @@ class _FlashcardPageState extends State<FlashcardPage> {
                     ],
                   ),
                   itemBuilder: (BuildContext context) {
-                    return widget.books[widget.selectedBookIndex].lessons
+                    return widget.books[widget.curVoc.bookId].lessons
                         .map((Lesson lesson) {
                       return PopupMenuItem<String>(
                         value: lesson.lessonTitle,
@@ -211,7 +208,7 @@ class _FlashcardPageState extends State<FlashcardPage> {
                     child: ClipRRect(
                       borderRadius: BorderRadius.circular(20),
                       child: LinearProgressIndicator(
-                        value: 15 / _totalVocabularies,
+                        value: _completedSize / _totalVocabularies,
                         backgroundColor: Colors.grey[300],
                         valueColor: AlwaysStoppedAnimation<Color>(Colors.teal),
                         minHeight: 8,
@@ -220,7 +217,7 @@ class _FlashcardPageState extends State<FlashcardPage> {
                   ),
                   const SizedBox(width: 8),
                   Text(
-                    '15/${_totalVocabularies.toString()}',
+                    '${_completedSize}/${_totalVocabularies.toString()}',
                     style: TextStyle(color: Colors.white, fontSize: 14),
                   ),
                 ],
@@ -264,9 +261,9 @@ class _FlashcardPageState extends State<FlashcardPage> {
                                   alignment: Alignment.topRight,
                                   child: GestureDetector(
                                     onTap: () async {
-                                      print("vocabulary/${widget.selectedBookIndex}/mp3/${widget.selectedLessonIndex}/${widget.progress.lastVocabulary}.mp3");
+                                      print("vocabulary/${widget.curVoc.bookId}/mp3/${widget.curVoc.lessonId}/${widget.curVoc.vocabularyId}.mp3");
                                       await _audioPlayer.play(AssetSource(
-                                          "vocabulary/${widget.selectedBookIndex}/mp3/${widget.selectedLessonIndex}/${widget.progress.lastVocabulary}.mp3"));
+                                          "vocabulary/${widget.curVoc.bookId}/mp3/${widget.curVoc.lessonId}/${widget.curVoc.vocabularyId}.mp3"));
                                     },
                                     child: Icon(
                                       Icons.play_arrow_outlined,
@@ -278,9 +275,9 @@ class _FlashcardPageState extends State<FlashcardPage> {
                               ),
                               const Spacer(),
                               Text(
-                                _vocabulary[widget.progress.lastVocabulary].kanji.isNotEmpty
-                                    ? _vocabulary[widget.progress.lastVocabulary].kanji
-                                    : _vocabulary[widget.progress.lastVocabulary].japanese,
+                                _vocabulary[widget.curVoc.vocabularyId].kanji.isNotEmpty
+                                    ? _vocabulary[widget.curVoc.vocabularyId].kanji
+                                    : _vocabulary[widget.curVoc.vocabularyId].japanese,
                                 style: TextStyle(
                                     fontSize: 36,
                                     fontWeight: FontWeight.bold,
@@ -289,8 +286,8 @@ class _FlashcardPageState extends State<FlashcardPage> {
                               const SizedBox(height: 20),
                               if (_isVisible) 
                               Text(
-                                _vocabulary[widget.progress.lastVocabulary].kanji.isNotEmpty
-                                    ? _vocabulary[widget.progress.lastVocabulary].japanese
+                                _vocabulary[widget.curVoc.vocabularyId].kanji.isNotEmpty
+                                    ? _vocabulary[widget.curVoc.vocabularyId].japanese
                                     : '',
                                 style: TextStyle(
                                     fontSize: 28,
@@ -300,7 +297,7 @@ class _FlashcardPageState extends State<FlashcardPage> {
                               const SizedBox(height: 10),
                               if (_isVisible) 
                                 Text(
-                                  "[${_vocabulary[widget.progress.lastVocabulary].romaji}]",
+                                  "[${_vocabulary[widget.curVoc.vocabularyId].romaji}]",
                                   style: TextStyle(
                                       fontSize: 22,
                                       fontWeight: FontWeight.normal,
@@ -309,7 +306,7 @@ class _FlashcardPageState extends State<FlashcardPage> {
                               const SizedBox(height: 16),
                               if (_isVisible) 
                                 Text(
-                                  _vocabulary[widget.progress.lastVocabulary].chinese,
+                                  _vocabulary[widget.curVoc.vocabularyId].chinese,
                                   style: TextStyle(
                                       fontSize: 28,
                                       fontWeight: FontWeight.normal,
@@ -321,10 +318,25 @@ class _FlashcardPageState extends State<FlashcardPage> {
                           Positioned(
                             bottom: 20,
                             left: 24,
-                            child: const Icon(
-                              Icons.check_circle,
-                              color: Colors.green,
-                              size: 46,
+                            child: GestureDetector(
+                              onTap: () {
+                                // Show a congratulatory message
+                                ScaffoldMessenger.of(context).showSnackBar(
+                                  SnackBar(
+                                    content: Text(' 🎉 Congratulations! You learned this vocabulary!'),
+                                    duration: Duration(seconds: 2), // Duration for the message
+                                  ),
+                                );
+                                _markAsCompleted(); // Mark the current vocabulary as completed
+                                Future.delayed(Duration(seconds: 2), () {
+                                  _navigateToNextVocabulary(); // Move to the next vocabulary after the message
+                                });
+                              },
+                              child: Icon(
+                                Icons.check_circle,
+                                color: Colors.grey, // Initial color is grey
+                                size: 46,
+                              ),
                             ),
                           ),
                           Positioned(

@@ -1,38 +1,34 @@
 import 'dart:convert';
-
 import 'package:shared_preferences/shared_preferences.dart';
-
-import 'model/progress.dart';
-
 
 class SharedPreferencesHelper {
   static SharedPreferences? _preferences;
 
   static const String _favoritesKey = 'favorites';
-  static const String _progressKey = 'progress';
+  static const String _completedVocabulariesKey = 'completedVocabularies';
 
-  Future<Map<String, Progress>> getProgressData() async {
+  Future<Map<String, Map<String, String>>> getCompletedVocabularies() async {
     final SharedPreferences prefs = await SharedPreferences.getInstance();
-    final String? progressJson = prefs.getString(_progressKey);
-
-    // Decode JSON if it exists and map to ProgressModel instances, otherwise return an empty map
-    if (progressJson != null) {
-      final Map<String, dynamic> jsonData = json.decode(progressJson);
-      return jsonData.map((key, value) =>
-          MapEntry(key, Progress.fromJson(Map<String, dynamic>.from(value))));
+    final String? completedVocabulariesJson = prefs.getString(_completedVocabulariesKey);
+    if (completedVocabulariesJson != null) {
+      final Map<String, dynamic> decodedMap = json.decode(completedVocabulariesJson);
+      return decodedMap.map((key, value) {
+        return MapEntry(key, Map<String, String>.from(value as Map<String, dynamic>));
+      });
     } else {
       return {};
     }
   }
 
-  Future<Progress?> getProgressForBook(String bookId) async {
-    final Map<String, Progress> progressData = await getProgressData();
-    if (progressData.containsKey(bookId)) {
-      return progressData[bookId];
-    } else {
-      return Progress(lastLesson: 1, lastVocabulary: 1);
+  Future addCompletedVocabulary(String bookId, String vocabularyId) async {
+    final SharedPreferences prefs = await SharedPreferences.getInstance();
+    final Map<String, Map<String, String>> completedVocabularies = await getCompletedVocabularies();
+    if (!completedVocabularies.containsKey(bookId)) {
+      completedVocabularies[bookId] = {};
     }
+    final Map<String, String> vocabulary = completedVocabularies[bookId]!;
+    vocabulary[vocabularyId] = DateTime.now().toIso8601String();
+    completedVocabularies[bookId] = vocabulary;
+    await prefs.setString(_completedVocabulariesKey, json.encode(completedVocabularies));
   }
-
-
 }
