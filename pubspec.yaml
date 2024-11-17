@@ -39,6 +39,7 @@ dependencies:
   intl: ^0.18.0
   flutter_local_notifications: ^14.0.0
   audioplayers: ^6.1.0
+  flutter_launcher_icons: ^0.14.1
 
 dev_dependencies:
   flutter_test:
@@ -93,3 +94,10 @@ flutter:
    - assets/vocabulary/0/mp3/21/
    - assets/vocabulary/0/mp3/22/
    - assets/vocabulary/0/mp3/23/
+flutter_icons:
+  android: "launcher_icon"  # Android平台的图标名称
+  ios: true  # 是否生成iOS图标
+  image_path: "assets/icon/icon.png"  # 你的图标文件路径
+#  min_sdk_android: 21  # 可选，指定最小Android SDK版本
+  adaptive_icon_background: "#E6E6FA"  # 可选，Android自适应图标的背景色
+#  adaptive_icon_foreground: "assets/icon/icon_foreground.png"  # 可选，Android自适应图标的前景图

@@ -8,7 +8,6 @@ import 'helpers/vocabulary_nevigate.dart';
 import 'model/book.dart';
 import 'model/lesson.dart';
 
-
 class FlashcardPage extends StatefulWidget {
   final List<Book> books;
   TripleVoc curVoc;
@@ -38,26 +37,32 @@ class _FlashcardPageState extends State<FlashcardPage> {
   bool _isVisible = true;
   final SharedPreferencesHelper prefs = SharedPreferencesHelper();
   bool _isFavorite = false;
+  bool _isCompleted = false;
 
   @override
   void initState() {
     super.initState();
     _initVariables();
-    _loadVocabulary(widget.curVoc.getBookIdString(), widget.curVoc.getLessonIdString());
+    _loadVocabulary(
+        widget.curVoc.getBookIdString(), widget.curVoc.getLessonIdString());
   }
 
   void _initVariables() {
-    _totalVocabularies =
-        widget.books[widget.curVoc.bookId].totalVocabularies;
+    _totalVocabularies = widget.books[widget.curVoc.bookId].totalVocabularies;
     _completedSize = widget.completedVocabularies.length;
+    var lessonVocID = "${widget.curVoc.getLessonIdString()}-${widget.curVoc.getVocabularyIdString()}";
+    _isFavorite = widget.favoriteVocabularies.containsKey(lessonVocID);
+    _isCompleted = widget.completedVocabularies.containsKey(lessonVocID);
   }
 
   Future<void> _loadVocabulary(String bookId, String lessonId) async {
-    print('assets/vocabulary/${bookId}/words/${lessonId}.json');
     try {
-      final String response = await DefaultAssetBundle.of(context).loadString(
-          'assets/vocabulary/${bookId}/words/${lessonId}.json');
+      final String response = await DefaultAssetBundle.of(context)
+          .loadString('assets/vocabulary/${bookId}/words/${lessonId}.json');
       _vocabulary = Vocabulary.listFromJson(json.decode(response));
+
+      // Play audio for the current vocabulary
+      await _playAudio();
     } catch (e) {
       print('Error loading vocabulary: $e');
     } finally {
@@ -67,18 +72,25 @@ class _FlashcardPageState extends State<FlashcardPage> {
     }
   }
 
+  Future<void> _playAudio() async {
+    await _audioPlayer.play(AssetSource(
+        "vocabulary/${widget.curVoc.bookId}/mp3/${widget.curVoc.lessonId}/${widget.curVoc.vocabularyId}.mp3"));
+  }
+
   void _navigateVocabulary(bool isNext) {
     final result = isNext
-        ? getNextVocabulary(widget.books[widget.curVoc.bookId], widget.curVoc, widget.completedVocabularies)
-        : getPrevVocabulary(widget.books[widget.curVoc.bookId], widget.curVoc, widget.completedVocabularies);
-    
+        ? getNextVocabulary(widget.books[widget.curVoc.bookId], widget.curVoc)
+        : getPrevVocabulary(widget.books[widget.curVoc.bookId], widget.curVoc);
+
     setState(() {
-      var preLess = widget.curVoc.lessonId;
       widget.curVoc = result.$1; // Update widget.curVoc
-      if (preLess != widget.curVoc.lessonId) {
-        _loadVocabulary(widget.curVoc.getBookIdString(), widget.curVoc.getLessonIdString());
-      }
-      _isFavorite = widget.favoriteVocabularies.containsKey("${widget.curVoc.getLessonIdString()}-${widget.curVoc.getVocabularyIdString()}");
+      _loadVocabulary(
+          widget.curVoc.getBookIdString(), widget.curVoc.getLessonIdString());
+      _isFavorite = widget.favoriteVocabularies.containsKey(
+          "${widget.curVoc.getLessonIdString()}-${widget.curVoc.getVocabularyIdString()}");
+      _isCompleted = widget.completedVocabularies.containsKey(
+          "${widget.curVoc.getLessonIdString()}-${widget.curVoc.getVocabularyIdString()}");
+      setState(() {});
     });
   }
 
@@ -100,37 +112,55 @@ class _FlashcardPageState extends State<FlashcardPage> {
   }
 
   void _markAsCompleted() {
-    String currentVocabularyId = "${widget.curVoc.getLessonIdString()}-${widget.curVoc.getVocabularyIdString()}";
-    widget.completedVocabularies[currentVocabularyId] = currentVocabularyId; // Mark as completed
-    prefs.addCompletedVocabulary(widget.curVoc.getBookIdString(), currentVocabularyId); // Save to shared preferences
+    String currentVocabularyId =
+        "${widget.curVoc.getLessonIdString()}-${widget.curVoc.getVocabularyIdString()}";
+    widget.completedVocabularies[currentVocabularyId] =
+        DateTime.now().toIso8601String(); // Mark as completed
+    prefs.addCompletedVocabulary(widget.curVoc.getBookIdString(),
+        currentVocabularyId); // Save to shared preferences
     _completedSize = widget.completedVocabularies.length;
-    _showSnackBar(' 🎉 Congratulations! You learned this vocabulary!'); // Show completion message
+    _showSnackBar('🎉 恭喜你完成了第${_completedSize}个单词');
+  }
+
+  void _removeFromCompleted() {
+    String currentVocabularyId =
+        "${widget.curVoc.getLessonIdString()}-${widget.curVoc.getVocabularyIdString()}";
+    widget.completedVocabularies
+        .remove(currentVocabularyId); // Remove from favorites
+    prefs.removeCompletedVocabulary(widget.curVoc.getBookIdString(),
+        currentVocabularyId); // Save to shared preferences
+    _showSnackBar('取消已完成');
   }
 
   void _markAsFavorite() {
-    String currentVocabularyId = "${widget.curVoc.getLessonIdString()}-${widget.curVoc.getVocabularyIdString()}";
-    widget.favoriteVocabularies[currentVocabularyId] = DateTime.now().toIso8601String(); // Mark as favorite
-    prefs.addFavoriteVocabulary(widget.curVoc.getBookIdString(), currentVocabularyId); // Save to shared preferences
+    String currentVocabularyId =
+        "${widget.curVoc.getLessonIdString()}-${widget.curVoc.getVocabularyIdString()}";
+    widget.favoriteVocabularies[currentVocabularyId] =
+        DateTime.now().toIso8601String(); // Mark as favorite
+    prefs.addFavoriteVocabulary(widget.curVoc.getBookIdString(),
+        currentVocabularyId); // Save to shared preferences
     _showSnackBar('添加到我的收藏'); // Show favorite message
   }
 
   void _removeFromFavorite() {
-    String currentVocabularyId = "${widget.curVoc.getLessonIdString()}-${widget.curVoc.getVocabularyIdString()}";
-    widget.favoriteVocabularies.remove(currentVocabularyId); // Remove from favorites
-    prefs.removeFavoriteVocabulary(widget.curVoc.getBookIdString(), currentVocabularyId); // Save to shared preferences
+    String currentVocabularyId =
+        "${widget.curVoc.getLessonIdString()}-${widget.curVoc.getVocabularyIdString()}";
+    widget.favoriteVocabularies
+        .remove(currentVocabularyId); // Remove from favorites
+    prefs.removeFavoriteVocabulary(widget.curVoc.getBookIdString(),
+        currentVocabularyId); // Save to shared preferences
     _showSnackBar('取消收藏'); // Show unfavorite message
+  }
+
+  @override
+  void dispose() {
+    _audioPlayer.dispose(); // Stop audio when the page is disposed
+    super.dispose();
   }
 
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onHorizontalDragUpdate: (details) {
-        if (details.delta.dx > 0) {
-          _navigateToPreviousVocabulary(); // 右滑，导航到上一个词汇
-        } else if (details.delta.dx < 0) {
-          _navigateToNextVocabulary(); // 左滑，导航到下一个词汇
-        }
-      },
       child: Scaffold(
         backgroundColor: const Color(0xFF6A1B9A),
         appBar: AppBar(
@@ -175,28 +205,32 @@ class _FlashcardPageState extends State<FlashcardPage> {
                 child: PopupMenuButton<String>(
                   onSelected: (String value) {
                     // Find the index of the selected lesson
-                    final selectedLesson = widget.books[widget.curVoc.bookId].lessons.firstWhere(
+                    final selectedLesson =
+                        widget.books[widget.curVoc.bookId].lessons.firstWhere(
                       (lesson) => lesson.lessonTitle == value,
-                      orElse: () => widget.books[widget.curVoc.bookId].lessons[widget.curVoc.lessonId], // Fallback
+                      orElse: () => widget.books[widget.curVoc.bookId]
+                          .lessons[widget.curVoc.lessonId], // Fallback
                     );
                     setState(() {
-                      widget.curVoc.lessonId = widget.books[widget.curVoc.bookId].lessons.indexOf(selectedLesson); // Update selectedLessonIndex
-                      print(selectedLesson.lessonTitle);
-                      print(selectedLesson.lessonId);
-                      _loadVocabulary(widget.curVoc.getBookIdString(), widget.curVoc.lessonId.toString()); // Load vocabulary for the selected lesson
-                      widget.curVoc.lessonId = widget.curVoc.lessonId; // Update lessonId in widget.curVoc
+                      widget.curVoc.lessonId =
+                          widget.books[widget.curVoc.bookId].lessons.indexOf(
+                              selectedLesson); // Update selectedLessonIndex
+                      _loadVocabulary(
+                          widget.curVoc.getBookIdString(),
+                          widget.curVoc.lessonId
+                              .toString()); // Load vocabulary for the selected lesson
+                      widget.curVoc.lessonId = widget
+                          .curVoc.lessonId; // Update lessonId in widget.curVoc
                       widget.curVoc.vocabularyId = 0;
-                      setState(() {
-
-                      });
+                      setState(() {});
                     });
                   },
                   child: Row(
                     children: [
                       Flexible(
                         child: Text(
-                          widget
-                              .books[widget.curVoc.bookId].lessons[widget.curVoc.lessonId].lessonTitle,
+                          widget.books[widget.curVoc.bookId]
+                              .lessons[widget.curVoc.lessonId].lessonTitle,
                           style: const TextStyle(
                             color: Colors.white,
                             fontSize: 16,
@@ -283,15 +317,13 @@ class _FlashcardPageState extends State<FlashcardPage> {
                             mainAxisAlignment: MainAxisAlignment.center,
                             children: [
                               Padding(
-                                padding:
-                                    const EdgeInsets.only(top: 8.0, right: 12.0),
+                                padding: const EdgeInsets.only(
+                                    top: 8.0, right: 12.0),
                                 child: Align(
                                   alignment: Alignment.topRight,
                                   child: GestureDetector(
                                     onTap: () async {
-                                      print("vocabulary/${widget.curVoc.bookId}/mp3/${widget.curVoc.lessonId}/${widget.curVoc.vocabularyId}.mp3");
-                                      await _audioPlayer.play(AssetSource(
-                                          "vocabulary/${widget.curVoc.bookId}/mp3/${widget.curVoc.lessonId}/${widget.curVoc.vocabularyId}.mp3"));
+                                      await _playAudio();
                                     },
                                     child: Icon(
                                       Icons.play_arrow_outlined,
@@ -303,27 +335,34 @@ class _FlashcardPageState extends State<FlashcardPage> {
                               ),
                               const Spacer(),
                               Text(
-                                _vocabulary[widget.curVoc.vocabularyId].kanji.isNotEmpty
-                                    ? _vocabulary[widget.curVoc.vocabularyId].kanji
-                                    : _vocabulary[widget.curVoc.vocabularyId].japanese,
+                                _vocabulary[widget.curVoc.vocabularyId]
+                                        .kanji
+                                        .isNotEmpty
+                                    ? _vocabulary[widget.curVoc.vocabularyId]
+                                        .kanji
+                                    : _vocabulary[widget.curVoc.vocabularyId]
+                                        .japanese,
                                 style: TextStyle(
                                     fontSize: 36,
                                     fontWeight: FontWeight.bold,
                                     color: Colors.black87),
                               ),
                               const SizedBox(height: 20),
-                              if (_isVisible) 
-                              Text(
-                                _vocabulary[widget.curVoc.vocabularyId].kanji.isNotEmpty
-                                    ? _vocabulary[widget.curVoc.vocabularyId].japanese
-                                    : '',
-                                style: TextStyle(
-                                    fontSize: 28,
-                                    fontWeight: FontWeight.normal,
-                                    color: Colors.black54),
-                              ),
+                              if (_isVisible)
+                                Text(
+                                  _vocabulary[widget.curVoc.vocabularyId]
+                                          .kanji
+                                          .isNotEmpty
+                                      ? _vocabulary[widget.curVoc.vocabularyId]
+                                          .japanese
+                                      : '',
+                                  style: TextStyle(
+                                      fontSize: 28,
+                                      fontWeight: FontWeight.normal,
+                                      color: Colors.black54),
+                                ),
                               const SizedBox(height: 10),
-                              if (_isVisible) 
+                              if (_isVisible)
                                 Text(
                                   "[${_vocabulary[widget.curVoc.vocabularyId].romaji}]",
                                   style: TextStyle(
@@ -332,9 +371,10 @@ class _FlashcardPageState extends State<FlashcardPage> {
                                       color: Colors.grey[600]),
                                 ),
                               const SizedBox(height: 16),
-                              if (_isVisible) 
+                              if (_isVisible)
                                 Text(
-                                  _vocabulary[widget.curVoc.vocabularyId].chinese,
+                                  _vocabulary[widget.curVoc.vocabularyId]
+                                      .chinese,
                                   style: TextStyle(
                                       fontSize: 28,
                                       fontWeight: FontWeight.normal,
@@ -348,18 +388,22 @@ class _FlashcardPageState extends State<FlashcardPage> {
                             left: 24,
                             child: GestureDetector(
                               onTap: () {
-                                _markAsCompleted(); // Mark the current vocabulary as completed
-                                setState(() {
-                                  _isFavorite = true; // Update the state to indicate completion
-                                });
-                                Future.delayed(Duration(seconds: 2), () {
-                                  _navigateToNextVocabulary(); // Move to the next vocabulary after the message
-                                });
-
+                                if (!_isCompleted) {
+                                  _markAsCompleted(); // Mark the current vocabulary as completed
+                                  setState(() {
+                                    _isCompleted = true;
+                                  });
+                                } else {
+                                  _removeFromCompleted(); // Mark the current vocabulary as completed
+                                  setState(() {
+                                    _isCompleted = false;
+                                  });
+                                }
                               },
                               child: Icon(
                                 Icons.check_circle,
-                                color: Colors.green, // Change color based on completion state
+                                color: _isCompleted ? Colors.green : Colors.grey,
+                                // Change color based on completion state
                                 size: 46,
                               ),
                             ),
@@ -372,19 +416,19 @@ class _FlashcardPageState extends State<FlashcardPage> {
                                 if (!_isFavorite) {
                                   _markAsFavorite(); // Mark the current vocabulary as completed
                                   setState(() {
-                                    _isFavorite =
-                                    true; // Update the state to indicate completion
+                                    _isFavorite = true;
                                   });
                                 } else {
                                   _removeFromFavorite(); // Mark the current vocabulary as completed
                                   setState(() {
-                                    _isFavorite = false; // Update the state to indicate completion
+                                    _isFavorite = false;
                                   });
                                 }
                               },
                               child: Icon(
                                 _isFavorite ? Icons.star : Icons.star_border,
-                                color: Colors.amber, // Change color based on completion state
+                                color: Colors.amber,
+                                // Change color based on completion state
                                 size: 46,
                               ),
                             ),
@@ -393,7 +437,8 @@ class _FlashcardPageState extends State<FlashcardPage> {
                             left: 16,
                             top: MediaQuery.of(context).size.height * 0.2,
                             child: GestureDetector(
-                              onTap: _navigateToPreviousVocabulary, // Navigate to previous vocabulary
+                              onTap: _navigateToPreviousVocabulary,
+                              // Navigate to previous vocabulary
                               child: const Icon(
                                 Icons.keyboard_arrow_left_outlined,
                                 color: Colors.grey,
@@ -405,7 +450,8 @@ class _FlashcardPageState extends State<FlashcardPage> {
                             right: 16,
                             top: MediaQuery.of(context).size.height * 0.2,
                             child: GestureDetector(
-                              onTap: _navigateToNextVocabulary, // Navigate to next vocabulary
+                              onTap: _navigateToNextVocabulary,
+                              // Navigate to next vocabulary
                               child: const Icon(
                                 Icons.keyboard_arrow_right_outlined,
                                 color: Colors.grey,
@@ -433,11 +479,12 @@ class _FlashcardPageState extends State<FlashcardPage> {
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(16),
                     ),
-                    padding:
-                        const EdgeInsets.symmetric(horizontal: 40, vertical: 14),
+                    padding: const EdgeInsets.symmetric(
+                        horizontal: 40, vertical: 14),
                   ),
                   child: Icon(
-                    _isVisible ? Icons.visibility : Icons.visibility_off, // Change icon based on visibility state
+                    _isVisible ? Icons.visibility : Icons.visibility_off,
+                    // Change icon based on visibility state
                     color: Colors.white,
                     size: 28,
                   ),

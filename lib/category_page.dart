@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'flashcard_page.dart';
 import 'model/triplevoc.dart';
 import 'model/book.dart';
+import 'model/lesson.dart';
 
 class CategoryPage extends StatefulWidget {
   const CategoryPage({Key? key}) : super(key: key);
@@ -17,6 +18,13 @@ class _CategoryPageState extends State<CategoryPage> {
   late Map<String, Map<String, String>> _completedVocabularies = {};
   late Map<String, Map<String, String>> _favoriteVocabularies = {};
 
+  @override
+  void initState() {
+    super.initState();
+    _futureBooks = _loadBookModel();
+    _loadCompletedVocabularies();
+  }
+
   int _getTotalFavoriteSize() {
     int total = 0;
     _favoriteVocabularies.forEach((key, value) {
@@ -24,11 +32,13 @@ class _CategoryPageState extends State<CategoryPage> {
     });
     return total;
   }
-  @override
-  void initState() {
-    super.initState();
-    _futureBooks = _loadBookModel();
-    _loadCompletedVocabularies();
+
+  int _getTotalCompletedSize() {
+    int total = 0;
+    _completedVocabularies.forEach((key, value) {
+      total += value.length;
+    });
+    return total;
   }
 
   Future<List<Book>> _loadBookModel() async {
@@ -141,26 +151,33 @@ class _CategoryPageState extends State<CategoryPage> {
                 ),
               ),
               const SizedBox(height: 24),
-              Row(
-                children: [
-                  Expanded(
-                    child: _buildCard(
+              SingleChildScrollView(
+                scrollDirection: Axis.horizontal,
+                child: Row(
+                  children: [
+                    _buildCard(
                       icon: Icons.star,
                       title: '我的收藏',
-                      count: '${_getTotalFavoriteSize()} cards',
+                      count: '${_getTotalFavoriteSize()}  cards',
                       iconColor: Colors.pink[200]!,
                     ),
-                  ),
-                  const SizedBox(width: 16),
-                  Expanded(
-                    child: _buildCard(
+                    const SizedBox(width: 16),
+                    _buildCard(
+                      icon: Icons.check,
+                      title: '我已完成',
+                      count: '${_getTotalCompletedSize()} cards',
+                      iconColor: Colors.green[200]!,
+                    ),
+                    const SizedBox(width: 16),
+                    _buildCard(
                       icon: Icons.add,
-                      title: '新合集',
+                      title: '新集合',
                       count: '',
-                      iconColor: Colors.pink[200]!,
+                      iconColor: Colors.red[200]!,
                     ),
-                  ),
-                ],
+                    // Add more cards as needed
+                  ],
+                ),
               ),
               const SizedBox(height: 24),
               Expanded(
@@ -180,8 +197,7 @@ class _CategoryPageState extends State<CategoryPage> {
                         itemBuilder: (context, index) {
                           final book = books[index];
                           final completedVocabularies = _completedVocabularies[book.bookId] ?? {};
-                          final favoriteVocabularies = _favoriteVocabularies[book.bookId] ?? {};
-                          return _buildCategoryItem(book, completedVocabularies, favoriteVocabularies);
+                          return _buildCategoryItem(book, completedVocabularies);
                         },
                       );
                     }
@@ -221,7 +237,7 @@ class _CategoryPageState extends State<CategoryPage> {
           CircleAvatar(
             radius: 24,
             backgroundColor: iconColor.withOpacity(0.2),
-            child: Icon(icon, color: iconColor, size: 28),
+            child: Icon(icon, color: iconColor, size: 24),
           ),
           const SizedBox(height: 16),
           Text(
@@ -244,8 +260,7 @@ class _CategoryPageState extends State<CategoryPage> {
     );
   }
 
-  Widget _buildCategoryItem(Book book, Map<String, String> completedVocabularies,
-      Map<String, String> favoriteVocabularies) {
+  Widget _buildCategoryItem(Book book, Map<String, String> completedVocabularies) {
     var total = book.totalVocabularies;
     var completed = completedVocabularies.length;
     return GestureDetector(
@@ -257,8 +272,7 @@ class _CategoryPageState extends State<CategoryPage> {
                 builder: (context) => FlashcardPage(
                       books: books,
                       curVoc: TripleVoc(bookId: 0, lessonId: 0, vocabularyId: 0),
-                      completedVocabularies: completedVocabularies,
-                    favoriteVocabularies: favoriteVocabularies,
+                    completedVocabularies: completedVocabularies,
                     )),
           );
         },
@@ -312,4 +326,5 @@ class _CategoryPageState extends State<CategoryPage> {
           ),
         ));
   }
+
 }
