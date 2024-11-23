@@ -1,0 +1,247 @@
+{
+  "0": {
+    "hiragana": "ことり",
+    "kanji": "小鳥",
+    "type": "〔名〕",
+    "chinese": "小鸟，鸟儿",
+    "romaji": "kotori"
+  },
+  "1": {
+    "hiragana": "ばんぱく",
+    "kanji": "万博",
+    "type": "〔名〕",
+    "chinese": "世博会,万国博览会",
+    "romaji": "banpaku"
+  },
+  "2": {
+    "hiragana": "いせき",
+    "kanji": "遺跡",
+    "type": "〔名〕",
+    "chinese": "遗址，遗迹",
+    "romaji": "iseki"
+  },
+  "3": {
+    "hiragana": "じょうじゅん",
+    "kanji": "上旬",
+    "type": "〔名〕",
+    "chinese": "上旬",
+    "romaji": "jōjun"
+  },
+  "4": {
+    "hiragana": "すり",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "扒手，小偷",
+    "romaji": "suri"
+  },
+  "5": {
+    "hiragana": "せだい",
+    "kanji": "世代",
+    "type": "〔名〕",
+    "chinese": "世代，一代",
+    "romaji": "sedai"
+  },
+  "6": {
+    "hiragana": "しじょう",
+    "kanji": "市場",
+    "type": "〔名〕",
+    "chinese": "市场",
+    "romaji": "shijō"
+  },
+  "7": {
+    "hiragana": "ちょうさ",
+    "kanji": "調査",
+    "type": "〔名〕",
+    "chinese": "调查",
+    "romaji": "chōsa"
+  },
+  "8": {
+    "hiragana": "りゅうつう",
+    "kanji": "流通",
+    "type": "〔名〕",
+    "chinese": "流通,运输",
+    "romaji": "ryūtsū"
+  },
+  "9": {
+    "hiragana": "せいちょう",
+    "kanji": "成長",
+    "type": "〔名〕",
+    "chinese": "成长",
+    "romaji": "seichō"
+  },
+  "10": {
+    "hiragana": "あらし",
+    "kanji": "嵐",
+    "type": "〔名〕",
+    "chinese": "暴风雨，风暴",
+    "romaji": "arashi"
+  },
+  "11": {
+    "hiragana": "ダイナマイト",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "炸药",
+    "romaji": "dainamaito"
+  },
+  "12": {
+    "hiragana": "ネーミング",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "名称，命名，取名",
+    "romaji": "nēmingu"
+  },
+  "13": {
+    "hiragana": "コストダウン",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "降低成本",
+    "romaji": "kosuto daun"
+  },
+  "14": {
+    "hiragana": "ていか",
+    "kanji": "低価格",
+    "type": "〔名〕",
+    "chinese": "低价，低价格",
+    "romaji": "teika"
+  },
+  "15": {
+    "hiragana": "ぎゅうにく",
+    "kanji": "牛肉",
+    "type": "〔名〕",
+    "chinese": "牛肉",
+    "romaji": "gyūniku"
+  },
+  "16": {
+    "hiragana": "さくねん",
+    "kanji": "昨年",
+    "type": "〔名〕",
+    "chinese": "去年",
+    "romaji": "sakunen"
+  },
+  "17": {
+    "hiragana": "ここんとこ",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "最近，这几天",
+    "romaji": "kokon toko"
+  },
+  "18": {
+    "hiragana": "すべて",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "全部，所有",
+    "romaji": "subete"
+  },
+  "19": {
+    "hiragana": "ぴよぴよ",
+    "kanji": "",
+    "type": "〔副〕",
+    "chinese": "小鸡叫",
+    "romaji": "piyopiyo"
+  },
+  "20": {
+    "hiragana": "みりょく",
+    "kanji": "魅力",
+    "type": "〔名〕",
+    "chinese": "吸引力，魅力",
+    "romaji": "miryoku"
+  },
+  "21": {
+    "hiragana": "ぬぐます",
+    "kanji": "温暖",
+    "type": "〔动1〕",
+    "chinese": "温暖",
+    "romaji": "nugumasu"
+  },
+  "22": {
+    "hiragana": "かはつ",
+    "kanji": "開発",
+    "type": "〔动3〕",
+    "chinese": "开发",
+    "romaji": "kaihatsu"
+  },
+  "23": {
+    "hiragana": "はっけん",
+    "kanji": "発見",
+    "type": "〔动3〕",
+    "chinese": "发现",
+    "romaji": "hakken"
+  },
+  "24": {
+    "hiragana": "そつう",
+    "kanji": "創造",
+    "type": "〔动3〕",
+    "chinese": "创立，创建",
+    "romaji": "sotsū"
+  },
+  "25": {
+    "hiragana": "かんり",
+    "kanji": "管理",
+    "type": "〔动3〕",
+    "chinese": "管理",
+    "romaji": "kanri"
+  },
+  "26": {
+    "hiragana": "じつげん",
+    "kanji": "実現",
+    "type": "〔动3〕",
+    "chinese": "实现",
+    "romaji": "jitsugen"
+  },
+  "27": {
+    "hiragana": "じさん",
+    "kanji": "持参",
+    "type": "〔动3〕",
+    "chinese": "带来，携来",
+    "romaji": "jisan"
+  },
+  "28": {
+    "hiragana": "まだまだ",
+    "kanji": "",
+    "type": "〔副〕",
+    "chinese": "仍然，尚且",
+    "romaji": "madamada"
+  },
+  "29": {
+    "hiragana": "おやおや",
+    "kanji": "",
+    "type": "〔副〕",
+    "chinese": "呀，哎呀",
+    "romaji": "oyaoya"
+  },
+  "30": {
+    "hiragana": "いっきに",
+    "kanji": "一気に",
+    "type": "〔副〕",
+    "chinese": "一下子",
+    "romaji": "ikkini"
+  },
+  "31": {
+    "hiragana": "ニュートン",
+    "kanji": "",
+    "type": "〔专〕",
+    "chinese": "牛顿",
+    "romaji": "Nyūton"
+  },
+  "32": {
+    "hiragana": "オーストラリア",
+    "kanji": "",
+    "type": "〔专〕",
+    "chinese": "澳大利亚",
+    "romaji": "Ōsutoraria"
+  },
+  "33": {
+    "hiragana": "真摯(しんし)",
+    "kanji": "真摯",
+    "type": "〔动3〕",
+    "chinese": "真诚，真恳",
+    "romaji": "shinshi"
+  },
+  "34": {
+    "hiragana": "あくしゅう",
+    "kanji": "詳説",
+    "type": "〔名〕",
+    "chinese": "臭气",
+    "romaji": "akushū"
+  }
+}

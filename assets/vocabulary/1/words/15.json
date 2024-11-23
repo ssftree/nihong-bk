@@ -1,0 +1,205 @@
+{
+  "0": {
+    "hiragana": "モノレール",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "单轨铁路，单轨电车",
+    "romaji": "monorēru"
+  },
+  "1": {
+    "hiragana": "オイル",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "油，润滑油",
+    "romaji": "oiru"
+  },
+  "2": {
+    "hiragana": "ダンス",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "跳舞，舞",
+    "romaji": "dansu"
+  },
+  "3": {
+    "hiragana": "じだい",
+    "kanji": "時代",
+    "type": "〔名〕",
+    "chinese": "时代",
+    "romaji": "jidai"
+  },
+  "4": {
+    "hiragana": "やくしゃ",
+    "kanji": "役者",
+    "type": "〔名〕",
+    "chinese": "演员",
+    "romaji": "yakusha"
+  },
+  "5": {
+    "hiragana": "むすめ",
+    "kanji": "娘",
+    "type": "〔名〕",
+    "chinese": "女儿",
+    "romaji": "musume"
+  },
+  "6": {
+    "hiragana": "こいぬ",
+    "kanji": "子犬",
+    "type": "〔名〕",
+    "chinese": "小狗",
+    "romaji": "koinu"
+  },
+  "7": {
+    "hiragana": "とかい",
+    "kanji": "都会",
+    "type": "〔名〕",
+    "chinese": "都市，城市",
+    "romaji": "tokai"
+  },
+  "8": {
+    "hiragana": "げきじょう",
+    "kanji": "劇場",
+    "type": "〔名〕",
+    "chinese": "剧场，剧院",
+    "romaji": "gekijō"
+  },
+  "9": {
+    "hiragana": "ししゃかい",
+    "kanji": "試写会",
+    "type": "〔名〕",
+    "chinese": "试映会，预映会",
+    "romaji": "shishakai"
+  },
+  "10": {
+    "hiragana": "みみ",
+    "kanji": "耳",
+    "type": "〔名〕",
+    "chinese": "耳朵",
+    "romaji": "mimi"
+  },
+  "11": {
+    "hiragana": "おく",
+    "kanji": "奥",
+    "type": "〔名〕",
+    "chinese": "里头，内部；深处",
+    "romaji": "oku"
+  },
+  "12": {
+    "hiragana": "きげん",
+    "kanji": "機嫌",
+    "type": "〔名〕",
+    "chinese": "情绪，心情",
+    "romaji": "kigen"
+  },
+  "13": {
+    "hiragana": "せんじつ",
+    "kanji": "先日",
+    "type": "〔名〕",
+    "chinese": "前几天，前些天",
+    "romaji": "senjitsu"
+  },
+  "14": {
+    "hiragana": "コピーき",
+    "kanji": "～機",
+    "type": "〔名〕",
+    "chinese": "复印机",
+    "romaji": "kopīki"
+  },
+  "15": {
+    "hiragana": "けん",
+    "kanji": "券",
+    "type": "〔名〕",
+    "chinese": "券，票",
+    "romaji": "ken"
+  },
+  "16": {
+    "hiragana": "さいしゅうびん",
+    "kanji": "最終便",
+    "type": "〔名〕",
+    "chinese": "最晚航班",
+    "romaji": "saishūbin"
+  },
+  "17": {
+    "hiragana": "にゅうじょうけん",
+    "kanji": "入場券",
+    "type": "〔名〕",
+    "chinese": "入场券，门票",
+    "romaji": "nyūjōken"
+  },
+  "18": {
+    "hiragana": "しょうたいけん",
+    "kanji": "招待券",
+    "type": "〔名〕",
+    "chinese": "招待券，请帖",
+    "romaji": "shōtaiken"
+  },
+  "19": {
+    "hiragana": "かいすうけん",
+    "kanji": "回数券",
+    "type": "〔名〕",
+    "chinese": "回数券",
+    "romaji": "kaisūken"
+  },
+  "20": {
+    "hiragana": "むかいます",
+    "kanji": "向かいます",
+    "type": "〔动1〕",
+    "chinese": "往~去",
+    "romaji": "mukaimasu"
+  },
+  "21": {
+    "hiragana": "そろえます",
+    "kanji": "",
+    "type": "〔动2〕",
+    "chinese": "备齐，凑齐；使一致",
+    "romaji": "soroemasu"
+  },
+  "22": {
+    "hiragana": "もれます",
+    "kanji": "漏れます",
+    "type": "〔动2〕",
+    "chinese": "漏，泄漏",
+    "romaji": "moremasu"
+  },
+  "23": {
+    "hiragana": "かいつうします",
+    "kanji": "開通～",
+    "type": "〔动3〕",
+    "chinese": "开通",
+    "romaji": "kaitsū shimasu"
+  },
+  "24": {
+    "hiragana": "かいちくします",
+    "kanji": "改築～",
+    "type": "〔动3〕",
+    "chinese": "改建",
+    "romaji": "kaichiku shimasu"
+  },
+  "25": {
+    "hiragana": "かんせいします",
+    "kanji": "完成～",
+    "type": "〔动3〕",
+    "chinese": "完成",
+    "romaji": "kansei shimasu"
+  },
+  "26": {
+    "hiragana": "にゅうしゃします",
+    "kanji": "入社～",
+    "type": "〔动3〕",
+    "chinese": "进公司，入社",
+    "romaji": "nyūsha shimasu"
+  },
+  "27": {
+    "hiragana": "しん",
+    "kanji": "清",
+    "type": "〔专〕",
+    "chinese": "清, 清代",
+    "romaji": "Shin"
+  },
+  "28": {
+    "hiragana": "おまたせしました",
+    "kanji": "(お待たせしました)",
+    "type": "",
+    "chinese": "让您久等了",
+    "romaji": "omatase shimashita"
+  }
+}

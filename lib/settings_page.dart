@@ -1,3 +1,4 @@
+import 'package:daily_word/about_page.dart';
 import 'package:flutter/material.dart';
 import 'shared_preferences_helper.dart';
 
@@ -50,6 +51,12 @@ class _SettingsPageState extends State<SettingsPage> {
             leading: Icon(Icons.info),
             title: Text('关于', style: TextStyle(fontSize: 20)),
             trailing: Icon(Icons.arrow_forward_ios),
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => AboutPage()),
+              );
+            },
           ),
         ],
       ),

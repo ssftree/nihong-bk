@@ -1,0 +1,310 @@
+{
+  "0": {
+    "hiragana": "マラソンたいかい",
+    "kanji": "(～大会)",
+    "type": "〔名〕",
+    "chinese": "马拉松大赛",
+    "romaji": "marason taikai"
+  },
+  "1": {
+    "hiragana": "ホームパーティー",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "家庭聚会",
+    "romaji": "hōmu pātī"
+  },
+  "2": {
+    "hiragana": "ゴーカート",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "游览汽车，玩具汽车",
+    "romaji": "gōkāto"
+  },
+  "3": {
+    "hiragana": "テレビゲーム",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "电子游戏",
+    "romaji": "terebi gēmu"
+  },
+  "4": {
+    "hiragana": "ちゅうし",
+    "kanji": "(中止)",
+    "type": "〔名〕",
+    "chinese": "中止，中顿",
+    "romaji": "chūshi"
+  },
+  "5": {
+    "hiragana": "ひょうげん",
+    "kanji": "(表現)",
+    "type": "〔名〕",
+    "chinese": "表现，表現",
+    "romaji": "hyōgen"
+  },
+  "6": {
+    "hiragana": "はんたい",
+    "kanji": "(反対)",
+    "type": "〔名〕",
+    "chinese": "反对",
+    "romaji": "hantai"
+  },
+  "7": {
+    "hiragana": "えいぎょう",
+    "kanji": "(営業)",
+    "type": "〔名〕",
+    "chinese": "营业",
+    "romaji": "eigyō"
+  },
+  "8": {
+    "hiragana": "ざいこ",
+    "kanji": "(在庫)",
+    "type": "〔名〕",
+    "chinese": "库存,存货",
+    "romaji": "zaiko"
+  },
+  "9": {
+    "hiragana": "おとな",
+    "kanji": "(大人)",
+    "type": "〔名〕",
+    "chinese": "大人，成人",
+    "romaji": "otona"
+  },
+  "10": {
+    "hiragana": "おじ",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "叔叔,伯伯,舅舅",
+    "romaji": "oji"
+  },
+  "11": {
+    "hiragana": "しょうがくせい",
+    "kanji": "(小学生)",
+    "type": "〔名〕",
+    "chinese": "小学生",
+    "romaji": "shōgakusei"
+  },
+  "12": {
+    "hiragana": "うちゅうひこうし",
+    "kanji": "(宇宙飛行士)",
+    "type": "〔名〕",
+    "chinese": "宇航员",
+    "romaji": "uchū hiko shi"
+  },
+  "13": {
+    "hiragana": "カタログ",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "目录",
+    "romaji": "katarogu"
+  },
+  "14": {
+    "hiragana": "たからくじ",
+    "kanji": "(宝くじ)",
+    "type": "〔名〕",
+    "chinese": "彩票",
+    "romaji": "takarakuji"
+  },
+  "15": {
+    "hiragana": "せいせき",
+    "kanji": "(成績)",
+    "type": "〔名〕",
+    "chinese": "成绩",
+    "romaji": "seiseki"
+  },
+  "16": {
+    "hiragana": "けいさん",
+    "kanji": "(計算)",
+    "type": "〔名〕",
+    "chinese": "计算",
+    "romaji": "keisan"
+  },
+  "17": {
+    "hiragana": "けしゴム",
+    "kanji": "(消しゴム)",
+    "type": "〔名〕",
+    "chinese": "橡皮",
+    "romaji": "keshi gomu"
+  },
+  "18": {
+    "hiragana": "は",
+    "kanji": "(葉)",
+    "type": "〔名〕",
+    "chinese": "叶子",
+    "romaji": "ha"
+  },
+  "19": {
+    "hiragana": "ビタミンざい",
+    "kanji": "(～剤)",
+    "type": "〔名〕",
+    "chinese": "维生素片剂",
+    "romaji": "bitaminzai"
+  },
+  "20": {
+    "hiragana": "ちゅうこ",
+    "kanji": "(中古)",
+    "type": "〔名〕",
+    "chinese": "二手货，旧货",
+    "romaji": "chūko"
+  },
+  "21": {
+    "hiragana": "きかい",
+    "kanji": "(機会)",
+    "type": "〔名〕",
+    "chinese": "机会",
+    "romaji": "kikai"
+  },
+  "22": {
+    "hiragana": "きゅうじつ",
+    "kanji": "(休日)",
+    "type": "〔名〕",
+    "chinese": "休息日，假日",
+    "romaji": "kyūjitsu"
+  },
+  "23": {
+    "hiragana": "こんかい",
+    "kanji": "(今回)",
+    "type": "〔名〕",
+    "chinese": "这次，此回",
+    "romaji": "konkai"
+  },
+  "24": {
+    "hiragana": "こんげつ",
+    "kanji": "(今月)",
+    "type": "〔名〕",
+    "chinese": "这个月，本月",
+    "romaji": "kongetsu"
+  },
+  "25": {
+    "hiragana": "さいしゅうしけん",
+    "kanji": "(最終試験)",
+    "type": "〔名〕",
+    "chinese": "期末考试",
+    "romaji": "saishū shiken"
+  },
+  "26": {
+    "hiragana": "ききます",
+    "kanji": "(効きます)",
+    "type": "〔动1〕",
+    "chinese": "有效,起作用",
+    "romaji": "kikimasu"
+  },
+  "27": {
+    "hiragana": "いわいます",
+    "kanji": "(祝います)",
+    "type": "〔动1〕",
+    "chinese": "祝贺",
+    "romaji": "iwaimasu"
+  },
+  "28": {
+    "hiragana": "あたります",
+    "kanji": "(当たります)",
+    "type": "〔动1〕",
+    "chinese": "中，（抽）中",
+    "romaji": "atarimasu"
+  },
+  "29": {
+    "hiragana": "あきます",
+    "kanji": "(空きます)",
+    "type": "〔动1〕",
+    "chinese": "空，闲",
+    "romaji": "akimasu"
+  },
+  "30": {
+    "hiragana": "くさります",
+    "kanji": "(腐ります)",
+    "type": "〔动1〕",
+    "chinese": "腐烂，腐败",
+    "romaji": "kusarimasu"
+  },
+  "31": {
+    "hiragana": "みつけます",
+    "kanji": "(見つけます)",
+    "type": "〔动2〕",
+    "chinese": "寻找到，看到",
+    "romaji": "mitsukemasu"
+  },
+  "32": {
+    "hiragana": "はれます",
+    "kanji": "(晴れます)",
+    "type": "〔动2〕",
+    "chinese": "晴朗，天晴",
+    "romaji": "haremasu"
+  },
+  "33": {
+    "hiragana": "たずねます",
+    "kanji": "(訪ねます)",
+    "type": "〔动2〕",
+    "chinese": "访问，拜访",
+    "romaji": "tazunemasu"
+  },
+  "34": {
+    "hiragana": "たいざいします",
+    "kanji": "(滞在～)",
+    "type": "〔动3〕",
+    "chinese": "停留，逗留",
+    "romaji": "taizai shimasu"
+  },
+  "35": {
+    "hiragana": "きゅうけいします",
+    "kanji": "(休憩～)",
+    "type": "〔动3〕",
+    "chinese": "休息",
+    "romaji": "kyūkei shimasu"
+  },
+  "36": {
+    "hiragana": "さんかします",
+    "kanji": "(参加～)",
+    "type": "〔动3〕",
+    "chinese": "参加",
+    "romaji": "sanka shimasu"
+  },
+  "37": {
+    "hiragana": "かんぱいします",
+    "kanji": "(乾杯～)",
+    "type": "〔动3〕",
+    "chinese": "干杯",
+    "romaji": "kanpai shimasu"
+  },
+  "38": {
+    "hiragana": "へん",
+    "kanji": "(変)",
+    "type": "〔形2〕",
+    "chinese": "反常，异常，怪",
+    "romaji": "hen"
+  },
+  "39": {
+    "hiragana": "かんぜん",
+    "kanji": "(完全)",
+    "type": "〔形2〕",
+    "chinese": "完善，完全",
+    "romaji": "kanzen"
+  },
+  "40": {
+    "hiragana": "ひつよう",
+    "kanji": "(必要)",
+    "type": "〔形2〕",
+    "chinese": "必要，必须",
+    "romaji": "hitsuyō"
+  },
+  "41": {
+    "hiragana": "だんだん",
+    "kanji": "",
+    "type": "〔副〕",
+    "chinese": "渐渐，逐渐地",
+    "romaji": "dandan"
+  },
+  "42": {
+    "hiragana": "もし",
+    "kanji": "",
+    "type": "〔副〕",
+    "chinese": "假如，如果",
+    "romaji": "moshi"
+  },
+  "43": {
+    "hiragana": "あと",
+    "kanji": "/～きょく",
+    "type": "",
+    "chinese": "",
+    "romaji": "ato/kyoku"
+  }
+}

@@ -1,0 +1,233 @@
+{
+  "0": {
+    "hiragana": "スーツケース",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "旅行箱",
+    "romaji": "sūtsu kēsu"
+  },
+  "1": {
+    "hiragana": "トランク",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "后备箱；手提箱，皮箱",
+    "romaji": "toranku"
+  },
+  "2": {
+    "hiragana": "スーツ",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "西服，女套装",
+    "romaji": "sūtsu"
+  },
+  "3": {
+    "hiragana": "ズボン",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "裤子",
+    "romaji": "zubon"
+  },
+  "4": {
+    "hiragana": "ティーシャツ",
+    "kanji": "(T～)",
+    "type": "〔名〕",
+    "chinese": "T恤衫",
+    "romaji": "tī shatsu"
+  },
+  "5": {
+    "hiragana": "サンダル",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "凉鞋",
+    "romaji": "sandaru"
+  },
+  "6": {
+    "hiragana": "ぼうし",
+    "kanji": "(帽子)",
+    "type": "〔名〕",
+    "chinese": "帽子",
+    "romaji": "bōshi"
+  },
+  "7": {
+    "hiragana": "うでどけい",
+    "kanji": "(腕時計)",
+    "type": "〔名〕",
+    "chinese": "手表",
+    "romaji": "udedokei"
+  },
+  "8": {
+    "hiragana": "こもの",
+    "kanji": "(小物)",
+    "type": "〔名〕",
+    "chinese": "小东西，细小的附件",
+    "romaji": "komono"
+  },
+  "9": {
+    "hiragana": "うんてんしゅ",
+    "kanji": "(運転手)",
+    "type": "〔名〕",
+    "chinese": "司机",
+    "romaji": "untenshu"
+  },
+  "10": {
+    "hiragana": "から",
+    "kanji": "(空)",
+    "type": "〔名〕",
+    "chinese": "空",
+    "romaji": "kara"
+  },
+  "11": {
+    "hiragana": "うんどうかい",
+    "kanji": "(運動会)",
+    "type": "〔名〕",
+    "chinese": "运动会",
+    "romaji": "undōkai"
+  },
+  "12": {
+    "hiragana": "チーム",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "队，团体",
+    "romaji": "chīmu"
+  },
+  "13": {
+    "hiragana": "さいご",
+    "kanji": "(最後)",
+    "type": "〔名〕",
+    "chinese": "最后",
+    "romaji": "saigo"
+  },
+  "14": {
+    "hiragana": "さいかい",
+    "kanji": "(再会)",
+    "type": "〔名〕",
+    "chinese": "重逢，再会",
+    "romaji": "saikai"
+  },
+  "15": {
+    "hiragana": "ひさしぶり",
+    "kanji": "(久しぶり)",
+    "type": "〔名〕",
+    "chinese": "好久不见",
+    "romaji": "hisashiburi"
+  },
+  "16": {
+    "hiragana": "カキ",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "柿子",
+    "romaji": "kaki"
+  },
+  "17": {
+    "hiragana": "せいりょういんりょうすい",
+    "kanji": "(清涼飲料水)",
+    "type": "〔名〕",
+    "chinese": "清凉饮料",
+    "romaji": "seiryō inryō sui"
+  },
+  "18": {
+    "hiragana": "します",
+    "kanji": "(閉まります)",
+    "type": "〔动1〕",
+    "chinese": "关闭，关",
+    "romaji": "shimasu"
+  },
+  "19": {
+    "hiragana": "こわします",
+    "kanji": "(壊します)",
+    "type": "〔动1〕",
+    "chinese": "弄坏",
+    "romaji": "kowashimasu"
+  },
+  "20": {
+    "hiragana": "わります",
+    "kanji": "(割ります)",
+    "type": "〔动1〕",
+    "chinese": "割，打破，打坏",
+    "romaji": "warimasu"
+  },
+  "21": {
+    "hiragana": "つきます",
+    "kanji": "(付きます)",
+    "type": "〔动1〕",
+    "chinese": "附带，附加",
+    "romaji": "tsukimasu"
+  },
+  "22": {
+    "hiragana": "かかります",
+    "kanji": "(掛かります)",
+    "type": "〔动1〕",
+    "chinese": "挂，悬挂",
+    "romaji": "kakarimasu"
+  },
+  "23": {
+    "hiragana": "よごれます",
+    "kanji": "(汚れます)",
+    "type": "〔动2〕",
+    "chinese": "脏",
+    "romaji": "yogoremasu"
+  },
+  "24": {
+    "hiragana": "えらい",
+    "kanji": "(偉い)",
+    "type": "〔形1〕",
+    "chinese": "了不起，伟大",
+    "romaji": "erai"
+  },
+  "25": {
+    "hiragana": "らく",
+    "kanji": "(楽)",
+    "type": "〔形2〕",
+    "chinese": "容易，简单；快乐，轻松",
+    "romaji": "raku"
+  },
+  "26": {
+    "hiragana": "ざんねん",
+    "kanji": "(残念)",
+    "type": "〔形2〕",
+    "chinese": "可惜，遗憾",
+    "romaji": "zannen"
+  },
+  "27": {
+    "hiragana": "きゅうに",
+    "kanji": "(急に)",
+    "type": "〔副〕",
+    "chinese": "突然",
+    "romaji": "kyū ni"
+  },
+  "28": {
+    "hiragana": "ぜんぶ",
+    "kanji": "(全部)",
+    "type": "〔副〕",
+    "chinese": "全部",
+    "romaji": "zenbu"
+  },
+  "29": {
+    "hiragana": "あいかわらず",
+    "kanji": "(相変わらず)",
+    "type": "〔副〕",
+    "chinese": "照旧，依然",
+    "romaji": "aikawarazu"
+  },
+  "30": {
+    "hiragana": "うっかり",
+    "kanji": "",
+    "type": "〔副〕",
+    "chinese": "不留神，不注意",
+    "romaji": "ukkari"
+  },
+  "31": {
+    "hiragana": "それにしても",
+    "kanji": "",
+    "type": "〔连〕",
+    "chinese": "即便那样，话虽如此",
+    "romaji": "sore ni shite mo"
+  },
+  "32": {
+    "hiragana": "おひさしぶりです",
+    "kanji": "(お久しぶりです)",
+    "type": "",
+    "chinese": "好久不见",
+    "romaji": "o hisashiburi desu"
+  }
+}

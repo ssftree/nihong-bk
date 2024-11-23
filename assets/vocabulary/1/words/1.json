@@ -1,4 +1,3 @@
-```json
 {
   "0": {
     "hiragana": "おおあめ",
@@ -252,82 +251,81 @@
     "chinese": "就要，立刻，马上",
     "romaji": "sugu ni"
   },
-  {
-    "36": {
-      "hiragana": "ほとんど",
-      "kanji": "",
-      "type": "〔副〕",
-      "chinese": "大部分，几乎",
-      "romaji": "hotondo"
-    },
-    "37": {
-      "hiragana": "それで",
-      "kanji": "",
-      "type": "〔连〕",
-      "chinese": "因此",
-      "romaji": "sorede"
-    },
-    "38": {
-      "hiragana": "すずき",
-      "kanji": "(鈴木)",
-      "type": "〔专〕",
-      "chinese": "铃木",
-      "romaji": "Suzuki"
-    },
-    "39": {
-      "hiragana": "よう",
-      "kanji": "(楊)",
-      "type": "〔专〕",
-      "chinese": "杨",
-      "romaji": "Yō"
-    },
-    "40": {
-      "hiragana": "かとう",
-      "kanji": "(加藤)",
-      "type": "〔专〕",
-      "chinese": "加藤",
-      "romaji": "Katō"
-    },
-    "41": {
-      "hiragana": "ようこ",
-      "kanji": "(葉子)",
-      "type": "〔专〕",
-      "chinese": "叶子",
-      "romaji": "Yōko"
-    },
-    "42": {
-      "hiragana": "ひかりでぱーと",
-      "kanji": "(光～)",
-      "type": "〔专〕",
-      "chinese": "阳光百货商店",
-      "romaji": "Hikari Depāto"
-    },
-    "43": {
-      "hiragana": "ぺきんたいがーす",
-      "kanji": "(北京～)",
-      "type": "〔专〕",
-      "chinese": "北京猛虎队（棒球队名称）",
-      "romaji": "Pekin Taigāsu"
-    },
-    "44": {
-      "hiragana": "あいさつまわり",
-      "kanji": "(あいさつ回り)",
-      "type": "〔名〕",
-      "chinese": "寒喧拜访",
-      "romaji": "aisatsu mawari"
-    },
-    "45": {
-      "hiragana": "いけない",
-      "kanji": "",
-      "type": "",
-      "chinese": "不行，不好，不可以",
-      "romaji": "ikenai"
-    },
-    "46": {
-      "hiragana": "～しゃ",
-      "kanji": "",
-      "type": "",
-      "chinese": "～社",
-      "romaji": "sha"
-    }
+  "36": {
+    "hiragana": "ほとんど",
+    "kanji": "",
+    "type": "〔副〕",
+    "chinese": "大部分，几乎",
+    "romaji": "hotondo"
+  },
+  "37": {
+    "hiragana": "それで",
+    "kanji": "",
+    "type": "〔连〕",
+    "chinese": "因此",
+    "romaji": "sorede"
+  },
+  "38": {
+    "hiragana": "すずき",
+    "kanji": "(鈴木)",
+    "type": "〔专〕",
+    "chinese": "铃木",
+    "romaji": "Suzuki"
+  },
+  "39": {
+    "hiragana": "よう",
+    "kanji": "(楊)",
+    "type": "〔专〕",
+    "chinese": "杨",
+    "romaji": "Yō"
+  },
+  "40": {
+    "hiragana": "かとう",
+    "kanji": "(加藤)",
+    "type": "〔专〕",
+    "chinese": "加藤",
+    "romaji": "Katō"
+  },
+  "41": {
+    "hiragana": "ようこ",
+    "kanji": "(葉子)",
+    "type": "〔专〕",
+    "chinese": "叶子",
+    "romaji": "Yōko"
+  },
+  "42": {
+    "hiragana": "ひかりでぱーと",
+    "kanji": "(光～)",
+    "type": "〔专〕",
+    "chinese": "阳光百货商店",
+    "romaji": "Hikari Depāto"
+  },
+  "43": {
+    "hiragana": "ぺきんたいがーす",
+    "kanji": "(北京～)",
+    "type": "〔专〕",
+    "chinese": "北京猛虎队（棒球队名称）",
+    "romaji": "Pekin Taigāsu"
+  },
+  "44": {
+    "hiragana": "あいさつまわり",
+    "kanji": "(あいさつ回り)",
+    "type": "〔名〕",
+    "chinese": "寒喧拜访",
+    "romaji": "aisatsu mawari"
+  },
+  "45": {
+    "hiragana": "いけない",
+    "kanji": "",
+    "type": "",
+    "chinese": "不行，不好，不可以",
+    "romaji": "ikenai"
+  },
+  "46": {
+    "hiragana": "～しゃ",
+    "kanji": "",
+    "type": "",
+    "chinese": "～社",
+    "romaji": "sha"
   }
+}

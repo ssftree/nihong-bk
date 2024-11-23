@@ -1,0 +1,387 @@
+{
+  "0": {
+    "hiragana": "さいしょ",
+    "kanji": "最初",
+    "type": "〔名〕",
+    "chinese": "开始的时候，最初",
+    "romaji": "saisho"
+  },
+  "1": {
+    "hiragana": "しゅっしん",
+    "kanji": "出身",
+    "type": "〔名〕",
+    "chinese": "出生地",
+    "romaji": "shusshin"
+  },
+  "2": {
+    "hiragana": "こうじょう",
+    "kanji": "工場",
+    "type": "〔名〕",
+    "chinese": "工厂",
+    "romaji": "kōjō"
+  },
+  "3": {
+    "hiragana": "こんろ",
+    "kanji": "焜炉",
+    "type": "〔名〕",
+    "chinese": "炉灶",
+    "romaji": "konro"
+  },
+  "4": {
+    "hiragana": "フライパン",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "平底锅",
+    "romaji": "furaipan"
+  },
+  "5": {
+    "hiragana": "たまごやき",
+    "kanji": "卵焼き",
+    "type": "〔名〕",
+    "chinese": "煎鸡蛋",
+    "romaji": "tamago yaki"
+  },
+  "6": {
+    "hiragana": "グラウンド",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "操场，运动场",
+    "romaji": "guraundo"
+  },
+  "7": {
+    "hiragana": "おくじょう",
+    "kanji": "屋上",
+    "type": "〔名〕",
+    "chinese": "屋顶，屋顶",
+    "romaji": "okujō"
+  },
+  "8": {
+    "hiragana": "たこ",
+    "kanji": "凧",
+    "type": "〔名〕",
+    "chinese": "风筝",
+    "romaji": "tako"
+  },
+  "9": {
+    "hiragana": "テープ",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "磁带，音像带",
+    "romaji": "tēpu"
+  },
+  "10": {
+    "hiragana": "どくしょ",
+    "kanji": "読書",
+    "type": "〔名〕",
+    "chinese": "读书",
+    "romaji": "dokusho"
+  },
+  "11": {
+    "hiragana": "しんせい",
+    "kanji": "申請",
+    "type": "〔名〕",
+    "chinese": "申请",
+    "romaji": "shinsei"
+  },
+  "12": {
+    "hiragana": "かんさいべん",
+    "kanji": "関西弁",
+    "type": "〔名〕",
+    "chinese": "关西话，关西方言",
+    "romaji": "kansaiben"
+  },
+  "13": {
+    "hiragana": "にちじょうかいわ",
+    "kanji": "日常会話",
+    "type": "〔名〕",
+    "chinese": "日常会话",
+    "romaji": "nichijō kaiwa"
+  },
+  "14": {
+    "hiragana": "にほんぶんか",
+    "kanji": "日本文化",
+    "type": "〔名〕",
+    "chinese": "日本文化",
+    "romaji": "nihon bunka"
+  },
+  "15": {
+    "hiragana": "せいさんコスト",
+    "kanji": "生産～",
+    "type": "〔名〕",
+    "chinese": "生产成本",
+    "romaji": "seisan kosuto"
+  },
+  "16": {
+    "hiragana": "こうつうじこ",
+    "kanji": "交通事故",
+    "type": "〔名〕",
+    "chinese": "交通事故",
+    "romaji": "kōtsūjiko"
+  },
+  "17": {
+    "hiragana": "ごしゅじん",
+    "kanji": "主人",
+    "type": "〔名〕",
+    "chinese": "您丈夫，您先生",
+    "romaji": "goshujin"
+  },
+  "18": {
+    "hiragana": "はかりうり",
+    "kanji": "量り売り",
+    "type": "〔名〕",
+    "chinese": "称斤卖，论重量卖",
+    "romaji": "hakariuri"
+  },
+  "19": {
+    "hiragana": "わらいごえ",
+    "kanji": "笑い声",
+    "type": "〔名〕",
+    "chinese": "括声，笑声",
+    "romaji": "waraigoe"
+  },
+  "20": {
+    "hiragana": "もちあるきます",
+    "kanji": "持ち歩きます",
+    "type": "〔动1〕",
+    "chinese": "携带，拿着走",
+    "romaji": "mochi arukimasu"
+  },
+  "21": {
+    "hiragana": "くりかえします",
+    "kanji": "繰り返します",
+    "type": "〔动1〕",
+    "chinese": "反复",
+    "romaji": "kurikaeshi masu"
+  },
+  "22": {
+    "hiragana": "さわぎます",
+    "kanji": "騒ぎます",
+    "type": "〔动1〕",
+    "chinese": "吵嚷，吵闹，喧",
+    "romaji": "sawagimasu"
+  },
+  "23": {
+    "hiragana": "ならびます",
+    "kanji": "並びます",
+    "type": "〔动1〕",
+    "chinese": "排，排队",
+    "romaji": "narabimasu"
+  },
+  "24": {
+    "hiragana": "こみます",
+    "kanji": "込みます",
+    "type": "〔动1〕",
+    "chinese": "拥挤",
+    "romaji": "komimasu"
+  },
+  "25": {
+    "hiragana": "たたきます",
+    "kanji": "叩きます",
+    "type": "〔动1〕",
+    "chinese": "敲，敲打",
+    "romaji": "tatakimasu"
+  },
+  "26": {
+    "hiragana": "ころびます",
+    "kanji": "転びます",
+    "type": "〔动1〕",
+    "chinese": "跌倒，摔倒",
+    "romaji": "korobimasu"
+  },
+  "27": {
+    "hiragana": "よろこびます",
+    "kanji": "喜びます",
+    "type": "〔动1〕",
+    "chinese": "喜悦，高兴",
+    "romaji": "yorokobimasu"
+  },
+  "28": {
+    "hiragana": "やくだちます",
+    "kanji": "役立ちます",
+    "type": "〔动1〕",
+    "chinese": "有用，有益",
+    "romaji": "yakudachimasu"
+  },
+  "29": {
+    "hiragana": "やといます",
+    "kanji": "雇います",
+    "type": "〔动1〕",
+    "chinese": "雇用",
+    "romaji": "yatomasu"
+  },
+  "30": {
+    "hiragana": "なくます",
+    "kanji": "泣くます",
+    "type": "〔动1〕",
+    "chinese": "哭，哭泣",
+    "romaji": "nakimasu"
+  },
+  "31": {
+    "hiragana": "ふります",
+    "kanji": "振ります",
+    "type": "〔动1〕",
+    "chinese": "挥动，摇动",
+    "romaji": "furimasu"
+  },
+  "32": {
+    "hiragana": "みえます",
+    "kanji": "見えます",
+    "type": "〔动2〕",
+    "chinese": "看到，看得见",
+    "romaji": "miemasu"
+  },
+  "33": {
+    "hiragana": "きこえます",
+    "kanji": "聞こえます",
+    "type": "〔动2〕",
+    "chinese": "听到,听得见",
+    "romaji": "kikoemasu"
+  },
+  "34": {
+    "hiragana": "つうじます",
+    "kanji": "通じます",
+    "type": "〔动2〕",
+    "chinese": "通过,相通",
+    "romaji": "tsūjimasu"
+  },
+  "35": {
+    "hiragana": "あげます",
+    "kanji": "挙げます",
+    "type": "〔动2〕",
+    "chinese": "放(飞），扬起",
+    "romaji": "agemasu"
+  },
+  "36": {
+    "hiragana": "なれます",
+    "kanji": "慣れます",
+    "type": "〔动2〕",
+    "chinese": "习惯",
+    "romaji": "naremasu"
+  },
+  "37": {
+    "hiragana": "ぬれます",
+    "kanji": "濡れます",
+    "type": "〔动2〕",
+    "chinese": "淋湿，打湿",
+    "romaji": "nuremasu"
+  },
+  "38": {
+    "hiragana": "やけます",
+    "kanji": "焼けます",
+    "type": "〔动2〕",
+    "chinese": "着火，燃烧",
+    "romaji": "yakemasu"
+  },
+  "39": {
+    "hiragana": "さげます",
+    "kanji": "下げます",
+    "type": "〔动2〕",
+    "chinese": "降低",
+    "romaji": "sagemasu"
+  },
+  "40": {
+    "hiragana": "しっぱいします",
+    "kanji": "失敗します",
+    "type": "〔动3〕",
+    "chinese": "出岔子，失败",
+    "romaji": "shippai shimasu"
+  },
+  "41": {
+    "hiragana": "くるしみます",
+    "kanji": "苦しみます",
+    "type": "〔动3〕",
+    "chinese": "苦恼，苦劳",
+    "romaji": "kurushimi masu"
+  },
+  "42": {
+    "hiragana": "びっくりします",
+    "kanji": "",
+    "type": "〔动3〕",
+    "chinese": "吃惊，吓一跳",
+    "romaji": "bikkuri shimasu"
+  },
+  "43": {
+    "hiragana": "しゅっせきします",
+    "kanji": "出席します",
+    "type": "〔动3〕",
+    "chinese": "出席，上课",
+    "romaji": "shusseki shimasu"
+  },
+  "44": {
+    "hiragana": "かなしむ",
+    "kanji": "悲しむ",
+    "type": "〔动1〕",
+    "chinese": "悲伤",
+    "romaji": "kanashimu"
+  },
+  "45": {
+    "hiragana": "ほんと",
+    "kanji": "",
+    "type": "〔副〕",
+    "chinese": "真正地",
+    "romaji": "honto"
+  },
+  "46": {
+    "hiragana": "とくに",
+    "kanji": "特に",
+    "type": "〔副〕",
+    "chinese": "特别是，尤其是",
+    "romaji": "toku ni"
+  },
+  "47": {
+    "hiragana": "まだまだ",
+    "kanji": "",
+    "type": "〔副〕",
+    "chinese": "尚，仍，未",
+    "romaji": "mada mada"
+  },
+  "48": {
+    "hiragana": "べらべら",
+    "kanji": "",
+    "type": "〔副〕",
+    "chinese": "流利地",
+    "romaji": "berabera"
+  },
+  "49": {
+    "hiragana": "ワンワン",
+    "kanji": "",
+    "type": "〔副〕",
+    "chinese": "(狗）汪汪",
+    "romaji": "wan wan"
+  },
+  "50": {
+    "hiragana": "ザーザー",
+    "kanji": "",
+    "type": "〔副〕",
+    "chinese": "(雨）哗啦哗啦",
+    "romaji": "zāzā"
+  },
+  "51": {
+    "hiragana": "すやすや",
+    "kanji": "",
+    "type": "〔副〕",
+    "chinese": "香甜地，安静地",
+    "romaji": "suyasuya"
+  },
+  "52": {
+    "hiragana": "くねくね",
+    "kanji": "",
+    "type": "〔副〕",
+    "chinese": "弯曲，弯弯曲曲",
+    "romaji": "kunekune"
+  },
+  "53": {
+    "hiragana": "メキシコ",
+    "kanji": "",
+    "type": "〔专〕",
+    "chinese": "墨西哥",
+    "romaji": "Mekishiko"
+  },
+  "54": {
+    "hiragana": "～号",
+    "kanji": "〜号",
+    "type": "",
+    "chinese": "～号",
+    "romaji": "～gō"
+  }
+}

@@ -1,0 +1,359 @@
+{
+  "0": {
+    "hiragana": "しつもん",
+    "kanji": "質問",
+    "type": "〔名〕",
+    "chinese": "提问，问题",
+    "romaji": "shitsumon"
+  },
+  "1": {
+    "hiragana": "ばあい",
+    "kanji": "場合",
+    "type": "〔名〕",
+    "chinese": "场合，情况",
+    "romaji": "bāi"
+  },
+  "2": {
+    "hiragana": "めいわく",
+    "kanji": "迷惑",
+    "type": "〔名〕",
+    "chinese": "麻烦",
+    "romaji": "meiwaku"
+  },
+  "3": {
+    "hiragana": "フジ",
+    "kanji": "藤",
+    "type": "〔名〕",
+    "chinese": "紫藤",
+    "romaji": "fuji"
+  },
+  "4": {
+    "hiragana": "カササギ",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "喜鹊",
+    "romaji": "kasasagi"
+  },
+  "5": {
+    "hiragana": "とり",
+    "kanji": "鳥",
+    "type": "〔名〕",
+    "chinese": "鸟",
+    "romaji": "tori"
+  },
+  "6": {
+    "hiragana": "マーク",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "符号",
+    "romaji": "māku"
+  },
+  "7": {
+    "hiragana": "ひょうしき",
+    "kanji": "標識",
+    "type": "〔名〕",
+    "chinese": "标记",
+    "romaji": "hyōshiki"
+  },
+  "8": {
+    "hiragana": "おうだんきんし",
+    "kanji": "横断禁止",
+    "type": "〔名〕",
+    "chinese": "禁止横穿",
+    "romaji": "ōdankinshi"
+  },
+  "9": {
+    "hiragana": "スピード",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "速度",
+    "romaji": "supīdo"
+  },
+  "10": {
+    "hiragana": "めんきょしょう",
+    "kanji": "免許証",
+    "type": "〔名〕",
+    "chinese": "许可证，执照",
+    "romaji": "menkyoshō"
+  },
+  "11": {
+    "hiragana": "きかく",
+    "kanji": "企画書",
+    "type": "〔名〕",
+    "chinese": "计划书",
+    "romaji": "kikaku"
+  },
+  "12": {
+    "hiragana": "やきゅうじょう",
+    "kanji": "野球場",
+    "type": "〔名〕",
+    "chinese": "棒球场",
+    "romaji": "yakyūjō"
+  },
+  "13": {
+    "hiragana": "テーブル",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "桌子",
+    "romaji": "tēburu"
+  },
+  "14": {
+    "hiragana": "テレビこうざ",
+    "kanji": "(～講座)",
+    "type": "〔名〕",
+    "chinese": "电视讲座",
+    "romaji": "terebi kōza"
+  },
+  "15": {
+    "hiragana": "かんじ",
+    "kanji": "漢字",
+    "type": "〔名〕",
+    "chinese": "汉字",
+    "romaji": "kanji"
+  },
+  "16": {
+    "hiragana": "せんそう",
+    "kanji": "戦争",
+    "type": "〔名〕",
+    "chinese": "战争",
+    "romaji": "sensō"
+  },
+  "17": {
+    "hiragana": "けいかん",
+    "kanji": "警官",
+    "type": "〔名〕",
+    "chinese": "警察",
+    "romaji": "keikan"
+  },
+  "18": {
+    "hiragana": "としょ",
+    "kanji": "年者",
+    "type": "〔名〕",
+    "chinese": "年长者",
+    "romaji": "tosho"
+  },
+  "19": {
+    "hiragana": "とまります",
+    "kanji": "(止まります)",
+    "type": "〔动1〕",
+    "chinese": "停，停止",
+    "romaji": "tomarimasu"
+  },
+  "20": {
+    "hiragana": "かわります",
+    "kanji": "(変わります)",
+    "type": "〔动1〕",
+    "chinese": "变，转变",
+    "romaji": "kawarimasu"
+  },
+  "21": {
+    "hiragana": "がんばります",
+    "kanji": "(頑張ります)",
+    "type": "〔动1〕",
+    "chinese": "拼命努力",
+    "romaji": "ganbarimasu"
+  },
+  "22": {
+    "hiragana": "あやまります",
+    "kanji": "(謝ります)",
+    "type": "〔动1〕",
+    "chinese": "道歉",
+    "romaji": "ayamarimasu"
+  },
+  "23": {
+    "hiragana": "サボります",
+    "kanji": "",
+    "type": "〔动1〕",
+    "chinese": "逃学，怠工",
+    "romaji": "saborimasu"
+  },
+  "24": {
+    "hiragana": "やぶります",
+    "kanji": "(敗ります)",
+    "type": "〔动2〕",
+    "chinese": "爽约，违约",
+    "romaji": "yaburimasu"
+  },
+  "25": {
+    "hiragana": "ひきます",
+    "kanji": "(引きます)",
+    "type": "〔动1〕",
+    "chinese": "拉，抽",
+    "romaji": "hikimasu"
+  },
+  "26": {
+    "hiragana": "まもります",
+    "kanji": "(守ります)",
+    "type": "〔动1〕",
+    "chinese": "遵守，保护",
+    "romaji": "mamorimasu"
+  },
+  "27": {
+    "hiragana": "こたえます",
+    "kanji": "(答えます)",
+    "type": "〔动2〕",
+    "chinese": "回答",
+    "romaji": "kotaemasu"
+  },
+  "28": {
+    "hiragana": "にげます",
+    "kanji": "(逃げます)",
+    "type": "〔动2〕",
+    "chinese": "逃跑",
+    "romaji": "nigemasu"
+  },
+  "29": {
+    "hiragana": "たすけます",
+    "kanji": "(助けます)",
+    "type": "〔动2〕",
+    "chinese": "救助，帮助",
+    "romaji": "tasukemasu"
+  },
+  "30": {
+    "hiragana": "つけます",
+    "kanji": "(付けます)",
+    "type": "〔动2〕",
+    "chinese": "添加，附加",
+    "romaji": "tsukemasu"
+  },
+  "31": {
+    "hiragana": "おぼえます",
+    "kanji": "(覚えます)",
+    "type": "〔动2〕",
+    "chinese": "记住，掌握",
+    "romaji": "oboemasu"
+  },
+  "32": {
+    "hiragana": "ていしゅつします",
+    "kanji": "(提出～)",
+    "type": "〔动3〕",
+    "chinese": "提交，提出",
+    "romaji": "teishutsu shimasu"
+  },
+  "33": {
+    "hiragana": "えんりょします",
+    "kanji": "(遠慮～)",
+    "type": "〔动3〕",
+    "chinese": "客气",
+    "romaji": "enryo shimasu"
+  },
+  "34": {
+    "hiragana": "シュートします",
+    "kanji": "(射球~)",
+    "type": "〔动3〕",
+    "chinese": "射门，投篮",
+    "romaji": "shūto shimasu"
+  },
+  "35": {
+    "hiragana": "ちゅういします",
+    "kanji": "(注意~)",
+    "type": "〔动3〕",
+    "chinese": "注意",
+    "romaji": "chūi shimasu"
+  },
+  "36": {
+    "hiragana": "したしい",
+    "kanji": "(親しい)",
+    "type": "〔形1〕",
+    "chinese": "亲近，亲密",
+    "romaji": "shitashii"
+  },
+  "37": {
+    "hiragana": "らんぼう",
+    "kanji": "(乱暴)",
+    "type": "〔形2〕",
+    "chinese": "粗暴",
+    "romaji": "ranbō"
+  },
+  "38": {
+    "hiragana": "しつれい",
+    "kanji": "(失礼)",
+    "type": "〔形2〕",
+    "chinese": "不礼貌",
+    "romaji": "shitsurei"
+  },
+  "39": {
+    "hiragana": "おなじ",
+    "kanji": "(同じ)",
+    "type": "〔形2〕",
+    "chinese": "一样，相同",
+    "romaji": "onaji"
+  },
+  "40": {
+    "hiragana": "きけん",
+    "kanji": "(危険)",
+    "type": "〔形2〕",
+    "chinese": "危险",
+    "romaji": "kiken"
+  },
+  "41": {
+    "hiragana": "そんな",
+    "kanji": "",
+    "type": "〔连体〕",
+    "chinese": "那样的",
+    "romaji": "sonna"
+  },
+  "42": {
+    "hiragana": "ていねいに",
+    "kanji": "(丁寧に)",
+    "type": "〔副〕",
+    "chinese": "恭敬地；细心地",
+    "romaji": "teinei ni"
+  },
+  "43": {
+    "hiragana": "おい",
+    "kanji": "(叹)",
+    "type": "",
+    "chinese": "哎，喂",
+    "romaji": "oi"
+  },
+  "44": {
+    "hiragana": "まこと",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "诚，阿诚",
+    "romaji": "makoto"
+  },
+  "45": {
+    "hiragana": "しゅうおんらい",
+    "kanji": "(周恩来)",
+    "type": "〔专〕",
+    "chinese": "周恩来",
+    "romaji": "Shū Onrai"
+  },
+  "46": {
+    "hiragana": "ろしん",
+    "kanji": "(魯迅)",
+    "type": "〔专〕",
+    "chinese": "鲁迅",
+    "romaji": "Roshin"
+  },
+  "47": {
+    "hiragana": "せたがや",
+    "kanji": "(世田谷)",
+    "type": "〔专〕",
+    "chinese": "世田谷",
+    "romaji": "Setagaya"
+  },
+  "48": {
+    "hiragana": "ふじ",
+    "kanji": "(富士)",
+    "type": "〔专〕",
+    "chinese": "富士",
+    "romaji": "Fuji"
+  },
+  "49": {
+    "hiragana": "かわった",
+    "kanji": "(変わった)",
+    "type": "〔名〕",
+    "chinese": "怪",
+    "romaji": "kawatta"
+  },
+  "50": {
+    "hiragana": "かぜをひきます",
+    "kanji": "(風邪を引きます)",
+    "type": "",
+    "chinese": "感冒",
+    "romaji": "kaze o hikimasu"
+  }
+}

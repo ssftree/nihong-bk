@@ -1,0 +1,324 @@
+{
+  "0": {
+    "hiragana": "むら",
+    "kanji": "村",
+    "type": "〔名〕",
+    "chinese": "村子，村庄",
+    "romaji": "mura"
+  },
+  "1": {
+    "hiragana": "いね",
+    "kanji": "稲",
+    "type": "〔名〕",
+    "chinese": "稻子",
+    "romaji": "ine"
+  },
+  "2": {
+    "hiragana": "きり",
+    "kanji": "霧",
+    "type": "〔名〕",
+    "chinese": "雾",
+    "romaji": "kiri"
+  },
+  "3": {
+    "hiragana": "もん",
+    "kanji": "門",
+    "type": "〔名〕",
+    "chinese": "城门，门，大门",
+    "romaji": "mon"
+  },
+  "4": {
+    "hiragana": "ぶたい",
+    "kanji": "舞台",
+    "type": "〔名〕",
+    "chinese": "舞台",
+    "romaji": "butai"
+  },
+  "5": {
+    "hiragana": "やね",
+    "kanji": "屋根",
+    "type": "〔名〕",
+    "chinese": "屋顶,房顶",
+    "romaji": "yane"
+  },
+  "6": {
+    "hiragana": "るりがわら",
+    "kanji": "瑠璃瓦",
+    "type": "〔名〕",
+    "chinese": "琉璃瓦",
+    "romaji": "rurigawara"
+  },
+  "7": {
+    "hiragana": "きいろ",
+    "kanji": "黄色",
+    "type": "〔名〕",
+    "chinese": "黄色，黄色",
+    "romaji": "kiiro"
+  },
+  "8": {
+    "hiragana": "そら",
+    "kanji": "空",
+    "type": "〔名〕",
+    "chinese": "天空",
+    "romaji": "sora"
+  },
+  "9": {
+    "hiragana": "バック",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "背景",
+    "romaji": "bakku"
+  },
+  "10": {
+    "hiragana": "かしきり",
+    "kanji": "貸し切り",
+    "type": "〔名〕",
+    "chinese": "包租",
+    "romaji": "kashikiri"
+  },
+  "11": {
+    "hiragana": "いっぱん",
+    "kanji": "一般",
+    "type": "〔名〕",
+    "chinese": "一般",
+    "romaji": "ippan"
+  },
+  "12": {
+    "hiragana": "そぼ",
+    "kanji": "祖母",
+    "type": "〔名〕",
+    "chinese": "祖母，外婆",
+    "romaji": "sobo"
+  },
+  "13": {
+    "hiragana": "おんがくかい",
+    "kanji": "音楽会",
+    "type": "〔名〕",
+    "chinese": "音乐会",
+    "romaji": "ongakukai"
+  },
+  "14": {
+    "hiragana": "ジャズ",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "爵士乐",
+    "romaji": "jazu"
+  },
+  "15": {
+    "hiragana": "やがいコンサート",
+    "kanji": "(野外～)",
+    "type": "〔名〕",
+    "chinese": "露天音乐会",
+    "romaji": "yagai konsāto"
+  },
+  "16": {
+    "hiragana": "えんだか",
+    "kanji": "円高",
+    "type": "〔名〕",
+    "chinese": "日元升值",
+    "romaji": "endaka"
+  },
+  "17": {
+    "hiragana": "ゆしゅつ",
+    "kanji": "輸出",
+    "type": "〔名〕",
+    "chinese": "出口，输出",
+    "romaji": "yushutsu"
+  },
+  "18": {
+    "hiragana": "えいきょう",
+    "kanji": "影響",
+    "type": "〔名〕",
+    "chinese": "影响",
+    "romaji": "eikyō"
+  },
+  "19": {
+    "hiragana": "しげん",
+    "kanji": "資源",
+    "type": "〔名〕",
+    "chinese": "资源",
+    "romaji": "shigen"
+  },
+  "20": {
+    "hiragana": "きおん",
+    "kanji": "気温",
+    "type": "〔名〕",
+    "chinese": "气温",
+    "romaji": "kion"
+  },
+  "21": {
+    "hiragana": "おき",
+    "kanji": "沖",
+    "type": "〔名〕",
+    "chinese": "海上，湖心",
+    "romaji": "oki"
+  },
+  "22": {
+    "hiragana": "かいがん",
+    "kanji": "海岸",
+    "type": "〔名〕",
+    "chinese": "海洋",
+    "romaji": "kaigan"
+  },
+  "23": {
+    "hiragana": "クジラ",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "鲸",
+    "romaji": "kujira"
+  },
+  "24": {
+    "hiragana": "サメ",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "鲨鱼",
+    "romaji": "same"
+  },
+  "25": {
+    "hiragana": "ユーフォー",
+    "kanji": "(UFO)",
+    "type": "〔名〕",
+    "chinese": "不明飞行物",
+    "romaji": "yūfō"
+  },
+  "26": {
+    "hiragana": "むかし",
+    "kanji": "昔",
+    "type": "〔名〕",
+    "chinese": "以前",
+    "romaji": "mukashi"
+  },
+  "27": {
+    "hiragana": "べつめい",
+    "kanji": "別名",
+    "type": "〔名〕",
+    "chinese": "别名",
+    "romaji": "betsumei"
+  },
+  "28": {
+    "hiragana": "ほう",
+    "kanji": "方",
+    "type": "〔名〕",
+    "chinese": "方，方向",
+    "romaji": "hō"
+  },
+  "29": {
+    "hiragana": "どうろこうじ",
+    "kanji": "道路工事",
+    "type": "〔名〕",
+    "chinese": "道路施工",
+    "romaji": "dōro kōji"
+  },
+  "30": {
+    "hiragana": "つうきんラッシュ",
+    "kanji": "(通勤~)",
+    "type": "〔名〕",
+    "chinese": "上下班高峰",
+    "romaji": "tsūkin rasshu"
+  },
+  "31": {
+    "hiragana": "つうこうきんし",
+    "kanji": "(通行禁~)",
+    "type": "〔名〕",
+    "chinese": "禁止通行",
+    "romaji": "tsūkō kinshi"
+  },
+  "32": {
+    "hiragana": "とおく",
+    "kanji": "遠く",
+    "type": "〔名〕",
+    "chinese": "远处，远方",
+    "romaji": "tōku"
+  },
+  "33": {
+    "hiragana": "みわたします",
+    "kanji": "(見渡し~)",
+    "type": "〔动1〕",
+    "chinese": "跳望，远眺",
+    "romaji": "miwatasu"
+  },
+  "34": {
+    "hiragana": "つづきます",
+    "kanji": "(続き~)",
+    "type": "〔动1〕",
+    "chinese": "持续，继续",
+    "romaji": "tsudzuku"
+  },
+  "35": {
+    "hiragana": "なくなります",
+    "kanji": "",
+    "type": "〔动1〕",
+    "chinese": "完，丢失",
+    "romaji": "nakunaru"
+  },
+  "36": {
+    "hiragana": "そだちます",
+    "kanji": "(育ち~)",
+    "type": "〔动1〕",
+    "chinese": "生长，成长",
+    "romaji": "sodatsu"
+  },
+  "37": {
+    "hiragana": "ふえます",
+    "kanji": "(増え~)",
+    "type": "〔动2〕",
+    "chinese": "增加，增多",
+    "romaji": "fuemasu"
+  },
+  "38": {
+    "hiragana": "つれます",
+    "kanji": "(連れ~)",
+    "type": "〔动2〕",
+    "chinese": "带，领",
+    "romaji": "tsureru"
+  },
+  "39": {
+    "hiragana": "けっせきします",
+    "kanji": "(欠席~)",
+    "type": "〔动3〕",
+    "chinese": "缺席",
+    "romaji": "kesseki shimasu"
+  },
+  "40": {
+    "hiragana": "ゆにゅうします",
+    "kanji": "(輸入~)",
+    "type": "〔动3〕",
+    "chinese": "进口，输入",
+    "romaji": "yunyū shimasu"
+  },
+  "41": {
+    "hiragana": "せっかく",
+    "kanji": "",
+    "type": "〔副〕",
+    "chinese": "好不容易，特意",
+    "romaji": "sekkaku"
+  },
+  "42": {
+    "hiragana": "ぜったい",
+    "kanji": "(絶対)",
+    "type": "〔副〕",
+    "chinese": "绝对，一定",
+    "romaji": "zettai"
+  },
+  "43": {
+    "hiragana": "そうそう",
+    "kanji": "",
+    "type": "〔副〕",
+    "chinese": "是的",
+    "romaji": "sōsō"
+  },
+  "44": {
+    "hiragana": "しきんじょう",
+    "kanji": "(紫禁城)",
+    "type": "〔专〕",
+    "chinese": "紫禁城",
+    "romaji": "Shikinjō"
+  },
+  "45": {
+    "hiragana": "〜リットル",
+    "kanji": "",
+    "type": "",
+    "chinese": "",
+    "romaji": "rittoru"
+  }
+}

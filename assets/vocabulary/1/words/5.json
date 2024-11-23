@@ -1,0 +1,247 @@
+{
+  "0": {
+    "hiragana": "たくはいびん",
+    "kanji": "宅配便",
+    "type": "〔名〕",
+    "chinese": "送货上门服务",
+    "romaji": "takuhaibin"
+  },
+  "1": {
+    "hiragana": "ほうこくしょ",
+    "kanji": "報告書",
+    "type": "〔名〕",
+    "chinese": "报告书",
+    "romaji": "hōkokusho"
+  },
+  "2": {
+    "hiragana": "つゆ",
+    "kanji": "梅雨",
+    "type": "〔名〕",
+    "chinese": "梅雨",
+    "romaji": "tsuyu"
+  },
+  "3": {
+    "hiragana": "あき",
+    "kanji": "秋",
+    "type": "〔名〕",
+    "chinese": "秋天，秋季",
+    "romaji": "aki"
+  },
+  "4": {
+    "hiragana": "ピクニック",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "郊游",
+    "romaji": "pikunikku"
+  },
+  "5": {
+    "hiragana": "こうらくち",
+    "kanji": "行楽地",
+    "type": "〔名〕",
+    "chinese": "景点，游览地",
+    "romaji": "kōrakuchi"
+  },
+  "6": {
+    "hiragana": "ピザ",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "比萨饼",
+    "romaji": "piza"
+  },
+  "7": {
+    "hiragana": "しゅうでん",
+    "kanji": "終電",
+    "type": "〔名〕",
+    "chinese": "末班电车",
+    "romaji": "shūden"
+  },
+  "8": {
+    "hiragana": "まちあいしつ",
+    "kanji": "待合室",
+    "type": "〔名〕",
+    "chinese": "候诊室，等候室",
+    "romaji": "machi aishitsu"
+  },
+  "9": {
+    "hiragana": "かんじゃ",
+    "kanji": "患者",
+    "type": "〔名〕",
+    "chinese": "病人，患者",
+    "romaji": "kanja"
+  },
+  "10": {
+    "hiragana": "はいざら",
+    "kanji": "灰皿",
+    "type": "〔名〕",
+    "chinese": "烟灰缸",
+    "romaji": "haizara"
+  },
+  "11": {
+    "hiragana": "すいがら",
+    "kanji": "吸殻",
+    "type": "〔名〕",
+    "chinese": "烟头，烟灰，烟蒂",
+    "romaji": "suigara"
+  },
+  "12": {
+    "hiragana": "は",
+    "kanji": "歯",
+    "type": "〔名〕",
+    "chinese": "牙齿",
+    "romaji": "ha"
+  },
+  "13": {
+    "hiragana": "かれ",
+    "kanji": "(彼)",
+    "type": "〔代〕",
+    "chinese": "他",
+    "romaji": "kare"
+  },
+  "14": {
+    "hiragana": "そうします",
+    "kanji": "",
+    "type": "〔动1〕",
+    "chinese": "到来，齐全",
+    "romaji": "sō shimasu"
+  },
+  "15": {
+    "hiragana": "よります",
+    "kanji": "(寄ります)",
+    "type": "〔动1〕",
+    "chinese": "顺便去；靠近",
+    "romaji": "yorimasu"
+  },
+  "16": {
+    "hiragana": "ひらきます",
+    "kanji": "(開きます)",
+    "type": "〔动1〕",
+    "chinese": "开，开启",
+    "romaji": "hirakimasu"
+  },
+  "17": {
+    "hiragana": "ひっこします",
+    "kanji": "(引っ越します)",
+    "type": "〔动1〕",
+    "chinese": "搬迁，搬家",
+    "romaji": "hikkoshimasu"
+  },
+  "18": {
+    "hiragana": "むかえます",
+    "kanji": "(迎えます)",
+    "type": "〔动2〕",
+    "chinese": "迎接",
+    "romaji": "mukaemasu"
+  },
+  "19": {
+    "hiragana": "こわれます",
+    "kanji": "(壊れます)",
+    "type": "〔动2〕",
+    "chinese": "出故障，坏",
+    "romaji": "kowaremasu"
+  },
+  "20": {
+    "hiragana": "まちがえます",
+    "kanji": "(間違えます)",
+    "type": "〔动2〕",
+    "chinese": "搞错",
+    "romaji": "machigaemasu"
+  },
+  "21": {
+    "hiragana": "しゅっぱつします",
+    "kanji": "(出発～)",
+    "type": "〔动3〕",
+    "chinese": "出发",
+    "romaji": "shuppatsu shimasu"
+  },
+  "22": {
+    "hiragana": "てんしょくします",
+    "kanji": "(転職～)",
+    "type": "〔动3〕",
+    "chinese": "换工作",
+    "romaji": "tenshoku shimasu"
+  },
+  "23": {
+    "hiragana": "パンクします",
+    "kanji": "",
+    "type": "〔动3〕",
+    "chinese": "轮胎爆裂，撑破",
+    "romaji": "panku shimasu"
+  },
+  "24": {
+    "hiragana": "さびしい",
+    "kanji": "(寂しい)",
+    "type": "〔形1〕",
+    "chinese": "寂寞",
+    "romaji": "sabishii"
+  },
+  "25": {
+    "hiragana": "たのしみ",
+    "kanji": "(楽しみ)",
+    "type": "〔形2〕",
+    "chinese": "愉快，期待",
+    "romaji": "tanoshimi"
+  },
+  "26": {
+    "hiragana": "とくべつ",
+    "kanji": "(特別)",
+    "type": "〔形2〕",
+    "chinese": "特别",
+    "romaji": "tokubetsu"
+  },
+  "27": {
+    "hiragana": "それでは",
+    "kanji": "/それじゃ",
+    "type": "〔连〕",
+    "chinese": "那么",
+    "romaji": "soredewa/soreja"
+  },
+  "28": {
+    "hiragana": "そうか",
+    "kanji": "",
+    "type": "〔叹〕",
+    "chinese": "是吗",
+    "romaji": "sōka"
+  },
+  "29": {
+    "hiragana": "まあ",
+    "kanji": "",
+    "type": "〔叹〕",
+    "chinese": "嗯，唉，哎哟",
+    "romaji": "mā"
+  },
+  "30": {
+    "hiragana": "パク",
+    "kanji": "",
+    "type": "〔专〕",
+    "chinese": "朴",
+    "romaji": "Paku"
+  },
+  "31": {
+    "hiragana": "ちょうこうくだり",
+    "kanji": "(長江下り)",
+    "type": "〔专〕",
+    "chinese": "坐船游览长江两岸风光",
+    "romaji": "Chōkō kudari"
+  },
+  "32": {
+    "hiragana": "こうざん",
+    "kanji": "(香山)",
+    "type": "〔专〕",
+    "chinese": "香山",
+    "romaji": "Kōzan"
+  },
+  "33": {
+    "hiragana": "ペキンしょくぶつえん",
+    "kanji": "(北京植物園)",
+    "type": "〔专〕",
+    "chinese": "北京植物园",
+    "romaji": "Pekin Shokubutsuen"
+  },
+  "34": {
+    "hiragana": "しかたない",
+    "kanji": "(仕方ない)",
+    "type": "",
+    "chinese": "没有办法",
+    "romaji": "shikata nai"
+  }
+}

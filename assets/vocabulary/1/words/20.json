@@ -1,0 +1,373 @@
+{
+  "0": {
+    "hiragana": "しょうしか",
+    "kanji": "少子化",
+    "type": "〔名〕",
+    "chinese": "孩子减少现象",
+    "romaji": "shōshika"
+  },
+  "1": {
+    "hiragana": "じんこう",
+    "kanji": "人口",
+    "type": "〔名〕",
+    "chinese": "人口",
+    "romaji": "jinkō"
+  },
+  "2": {
+    "hiragana": "へいきんねんれい",
+    "kanji": "平均年齢",
+    "type": "〔名〕",
+    "chinese": "平均年龄",
+    "romaji": "heikin nenrei"
+  },
+  "3": {
+    "hiragana": "こうつう",
+    "kanji": "交通",
+    "type": "〔名〕",
+    "chinese": "交通",
+    "romaji": "kōtsū"
+  },
+  "4": {
+    "hiragana": "べん",
+    "kanji": "便",
+    "type": "〔名〕",
+    "chinese": "方便，便利",
+    "romaji": "ben"
+  },
+  "5": {
+    "hiragana": "アクセス",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "连接，衔接",
+    "romaji": "akusesu"
+  },
+  "6": {
+    "hiragana": "リニアモーターカー",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "磁悬浮列车",
+    "romaji": "rinia mōtā kā"
+  },
+  "7": {
+    "hiragana": "びん",
+    "kanji": "便",
+    "type": "〔名〕",
+    "chinese": "航班",
+    "romaji": "bin"
+  },
+  "8": {
+    "hiragana": "しない",
+    "kanji": "市内",
+    "type": "〔名〕",
+    "chinese": "市内",
+    "romaji": "shinai"
+  },
+  "9": {
+    "hiragana": "いなか",
+    "kanji": "田舎",
+    "type": "〔名〕",
+    "chinese": "乡下，农村",
+    "romaji": "inaka"
+  },
+  "10": {
+    "hiragana": "ちゅうしんち",
+    "kanji": "中心地",
+    "type": "〔名〕",
+    "chinese": "中心地区",
+    "romaji": "chūshinchi"
+  },
+  "11": {
+    "hiragana": "げんだいか",
+    "kanji": "現代化",
+    "type": "〔名〕",
+    "chinese": "现代化",
+    "romaji": "gendai ka"
+  },
+  "12": {
+    "hiragana": "げんだいじん",
+    "kanji": "現代人",
+    "type": "〔名〕",
+    "chinese": "现代人",
+    "romaji": "gendai jin"
+  },
+  "13": {
+    "hiragana": "じかんたい",
+    "kanji": "時間帯",
+    "type": "〔名〕",
+    "chinese": "时间段",
+    "romaji": "jikantai"
+  },
+  "14": {
+    "hiragana": "ちょうし",
+    "kanji": "調子",
+    "type": "〔名〕",
+    "chinese": "情况，状态，势头",
+    "romaji": "chōshi"
+  },
+  "15": {
+    "hiragana": "さ",
+    "kanji": "差",
+    "type": "〔名〕",
+    "chinese": "长处，好处",
+    "romaji": "sa"
+  },
+  "16": {
+    "hiragana": "へやだい",
+    "kanji": "部屋代",
+    "type": "〔名〕",
+    "chinese": "房租",
+    "romaji": "heyadai"
+  },
+  "17": {
+    "hiragana": "しんりん",
+    "kanji": "森林",
+    "type": "〔名〕",
+    "chinese": "森林",
+    "romaji": "shinrin"
+  },
+  "18": {
+    "hiragana": "ちきゅう",
+    "kanji": "地球",
+    "type": "〔名〕",
+    "chinese": "地球",
+    "romaji": "chikyū"
+  },
+  "19": {
+    "hiragana": "へいきんきおん",
+    "kanji": "平均気温",
+    "type": "〔名〕",
+    "chinese": "平均气温",
+    "romaji": "heikin kion"
+  },
+  "20": {
+    "hiragana": "きゅうしょくアンラベン",
+    "kanji": "地球气温暖",
+    "type": "〔名〕",
+    "chinese": "地球变暖",
+    "romaji": "kyūshoku anraben"
+  },
+  "21": {
+    "hiragana": "ふくまふうつ",
+    "kanji": "冷冻食品",
+    "type": "〔名〕",
+    "chinese": "冷冻食品",
+    "romaji": "fukumafutsu"
+  },
+  "22": {
+    "hiragana": "こうれいしゃ",
+    "kanji": "高齢者",
+    "type": "〔名〕",
+    "chinese": "老年人",
+    "romaji": "kōreisha"
+  },
+  "23": {
+    "hiragana": "きつえんしゃ",
+    "kanji": "喫煙者",
+    "type": "〔名〕",
+    "chinese": "吸烟者",
+    "romaji": "kitsuen sha"
+  },
+  "24": {
+    "hiragana": "あさ",
+    "kanji": "早上(聊早)",
+    "type": "〔副〕",
+    "chinese": "早上",
+    "romaji": "asa"
+  },
+  "25": {
+    "hiragana": "まえ",
+    "kanji": "前",
+    "type": "〔副〕",
+    "chinese": "以前",
+    "romaji": "mae"
+  },
+  "26": {
+    "hiragana": "れんざ",
+    "kanji": "凌晨",
+    "type": "〔副〕",
+    "chinese": "凌晨",
+    "romaji": "renza"
+  },
+  "27": {
+    "hiragana": "へいそ",
+    "kanji": "通常",
+    "type": "〔副〕",
+    "chinese": "通常",
+    "romaji": "heiso"
+  },
+  "28": {
+    "hiragana": "じゅんすい",
+    "kanji": "純粹",
+    "type": "〔形1〕",
+    "chinese": "纯粹",
+    "romaji": "junsui"
+  },
+  "29": {
+    "hiragana": "ようい",
+    "kanji": "用意",
+    "type": "〔名〕",
+    "chinese": "用心",
+    "romaji": "yōi"
+  },
+  "30": {
+    "hiragana": "にちようだいじ",
+    "kanji": "日用大事",
+    "type": "〔名〕",
+    "chinese": "日用百，第一大事",
+    "romaji": "nichiyō daiji"
+  },
+  "31": {
+    "hiragana": "ふぶん",
+    "kanji": "部分",
+    "type": "〔名〕",
+    "chinese": "部分",
+    "romaji": "fubun"
+  },
+  "32": {
+    "hiragana": "じつよう",
+    "kanji": "実用",
+    "type": "〔名〕",
+    "chinese": "实际用途",
+    "romaji": "jitsu yō"
+  },
+  "33": {
+    "hiragana": "かんせい",
+    "kanji": "完成",
+    "type": "〔名〕",
+    "chinese": "完全",
+    "romaji": "kansei"
+  },
+  "34": {
+    "hiragana": "こうちょう",
+    "kanji": "好調",
+    "type": "〔名〕",
+    "chinese": "启动",
+    "romaji": "kōchō"
+  },
+  "35": {
+    "hiragana": "あたたま",
+    "kanji": "暖ま",
+    "type": "〔名〕",
+    "chinese": "问题",
+    "romaji": "atatama"
+  },
+  "36": {
+    "hiragana": "おこのみしょ",
+    "kanji": "好み書",
+    "type": "〔名〕",
+    "chinese": "菜单",
+    "romaji": "okonomi sho"
+  },
+  "37": {
+    "hiragana": "かんりにん",
+    "kanji": "管理人",
+    "type": "〔名〕",
+    "chinese": "管理者",
+    "romaji": "kanrinin"
+  },
+  "38": {
+    "hiragana": "にれん",
+    "kanji": "令賢",
+    "type": "〔名〕",
+    "chinese": "两连",
+    "romaji": "niren"
+  },
+  "39": {
+    "hiragana": "かいぎ",
+    "kanji": "会議",
+    "type": "〔名〕",
+    "chinese": "会议",
+    "romaji": "kaigi"
+  },
+  "40": {
+    "hiragana": "ぎょう",
+    "kanji": "行",
+    "type": "〔名〕",
+    "chinese": "行",
+    "romaji": "gyō"
+  },
+  "41": {
+    "hiragana": "きょじん",
+    "kanji": "巨人",
+    "type": "〔名〕",
+    "chinese": "巨人",
+    "romaji": "kyōjin"
+  },
+  "42": {
+    "hiragana": "かけび",
+    "kanji": "留着",
+    "type": "〔名〕",
+    "chinese": "枕头",
+    "romaji": "kakebi"
+  },
+  "43": {
+    "hiragana": "きんし",
+    "kanji": "禁止",
+    "type": "〔名〕",
+    "chinese": "禁止",
+    "romaji": "kinshi"
+  },
+  "44": {
+    "hiragana": "こっかい",
+    "kanji": "国会",
+    "type": "〔名〕",
+    "chinese": "立法会",
+    "romaji": "kokkai"
+  },
+  "45": {
+    "hiragana": "きけん",
+    "kanji": "危険",
+    "type": "〔名〕",
+    "chinese": "危险",
+    "romaji": "kiken"
+  },
+  "46": {
+    "hiragana": "きょうしん",
+    "kanji": "驚心",
+    "type": "〔动1〕",
+    "chinese": "吓人",
+    "romaji": "kyōshin"
+  },
+  "47": {
+    "hiragana": "きけん",
+    "kanji": "危険",
+    "type": "〔名〕",
+    "chinese": "危险",
+    "romaji": "kiken"
+  },
+  "48": {
+    "hiragana": "おおやみ",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "父母羞耻不已",
+    "romaji": "o_yami"
+  },
+  "49": {
+    "hiragana": "もん",
+    "kanji": "門",
+    "type": "〔名〕",
+    "chinese": "门",
+    "romaji": "mon"
+  },
+  "50": {
+    "hiragana": "せいいん",
+    "kanji": "聖隠",
+    "type": "〔名〕",
+    "chinese": "不登校，隐士",
+    "romaji": "sei-in"
+  },
+  "51": {
+    "hiragana": "きしつ",
+    "kanji": "気質",
+    "type": "〔名〕",
+    "chinese": "气质",
+    "romaji": "kikashitsu"
+  },
+  "52": {
+    "hiragana": "しゃせい",
+    "kanji": "写生",
+    "type": "〔名〕",
+    "chinese": "社会主义文化的教育验工",
+    "romaji": "shasei"
+  }
+}

@@ -1,0 +1,296 @@
+{
+  "0": {
+    "hiragana": "しゃいんりょこう",
+    "kanji": "社員旅行",
+    "type": "〔名〕",
+    "chinese": "员工旅行",
+    "romaji": "shain ryokō"
+  },
+  "1": {
+    "hiragana": "しんじゅうしゃいん",
+    "kanji": "新入社員",
+    "type": "〔名〕",
+    "chinese": "新来的职员",
+    "romaji": "shinnyū shain"
+  },
+  "2": {
+    "hiragana": "かいぎじょう",
+    "kanji": "会議場",
+    "type": "〔名〕",
+    "chinese": "会场",
+    "romaji": "kaigijō"
+  },
+  "3": {
+    "hiragana": "こくさいかいぎ",
+    "kanji": "国際会議",
+    "type": "〔名〕",
+    "chinese": "国际会议",
+    "romaji": "kokusai kaigi"
+  },
+  "4": {
+    "hiragana": "ビアガーデン",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "庭院式的啤酒店",
+    "romaji": "biāgāden"
+  },
+  "5": {
+    "hiragana": "おおがたスーパー",
+    "kanji": "(大型～)",
+    "type": "〔名〕",
+    "chinese": "大型超市",
+    "romaji": "ōgata sūpā"
+  },
+  "6": {
+    "hiragana": "みずうみ",
+    "kanji": "湖",
+    "type": "〔名〕",
+    "chinese": "湖",
+    "romaji": "mizūmi"
+  },
+  "7": {
+    "hiragana": "パトカー",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "警车，巡逻车",
+    "romaji": "patokā"
+  },
+  "8": {
+    "hiragana": "サイレン",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "警笛，报警器",
+    "romaji": "sairen"
+  },
+  "9": {
+    "hiragana": "アニメ",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "动画片",
+    "romaji": "anime"
+  },
+  "10": {
+    "hiragana": "パワー",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "能力，力量",
+    "romaji": "pawā"
+  },
+  "11": {
+    "hiragana": "こころ",
+    "kanji": "心",
+    "type": "〔名〕",
+    "chinese": "心",
+    "romaji": "kokoro"
+  },
+  "12": {
+    "hiragana": "たいど",
+    "kanji": "態度",
+    "type": "〔名〕",
+    "chinese": "态度",
+    "romaji": "taido"
+  },
+  "13": {
+    "hiragana": "せいかく",
+    "kanji": "性格",
+    "type": "〔名〕",
+    "chinese": "性格",
+    "romaji": "seikaku"
+  },
+  "14": {
+    "hiragana": "ひょうばん",
+    "kanji": "評判",
+    "type": "〔名〕",
+    "chinese": "评价，评论",
+    "romaji": "hyōban"
+  },
+  "15": {
+    "hiragana": "ぎょうれつ",
+    "kanji": "行列",
+    "type": "〔名〕",
+    "chinese": "行列,队伍",
+    "romaji": "gyōretsu"
+  },
+  "16": {
+    "hiragana": "ようき",
+    "kanji": "容器",
+    "type": "〔名〕",
+    "chinese": "容器",
+    "romaji": "yōki"
+  },
+  "17": {
+    "hiragana": "こうぎょう",
+    "kanji": "工業",
+    "type": "〔名〕",
+    "chinese": "工业",
+    "romaji": "kōgyō"
+  },
+  "18": {
+    "hiragana": "あせ",
+    "kanji": "汗",
+    "type": "〔名〕",
+    "chinese": "汗",
+    "romaji": "ase"
+  },
+  "19": {
+    "hiragana": "はい",
+    "kanji": "倍",
+    "type": "〔名〕",
+    "chinese": "倍，加倍",
+    "romaji": "bai"
+  },
+  "20": {
+    "hiragana": "たて",
+    "kanji": "縦",
+    "type": "〔名〕",
+    "chinese": "纵，竖",
+    "romaji": "tate"
+  },
+  "21": {
+    "hiragana": "ちゅうごくぜんど",
+    "kanji": "(中国全土)",
+    "type": "〔名〕",
+    "chinese": "全中国",
+    "romaji": "chūgoku zendo"
+  },
+  "22": {
+    "hiragana": "ちょうきよほう",
+    "kanji": "(長期予報)",
+    "type": "〔名〕",
+    "chinese": "长期预报",
+    "romaji": "chōki yohō"
+  },
+  "23": {
+    "hiragana": "わらい",
+    "kanji": "笑い",
+    "type": "〔名〕",
+    "chinese": "笑声",
+    "romaji": "warai"
+  },
+  "24": {
+    "hiragana": "なつ",
+    "kanji": "夏",
+    "type": "〔名〕",
+    "chinese": "夏，暑气",
+    "romaji": "natsu"
+  },
+  "25": {
+    "hiragana": "びと",
+    "kanji": "眉毛",
+    "type": "〔名〕",
+    "chinese": "眉",
+    "romaji": "bito"
+  },
+  "26": {
+    "hiragana": "かなめ",
+    "kanji": "要",
+    "type": "〔名〕",
+    "chinese": "重点",
+    "romaji": "kaname"
+  },
+  "27": {
+    "hiragana": "あとあし",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "回忆,后头",
+    "romaji": "atoa shi"
+  },
+  "28": {
+    "hiragana": "ふかい",
+    "kanji": "深い",
+    "type": "〔形1〕",
+    "chinese": "深厚，深刻",
+    "romaji": "fukai"
+  },
+  "29": {
+    "hiragana": "あたたかい",
+    "kanji": "暖かい",
+    "type": "〔形1〕",
+    "chinese": "温暖",
+    "romaji": "atatakai"
+  },
+  "30": {
+    "hiragana": "おだやか",
+    "kanji": "穏やか",
+    "type": "〔形2〕",
+    "chinese": "平静，安详",
+    "romaji": "odayaka"
+  },
+  "31": {
+    "hiragana": "ごうかな",
+    "kanji": "豪華な",
+    "type": "〔形2〕",
+    "chinese": "奢华",
+    "romaji": "gōkanana"
+  },
+  "32": {
+    "hiragana": "ぶんべつ",
+    "kanji": "分別",
+    "type": "〔形2〕",
+    "chinese": "分清，懂分规矩",
+    "romaji": "bunbetsu"
+  },
+  "33": {
+    "hiragana": "ビフ",
+    "kanji": "羑惏",
+    "type": "〔名〕",
+    "chinese": "豌豆",
+    "romaji": "bifu"
+  },
+  "34": {
+    "hiragana": "ざんねん",
+    "kanji": "斬新",
+    "type": "〔副〕",
+    "chinese": "崭新",
+    "romaji": "zannen"
+  },
+  "35": {
+    "hiragana": "ぐっと",
+    "kanji": "",
+    "type": "〔副〕",
+    "chinese": "更加；用力",
+    "romaji": "gutto"
+  },
+  "36": {
+    "hiragana": "あげます",
+    "kanji": "例えは",
+    "type": "〔副〕",
+    "chinese": "例如，比如",
+    "romaji": "agemasu"
+  },
+  "37": {
+    "hiragana": "しかも",
+    "kanji": "",
+    "type": "〔连〕",
+    "chinese": "而且",
+    "romaji": "shikamo"
+  },
+  "38": {
+    "hiragana": "それで",
+    "kanji": "",
+    "type": "〔连〕",
+    "chinese": "因此，所以；那么",
+    "romaji": "sorede"
+  },
+  "39": {
+    "hiragana": "おかげさまで",
+    "kanji": "",
+    "type": "",
+    "chinese": "托您的福",
+    "romaji": "okage sa made"
+  },
+  "40": {
+    "hiragana": "なんといっても",
+    "kanji": "何と言っても",
+    "type": "",
+    "chinese": "首要是，无论如何",
+    "romaji": "nante itte mo"
+  },
+  "41": {
+    "hiragana": "〜キロ／〜キログラム／〜センチ",
+    "kanji": "",
+    "type": "",
+    "chinese": "",
+    "romaji": "kiro/kiruguramu/senchi"
+  }
+}
