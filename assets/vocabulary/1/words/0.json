@@ -1,0 +1,247 @@
+{
+  "0": {
+    "hiragana": "すうがく",
+    "kanji": "数学",
+    "type": "〔名〕",
+    "chinese": "数学",
+    "romaji": "sūgaku"
+  },
+  "1": {
+    "hiragana": "せんもん",
+    "kanji": "専門",
+    "type": "〔名〕",
+    "chinese": "专门",
+    "romaji": "senmon"
+  },
+  "2": {
+    "hiragana": "じょゆう",
+    "kanji": "女優",
+    "type": "〔名〕",
+    "chinese": "女演员",
+    "romaji": "joyū"
+  },
+  "3": {
+    "hiragana": "えいぎょうか",
+    "kanji": "営業課",
+    "type": "〔名〕",
+    "chinese": "营业科",
+    "romaji": "eigyōka"
+  },
+  "4": {
+    "hiragana": "しがい",
+    "kanji": "市街",
+    "type": "〔名〕",
+    "chinese": "市内、市街、繁华街道",
+    "romaji": "shigai"
+  },
+  "5": {
+    "hiragana": "どうろ",
+    "kanji": "道路",
+    "type": "〔名〕",
+    "chinese": "道路、马路",
+    "romaji": "dōro"
+  },
+  "6": {
+    "hiragana": "こうつうりょう",
+    "kanji": "交通量",
+    "type": "〔名〕",
+    "chinese": "交通流量、通行量",
+    "romaji": "kōtsūryō"
+  },
+  "7": {
+    "hiragana": "くうこう",
+    "kanji": "空港",
+    "type": "〔名〕",
+    "chinese": "机场",
+    "romaji": "kūkō"
+  },
+  "8": {
+    "hiragana": "こうそくどうろ",
+    "kanji": "高速道路",
+    "type": "〔名〕",
+    "chinese": "高速公路",
+    "romaji": "kōsokudōro"
+  },
+  "9": {
+    "hiragana": "ぶひんこうじょう",
+    "kanji": "部品工場",
+    "type": "〔名〕",
+    "chinese": "零件制造厂",
+    "romaji": "buhinkōjō"
+  },
+  "10": {
+    "hiragana": "えれべーたー",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "电梯",
+    "romaji": "erebētā"
+  },
+  "11": {
+    "hiragana": "えほん",
+    "kanji": "絵本",
+    "type": "〔名〕",
+    "chinese": "图画书，连环画",
+    "romaji": "ehon"
+  },
+  "12": {
+    "hiragana": "しぜん",
+    "kanji": "自然",
+    "type": "〔名〕",
+    "chinese": "大自然",
+    "romaji": "shizen"
+  },
+  "13": {
+    "hiragana": "きゅうりょう",
+    "kanji": "給料",
+    "type": "〔名〕",
+    "chinese": "工资",
+    "romaji": "kyūryō"
+  },
+  "14": {
+    "hiragana": "こんや",
+    "kanji": "今夜",
+    "type": "〔名〕",
+    "chinese": "今晩上",
+    "romaji": "konya"
+  },
+  "15": {
+    "hiragana": "けが",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "伤",
+    "romaji": "kega"
+  },
+  "16": {
+    "hiragana": "じさ",
+    "kanji": "時差",
+    "type": "〔名〕",
+    "chinese": "时差",
+    "romaji": "jisa"
+  },
+  "17": {
+    "hiragana": "とまります",
+    "kanji": "(泊まります)",
+    "type": "〔动1〕",
+    "chinese": "住，过夜，住宿",
+    "romaji": "tomarimasu"
+  },
+  "18": {
+    "hiragana": "むすびます",
+    "kanji": "(結びます)",
+    "type": "〔动1〕",
+    "chinese": "连接，系",
+    "romaji": "musubimasu"
+  },
+  "19": {
+    "hiragana": "とります",
+    "kanji": "(取ります)",
+    "type": "〔动1〕",
+    "chinese": "印，记下",
+    "romaji": "torimasu"
+  },
+  "20": {
+    "hiragana": "うまれます",
+    "kanji": "(生まれます)",
+    "type": "〔动2〕",
+    "chinese": "出生，诞生",
+    "romaji": "umaremasu"
+  },
+  "21": {
+    "hiragana": "とうさんします",
+    "kanji": "(倒産～)",
+    "type": "〔动3〕",
+    "chinese": "倒闭，破产",
+    "romaji": "tōsanshimasu"
+  },
+  "22": {
+    "hiragana": "じゅうたいします",
+    "kanji": "(渋滞～)",
+    "type": "〔动3〕",
+    "chinese": "堵车，停滞",
+    "romaji": "jūtai shimasu"
+  },
+  "23": {
+    "hiragana": "チェックします",
+    "kanji": "",
+    "type": "〔动3〕",
+    "chinese": "确认",
+    "romaji": "chekku shimasu"
+  },
+  "24": {
+    "hiragana": "ゆたか",
+    "kanji": "(豊か)",
+    "type": "〔形2〕",
+    "chinese": "充裕，丰富",
+    "romaji": "yutaka"
+  },
+  "25": {
+    "hiragana": "おおきな",
+    "kanji": "(大きな)",
+    "type": "〔连体〕",
+    "chinese": "大的",
+    "romaji": "ōkina"
+  },
+  "26": {
+    "hiragana": "ちいさな",
+    "kanji": "(小さな)",
+    "type": "〔连体〕",
+    "chinese": "小的",
+    "romaji": "chiisana"
+  },
+  "27": {
+    "hiragana": "べつに",
+    "kanji": "(別に)",
+    "type": "〔副〕",
+    "chinese": "并不",
+    "romaji": "betsuni"
+  },
+  "28": {
+    "hiragana": "たい",
+    "kanji": "(戴)",
+    "type": "〔专〕",
+    "chinese": "戴",
+    "romaji": "tai"
+  },
+  "29": {
+    "hiragana": "しゅう",
+    "kanji": "(周)",
+    "type": "〔专〕",
+    "chinese": "周",
+    "romaji": "shū"
+  },
+  "30": {
+    "hiragana": "とう",
+    "kanji": "(唐)",
+    "type": "〔专〕",
+    "chinese": "唐",
+    "romaji": "tō"
+  },
+  "31": {
+    "hiragana": "ちゅうごくこうくう",
+    "kanji": "(中国航空)",
+    "type": "〔专〕",
+    "chinese": "中国航空",
+    "romaji": "chūgoku kōkū"
+  },
+  "32": {
+    "hiragana": "てんあんはんてん",
+    "kanji": "(天安飯店)",
+    "type": "〔专〕",
+    "chinese": "天安饭店",
+    "romaji": "ten'an hanten"
+  },
+  "33": {
+    "hiragana": "さんかんろ",
+    "kanji": "(三環路)",
+    "type": "〔专〕",
+    "chinese": "三环路",
+    "romaji": "sankanro"
+  },
+  "34": {
+    "hiragana": "",
+    "kanji": "",
+    "type": "",
+    "chinese": "这一带，这附近",
+    "romaji": "kono atari"
+  }
+}

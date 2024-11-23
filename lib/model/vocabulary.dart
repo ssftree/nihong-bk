@@ -24,7 +24,6 @@ class Vocabulary {
       type: json['type'] as String,
       chinese: json['chinese'] as String,
       romaji: json['romaji'] as String,
-      softLink: json['soft_link'] != null ? json['soft_link'] as String : '',
     );
   }
 

@@ -64,7 +64,7 @@ class _CategoryPageState extends State<CategoryPage> {
         title: const Align(
           alignment: Alignment.centerLeft,
           child: Text(
-            '日语记单词',
+            'benkyou',
             style: TextStyle(
               fontWeight: FontWeight.bold,
               color: Colors.black,

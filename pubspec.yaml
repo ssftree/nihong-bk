@@ -67,7 +67,8 @@ flutter:
   assets:
    - assets/vocabulary/100/metadata/
    - assets/vocabulary/100/words/
-   - assets/vocabulary/100/mp3/0/
+   - assets/vocabulary/101/metadata/
+   - assets/vocabulary/101/words/
    - assets/vocabulary/0/metadata/
    - assets/vocabulary/0/words/
    - assets/vocabulary/0/mp3/0/

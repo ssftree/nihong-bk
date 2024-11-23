@@ -1,0 +1,373 @@
+{
+  "0": {
+    "hiragana": "けいざい",
+    "kanji": "経済",
+    "type": "〔名〕",
+    "chinese": "经济",
+    "romaji": "keizai"
+  },
+  "1": {
+    "hiragana": "こくさいかんけいがく",
+    "kanji": "国際関係学",
+    "type": "〔名〕",
+    "chinese": "国际关系学",
+    "romaji": "kokusai kankeigaku"
+  },
+  "2": {
+    "hiragana": "おおぜい",
+    "kanji": "大勢",
+    "type": "〔名〕",
+    "chinese": "许多，众多",
+    "romaji": "ōzei"
+  },
+  "3": {
+    "hiragana": "こうこう",
+    "kanji": "高校",
+    "type": "〔名〕",
+    "chinese": "高中",
+    "romaji": "kōkō"
+  },
+  "4": {
+    "hiragana": "にっき",
+    "kanji": "日記",
+    "type": "〔名〕",
+    "chinese": "日记",
+    "romaji": "nikki"
+  },
+  "5": {
+    "hiragana": "きょうし",
+    "kanji": "教師",
+    "type": "〔名〕",
+    "chinese": "教师",
+    "romaji": "kyōshi"
+  },
+  "6": {
+    "hiragana": "おとしより",
+    "kanji": "お年寄り",
+    "type": "〔名〕",
+    "chinese": "老年人",
+    "romaji": "otoshiyori"
+  },
+  "7": {
+    "hiragana": "ラジオたいそう",
+    "kanji": "～体操",
+    "type": "〔名〕",
+    "chinese": "广播体操",
+    "romaji": "rajio taisō"
+  },
+  "8": {
+    "hiragana": "しゃこうダンス",
+    "kanji": "(社交～)",
+    "type": "〔名〕",
+    "chinese": "交际舞",
+    "romaji": "shakō dansu"
+  },
+  "9": {
+    "hiragana": "たっきゅう",
+    "kanji": "卓球",
+    "type": "〔名〕",
+    "chinese": "乒乓球",
+    "romaji": "takkyū"
+  },
+  "10": {
+    "hiragana": "バスケットボール",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "篮球",
+    "romaji": "basukettobōru"
+  },
+  "11": {
+    "hiragana": "スポーツセンター",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "体育中心",
+    "romaji": "supōtsu sentā"
+  },
+  "12": {
+    "hiragana": "にゅうえんりょう",
+    "kanji": "(入園料)",
+    "type": "〔名〕",
+    "chinese": "门票，入园费",
+    "romaji": "nyūenryō"
+  },
+  "13": {
+    "hiragana": "ゆうりょう",
+    "kanji": "(有料)",
+    "type": "〔名〕",
+    "chinese": "收费",
+    "romaji": "yūryō"
+  },
+  "14": {
+    "hiragana": "しょう",
+    "kanji": "(賞)",
+    "type": "〔名〕",
+    "chinese": "奖",
+    "romaji": "shō"
+  },
+  "15": {
+    "hiragana": "きょく",
+    "kanji": "曲",
+    "type": "〔名〕",
+    "chinese": "乐曲,歌曲",
+    "romaji": "kyoku"
+  },
+  "16": {
+    "hiragana": "し",
+    "kanji": "(詩)",
+    "type": "〔名〕",
+    "chinese": "诗歌",
+    "romaji": "shi"
+  },
+  "17": {
+    "hiragana": "しんごう",
+    "kanji": "信号",
+    "type": "〔名〕",
+    "chinese": "信号，红绿灯",
+    "romaji": "shingō"
+  },
+  "18": {
+    "hiragana": "はこ",
+    "kanji": "箱",
+    "type": "〔名〕",
+    "chinese": "箱子",
+    "romaji": "hako"
+  },
+  "19": {
+    "hiragana": "ぶひん",
+    "kanji": "部品",
+    "type": "〔名〕",
+    "chinese": "零部件",
+    "romaji": "buhin"
+  },
+  "20": {
+    "hiragana": "アルバイト",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "打工,副业,兼职",
+    "romaji": "arubaito"
+  },
+  "21": {
+    "hiragana": "スピーチ",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "演说,演讲",
+    "romaji": "supīchi"
+  },
+  "22": {
+    "hiragana": "プラン",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "社交",
+    "romaji": "puran"
+  },
+  "23": {
+    "hiragana": "きかく",
+    "kanji": "企画",
+    "type": "〔名〕",
+    "chinese": "策划,计划",
+    "romaji": "kikaku"
+  },
+  "24": {
+    "hiragana": "せつめい",
+    "kanji": "説明",
+    "type": "〔名〕",
+    "chinese": "说明",
+    "romaji": "setsumei"
+  },
+  "25": {
+    "hiragana": "ごはん",
+    "kanji": "ご飯",
+    "type": "〔名〕",
+    "chinese": "饭",
+    "romaji": "gohan"
+  },
+  "26": {
+    "hiragana": "さとう",
+    "kanji": "砂糖",
+    "type": "〔名〕",
+    "chinese": "砂糖",
+    "romaji": "satō"
+  },
+  "27": {
+    "hiragana": "かいがいりょこう",
+    "kanji": "海外旅行",
+    "type": "〔名〕",
+    "chinese": "海外旅行",
+    "romaji": "kaigairyokō"
+  },
+  "28": {
+    "hiragana": "こと",
+    "kanji": "事",
+    "type": "〔名〕",
+    "chinese": "事,事情",
+    "romaji": "koto"
+  },
+  "29": {
+    "hiragana": "おじいさん",
+    "kanji": "",
+    "type": "〔代〕",
+    "chinese": "爷爷;老大爷",
+    "romaji": "ojiisan"
+  },
+  "30": {
+    "hiragana": "おばあさん",
+    "kanji": "",
+    "type": "〔代〕",
+    "chinese": "奶奶;老奶奶",
+    "romaji": "obāsan"
+  },
+  "31": {
+    "hiragana": "あね",
+    "kanji": "姉",
+    "type": "〔代〕",
+    "chinese": "姐姐",
+    "romaji": "ane"
+  },
+  "32": {
+    "hiragana": "かよいます",
+    "kanji": "(通います)",
+    "type": "〔动1〕",
+    "chinese": "上学,来往",
+    "romaji": "kayoimasu"
+  },
+  "33": {
+    "hiragana": "あつまります",
+    "kanji": "(集まります)",
+    "type": "〔动1〕",
+    "chinese": "聚,集合",
+    "romaji": "atsumarimasu"
+  },
+  "34": {
+    "hiragana": "おどります",
+    "kanji": "(踊ります)",
+    "type": "〔动1〕",
+    "chinese": "跳舞",
+    "romaji": "odorimasu"
+  },
+  "35": {
+    "hiragana": "いります",
+    "kanji": "(要ります)",
+    "type": "〔动1〕",
+    "chinese": "要",
+    "romaji": "irimasu"
+  },
+  "36": {
+    "hiragana": "こまります",
+    "kanji": "(困ります)",
+    "type": "〔动1〕",
+    "chinese": "为难,难办",
+    "romaji": "komarimasu"
+  },
+  "37": {
+    "hiragana": "たたきます",
+    "kanji": "",
+    "type": "〔动1〕",
+    "chinese": "拍,敲,打",
+    "romaji": "tatakimasu"
+  },
+  "38": {
+    "hiragana": "いれます",
+    "kanji": "(入れます)",
+    "type": "〔动2〕",
+    "chinese": "放入,放进",
+    "romaji": "iremasu"
+  },
+  "39": {
+    "hiragana": "かんごうします",
+    "kanji": "(看病～)",
+    "type": "〔动3〕",
+    "chinese": "护埋",
+    "romaji": "kangō shimasu"
+  },
+  "40": {
+    "hiragana": "けんかします",
+    "kanji": "",
+    "type": "〔动3〕",
+    "chinese": "吵架,打架",
+    "romaji": "kenka shimasu"
+  },
+  "41": {
+    "hiragana": "りょうします",
+    "kanji": "(利用～)",
+    "type": "〔动3〕",
+    "chinese": "利用",
+    "romaji": "ryō shimasu"
+  },
+  "42": {
+    "hiragana": "そうだんします",
+    "kanji": "(相談～)",
+    "type": "〔动3〕",
+    "chinese": "商谈",
+    "romaji": "sōdan shimasu"
+  },
+  "43": {
+    "hiragana": "ほかに",
+    "kanji": "",
+    "type": "〔副〕",
+    "chinese": "另外",
+    "romaji": "hokani"
+  },
+  "44": {
+    "hiragana": "いかが",
+    "kanji": "",
+    "type": "〔副〕",
+    "chinese": "好久,好久,片刻",
+    "romaji": "ikaga"
+  },
+  "45": {
+    "hiragana": "へえ",
+    "kanji": "(叹)",
+    "type": "",
+    "chinese": "哎,哎呀,哎唷",
+    "romaji": "hē"
+  },
+  "46": {
+    "hiragana": "きのした",
+    "kanji": "(木下)",
+    "type": "〔专〕",
+    "chinese": "木下",
+    "romaji": "Kinoshita"
+  },
+  "47": {
+    "hiragana": "たむら",
+    "kanji": "(田村)",
+    "type": "〔专〕",
+    "chinese": "田村",
+    "romaji": "Tamura"
+  },
+  "48": {
+    "hiragana": "",
+    "kanji": "このまえ (この前)",
+    "type": "",
+    "chinese": "前几天,之前,最近",
+    "romaji": "kono mae"
+  },
+  "49": {
+    "hiragana": "そういえば (そう言えば)",
+    "kanji": "",
+    "type": "",
+    "chinese": "说起来,这么说来",
+    "romaji": "sō ieba"
+  },
+  "50": {
+    "hiragana": "きがつきます (気がつきます)",
+    "kanji": "",
+    "type": "",
+    "chinese": "察觉",
+    "romaji": "ki ga tsukimasu"
+  },
+  "51": {
+    "hiragana": "しばらくです",
+    "kanji": "",
+    "type": "",
+    "chinese": "好久不见",
+    "romaji": "shibaraku desu"
+  },
+  "52": {
+    "hiragana": "～いき (～行き)",
+    "kanji": "",
+    "type": "",
+    "chinese": "前往",
+    "romaji": "iki"
+  }
+}

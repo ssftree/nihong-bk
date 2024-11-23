@@ -38,6 +38,7 @@ class _FlashcardPageState extends State<FlashcardPage> {
   final SharedPreferencesHelper prefs = SharedPreferencesHelper();
   bool _isFavorite = false;
   bool _isCompleted = false;
+  int _selectedIndex = 0;
 
   @override
   void initState() {
@@ -257,239 +258,267 @@ class _FlashcardPageState extends State<FlashcardPage> {
             ],
           ),
         ),
-        body: Column(
-          crossAxisAlignment: CrossAxisAlignment.stretch,
+        body: IndexedStack(
+          index: _selectedIndex,
           children: [
-            Padding(
-              padding:
-                  const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  Expanded(
-                    child: ClipRRect(
-                      borderRadius: BorderRadius.circular(20),
-                      child: LinearProgressIndicator(
-                        value: _completedSize / _totalVocabularies,
-                        backgroundColor: Colors.grey[300],
-                        valueColor: AlwaysStoppedAnimation<Color>(Colors.teal),
-                        minHeight: 8,
-                      ),
-                    ),
-                  ),
-                  const SizedBox(width: 8),
-                  Text(
-                    '${_completedSize}/${_totalVocabularies.toString()}',
-                    style: TextStyle(color: Colors.white, fontSize: 14),
-                  ),
-                ],
-              ),
-            ),
-            const SizedBox(height: 16),
-            Expanded(
-              child: Center(
-                child: Stack(
-                  alignment: Alignment.center,
-                  children: [
-                    _buildBackgroundCard(context, 0.76, 24),
-                    _buildBackgroundCard(context, 0.8, 16),
-                    _buildBackgroundCard(context, 0.84, 8),
-                    if (_isLoading)
-                      const CircularProgressIndicator()
-                    else
-                      Container(
-                        width: MediaQuery.of(context).size.width * 0.88,
-                        height: MediaQuery.of(context).size.height * 0.5,
-                        decoration: BoxDecoration(
-                          color: Colors.white,
-                          borderRadius: BorderRadius.circular(30),
-                          boxShadow: [
-                            BoxShadow(
-                              color: Colors.black.withOpacity(0.1),
-                              spreadRadius: 5,
-                              blurRadius: 20,
-                              offset: const Offset(0, 10),
-                            ),
-                          ],
+            Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                Padding(
+                  padding:
+                      const EdgeInsets.symmetric(horizontal: 16.0, vertical: 8.0),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Expanded(
+                        child: ClipRRect(
+                          borderRadius: BorderRadius.circular(20),
+                          child: LinearProgressIndicator(
+                            value: _completedSize / _totalVocabularies,
+                            backgroundColor: Colors.grey[300],
+                            valueColor: AlwaysStoppedAnimation<Color>(Colors.teal),
+                            minHeight: 8,
+                          ),
                         ),
-                        child: Stack(children: [
-                          Column(
-                            mainAxisAlignment: MainAxisAlignment.center,
-                            children: [
-                              Padding(
-                                padding: const EdgeInsets.only(
-                                    top: 8.0, right: 12.0),
-                                child: Align(
-                                  alignment: Alignment.topRight,
-                                  child: GestureDetector(
-                                    onTap: () async {
-                                      await _playAudio();
-                                    },
-                                    child: Icon(
-                                      Icons.play_arrow_outlined,
-                                      color: Colors.orange,
-                                      size: 42,
+                      ),
+                      const SizedBox(width: 8),
+                      Text(
+                        '${_completedSize}/${_totalVocabularies.toString()}',
+                        style: TextStyle(color: Colors.white, fontSize: 14),
+                      ),
+                    ],
+                  ),
+                ),
+                const SizedBox(height: 16),
+                Expanded(
+                  child: Center(
+                    child: Stack(
+                      alignment: Alignment.center,
+                      children: [
+                        _buildBackgroundCard(context, 0.76, 24),
+                        _buildBackgroundCard(context, 0.8, 16),
+                        _buildBackgroundCard(context, 0.84, 8),
+                        if (_isLoading)
+                          const CircularProgressIndicator()
+                        else
+                          Container(
+                            width: MediaQuery.of(context).size.width * 0.88,
+                            height: MediaQuery.of(context).size.height * 0.5,
+                            decoration: BoxDecoration(
+                              color: Colors.white,
+                              borderRadius: BorderRadius.circular(30),
+                              boxShadow: [
+                                BoxShadow(
+                                  color: Colors.black.withOpacity(0.1),
+                                  spreadRadius: 5,
+                                  blurRadius: 20,
+                                  offset: const Offset(0, 10),
+                                ),
+                              ],
+                            ),
+                            child: Stack(children: [
+                              Column(
+                                mainAxisAlignment: MainAxisAlignment.center,
+                                children: [
+                                  Padding(
+                                    padding: const EdgeInsets.only(
+                                        top: 8.0, right: 12.0),
+                                    child: Align(
+                                      alignment: Alignment.topRight,
+                                      child: GestureDetector(
+                                        onTap: () async {
+                                          await _playAudio();
+                                        },
+                                        child: Icon(
+                                          Icons.play_arrow_outlined,
+                                          color: Colors.orange,
+                                          size: 42,
+                                        ),
+                                      ),
                                     ),
+                                  ),
+                                  const Spacer(),
+                                  Text(
+                                    _vocabulary[widget.curVoc.vocabularyId]
+                                            .kanji
+                                            .isNotEmpty
+                                        ? _vocabulary[widget.curVoc.vocabularyId]
+                                            .kanji
+                                        : _vocabulary[widget.curVoc.vocabularyId]
+                                            .japanese,
+                                    style: TextStyle(
+                                        fontSize: 36,
+                                        fontWeight: FontWeight.bold,
+                                        color: Colors.black87),
+                                  ),
+                                  const SizedBox(height: 20),
+                                  if (_isVisible)
+                                    Text(
+                                      _vocabulary[widget.curVoc.vocabularyId]
+                                              .kanji
+                                              .isNotEmpty
+                                          ? _vocabulary[widget.curVoc.vocabularyId]
+                                              .japanese
+                                          : '',
+                                      style: TextStyle(
+                                          fontSize: 28,
+                                          fontWeight: FontWeight.normal,
+                                          color: Colors.black54),
+                                    ),
+                                  const SizedBox(height: 10),
+                                  if (_isVisible)
+                                    Text(
+                                      "[${_vocabulary[widget.curVoc.vocabularyId].romaji}]",
+                                      style: TextStyle(
+                                          fontSize: 22,
+                                          fontWeight: FontWeight.normal,
+                                          color: Colors.grey[600]),
+                                    ),
+                                  const SizedBox(height: 16),
+                                  if (_isVisible)
+                                    Text(
+                                      _vocabulary[widget.curVoc.vocabularyId]
+                                          .chinese,
+                                      style: TextStyle(
+                                          fontSize: 28,
+                                          fontWeight: FontWeight.normal,
+                                          color: Colors.black54),
+                                    ),
+                                  const Spacer(),
+                                ],
+                              ),
+                              Positioned(
+                                bottom: 20,
+                                left: 24,
+                                child: GestureDetector(
+                                  onTap: () {
+                                    if (!_isCompleted) {
+                                      _markAsCompleted(); // Mark the current vocabulary as completed
+                                      setState(() {
+                                        _isCompleted = true;
+                                      });
+                                    } else {
+                                      _removeFromCompleted(); // Mark the current vocabulary as completed
+                                      setState(() {
+                                        _isCompleted = false;
+                                      });
+                                    }
+                                  },
+                                  child: Icon(
+                                    Icons.check_circle,
+                                    color: _isCompleted ? Colors.green : Colors.grey,
+                                    // Change color based on completion state
+                                    size: 46,
                                   ),
                                 ),
                               ),
-                              const Spacer(),
-                              Text(
-                                _vocabulary[widget.curVoc.vocabularyId]
-                                        .kanji
-                                        .isNotEmpty
-                                    ? _vocabulary[widget.curVoc.vocabularyId]
-                                        .kanji
-                                    : _vocabulary[widget.curVoc.vocabularyId]
-                                        .japanese,
-                                style: TextStyle(
-                                    fontSize: 36,
-                                    fontWeight: FontWeight.bold,
-                                    color: Colors.black87),
-                              ),
-                              const SizedBox(height: 20),
-                              if (_isVisible)
-                                Text(
-                                  _vocabulary[widget.curVoc.vocabularyId]
-                                          .kanji
-                                          .isNotEmpty
-                                      ? _vocabulary[widget.curVoc.vocabularyId]
-                                          .japanese
-                                      : '',
-                                  style: TextStyle(
-                                      fontSize: 28,
-                                      fontWeight: FontWeight.normal,
-                                      color: Colors.black54),
+                              Positioned(
+                                bottom: 20,
+                                right: 24,
+                                child: GestureDetector(
+                                  onTap: () {
+                                    if (!_isFavorite) {
+                                      _markAsFavorite(); // Mark the current vocabulary as completed
+                                      setState(() {
+                                        _isFavorite = true;
+                                      });
+                                    } else {
+                                      _removeFromFavorite(); // Mark the current vocabulary as completed
+                                      setState(() {
+                                        _isFavorite = false;
+                                      });
+                                    }
+                                  },
+                                  child: Icon(
+                                    _isFavorite ? Icons.star : Icons.star_border,
+                                    color: Colors.amber,
+                                    // Change color based on completion state
+                                    size: 46,
+                                  ),
                                 ),
-                              const SizedBox(height: 10),
-                              if (_isVisible)
-                                Text(
-                                  "[${_vocabulary[widget.curVoc.vocabularyId].romaji}]",
-                                  style: TextStyle(
-                                      fontSize: 22,
-                                      fontWeight: FontWeight.normal,
-                                      color: Colors.grey[600]),
+                              ),
+                              Positioned(
+                                left: 16,
+                                top: MediaQuery.of(context).size.height * 0.2,
+                                child: GestureDetector(
+                                  onTap: _navigateToPreviousVocabulary,
+                                  // Navigate to previous vocabulary
+                                  child: const Icon(
+                                    Icons.keyboard_arrow_left_outlined,
+                                    color: Colors.grey,
+                                    size: 36,
+                                  ),
                                 ),
-                              const SizedBox(height: 16),
-                              if (_isVisible)
-                                Text(
-                                  _vocabulary[widget.curVoc.vocabularyId]
-                                      .chinese,
-                                  style: TextStyle(
-                                      fontSize: 28,
-                                      fontWeight: FontWeight.normal,
-                                      color: Colors.black54),
+                              ),
+                              Positioned(
+                                right: 16,
+                                top: MediaQuery.of(context).size.height * 0.2,
+                                child: GestureDetector(
+                                  onTap: _navigateToNextVocabulary,
+                                  // Navigate to next vocabulary
+                                  child: const Icon(
+                                    Icons.keyboard_arrow_right_outlined,
+                                    color: Colors.grey,
+                                    size: 36,
+                                  ),
                                 ),
-                              const Spacer(),
-                            ],
-                          ),
-                          Positioned(
-                            bottom: 20,
-                            left: 24,
-                            child: GestureDetector(
-                              onTap: () {
-                                if (!_isCompleted) {
-                                  _markAsCompleted(); // Mark the current vocabulary as completed
-                                  setState(() {
-                                    _isCompleted = true;
-                                  });
-                                } else {
-                                  _removeFromCompleted(); // Mark the current vocabulary as completed
-                                  setState(() {
-                                    _isCompleted = false;
-                                  });
-                                }
-                              },
-                              child: Icon(
-                                Icons.check_circle,
-                                color: _isCompleted ? Colors.green : Colors.grey,
-                                // Change color based on completion state
-                                size: 46,
                               ),
-                            ),
+                            ]),
                           ),
-                          Positioned(
-                            bottom: 20,
-                            right: 24,
-                            child: GestureDetector(
-                              onTap: () {
-                                if (!_isFavorite) {
-                                  _markAsFavorite(); // Mark the current vocabulary as completed
-                                  setState(() {
-                                    _isFavorite = true;
-                                  });
-                                } else {
-                                  _removeFromFavorite(); // Mark the current vocabulary as completed
-                                  setState(() {
-                                    _isFavorite = false;
-                                  });
-                                }
-                              },
-                              child: Icon(
-                                _isFavorite ? Icons.star : Icons.star_border,
-                                color: Colors.amber,
-                                // Change color based on completion state
-                                size: 46,
-                              ),
-                            ),
-                          ),
-                          Positioned(
-                            left: 16,
-                            top: MediaQuery.of(context).size.height * 0.2,
-                            child: GestureDetector(
-                              onTap: _navigateToPreviousVocabulary,
-                              // Navigate to previous vocabulary
-                              child: const Icon(
-                                Icons.keyboard_arrow_left_outlined,
-                                color: Colors.grey,
-                                size: 36,
-                              ),
-                            ),
-                          ),
-                          Positioned(
-                            right: 16,
-                            top: MediaQuery.of(context).size.height * 0.2,
-                            child: GestureDetector(
-                              onTap: _navigateToNextVocabulary,
-                              // Navigate to next vocabulary
-                              child: const Icon(
-                                Icons.keyboard_arrow_right_outlined,
-                                color: Colors.grey,
-                                size: 36,
-                              ),
-                            ),
-                          ),
-                        ]),
-                      ),
-                  ],
-                ),
-              ),
-            ),
-            Padding(
-              padding: const EdgeInsets.symmetric(vertical: 16.0),
-              child: Center(
-                child: ElevatedButton(
-                  onPressed: () {
-                    setState(() {
-                      _isVisible = !_isVisible; // Toggle visibility state
-                    });
-                  },
-                  style: ElevatedButton.styleFrom(
-                    backgroundColor: const Color(0xFFFFAB91),
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(16),
+                      ],
                     ),
-                    padding: const EdgeInsets.symmetric(
-                        horizontal: 40, vertical: 14),
-                  ),
-                  child: Icon(
-                    _isVisible ? Icons.visibility : Icons.visibility_off,
-                    // Change icon based on visibility state
-                    color: Colors.white,
-                    size: 28,
                   ),
                 ),
-              ),
+                Padding(
+                  padding: const EdgeInsets.symmetric(vertical: 16.0),
+                  child: Center(
+                    child: ElevatedButton(
+                      onPressed: () {
+                        setState(() {
+                          _isVisible = !_isVisible; // Toggle visibility state
+                        });
+                      },
+                      style: ElevatedButton.styleFrom(
+                        backgroundColor: const Color(0xFFFFAB91),
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(16),
+                        ),
+                        padding: const EdgeInsets.symmetric(
+                            horizontal: 40, vertical: 14),
+                      ),
+                      child: Icon(
+                        _isVisible ? Icons.visibility : Icons.visibility_off,
+                        // Change icon based on visibility state
+                        color: Colors.white,
+                        size: 28,
+                      ),
+                    ),
+                  ),
+                ),
+              ],
+            ),
+            _buildListView(),
+          ],
+        ),
+        bottomNavigationBar: BottomNavigationBar(
+          currentIndex: _selectedIndex,
+          onTap: (index) {
+            setState(() {
+              _selectedIndex = index;
+              // Update favorite and completed status when switching modes
+              var lessonVocID = "${widget.curVoc.getLessonIdString()}-${widget.curVoc.getVocabularyIdString()}";
+              _isFavorite = widget.favoriteVocabularies.containsKey(lessonVocID);
+              _isCompleted = widget.completedVocabularies.containsKey(lessonVocID);
+            });
+          },
+          items: const [
+            BottomNavigationBarItem(
+              icon: Icon(Icons.credit_card),
+              label: '卡片模式',
+            ),
+            BottomNavigationBarItem(
+              icon: Icon(Icons.list),
+              label: '列表模式',
             ),
           ],
         ),
@@ -510,5 +539,89 @@ class _FlashcardPageState extends State<FlashcardPage> {
         ),
       ),
     );
+  }
+
+  Widget _buildListView() {
+    if (_isLoading) {
+      return const Center(child: CircularProgressIndicator());
+    }
+    
+    return ListView.builder(
+      itemCount: _vocabulary.length,
+      padding: const EdgeInsets.all(16),
+      itemBuilder: (context, index) {
+        final vocab = _vocabulary[index];
+        return Card(
+          margin: const EdgeInsets.only(bottom: 12),
+          child: ListTile(
+            title: Text(
+              vocab.kanji.isNotEmpty ? vocab.kanji : vocab.japanese,
+              style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+            ),
+            subtitle: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                if (vocab.kanji.isNotEmpty)
+                  Text(vocab.japanese, style: const TextStyle(fontSize: 16)),
+                Text("[${vocab.romaji}]", style: const TextStyle(fontSize: 14)),
+                Text(vocab.chinese, style: const TextStyle(fontSize: 16)),
+              ],
+            ),
+            trailing: Row(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                IconButton(
+                  icon: const Icon(Icons.play_arrow),
+                  onPressed: () {
+                    widget.curVoc.vocabularyId = index;
+                    _playAudio();
+                  },
+                ),
+                IconButton(
+                  icon: Icon(
+                    Icons.check_circle,
+                    color: _isVocabularyCompleted(index) ? Colors.green : Colors.grey,
+                  ),
+                  onPressed: () {
+                    widget.curVoc.vocabularyId = index;
+                    if (!_isVocabularyCompleted(index)) {
+                      _markAsCompleted();
+                    } else {
+                      _removeFromCompleted();
+                    }
+                    setState(() {});
+                  },
+                ),
+                IconButton(
+                  icon: Icon(
+                    _isVocabularyFavorite(index) ? Icons.star : Icons.star_border,
+                    color: Colors.amber,
+                  ),
+                  onPressed: () {
+                    widget.curVoc.vocabularyId = index;
+                    if (!_isVocabularyFavorite(index)) {
+                      _markAsFavorite();
+                    } else {
+                      _removeFromFavorite();
+                    }
+                    setState(() {});
+                  },
+                ),
+              ],
+            ),
+          ),
+        );
+      },
+    );
+  }
+
+  bool _isVocabularyCompleted(int index) {
+    String vocId = "${widget.curVoc.getLessonIdString()}-$index";
+    return widget.completedVocabularies.containsKey(vocId);
+  }
+
+  bool _isVocabularyFavorite(int index) {
+    String vocId = "${widget.curVoc.getLessonIdString()}-$index";
+    return widget.favoriteVocabularies.containsKey(vocId);
   }
 }

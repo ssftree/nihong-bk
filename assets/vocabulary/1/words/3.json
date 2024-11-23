@@ -1,0 +1,254 @@
+{
+  "0": {
+    "hiragana": "まふらー",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "围巾",
+    "romaji": "mafurā"
+  },
+  "1": {
+    "hiragana": "ねっくれす",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "项链",
+    "romaji": "nekkuresu"
+  },
+  "2": {
+    "hiragana": "かぐ",
+    "kanji": "家具",
+    "type": "〔名〕",
+    "chinese": "家具",
+    "romaji": "kagu"
+  },
+  "3": {
+    "hiragana": "ぶんしょう",
+    "kanji": "文章",
+    "type": "〔名〕",
+    "chinese": "文章",
+    "romaji": "bunshō"
+  },
+  "4": {
+    "hiragana": "いみ",
+    "kanji": "意味",
+    "type": "〔名〕",
+    "chinese": "意味",
+    "romaji": "imi"
+  },
+  "5": {
+    "hiragana": "ふんいき",
+    "kanji": "雰囲気",
+    "type": "〔名〕",
+    "chinese": "气氛",
+    "romaji": "fun'iki"
+  },
+  "6": {
+    "hiragana": "はつおん",
+    "kanji": "発音",
+    "type": "〔名〕",
+    "chinese": "发音",
+    "romaji": "hatsuon"
+  },
+  "7": {
+    "hiragana": "ふどうさんや",
+    "kanji": "不動産屋",
+    "type": "〔名〕",
+    "chinese": "房地产公司",
+    "romaji": "fudōsanya"
+  },
+  "8": {
+    "hiragana": "いんしょくてん",
+    "kanji": "飲食店",
+    "type": "〔名〕",
+    "chinese": "饮食店",
+    "romaji": "inshokuten"
+  },
+  "9": {
+    "hiragana": "たいしかん",
+    "kanji": "大使館",
+    "type": "〔名〕",
+    "chinese": "大使馆",
+    "romaji": "taishikan"
+  },
+  "10": {
+    "hiragana": "しんきょ",
+    "kanji": "新居",
+    "type": "〔名〕",
+    "chinese": "新居",
+    "romaji": "shinkyo"
+  },
+  "11": {
+    "hiragana": "ひっこし",
+    "kanji": "引っ越し",
+    "type": "〔名〕",
+    "chinese": "搬家",
+    "romaji": "hikkoshi"
+  },
+  "12": {
+    "hiragana": "きんじょ",
+    "kanji": "近所",
+    "type": "〔名〕",
+    "chinese": "附近",
+    "romaji": "kinjo"
+  },
+  "13": {
+    "hiragana": "まご",
+    "kanji": "孫",
+    "type": "〔名〕",
+    "chinese": "孙子，孙女",
+    "romaji": "mago"
+  },
+  "14": {
+    "hiragana": "かかり",
+    "kanji": "係",
+    "type": "〔名〕",
+    "chinese": "工作人员，主管人员",
+    "romaji": "kakari"
+  },
+  "15": {
+    "hiragana": "ししゃちょう",
+    "kanji": "支社長",
+    "type": "〔名〕",
+    "chinese": "分公司经理",
+    "romaji": "shishachō"
+  },
+  "16": {
+    "hiragana": "しゅうしょく",
+    "kanji": "就職",
+    "type": "〔名〕",
+    "chinese": "就业",
+    "romaji": "shūshoku"
+  },
+  "17": {
+    "hiragana": "インターネット",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "互联网",
+    "romaji": "intānetto"
+  },
+  "18": {
+    "hiragana": "ひろいます",
+    "kanji": "(拾います)",
+    "type": "〔动1〕",
+    "chinese": "捡，拾",
+    "romaji": "hiroimasu"
+  },
+  "19": {
+    "hiragana": "やくします",
+    "kanji": "(訳します)",
+    "type": "〔动1〕",
+    "chinese": "翻译",
+    "romaji": "yakushimasu"
+  },
+  "20": {
+    "hiragana": "くれます",
+    "kanji": "",
+    "type": "〔动2〕",
+    "chinese": "给",
+    "romaji": "kuremasu"
+  },
+  "21": {
+    "hiragana": "とどけます",
+    "kanji": "(届けます)",
+    "type": "〔动2〕",
+    "chinese": "送到，送去",
+    "romaji": "todokemasu"
+  },
+  "22": {
+    "hiragana": "あんないします",
+    "kanji": "(案内～)",
+    "type": "〔动3〕",
+    "chinese": "向导,导游",
+    "romaji": "annai shimasu"
+  },
+  "23": {
+    "hiragana": "こうかんします",
+    "kanji": "(交換～)",
+    "type": "〔动3〕",
+    "chinese": "换,交换",
+    "romaji": "kōkan shimasu"
+  },
+  "24": {
+    "hiragana": "しょうかいします",
+    "kanji": "(紹介～)",
+    "type": "〔动3〕",
+    "chinese": "介绍",
+    "romaji": "shōkai shimasu"
+  },
+  "25": {
+    "hiragana": "すてき",
+    "kanji": "",
+    "type": "〔形2〕",
+    "chinese": "漂亮，极好",
+    "romaji": "suteki"
+  },
+  "26": {
+    "hiragana": "とくい",
+    "kanji": "(得意)",
+    "type": "〔形2〕",
+    "chinese": "擅长",
+    "romaji": "tokui"
+  },
+  "27": {
+    "hiragana": "しんせん",
+    "kanji": "(新鮮)",
+    "type": "〔形2〕",
+    "chinese": "新鲜",
+    "romaji": "shinsen"
+  },
+  "28": {
+    "hiragana": "うまく",
+    "kanji": "",
+    "type": "〔副〕",
+    "chinese": "高明地,很好地",
+    "romaji": "umaku"
+  },
+  "29": {
+    "hiragana": "それに",
+    "kanji": "",
+    "type": "〔连〕",
+    "chinese": "而且",
+    "romaji": "soreni"
+  },
+  "30": {
+    "hiragana": "なかた",
+    "kanji": "(中田)",
+    "type": "〔专〕",
+    "chinese": "中田",
+    "romaji": "Nakata"
+  },
+  "31": {
+    "hiragana": "こくさいぼうえきセンター",
+    "kanji": "(国際貿易～)",
+    "type": "〔专〕",
+    "chinese": "国际贸中心",
+    "romaji": "Kokusai Bōeki Sentā"
+  },
+  "32": {
+    "hiragana": "こくぼう",
+    "kanji": "(国貿)",
+    "type": "〔专〕",
+    "chinese": "国际贸易中心、国贸",
+    "romaji": "Kokubō"
+  },
+  "33": {
+    "hiragana": "どういたしまして",
+    "kanji": "",
+    "type": "",
+    "chinese": "没关系",
+    "romaji": "dō itashimashite"
+  },
+  "34": {
+    "hiragana": "どのへん (どの辺)",
+    "kanji": "",
+    "type": "",
+    "chinese": "哪儿",
+    "romaji": "dono hen"
+  },
+  "35": {
+    "hiragana": "～さき",
+    "kanji": "～先",
+    "type": "",
+    "chinese": "",
+    "romaji": "saki"
+  }
+}
