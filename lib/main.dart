@@ -1,4 +1,5 @@
 import 'package:daily_word/category_page.dart';
+import 'package:daily_word/settings_page.dart';
 import 'package:flutter/material.dart';
 
 
@@ -59,7 +60,7 @@ class _MainScreenState extends State<MainScreen> {
     super.initState();
     _pages.addAll([
       CategoryPage(),
-      CategoryPage(),
+      SettingsPage(),
     ]);
   }
 
@@ -82,8 +83,8 @@ class _MainScreenState extends State<MainScreen> {
             label: '主页',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.search),
-            label: 'Search',
+            icon: Icon(Icons.settings),
+            label: '设置',
           ),
         ],
         currentIndex: _selectedIndex,

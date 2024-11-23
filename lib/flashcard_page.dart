@@ -39,11 +39,17 @@ class _FlashcardPageState extends State<FlashcardPage> {
   bool _isFavorite = false;
   bool _isCompleted = false;
   int _selectedIndex = 0;
+  bool _autoPlay = true;
 
   @override
   void initState() {
     super.initState();
     _initVariables();
+    prefs.getAutoPlay().then((value) {
+      setState(() {
+        _autoPlay = value;
+      });
+    });
     _loadVocabulary(
         widget.curVoc.getBookIdString(), widget.curVoc.getLessonIdString());
   }
@@ -54,6 +60,7 @@ class _FlashcardPageState extends State<FlashcardPage> {
     var lessonVocID = "${widget.curVoc.getLessonIdString()}-${widget.curVoc.getVocabularyIdString()}";
     _isFavorite = widget.favoriteVocabularies.containsKey(lessonVocID);
     _isCompleted = widget.completedVocabularies.containsKey(lessonVocID);
+
   }
 
   Future<void> _loadVocabulary(String bookId, String lessonId) async {
@@ -63,7 +70,8 @@ class _FlashcardPageState extends State<FlashcardPage> {
       _vocabulary = Vocabulary.listFromJson(json.decode(response));
 
       // Play audio for the current vocabulary
-      await _playAudio();
+      if (_autoPlay)
+        await _playAudio();
     } catch (e) {
       print('Error loading vocabulary: $e');
     } finally {

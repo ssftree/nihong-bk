@@ -6,6 +6,7 @@ class SharedPreferencesHelper {
 
   static const String _favoritesKey = 'favorites';
   static const String _completedKey = 'completedVocabularies';
+  static const String _autoPlayKey = 'autoPlay';
 
   Future<Map<String, Map<String, String>>> getVocabulariesByKey(String key) async {
     final SharedPreferences prefs = await SharedPreferences.getInstance();
@@ -65,5 +66,15 @@ class SharedPreferencesHelper {
 
   Future removeCompletedVocabulary(String bookId, String vocabularyId) async {
     removeVocabulary(_completedKey, bookId, vocabularyId);
+  }
+
+  Future<bool> getAutoPlay() async {
+    final SharedPreferences prefs = await SharedPreferences.getInstance();
+    return prefs.getBool(_autoPlayKey) ?? false;
+  }
+
+  Future setAutoPlay(bool value) async {
+    final SharedPreferences prefs = await SharedPreferences.getInstance();
+    await prefs.setBool(_autoPlayKey, value);
   }
 }
