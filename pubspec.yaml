@@ -66,10 +66,6 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-   - assets/vocabulary/100/metadata/
-   - assets/vocabulary/100/words/
-   - assets/vocabulary/101/metadata/
-   - assets/vocabulary/101/words/
    - assets/vocabulary/0/metadata/
    - assets/vocabulary/0/words/
    - assets/vocabulary/0/mp3/0/
@@ -96,6 +92,32 @@ flutter:
    - assets/vocabulary/0/mp3/21/
    - assets/vocabulary/0/mp3/22/
    - assets/vocabulary/0/mp3/23/
+   - assets/vocabulary/1/metadata/
+   - assets/vocabulary/1/words/
+   - assets/vocabulary/1/mp3/0/
+   - assets/vocabulary/1/mp3/1/
+   - assets/vocabulary/1/mp3/2/
+   - assets/vocabulary/1/mp3/3/
+   - assets/vocabulary/1/mp3/4/
+   - assets/vocabulary/1/mp3/5/
+   - assets/vocabulary/1/mp3/6/
+   - assets/vocabulary/1/mp3/7/
+   - assets/vocabulary/1/mp3/8/
+   - assets/vocabulary/1/mp3/9/
+   - assets/vocabulary/1/mp3/10/
+   - assets/vocabulary/1/mp3/11/
+   - assets/vocabulary/1/mp3/12/
+   - assets/vocabulary/1/mp3/13/
+   - assets/vocabulary/1/mp3/14/
+   - assets/vocabulary/1/mp3/15/
+   - assets/vocabulary/1/mp3/16/
+   - assets/vocabulary/1/mp3/17/
+   - assets/vocabulary/1/mp3/18/
+   - assets/vocabulary/1/mp3/19/
+   - assets/vocabulary/1/mp3/20/
+   - assets/vocabulary/1/mp3/21/
+   - assets/vocabulary/1/mp3/22/
+   - assets/vocabulary/1/mp3/23/
    - assets/icon/
 flutter_icons:
   android: "launcher_icon"  # Android平台的图标名称

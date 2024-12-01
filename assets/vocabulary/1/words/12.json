@@ -1,261 +1,298 @@
-{
-  "0": {
-    "hiragana": "ようじ",
-    "kanji": "用事",
-    "type": "〔名〕",
-    "chinese": "事情",
-    "romaji": "yōji"
-  },
-  "1": {
-    "hiragana": "たいかい",
-    "kanji": "大会",
-    "type": "〔名〕",
-    "chinese": "大会",
-    "romaji": "taikai"
-  },
-  "2": {
-    "hiragana": "きぼ",
-    "kanji": "規模",
-    "type": "〔名〕",
-    "chinese": "规模",
-    "romaji": "kibo"
-  },
-  "3": {
-    "hiragana": "けいかく",
-    "kanji": "計画",
-    "type": "〔名〕",
-    "chinese": "计划",
-    "romaji": "keikaku"
-  },
-  "4": {
-    "hiragana": "きそく",
-    "kanji": "規則",
-    "type": "〔名〕",
-    "chinese": "规则",
-    "romaji": "kisoku"
-  },
-  "5": {
-    "hiragana": "ひよう",
-    "kanji": "費用",
-    "type": "〔名〕",
-    "chinese": "费用",
-    "romaji": "hiyō"
-  },
-  "6": {
-    "hiragana": "しお",
-    "kanji": "塩",
-    "type": "〔名〕",
-    "chinese": "盐，食盐",
-    "romaji": "shio"
-  },
-  "7": {
-    "hiragana": "メダル",
-    "kanji": "",
-    "type": "〔名〕",
-    "chinese": "纪念章，奖牌",
-    "romaji": "medaru"
-  },
-  "8": {
-    "hiragana": "ソフト",
-    "kanji": "",
-    "type": "〔名〕",
-    "chinese": "软件",
-    "romaji": "sofuto"
-  },
-  "9": {
-    "hiragana": "はんにん",
-    "kanji": "犯人",
-    "type": "〔名〕",
-    "chinese": "犯人，罪犯",
-    "romaji": "hannin"
-  },
-  "10": {
-    "hiragana": "かわ",
-    "kanji": "川",
-    "type": "〔名〕",
-    "chinese": "河，河流",
-    "romaji": "kawa"
-  },
-  "11": {
-    "hiragana": "てつどう",
-    "kanji": "鉄道",
-    "type": "〔名〕",
-    "chinese": "火车，铁路，铁道",
-    "romaji": "tetsudō"
-  },
-  "12": {
-    "hiragana": "ぜんちょう",
-    "kanji": "全長",
-    "type": "〔名〕",
-    "chinese": "全长",
-    "romaji": "zenchō"
-  },
-  "13": {
-    "hiragana": "ばんごう",
-    "kanji": "番号",
-    "type": "〔名〕",
-    "chinese": "号码，编号",
-    "romaji": "bangō"
-  },
-  "14": {
-    "hiragana": "たんい",
-    "kanji": "単位",
-    "type": "〔名〕",
-    "chinese": "计量单位",
-    "romaji": "tan-i"
-  },
-  "15": {
-    "hiragana": "こさじ",
-    "kanji": "小さじ",
-    "type": "〔名〕",
-    "chinese": "小匙，小勺",
-    "romaji": "kosaji"
-  },
-  "16": {
-    "hiragana": "ボリューム",
-    "kanji": "",
-    "type": "〔名〕",
-    "chinese": "音量",
-    "romaji": "boryūmu"
-  },
-  "17": {
-    "hiragana": "ちょくつうれっしゃ",
-    "kanji": "直通列車",
-    "type": "〔名〕",
-    "chinese": "直达到车",
-    "romaji": "chokutsū ressha"
-  },
-  "18": {
-    "hiragana": "せかいいさん",
-    "kanji": "世界遺産",
-    "type": "〔名〕",
-    "chinese": "世界遗产",
-    "romaji": "sekai isan"
-  },
-  "19": {
-    "hiragana": "かんこうスポット",
-    "kanji": "観光～",
-    "type": "〔名〕",
-    "chinese": "旅游点",
-    "romaji": "kankō supotto"
-  },
-  "20": {
-    "hiragana": "こえます",
-    "kanji": "超えます",
-    "type": "〔动2〕",
-    "chinese": "超过",
-    "romaji": "koemasu"
-  },
-  "21": {
-    "hiragana": "しゅつじょうします",
-    "kanji": "出場～",
-    "type": "〔动3〕",
-    "chinese": "参加，出场",
-    "romaji": "shutsujō shimasu"
-  },
-  "22": {
-    "hiragana": "しゃくほうします",
-    "kanji": "釈放～",
-    "type": "〔动3〕",
-    "chinese": "释放",
-    "romaji": "shakuhō shimasu"
-  },
-  "23": {
-    "hiragana": "つまみぐいします",
-    "kanji": "つまみ食い～",
-    "type": "〔动3〕",
-    "chinese": "偷吃",
-    "romaji": "tsumamigui shimasu"
-  },
-  "24": {
-    "hiragana": "かんさんします",
-    "kanji": "換算～",
-    "type": "〔动3〕",
-    "chinese": "换算",
-    "romaji": "kansan shimasu"
-  },
-  "25": {
-    "hiragana": "ふくしゅうします",
-    "kanji": "復習～",
-    "type": "〔动3〕",
-    "chinese": "复习",
-    "romaji": "fukushū shimasu"
-  },
-  "26": {
-    "hiragana": "せいこうします",
-    "kanji": "成功～",
-    "type": "〔动3〕",
-    "chinese": "成功",
-    "romaji": "seikō shimasu"
-  },
-  "27": {
-    "hiragana": "よわい",
-    "kanji": "弱い",
-    "type": "〔形1〕",
-    "chinese": "弱，脆弱，柔弱",
-    "romaji": "yowai"
-  },
-  "28": {
-    "hiragana": "きびしい",
-    "kanji": "厳しい",
-    "type": "〔形1〕",
-    "chinese": "严厉，严格",
-    "romaji": "kibishii"
-  },
-  "29": {
-    "hiragana": "ぜいたく",
-    "kanji": "贅沢",
-    "type": "〔形2〕",
-    "chinese": "奢望，奢侈，过分",
-    "romaji": "zeitaku"
-  },
-  "30": {
-    "hiragana": "こっそり",
-    "kanji": "",
-    "type": "〔副〕",
-    "chinese": "偷偷地，悄悄地",
-    "romaji": "kossori"
-  },
-  "31": {
-    "hiragana": "さすが",
-    "kanji": "",
-    "type": "〔副〕",
-    "chinese": "不愧是，果然",
-    "romaji": "sasuga"
-  },
-  "32": {
-    "hiragana": "じっさいに",
-    "kanji": "実際に",
-    "type": "〔副〕",
-    "chinese": "实践，实际上",
-    "romaji": "jissai ni"
-  },
-  "33": {
-    "hiragana": "とうだい",
-    "kanji": "東大",
-    "type": "〔专〕",
-    "chinese": "东大，东京大学",
-    "romaji": "Tōdai"
-  },
-  "34": {
-    "hiragana": "はちたつれい",
-    "kanji": "八達嶺",
-    "type": "〔专〕",
-    "chinese": "八达岭",
-    "romaji": "Hachi tatsurei"
-  },
-  "35": {
-    "hiragana": "ペキンきたえき",
-    "kanji": "北京北駅",
-    "type": "〔专〕",
-    "chinese": "北京北站",
-    "romaji": "Pekin kita eki"
-  },
-  "36": {
-    "hiragana": "〜ちょっと／〜いじょう／〜り／〜まんり",
-    "kanji": "～ちょっと／～以上／～里／～万里",
-    "type": "",
-    "chinese": "",
-    "romaji": "chotto/ijō/ri/manri"
-  }
-}
+[
+    {
+        "id": "0",
+        "japanese": "ようじ",
+        "kanji": "用事",
+        "type": "〔名〕",
+        "chinese": "事情",
+        "romaji": "yōji"
+    },
+    {
+        "id": "1",
+        "japanese": "たいかい",
+        "kanji": "大会",
+        "type": "〔名〕",
+        "chinese": "大会",
+        "romaji": "taikai"
+    },
+    {
+        "id": "2",
+        "japanese": "きぼ",
+        "kanji": "規模",
+        "type": "〔名〕",
+        "chinese": "规模",
+        "romaji": "kibo"
+    },
+    {
+        "id": "3",
+        "japanese": "けいかく",
+        "kanji": "計画",
+        "type": "〔名〕",
+        "chinese": "计划",
+        "romaji": "keikaku"
+    },
+    {
+        "id": "4",
+        "japanese": "きそく",
+        "kanji": "規則",
+        "type": "〔名〕",
+        "chinese": "规则",
+        "romaji": "kisoku"
+    },
+    {
+        "id": "5",
+        "japanese": "ひよう",
+        "kanji": "費用",
+        "type": "〔名〕",
+        "chinese": "费用",
+        "romaji": "hiyō"
+    },
+    {
+        "id": "6",
+        "japanese": "しお",
+        "kanji": "塩",
+        "type": "〔名〕",
+        "chinese": "盐，食盐",
+        "romaji": "shio"
+    },
+    {
+        "id": "7",
+        "japanese": "メダル",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "纪念章，奖牌",
+        "romaji": "medaru"
+    },
+    {
+        "id": "8",
+        "japanese": "ソフト",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "软件",
+        "romaji": "sofuto"
+    },
+    {
+        "id": "9",
+        "japanese": "はんにん",
+        "kanji": "犯人",
+        "type": "〔名〕",
+        "chinese": "犯人，罪犯",
+        "romaji": "hannin"
+    },
+    {
+        "id": "10",
+        "japanese": "かわ",
+        "kanji": "川",
+        "type": "〔名〕",
+        "chinese": "河，河流",
+        "romaji": "kawa"
+    },
+    {
+        "id": "11",
+        "japanese": "てつどう",
+        "kanji": "鉄道",
+        "type": "〔名〕",
+        "chinese": "火车，铁路，铁道",
+        "romaji": "tetsudō"
+    },
+    {
+        "id": "12",
+        "japanese": "ぜんちょう",
+        "kanji": "全長",
+        "type": "〔名〕",
+        "chinese": "全长",
+        "romaji": "zenchō"
+    },
+    {
+        "id": "13",
+        "japanese": "ばんごう",
+        "kanji": "番号",
+        "type": "〔名〕",
+        "chinese": "号码，编号",
+        "romaji": "bangō"
+    },
+    {
+        "id": "14",
+        "japanese": "たんい",
+        "kanji": "単位",
+        "type": "〔名〕",
+        "chinese": "计量单位",
+        "romaji": "tan-i"
+    },
+    {
+        "id": "15",
+        "japanese": "こさじ",
+        "kanji": "小さじ",
+        "type": "〔名〕",
+        "chinese": "小匙，小勺",
+        "romaji": "kosaji"
+    },
+    {
+        "id": "16",
+        "japanese": "ボリューム",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "音量",
+        "romaji": "boryūmu"
+    },
+    {
+        "id": "17",
+        "japanese": "ちょくつうれっしゃ",
+        "kanji": "直通列車",
+        "type": "〔名〕",
+        "chinese": "直达到车",
+        "romaji": "chokutsū ressha"
+    },
+    {
+        "id": "18",
+        "japanese": "せかいいさん",
+        "kanji": "世界遺産",
+        "type": "〔名〕",
+        "chinese": "世界遗产",
+        "romaji": "sekai isan"
+    },
+    {
+        "id": "19",
+        "japanese": "かんこうスポット",
+        "kanji": "観光～",
+        "type": "〔名〕",
+        "chinese": "旅游点",
+        "romaji": "kankō supotto"
+    },
+    {
+        "id": "20",
+        "japanese": "こえます",
+        "kanji": "超えます",
+        "type": "〔动2〕",
+        "chinese": "超过",
+        "romaji": "koemasu"
+    },
+    {
+        "id": "21",
+        "japanese": "しゅつじょうします",
+        "kanji": "出場～",
+        "type": "〔动3〕",
+        "chinese": "参加，出场",
+        "romaji": "shutsujō shimasu"
+    },
+    {
+        "id": "22",
+        "japanese": "しゃくほうします",
+        "kanji": "釈放～",
+        "type": "〔动3〕",
+        "chinese": "释放",
+        "romaji": "shakuhō shimasu"
+    },
+    {
+        "id": "23",
+        "japanese": "つまみぐいします",
+        "kanji": "つまみ食い～",
+        "type": "〔动3〕",
+        "chinese": "偷吃",
+        "romaji": "tsumamigui shimasu"
+    },
+    {
+        "id": "24",
+        "japanese": "かんさんします",
+        "kanji": "換算～",
+        "type": "〔动3〕",
+        "chinese": "换算",
+        "romaji": "kansan shimasu"
+    },
+    {
+        "id": "25",
+        "japanese": "ふくしゅうします",
+        "kanji": "復習～",
+        "type": "〔动3〕",
+        "chinese": "复习",
+        "romaji": "fukushū shimasu"
+    },
+    {
+        "id": "26",
+        "japanese": "せいこうします",
+        "kanji": "成功～",
+        "type": "〔动3〕",
+        "chinese": "成功",
+        "romaji": "seikō shimasu"
+    },
+    {
+        "id": "27",
+        "japanese": "よわい",
+        "kanji": "弱い",
+        "type": "〔形1〕",
+        "chinese": "弱，脆弱，柔弱",
+        "romaji": "yowai"
+    },
+    {
+        "id": "28",
+        "japanese": "きびしい",
+        "kanji": "厳しい",
+        "type": "〔形1〕",
+        "chinese": "严厉，严格",
+        "romaji": "kibishii"
+    },
+    {
+        "id": "29",
+        "japanese": "ぜいたく",
+        "kanji": "贅沢",
+        "type": "〔形2〕",
+        "chinese": "奢望，奢侈，过分",
+        "romaji": "zeitaku"
+    },
+    {
+        "id": "30",
+        "japanese": "こっそり",
+        "kanji": "",
+        "type": "〔副〕",
+        "chinese": "偷偷地，悄悄地",
+        "romaji": "kossori"
+    },
+    {
+        "id": "31",
+        "japanese": "さすが",
+        "kanji": "",
+        "type": "〔副〕",
+        "chinese": "不愧是，果然",
+        "romaji": "sasuga"
+    },
+    {
+        "id": "32",
+        "japanese": "じっさいに",
+        "kanji": "実際に",
+        "type": "〔副〕",
+        "chinese": "实践，实际上",
+        "romaji": "jissai ni"
+    },
+    {
+        "id": "33",
+        "japanese": "とうだい",
+        "kanji": "東大",
+        "type": "〔专〕",
+        "chinese": "东大，东京大学",
+        "romaji": "Tōdai"
+    },
+    {
+        "id": "34",
+        "japanese": "はちたつれい",
+        "kanji": "八達嶺",
+        "type": "〔专〕",
+        "chinese": "八达岭",
+        "romaji": "Hachi tatsurei"
+    },
+    {
+        "id": "35",
+        "japanese": "ペキンきたえき",
+        "kanji": "北京北駅",
+        "type": "〔专〕",
+        "chinese": "北京北站",
+        "romaji": "Pekin kita eki"
+    },
+    {
+        "id": "36",
+        "japanese": "〜ちょっと／〜いじょう／〜り／〜まんり",
+        "kanji": "～ちょっと／～以上／～里／～万里",
+        "type": "",
+        "chinese": "",
+        "romaji": "chotto/ijō/ri/manri"
+    }
+]

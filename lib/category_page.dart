@@ -23,10 +23,14 @@ class _CategoryPageState extends State<CategoryPage> {
   }
 
   Future<List<Book>> _loadBookModel() async {
-    final String response = await DefaultAssetBundle.of(context)
-        .loadString('assets/vocabulary/0/metadata/metadata.json');
-    final book = Book.fromJson(json.decode(response));
-    return [book];
+    final List<Book> books = [];
+    for (int i = 0; i < 2; i++) {
+      final String response = await DefaultAssetBundle.of(context)
+          .loadString('assets/vocabulary/$i/metadata/metadata.json');
+      final book = Book.fromJson(json.decode(response));
+      books.add(book);
+    }
+    return books;
   }
 
   @override
@@ -143,13 +147,6 @@ class _CategoryPageState extends State<CategoryPage> {
                       count: '5 cards',
                       iconColor: Colors.green[200]!,
                     ),
-                    const SizedBox(width: 16),
-                    _buildCard(
-                      icon: Icons.add,
-                      title: '新集合',
-                      count: '',
-                      iconColor: Colors.red[200]!,
-                    ),
                     // Add more cards as needed
                   ],
                 ),
@@ -237,7 +234,6 @@ class _CategoryPageState extends State<CategoryPage> {
 
   Widget _buildCategoryItem(Book book, Map<String, String> completedVocabularies) {
     var total = book.totalVocabularies;
-    var completed = completedVocabularies.length;
     return GestureDetector(
         onTap: () async {
           final books = await _futureBooks;
@@ -246,7 +242,7 @@ class _CategoryPageState extends State<CategoryPage> {
             MaterialPageRoute(
                 builder: (context) => FlashcardPage(
                       books: books,
-                      curVoc: TripleVoc(bookId: 0, lessonId: 0, vocabularyId: 0),
+                      curVoc: TripleVoc(bookId: int.parse(book.bookId), lessonId: 0, vocabularyId: 0),
                     )),
           );
         },
@@ -279,7 +275,7 @@ class _CategoryPageState extends State<CategoryPage> {
                     ),
                   ),
                   Text(
-                    '$completed/$total',
+                    '0/$total',
                     style: TextStyle(
                       color: Colors.grey[600],
                       fontSize: 16,
@@ -291,7 +287,7 @@ class _CategoryPageState extends State<CategoryPage> {
               ClipRRect(
                 borderRadius: BorderRadius.circular(10),
                 child: LinearProgressIndicator(
-                  value: completed / total,
+                  value: 0 / total,
                   backgroundColor: Colors.grey[200],
                   valueColor: AlwaysStoppedAnimation<Color>(Colors.teal[300]!),
                 ),

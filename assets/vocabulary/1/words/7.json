@@ -1,296 +1,338 @@
-{
-  "0": {
-    "hiragana": "れっしゃ",
-    "kanji": "列車",
-    "type": "〔名〕",
-    "chinese": "火车，列车",
-    "romaji": "ressha"
-  },
-  "1": {
-    "hiragana": "こうそくバス",
-    "kanji": "高速～",
-    "type": "〔名〕",
-    "chinese": "高速公共汽车",
-    "romaji": "kōsoku basu"
-  },
-  "2": {
-    "hiragana": "しゅっぱつじこく",
-    "kanji": "出発時刻",
-    "type": "〔名〕",
-    "chinese": "出发时间",
-    "romaji": "shuppatsu jikoku"
-  },
-  "3": {
-    "hiragana": "りょこうよてい",
-    "kanji": "旅行予定",
-    "type": "〔名〕",
-    "chinese": "旅行计划",
-    "romaji": "ryokō yotei"
-  },
-  "4": {
-    "hiragana": "てんきよほう",
-    "kanji": "天気予報",
-    "type": "〔名〕",
-    "chinese": "天气预报",
-    "romaji": "tenki yohō"
-  },
-  "5": {
-    "hiragana": "たいふう",
-    "kanji": "",
-    "type": "〔名〕",
-    "chinese": "台风",
-    "romaji": "taifū"
-  },
-  "6": {
-    "hiragana": "うわさ",
-    "kanji": "",
-    "type": "〔名〕",
-    "chinese": "传说，风言风语",
-    "romaji": "uwasa"
-  },
-  "7": {
-    "hiragana": "せんでん",
-    "kanji": "宣伝",
-    "type": "〔名〕",
-    "chinese": "宣传",
-    "romaji": "senden"
-  },
-  "8": {
-    "hiragana": "ばんぐみ",
-    "kanji": "番組",
-    "type": "〔名〕",
-    "chinese": "节目",
-    "romaji": "bangumi"
-  },
-  "9": {
-    "hiragana": "しんがた",
-    "kanji": "新型",
-    "type": "〔名〕",
-    "chinese": "新型",
-    "romaji": "shingata"
-  },
-  "10": {
-    "hiragana": "ボーナス",
-    "kanji": "",
-    "type": "〔名〕",
-    "chinese": "奖金",
-    "romaji": "bōnasu"
-  },
-  "11": {
-    "hiragana": "ラーメン",
-    "kanji": "",
-    "type": "〔名〕",
-    "chinese": "面条",
-    "romaji": "rāmen"
-  },
-  "12": {
-    "hiragana": "ぎゅうにゅう",
-    "kanji": "牛乳",
-    "type": "〔名〕",
-    "chinese": "牛奶",
-    "romaji": "gyūnyū"
-  },
-  "13": {
-    "hiragana": "ギョーザパーティー",
-    "kanji": "(餃子～)",
-    "type": "〔名〕",
-    "chinese": "饺子宴",
-    "romaji": "gyōza pātī"
-  },
-  "14": {
-    "hiragana": "しょうがつやすみ",
-    "kanji": "(正月休み)",
-    "type": "〔名〕",
-    "chinese": "新年假日",
-    "romaji": "shōgatsu yasumi"
-  },
-  "15": {
-    "hiragana": "スポーツようひん",
-    "kanji": "(～用品)",
-    "type": "〔名〕",
-    "chinese": "体育用品",
-    "romaji": "supōtsu yōhin"
-  },
-  "16": {
-    "hiragana": "インフルエンザ",
-    "kanji": "",
-    "type": "〔名〕",
-    "chinese": "流感，流行性感冒",
-    "romaji": "infuruenza"
-  },
-  "17": {
-    "hiragana": "してん",
-    "kanji": "支店",
-    "type": "〔名〕",
-    "chinese": "分店，分公司",
-    "romaji": "shiten"
-  },
-  "18": {
-    "hiragana": "しょうがっこう",
-    "kanji": "小学校",
-    "type": "〔名〕",
-    "chinese": "小学",
-    "romaji": "shōgakkō"
-  },
-  "19": {
-    "hiragana": "ゆうえんち",
-    "kanji": "遊園地",
-    "type": "〔名〕",
-    "chinese": "游乐园",
-    "romaji": "yūenchi"
-  },
-  "20": {
-    "hiragana": "しゅしょう",
-    "kanji": "(首相)",
-    "type": "〔名〕",
-    "chinese": "首相",
-    "romaji": "shushō"
-  },
-  "21": {
-    "hiragana": "れきし",
-    "kanji": "歴史",
-    "type": "〔名〕",
-    "chinese": "历史",
-    "romaji": "rekishi"
-  },
-  "22": {
-    "hiragana": "かのじょ",
-    "kanji": "(彼女)",
-    "type": "〔代〕",
-    "chinese": "她",
-    "romaji": "kanojo"
-  },
-  "23": {
-    "hiragana": "おこないます",
-    "kanji": "(行います)",
-    "type": "〔动1〕",
-    "chinese": "开，举行",
-    "romaji": "okonai masu"
-  },
-  "24": {
-    "hiragana": "あがります",
-    "kanji": "(上がります)",
-    "type": "〔动1〕",
-    "chinese": "提高，上涨",
-    "romaji": "agari masu"
-  },
-  "25": {
-    "hiragana": "のりかえます",
-    "kanji": "(乗り換えます)",
-    "type": "〔动2〕",
-    "chinese": "换乘",
-    "romaji": "norikae masu"
-  },
-  "26": {
-    "hiragana": "やめます",
-    "kanji": "(辞めます)",
-    "type": "〔动2〕",
-    "chinese": "辞去",
-    "romaji": "yame masu"
-  },
-  "27": {
-    "hiragana": "りゅうがくします",
-    "kanji": "(留学～)",
-    "type": "〔动3〕",
-    "chinese": "留学",
-    "romaji": "ryūgaku shimasu"
-  },
-  "28": {
-    "hiragana": "にゅうがくします",
-    "kanji": "(入学～)",
-    "type": "〔动3〕",
-    "chinese": "入学",
-    "romaji": "nyūgaku shimasu"
-  },
-  "29": {
-    "hiragana": "りゅうこうします",
-    "kanji": "",
-    "type": "〔动3〕",
-    "chinese": "流行",
-    "romaji": "ryūkō shimasu"
-  },
-  "30": {
-    "hiragana": "にゅういんします",
-    "kanji": "(入院～)",
-    "type": "〔动3〕",
-    "chinese": "住院",
-    "romaji": "nyūin shimasu"
-  },
-  "31": {
-    "hiragana": "おじゃまします",
-    "kanji": "(お邪魔～)",
-    "type": "〔动3〕",
-    "chinese": "打扰，拜访",
-    "romaji": "ojama shimasu"
-  },
-  "32": {
-    "hiragana": "たんとうします",
-    "kanji": "(担当～)",
-    "type": "〔动3〕",
-    "chinese": "承担",
-    "romaji": "tantō shimasu"
-  },
-  "33": {
-    "hiragana": "つよい",
-    "kanji": "(強い)",
-    "type": "〔形1〕",
-    "chinese": "强，坚强",
-    "romaji": "tsuyoi"
-  },
-  "34": {
-    "hiragana": "きさく",
-    "kanji": "(気さく)",
-    "type": "〔形2〕",
-    "chinese": "爽快，坦率",
-    "romaji": "kisaku"
-  },
-  "35": {
-    "hiragana": "いろんな",
-    "kanji": "",
-    "type": "〔连体〕",
-    "chinese": "各种各样的",
-    "romaji": "iron na"
-  },
-  "36": {
-    "hiragana": "ずっと",
-    "kanji": "",
-    "type": "〔副〕",
-    "chinese": "一直，始终",
-    "romaji": "zutto"
-  },
-  "37": {
-    "hiragana": "りゅうえい",
-    "kanji": "(劉英)",
-    "type": "〔专〕",
-    "chinese": "刘英",
-    "romaji": "Ryūei"
-  },
-  "38": {
-    "hiragana": "タイ",
-    "kanji": "",
-    "type": "〔专〕",
-    "chinese": "泰国",
-    "romaji": "Tai"
-  },
-  "39": {
-    "hiragana": "きょうとホテル",
-    "kanji": "(京都～)",
-    "type": "〔专〕",
-    "chinese": "京都宾馆",
-    "romaji": "Kyōto Hoteru"
-  },
-  "40": {
-    "hiragana": "おじゃましました",
-    "kanji": "(お邪魔しました)",
-    "type": "",
-    "chinese": "打扰了",
-    "romaji": "ojama shimashita"
-  },
-  "41": {
-    "hiragana": "かぜがつよい",
-    "kanji": "(風が強い)",
-    "type": "",
-    "chinese": "风大",
-    "romaji": "kaze ga tsuyoi"
-  }
-}
+[
+    {
+        "id": "0",
+        "japanese": "れっしゃ",
+        "kanji": "列車",
+        "type": "〔名〕",
+        "chinese": "火车，列车",
+        "romaji": "ressha"
+    },
+    {
+        "id": "1",
+        "japanese": "こうそくバス",
+        "kanji": "高速～",
+        "type": "〔名〕",
+        "chinese": "高速公共汽车",
+        "romaji": "kōsoku basu"
+    },
+    {
+        "id": "2",
+        "japanese": "しゅっぱつじこく",
+        "kanji": "出発時刻",
+        "type": "〔名〕",
+        "chinese": "出发时间",
+        "romaji": "shuppatsu jikoku"
+    },
+    {
+        "id": "3",
+        "japanese": "りょこうよてい",
+        "kanji": "旅行予定",
+        "type": "〔名〕",
+        "chinese": "旅行计划",
+        "romaji": "ryokō yotei"
+    },
+    {
+        "id": "4",
+        "japanese": "てんきよほう",
+        "kanji": "天気予報",
+        "type": "〔名〕",
+        "chinese": "天气预报",
+        "romaji": "tenki yohō"
+    },
+    {
+        "id": "5",
+        "japanese": "たいふう",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "台风",
+        "romaji": "taifū"
+    },
+    {
+        "id": "6",
+        "japanese": "うわさ",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "传说，风言风语",
+        "romaji": "uwasa"
+    },
+    {
+        "id": "7",
+        "japanese": "せんでん",
+        "kanji": "宣伝",
+        "type": "〔名〕",
+        "chinese": "宣传",
+        "romaji": "senden"
+    },
+    {
+        "id": "8",
+        "japanese": "ばんぐみ",
+        "kanji": "番組",
+        "type": "〔名〕",
+        "chinese": "节目",
+        "romaji": "bangumi"
+    },
+    {
+        "id": "9",
+        "japanese": "しんがた",
+        "kanji": "新型",
+        "type": "〔名〕",
+        "chinese": "新型",
+        "romaji": "shingata"
+    },
+    {
+        "id": "10",
+        "japanese": "ボーナス",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "奖金",
+        "romaji": "bōnasu"
+    },
+    {
+        "id": "11",
+        "japanese": "ラーメン",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "面条",
+        "romaji": "rāmen"
+    },
+    {
+        "id": "12",
+        "japanese": "ぎゅうにゅう",
+        "kanji": "牛乳",
+        "type": "〔名〕",
+        "chinese": "牛奶",
+        "romaji": "gyūnyū"
+    },
+    {
+        "id": "13",
+        "japanese": "ギョーザパーティー",
+        "kanji": "(餃子～)",
+        "type": "〔名〕",
+        "chinese": "饺子宴",
+        "romaji": "gyōza pātī"
+    },
+    {
+        "id": "14",
+        "japanese": "しょうがつやすみ",
+        "kanji": "(正月休み)",
+        "type": "〔名〕",
+        "chinese": "新年假日",
+        "romaji": "shōgatsu yasumi"
+    },
+    {
+        "id": "15",
+        "japanese": "スポーツようひん",
+        "kanji": "(～用品)",
+        "type": "〔名〕",
+        "chinese": "体育用品",
+        "romaji": "supōtsu yōhin"
+    },
+    {
+        "id": "16",
+        "japanese": "インフルエンザ",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "流感，流行性感冒",
+        "romaji": "infuruenza"
+    },
+    {
+        "id": "17",
+        "japanese": "してん",
+        "kanji": "支店",
+        "type": "〔名〕",
+        "chinese": "分店，分公司",
+        "romaji": "shiten"
+    },
+    {
+        "id": "18",
+        "japanese": "しょうがっこう",
+        "kanji": "小学校",
+        "type": "〔名〕",
+        "chinese": "小学",
+        "romaji": "shōgakkō"
+    },
+    {
+        "id": "19",
+        "japanese": "ゆうえんち",
+        "kanji": "遊園地",
+        "type": "〔名〕",
+        "chinese": "游乐园",
+        "romaji": "yūenchi"
+    },
+    {
+        "id": "20",
+        "japanese": "しゅしょう",
+        "kanji": "(首相)",
+        "type": "〔名〕",
+        "chinese": "首相",
+        "romaji": "shushō"
+    },
+    {
+        "id": "21",
+        "japanese": "れきし",
+        "kanji": "歴史",
+        "type": "〔名〕",
+        "chinese": "历史",
+        "romaji": "rekishi"
+    },
+    {
+        "id": "22",
+        "japanese": "かのじょ",
+        "kanji": "(彼女)",
+        "type": "〔代〕",
+        "chinese": "她",
+        "romaji": "kanojo"
+    },
+    {
+        "id": "23",
+        "japanese": "おこないます",
+        "kanji": "(行います)",
+        "type": "〔动1〕",
+        "chinese": "开，举行",
+        "romaji": "okonai masu"
+    },
+    {
+        "id": "24",
+        "japanese": "あがります",
+        "kanji": "(上がります)",
+        "type": "〔动1〕",
+        "chinese": "提高，上涨",
+        "romaji": "agari masu"
+    },
+    {
+        "id": "25",
+        "japanese": "のりかえます",
+        "kanji": "(乗り換えます)",
+        "type": "〔动2〕",
+        "chinese": "换乘",
+        "romaji": "norikae masu"
+    },
+    {
+        "id": "26",
+        "japanese": "やめます",
+        "kanji": "(辞めます)",
+        "type": "〔动2〕",
+        "chinese": "辞去",
+        "romaji": "yame masu"
+    },
+    {
+        "id": "27",
+        "japanese": "りゅうがくします",
+        "kanji": "(留学～)",
+        "type": "〔动3〕",
+        "chinese": "留学",
+        "romaji": "ryūgaku shimasu"
+    },
+    {
+        "id": "28",
+        "japanese": "にゅうがくします",
+        "kanji": "(入学～)",
+        "type": "〔动3〕",
+        "chinese": "入学",
+        "romaji": "nyūgaku shimasu"
+    },
+    {
+        "id": "29",
+        "japanese": "りゅうこうします",
+        "kanji": "",
+        "type": "〔动3〕",
+        "chinese": "流行",
+        "romaji": "ryūkō shimasu"
+    },
+    {
+        "id": "30",
+        "japanese": "にゅういんします",
+        "kanji": "(入院～)",
+        "type": "〔动3〕",
+        "chinese": "住院",
+        "romaji": "nyūin shimasu"
+    },
+    {
+        "id": "31",
+        "japanese": "おじゃまします",
+        "kanji": "(お邪魔～)",
+        "type": "〔动3〕",
+        "chinese": "打扰，拜访",
+        "romaji": "ojama shimasu"
+    },
+    {
+        "id": "32",
+        "japanese": "たんとうします",
+        "kanji": "(担当～)",
+        "type": "〔动3〕",
+        "chinese": "承担",
+        "romaji": "tantō shimasu"
+    },
+    {
+        "id": "33",
+        "japanese": "つよい",
+        "kanji": "(強い)",
+        "type": "〔形1〕",
+        "chinese": "强，坚强",
+        "romaji": "tsuyoi"
+    },
+    {
+        "id": "34",
+        "japanese": "きさく",
+        "kanji": "(気さく)",
+        "type": "〔形2〕",
+        "chinese": "爽快，坦率",
+        "romaji": "kisaku"
+    },
+    {
+        "id": "35",
+        "japanese": "いろんな",
+        "kanji": "",
+        "type": "〔连体〕",
+        "chinese": "各种各样的",
+        "romaji": "iron na"
+    },
+    {
+        "id": "36",
+        "japanese": "ずっと",
+        "kanji": "",
+        "type": "〔副〕",
+        "chinese": "一直，始终",
+        "romaji": "zutto"
+    },
+    {
+        "id": "37",
+        "japanese": "りゅうえい",
+        "kanji": "(劉英)",
+        "type": "〔专〕",
+        "chinese": "刘英",
+        "romaji": "Ryūei"
+    },
+    {
+        "id": "38",
+        "japanese": "タイ",
+        "kanji": "",
+        "type": "〔专〕",
+        "chinese": "泰国",
+        "romaji": "Tai"
+    },
+    {
+        "id": "39",
+        "japanese": "きょうとホテル",
+        "kanji": "(京都～)",
+        "type": "〔专〕",
+        "chinese": "京都宾馆",
+        "romaji": "Kyōto Hoteru"
+    },
+    {
+        "id": "40",
+        "japanese": "おじゃましました",
+        "kanji": "(お邪魔しました)",
+        "type": "",
+        "chinese": "打扰了",
+        "romaji": "ojama shimashita"
+    },
+    {
+        "id": "41",
+        "japanese": "かぜがつよい",
+        "kanji": "(風が強い)",
+        "type": "",
+        "chinese": "风大",
+        "romaji": "kaze ga tsuyoi"
+    }
+]

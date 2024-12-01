@@ -1,345 +1,394 @@
-{
-  "0": {
-    "hiragana": "けがわ",
-    "kanji": "毛皮",
-    "type": "〔名〕",
-    "chinese": "毛皮",
-    "romaji": "kegawa"
-  },
-  "1": {
-    "hiragana": "ほんもの",
-    "kanji": "本物",
-    "type": "〔名〕",
-    "chinese": "真货，真东西",
-    "romaji": "honmono"
-  },
-  "2": {
-    "hiragana": "がら",
-    "kanji": "柄",
-    "type": "〔名〕",
-    "chinese": "花纹，花样",
-    "romaji": "gara"
-  },
-  "3": {
-    "hiragana": "レモン",
-    "kanji": "",
-    "type": "〔名〕",
-    "chinese": "柠檬",
-    "romaji": "remon"
-  },
-  "4": {
-    "hiragana": "みそしる",
-    "kanji": "みそ汁",
-    "type": "〔名〕",
-    "chinese": "酱汤",
-    "romaji": "misoshiru"
-  },
-  "5": {
-    "hiragana": "おまつり",
-    "kanji": "お祭り",
-    "type": "〔名〕",
-    "chinese": "祭日，节日",
-    "romaji": "omatsuri"
-  },
-  "6": {
-    "hiragana": "オートバイ",
-    "kanji": "",
-    "type": "〔名〕",
-    "chinese": "摩托车",
-    "romaji": "ōtobai"
-  },
-  "7": {
-    "hiragana": "インタビュー",
-    "kanji": "",
-    "type": "〔名〕",
-    "chinese": "采访",
-    "romaji": "intabyū"
-  },
-  "8": {
-    "hiragana": "プラン",
-    "kanji": "",
-    "type": "〔名〕",
-    "chinese": "计划",
-    "romaji": "puran"
-  },
-  "9": {
-    "hiragana": "ずつう",
-    "kanji": "頭痛",
-    "type": "〔名〕",
-    "chinese": "头痛",
-    "romaji": "zutsū"
-  },
-  "10": {
-    "hiragana": "さむけ",
-    "kanji": "寒気",
-    "type": "〔名〕",
-    "chinese": "寒气，寒战",
-    "romaji": "samuke"
-  },
-  "11": {
-    "hiragana": "はきけ",
-    "kanji": "吐き気",
-    "type": "〔名〕",
-    "chinese": "恶心，想要呕吐",
-    "romaji": "hakike"
-  },
-  "12": {
-    "hiragana": "かじ",
-    "kanji": "家事",
-    "type": "〔名〕",
-    "chinese": "家务活",
-    "romaji": "kaji"
-  },
-  "13": {
-    "hiragana": "めんせつ",
-    "kanji": "面接",
-    "type": "〔名〕",
-    "chinese": "面试",
-    "romaji": "mensetsu"
-  },
-  "14": {
-    "hiragana": "できごと",
-    "kanji": "出来事",
-    "type": "〔名〕",
-    "chinese": "事情，事件",
-    "romaji": "dekigoto"
-  },
-  "15": {
-    "hiragana": "いけん",
-    "kanji": "意見",
-    "type": "〔名〕",
-    "chinese": "意见",
-    "romaji": "iken"
-  },
-  "16": {
-    "hiragana": "かいせつ",
-    "kanji": "開設",
-    "type": "〔名〕",
-    "chinese": "开设",
-    "romaji": "kaisetsu"
-  },
-  "17": {
-    "hiragana": "こうほち",
-    "kanji": "候補地",
-    "type": "〔名〕",
-    "chinese": "候选地",
-    "romaji": "kōhochi"
-  },
-  "18": {
-    "hiragana": "まわり",
-    "kanji": "周り",
-    "type": "〔名〕",
-    "chinese": "一带，周围",
-    "romaji": "mawari"
-  },
-  "19": {
-    "hiragana": "あかるさ",
-    "kanji": "明るさ",
-    "type": "〔名〕",
-    "chinese": "明朗，快活",
-    "romaji": "akarusa"
-  },
-  "20": {
-    "hiragana": "におい",
-    "kanji": "匂い",
-    "type": "〔名〕",
-    "chinese": "味道，气味",
-    "romaji": "nioi"
-  },
-  "21": {
-    "hiragana": "せいけん",
-    "kanji": "正拳",
-    "type": "〔名〕",
-    "chinese": "肥肠",
-    "romaji": "seiken"
-  },
-  "22": {
-    "hiragana": "こうすい",
-    "kanji": "香水",
-    "type": "〔名〕",
-    "chinese": "香水",
-    "romaji": "kōsui"
-  },
-  "23": {
-    "hiragana": "ラン",
-    "kanji": "蘭",
-    "type": "〔名〕",
-    "chinese": "兰花",
-    "romaji": "ran"
-  },
-  "24": {
-    "hiragana": "すえ",
-    "kanji": "末",
-    "type": "〔名〕",
-    "chinese": "末尾，末了",
-    "romaji": "sue"
-  },
-  "25": {
-    "hiragana": "はじめ",
-    "kanji": "初め",
-    "type": "〔名〕",
-    "chinese": "最初",
-    "romaji": "hajime"
-  },
-  "26": {
-    "hiragana": "はんつき",
-    "kanji": "半月",
-    "type": "〔名〕",
-    "chinese": "半月，半个月",
-    "romaji": "hantsuki"
-  },
-  "27": {
-    "hiragana": "モデル",
-    "kanji": "",
-    "type": "〔名〕",
-    "chinese": "模特儿",
-    "romaji": "moderu"
-  },
-  "28": {
-    "hiragana": "けいさつかん",
-    "kanji": "警察官",
-    "type": "〔名〕",
-    "chinese": "警察",
-    "romaji": "keisatsukan"
-  },
-  "29": {
-    "hiragana": "おすもうさん",
-    "kanji": "お相撲さん",
-    "type": "〔名〕",
-    "chinese": "相扑选手",
-    "romaji": "osumōsan"
-  },
-  "30": {
-    "hiragana": "かんこうします",
-    "kanji": "観光～",
-    "type": "〔动3〕",
-    "chinese": "旅游",
-    "romaji": "kankō shimasu"
-  },
-  "31": {
-    "hiragana": "ゆうえいせんしゅ",
-    "kanji": "游泳選手",
-    "type": "〔名〕",
-    "chinese": "游泳选手",
-    "romaji": "yūei senshu"
-  },
-  "32": {
-    "hiragana": "すみます",
-    "kanji": "済みます",
-    "type": "〔动1〕",
-    "chinese": "结束，完了",
-    "romaji": "sumimasu"
-  },
-  "33": {
-    "hiragana": "つもります",
-    "kanji": "積もります",
-    "type": "〔动1〕",
-    "chinese": "堆积，积累",
-    "romaji": "tsumorimasu"
-  },
-  "34": {
-    "hiragana": "すごします",
-    "kanji": "過ごします",
-    "type": "〔动1〕",
-    "chinese": "度过，生活",
-    "romaji": "sugoshimasu"
-  },
-  "35": {
-    "hiragana": "ほほえみます",
-    "kanji": "微笑みます",
-    "type": "〔动1〕",
-    "chinese": "微笑",
-    "romaji": "hohoemimasu"
-  },
-  "36": {
-    "hiragana": "のばします",
-    "kanji": "延ばします",
-    "type": "〔动1〕",
-    "chinese": "延长",
-    "romaji": "nobashimasu"
-  },
-  "37": {
-    "hiragana": "ふざけます",
-    "kanji": "巫山戯ます",
-    "type": "〔动1〕",
-    "chinese": "嬉戏，打闹",
-    "romaji": "fuzakemasu"
-  },
-  "38": {
-    "hiragana": "せつぞくします",
-    "kanji": "接続～",
-    "type": "〔动1〕",
-    "chinese": "连接",
-    "romaji": "setsuzoku shimasu"
-  },
-  "39": {
-    "hiragana": "はっそうします",
-    "kanji": "発送～",
-    "type": "〔动3〕",
-    "chinese": "发送，寄送",
-    "romaji": "hassō shimasu"
-  },
-  "40": {
-    "hiragana": "きんちょうします",
-    "kanji": "緊張～",
-    "type": "〔动3〕",
-    "chinese": "紧张",
-    "romaji": "kinchō shimasu"
-  },
-  "41": {
-    "hiragana": "さわやか",
-    "kanji": "",
-    "type": "〔形2〕",
-    "chinese": "清爽，爽快",
-    "romaji": "sawayaka"
-  },
-  "42": {
-    "hiragana": "まるで",
-    "kanji": "",
-    "type": "〔副〕",
-    "chinese": "好像，就像",
-    "romaji": "marude"
-  },
-  "43": {
-    "hiragana": "いかにも",
-    "kanji": "",
-    "type": "〔副〕",
-    "chinese": "典型的；实在，的确",
-    "romaji": "ikanimo"
-  },
-  "44": {
-    "hiragana": "ワイタン",
-    "kanji": "(外灘)",
-    "type": "〔专〕",
-    "chinese": "外滩",
-    "romaji": "Waitan"
-  },
-  "45": {
-    "hiragana": "おきなわ",
-    "kanji": "(沖縄)",
-    "type": "〔专〕",
-    "chinese": "冲绳",
-    "romaji": "Okinawa"
-  },
-  "46": {
-    "hiragana": "ナンキンろ",
-    "kanji": "(南京路)",
-    "type": "〔专〕",
-    "chinese": "南京路",
-    "romaji": "Nankin rō"
-  },
-  "47": {
-    "hiragana": "このごろ",
-    "kanji": "",
-    "type": "",
-    "chinese": "最近，近期",
-    "romaji": "konogoro"
-  },
-  "48": {
-    "hiragana": "じむしょさがし",
-    "kanji": "事務所探し",
-    "type": "",
-    "chinese": "寻找事务所",
-    "romaji": "jimusho sagashi"
-  }
-}
+[
+    {
+        "id": "0",
+        "japanese": "けがわ",
+        "kanji": "毛皮",
+        "type": "〔名〕",
+        "chinese": "毛皮",
+        "romaji": "kegawa"
+    },
+    {
+        "id": "1",
+        "japanese": "ほんもの",
+        "kanji": "本物",
+        "type": "〔名〕",
+        "chinese": "真货，真东西",
+        "romaji": "honmono"
+    },
+    {
+        "id": "2",
+        "japanese": "がら",
+        "kanji": "柄",
+        "type": "〔名〕",
+        "chinese": "花纹，花样",
+        "romaji": "gara"
+    },
+    {
+        "id": "3",
+        "japanese": "レモン",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "柠檬",
+        "romaji": "remon"
+    },
+    {
+        "id": "4",
+        "japanese": "みそしる",
+        "kanji": "みそ汁",
+        "type": "〔名〕",
+        "chinese": "酱汤",
+        "romaji": "misoshiru"
+    },
+    {
+        "id": "5",
+        "japanese": "おまつり",
+        "kanji": "お祭り",
+        "type": "〔名〕",
+        "chinese": "祭日，节日",
+        "romaji": "omatsuri"
+    },
+    {
+        "id": "6",
+        "japanese": "オートバイ",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "摩托车",
+        "romaji": "ōtobai"
+    },
+    {
+        "id": "7",
+        "japanese": "インタビュー",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "采访",
+        "romaji": "intabyū"
+    },
+    {
+        "id": "8",
+        "japanese": "プラン",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "计划",
+        "romaji": "puran"
+    },
+    {
+        "id": "9",
+        "japanese": "ずつう",
+        "kanji": "頭痛",
+        "type": "〔名〕",
+        "chinese": "头痛",
+        "romaji": "zutsū"
+    },
+    {
+        "id": "10",
+        "japanese": "さむけ",
+        "kanji": "寒気",
+        "type": "〔名〕",
+        "chinese": "寒气，寒战",
+        "romaji": "samuke"
+    },
+    {
+        "id": "11",
+        "japanese": "はきけ",
+        "kanji": "吐き気",
+        "type": "〔名〕",
+        "chinese": "恶心，想要呕吐",
+        "romaji": "hakike"
+    },
+    {
+        "id": "12",
+        "japanese": "かじ",
+        "kanji": "家事",
+        "type": "〔名〕",
+        "chinese": "家务活",
+        "romaji": "kaji"
+    },
+    {
+        "id": "13",
+        "japanese": "めんせつ",
+        "kanji": "面接",
+        "type": "〔名〕",
+        "chinese": "面试",
+        "romaji": "mensetsu"
+    },
+    {
+        "id": "14",
+        "japanese": "できごと",
+        "kanji": "出来事",
+        "type": "〔名〕",
+        "chinese": "事情，事件",
+        "romaji": "dekigoto"
+    },
+    {
+        "id": "15",
+        "japanese": "いけん",
+        "kanji": "意見",
+        "type": "〔名〕",
+        "chinese": "意见",
+        "romaji": "iken"
+    },
+    {
+        "id": "16",
+        "japanese": "かいせつ",
+        "kanji": "開設",
+        "type": "〔名〕",
+        "chinese": "开设",
+        "romaji": "kaisetsu"
+    },
+    {
+        "id": "17",
+        "japanese": "こうほち",
+        "kanji": "候補地",
+        "type": "〔名〕",
+        "chinese": "候选地",
+        "romaji": "kōhochi"
+    },
+    {
+        "id": "18",
+        "japanese": "まわり",
+        "kanji": "周り",
+        "type": "〔名〕",
+        "chinese": "一带，周围",
+        "romaji": "mawari"
+    },
+    {
+        "id": "19",
+        "japanese": "あかるさ",
+        "kanji": "明るさ",
+        "type": "〔名〕",
+        "chinese": "明朗，快活",
+        "romaji": "akarusa"
+    },
+    {
+        "id": "20",
+        "japanese": "におい",
+        "kanji": "匂い",
+        "type": "〔名〕",
+        "chinese": "味道，气味",
+        "romaji": "nioi"
+    },
+    {
+        "id": "21",
+        "japanese": "せいけん",
+        "kanji": "正拳",
+        "type": "〔名〕",
+        "chinese": "肥肠",
+        "romaji": "seiken"
+    },
+    {
+        "id": "22",
+        "japanese": "こうすい",
+        "kanji": "香水",
+        "type": "〔名〕",
+        "chinese": "香水",
+        "romaji": "kōsui"
+    },
+    {
+        "id": "23",
+        "japanese": "ラン",
+        "kanji": "蘭",
+        "type": "〔名〕",
+        "chinese": "兰花",
+        "romaji": "ran"
+    },
+    {
+        "id": "24",
+        "japanese": "すえ",
+        "kanji": "末",
+        "type": "〔名〕",
+        "chinese": "末尾，末了",
+        "romaji": "sue"
+    },
+    {
+        "id": "25",
+        "japanese": "はじめ",
+        "kanji": "初め",
+        "type": "〔名〕",
+        "chinese": "最初",
+        "romaji": "hajime"
+    },
+    {
+        "id": "26",
+        "japanese": "はんつき",
+        "kanji": "半月",
+        "type": "〔名〕",
+        "chinese": "半月，半个月",
+        "romaji": "hantsuki"
+    },
+    {
+        "id": "27",
+        "japanese": "モデル",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "模特儿",
+        "romaji": "moderu"
+    },
+    {
+        "id": "28",
+        "japanese": "けいさつかん",
+        "kanji": "警察官",
+        "type": "〔名〕",
+        "chinese": "警察",
+        "romaji": "keisatsukan"
+    },
+    {
+        "id": "29",
+        "japanese": "おすもうさん",
+        "kanji": "お相撲さん",
+        "type": "〔名〕",
+        "chinese": "相扑选手",
+        "romaji": "osumōsan"
+    },
+    {
+        "id": "30",
+        "japanese": "かんこうします",
+        "kanji": "観光～",
+        "type": "〔动3〕",
+        "chinese": "旅游",
+        "romaji": "kankō shimasu"
+    },
+    {
+        "id": "31",
+        "japanese": "ゆうえいせんしゅ",
+        "kanji": "游泳選手",
+        "type": "〔名〕",
+        "chinese": "游泳选手",
+        "romaji": "yūei senshu"
+    },
+    {
+        "id": "32",
+        "japanese": "すみます",
+        "kanji": "済みます",
+        "type": "〔动1〕",
+        "chinese": "结束，完了",
+        "romaji": "sumimasu"
+    },
+    {
+        "id": "33",
+        "japanese": "つもります",
+        "kanji": "積もります",
+        "type": "〔动1〕",
+        "chinese": "堆积，积累",
+        "romaji": "tsumorimasu"
+    },
+    {
+        "id": "34",
+        "japanese": "すごします",
+        "kanji": "過ごします",
+        "type": "〔动1〕",
+        "chinese": "度过，生活",
+        "romaji": "sugoshimasu"
+    },
+    {
+        "id": "35",
+        "japanese": "ほほえみます",
+        "kanji": "微笑みます",
+        "type": "〔动1〕",
+        "chinese": "微笑",
+        "romaji": "hohoemimasu"
+    },
+    {
+        "id": "36",
+        "japanese": "のばします",
+        "kanji": "延ばします",
+        "type": "〔动1〕",
+        "chinese": "延长",
+        "romaji": "nobashimasu"
+    },
+    {
+        "id": "37",
+        "japanese": "ふざけます",
+        "kanji": "巫山戯ます",
+        "type": "〔动1〕",
+        "chinese": "嬉戏，打闹",
+        "romaji": "fuzakemasu"
+    },
+    {
+        "id": "38",
+        "japanese": "せつぞくします",
+        "kanji": "接続～",
+        "type": "〔动1〕",
+        "chinese": "连接",
+        "romaji": "setsuzoku shimasu"
+    },
+    {
+        "id": "39",
+        "japanese": "はっそうします",
+        "kanji": "発送～",
+        "type": "〔动3〕",
+        "chinese": "发送，寄送",
+        "romaji": "hassō shimasu"
+    },
+    {
+        "id": "40",
+        "japanese": "きんちょうします",
+        "kanji": "緊張～",
+        "type": "〔动3〕",
+        "chinese": "紧张",
+        "romaji": "kinchō shimasu"
+    },
+    {
+        "id": "41",
+        "japanese": "さわやか",
+        "kanji": "",
+        "type": "〔形2〕",
+        "chinese": "清爽，爽快",
+        "romaji": "sawayaka"
+    },
+    {
+        "id": "42",
+        "japanese": "まるで",
+        "kanji": "",
+        "type": "〔副〕",
+        "chinese": "好像，就像",
+        "romaji": "marude"
+    },
+    {
+        "id": "43",
+        "japanese": "いかにも",
+        "kanji": "",
+        "type": "〔副〕",
+        "chinese": "典型的；实在，的确",
+        "romaji": "ikanimo"
+    },
+    {
+        "id": "44",
+        "japanese": "ワイタン",
+        "kanji": "(外灘)",
+        "type": "〔专〕",
+        "chinese": "外滩",
+        "romaji": "Waitan"
+    },
+    {
+        "id": "45",
+        "japanese": "おきなわ",
+        "kanji": "(沖縄)",
+        "type": "〔专〕",
+        "chinese": "冲绳",
+        "romaji": "Okinawa"
+    },
+    {
+        "id": "46",
+        "japanese": "ナンキンろ",
+        "kanji": "(南京路)",
+        "type": "〔专〕",
+        "chinese": "南京路",
+        "romaji": "Nankin rō"
+    },
+    {
+        "id": "47",
+        "japanese": "このごろ",
+        "kanji": "",
+        "type": "",
+        "chinese": "最近，近期",
+        "romaji": "konogoro"
+    },
+    {
+        "id": "48",
+        "japanese": "じむしょさがし",
+        "kanji": "事務所探し",
+        "type": "",
+        "chinese": "寻找事务所",
+        "romaji": "jimusho sagashi"
+    }
+]
