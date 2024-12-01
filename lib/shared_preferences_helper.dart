@@ -14,8 +14,8 @@ class SharedPreferencesHelper {
     return "${voc.lessonId}-${voc.vocabularyId}";
   }
 
-  Future<BookProgress> getProgressByKey(String bookId) async {
-    String key = _custom + bookId;
+  Future<BookProgress> getProgressByKey(int bookId) async {
+    String key = _custom + bookId.toString();
     final SharedPreferences prefs = await SharedPreferences.getInstance();
     final String? progressJson = prefs.getString(key);
     if (progressJson != null) {
@@ -28,13 +28,13 @@ class SharedPreferencesHelper {
 
   Future<BookProgress> addVocabulary(TripleVoc voc, String key) async {
     final SharedPreferences prefs = await SharedPreferences.getInstance();
-    final BookProgress progress = await getProgressByKey(voc.bookIdStr);
+    final BookProgress progress = await getProgressByKey(voc.bookId);
     if (key == Enums.favoritesKey) {
       progress.markAsFavorite(voc);
     } else {
       progress.markAsCompleted(voc);
     }
-    await prefs.setString(_custom + voc.bookIdStr, json.encode(progress.toJson()));
+    await prefs.setString("${_custom}.${voc.bookId}", json.encode(progress.toJson()));
     return progress;
   }
 
@@ -48,13 +48,13 @@ class SharedPreferencesHelper {
 
   Future<BookProgress> removeVocabulary(TripleVoc voc, String key) async {
     final SharedPreferences prefs = await SharedPreferences.getInstance();
-    final BookProgress progress = await getProgressByKey(key);
+    final BookProgress progress = await getProgressByKey(voc.bookId);
     if (key == Enums.favoritesKey) {
       progress.removeFavorite(voc);
     } else {
       progress.removeCompleted(voc);
     }
-    await prefs.setString(_custom + voc.bookIdStr, json.encode(progress.toJson()));
+    await prefs.setString("${_custom}${voc.bookId}", json.encode(progress.toJson()));
     return progress;
   }
 

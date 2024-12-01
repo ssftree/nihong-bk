@@ -40,7 +40,7 @@ class _FlashcardPageState extends State<FlashcardPage> {
 
   void _initVariables() {
     _totalVocabularies = widget.books[widget.curVoc.bookId].totalVocabularies;
-    prefs.getProgressByKey(widget.curVoc.bookIdStr).then((progressMap) {
+    prefs.getProgressByKey(widget.curVoc.bookId).then((progressMap) {
       setState(() {
         bookProgress = progressMap;
         _completedSize = bookProgress.totalCompleted;
@@ -65,12 +65,10 @@ class _FlashcardPageState extends State<FlashcardPage> {
   Future<void> _loadVocabulary() async {
     try {
       String path =
-          'assets/vocabulary/${widget.curVoc.bookIdStr}/words/${widget.curVoc.lessonId}.json';
+          'assets/vocabulary/${widget.curVoc.bookId}/words/${widget.curVoc.lessonId}.json';
       final String response =
           await DefaultAssetBundle.of(context).loadString(path);
-      print(path);
       _vocabulary = Vocabulary.listFromJson(json.decode(response));
-      print(_vocabulary.length);
       if (_autoPlay) await _playAudio();
     } catch (e) {
       print('Error loading vocabulary: $e');
@@ -196,6 +194,15 @@ class _FlashcardPageState extends State<FlashcardPage> {
                       return PopupMenuItem<String>(
                         value: book.title,
                         child: Text(book.title),
+                        onTap: () {
+                          setState(() {
+                            widget.curVoc.bookId = widget.books.indexOf(book);
+                            widget.curVoc.lessonId = 0;
+                            widget.curVoc.vocabularyId = 0;
+                            _loadVocabulary();
+                            _initVariables();
+                          });
+                        },
                       );
                     }).toList();
                   },
@@ -215,10 +222,9 @@ class _FlashcardPageState extends State<FlashcardPage> {
                       widget.curVoc.lessonId =
                           widget.books[widget.curVoc.bookId].lessons.indexOf(
                               selectedLesson); // Update selectedLessonIndex
-                      _loadVocabulary(); // Load vocabulary for the selected lesson
-                      widget.curVoc.lessonId = widget
-                          .curVoc.lessonId; // Update lessonId in widget.curVoc
                       widget.curVoc.vocabularyId = 0;
+                      _loadVocabulary(); 
+                      _initVariables();
                       setState(() {});
                     });
                   },
