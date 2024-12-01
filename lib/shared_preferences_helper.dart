@@ -1,71 +1,69 @@
 import 'dart:convert';
+import 'package:daily_word/model/constants.dart';
+import 'package:daily_word/progress/book_progress.dart';
 import 'package:shared_preferences/shared_preferences.dart';
+
+import 'model/triplevoc.dart';
 
 class SharedPreferencesHelper {
   static SharedPreferences? _preferences;
-
-  static const String _favoritesKey = 'favorites';
-  static const String _completedKey = 'completedVocabularies';
   static const String _autoPlayKey = 'autoPlay';
+  static const String _custom = 'custom_';
 
-  Future<Map<String, Map<String, String>>> getVocabulariesByKey(String key) async {
+  String concatKey(TripleVoc voc) {
+    return "${voc.lessonId}-${voc.vocabularyId}";
+  }
+
+  Future<BookProgress> getProgressByKey(String bookId) async {
+    String key = _custom + bookId;
     final SharedPreferences prefs = await SharedPreferences.getInstance();
-    final String? vocabulariesJson = prefs.getString(key);
-    if (vocabulariesJson != null) {
-      final Map<String, dynamic> decodedMap = json.decode(vocabulariesJson);
-      return decodedMap.map((key, value) {
-        return MapEntry(key, Map<String, String>.from(value as Map<String, dynamic>));
-      });
+    final String? progressJson = prefs.getString(key);
+    if (progressJson != null) {
+      final Map<String, dynamic> decodedMap = json.decode(progressJson);
+      return BookProgress.fromJson(decodedMap);
     } else {
-      return {};
+      return BookProgress();
     }
   }
 
-  Future<Map<String, Map<String, String>>> getFavoriteVocabularies() async {
-    return getVocabulariesByKey(_favoritesKey);
-  }
-
-  Future<Map<String, Map<String, String>>> getCompletedVocabularies() async {
-    return getVocabulariesByKey(_completedKey);
-  }
-
-  Future addVocabulary(String key, String bookId, String vocabularyId) async {
+  Future<BookProgress> addVocabulary(TripleVoc voc, String key) async {
     final SharedPreferences prefs = await SharedPreferences.getInstance();
-    final Map<String, Map<String, String>> vocabularies = await getVocabulariesByKey(key);
-    if (!vocabularies.containsKey(bookId)) {
-      vocabularies[bookId] = {};
+    final BookProgress progress = await getProgressByKey(voc.bookIdStr);
+    if (key == Enums.favoritesKey) {
+      progress.markAsFavorite(voc);
+    } else {
+      progress.markAsCompleted(voc);
     }
-    final Map<String, String> vocabulary = vocabularies[bookId]!;
-    vocabulary[vocabularyId] = DateTime.now().toIso8601String();
-    vocabularies[bookId] = vocabulary;
-    await prefs.setString(_favoritesKey, json.encode(vocabularies));
+    await prefs.setString(_custom + voc.bookIdStr, json.encode(progress.toJson()));
+    return progress;
   }
 
-  Future addFavoriteVocabulary(String bookId, String vocabularyId) async {
-    addVocabulary(_favoritesKey, bookId, vocabularyId);
+  Future<BookProgress> addFavoriteVocabulary(TripleVoc voc) async {
+    return addVocabulary(voc, Enums.favoritesKey);
   }
 
-  Future addCompletedVocabulary(String bookId, String vocabularyId) async {
-    addVocabulary(_completedKey, bookId, vocabularyId);
+  Future<BookProgress> addCompletedVocabulary(TripleVoc voc) async {
+    return addVocabulary(voc, Enums.completedKey);
   }
 
-  Future removeVocabulary(String key, String bookId, String vocabularyId) async {
+  Future<BookProgress> removeVocabulary(TripleVoc voc, String key) async {
     final SharedPreferences prefs = await SharedPreferences.getInstance();
-    final Map<String, Map<String, String>> vocabularies = await getVocabulariesByKey(key);
-    if (vocabularies.containsKey(bookId)) {
-      final Map<String, String> vocabulary = vocabularies[bookId]!;
-      vocabulary.remove(vocabularyId);
-      vocabularies[bookId] = vocabulary;
-      await prefs.setString(key, json.encode(vocabularies));
+    final BookProgress progress = await getProgressByKey(key);
+    if (key == Enums.favoritesKey) {
+      progress.removeFavorite(voc);
+    } else {
+      progress.removeCompleted(voc);
     }
+    await prefs.setString(_custom + voc.bookIdStr, json.encode(progress.toJson()));
+    return progress;
   }
 
-  Future removeFavoriteVocabulary(String bookId, String vocabularyId) async {
-    removeVocabulary(_favoritesKey, bookId, vocabularyId);
+  Future<BookProgress> removeFavoriteVocabulary(TripleVoc voc) async {
+    return removeVocabulary(voc, Enums.favoritesKey);
   }
 
-  Future removeCompletedVocabulary(String bookId, String vocabularyId) async {
-    removeVocabulary(_completedKey, bookId, vocabularyId);
+  Future<BookProgress> removeCompletedVocabulary(TripleVoc voc) async {
+    return removeVocabulary(voc, Enums.completedKey);
   }
 
   Future<bool> getAutoPlay() async {

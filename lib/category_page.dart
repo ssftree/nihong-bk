@@ -15,30 +15,11 @@ class CategoryPage extends StatefulWidget {
 
 class _CategoryPageState extends State<CategoryPage> {
   late Future<List<Book>> _futureBooks;
-  late Map<String, Map<String, String>> _completedVocabularies = {};
-  late Map<String, Map<String, String>> _favoriteVocabularies = {};
 
   @override
   void initState() {
     super.initState();
     _futureBooks = _loadBookModel();
-    _loadCompletedVocabularies();
-  }
-
-  int _getTotalFavoriteSize() {
-    int total = 0;
-    _favoriteVocabularies.forEach((key, value) {
-      total += value.length;
-    });
-    return total;
-  }
-
-  int _getTotalCompletedSize() {
-    int total = 0;
-    _completedVocabularies.forEach((key, value) {
-      total += value.length;
-    });
-    return total;
   }
 
   Future<List<Book>> _loadBookModel() async {
@@ -46,12 +27,6 @@ class _CategoryPageState extends State<CategoryPage> {
         .loadString('assets/vocabulary/0/metadata/metadata.json');
     final book = Book.fromJson(json.decode(response));
     return [book];
-  }
-
-  void _loadCompletedVocabularies() async {
-    final SharedPreferencesHelper prefs = SharedPreferencesHelper();
-    _completedVocabularies = await prefs.getCompletedVocabularies();
-    _favoriteVocabularies = await prefs.getFavoriteVocabularies();
   }
 
   @override
@@ -158,14 +133,14 @@ class _CategoryPageState extends State<CategoryPage> {
                     _buildCard(
                       icon: Icons.star,
                       title: '我的收藏',
-                      count: '${_getTotalFavoriteSize()}  cards',
+                      count: '5 cards',
                       iconColor: Colors.pink[200]!,
                     ),
                     const SizedBox(width: 16),
                     _buildCard(
                       icon: Icons.check,
                       title: '我已完成',
-                      count: '${_getTotalCompletedSize()} cards',
+                      count: '5 cards',
                       iconColor: Colors.green[200]!,
                     ),
                     const SizedBox(width: 16),
@@ -196,7 +171,7 @@ class _CategoryPageState extends State<CategoryPage> {
                         itemCount: books.length,
                         itemBuilder: (context, index) {
                           final book = books[index];
-                          final completedVocabularies = _completedVocabularies[book.bookId] ?? {};
+                          final completedVocabularies = <String, String>{};
                           return _buildCategoryItem(book, completedVocabularies);
                         },
                       );
@@ -272,7 +247,6 @@ class _CategoryPageState extends State<CategoryPage> {
                 builder: (context) => FlashcardPage(
                       books: books,
                       curVoc: TripleVoc(bookId: 0, lessonId: 0, vocabularyId: 0),
-                    completedVocabularies: completedVocabularies,
                     )),
           );
         },
