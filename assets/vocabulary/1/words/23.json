@@ -1,0 +1,282 @@
+{
+  "0": {
+    "hiragana": "みょうにち",
+    "kanji": "明日",
+    "type": "〔名〕",
+    "chinese": "明天",
+    "romaji": "myōnichi"
+  },
+  "1": {
+    "hiragana": "あす",
+    "kanji": "明日",
+    "type": "〔名〕",
+    "chinese": "明天",
+    "romaji": "asu"
+  },
+  "2": {
+    "hiragana": "さくじつ",
+    "kanji": "昨日",
+    "type": "〔名〕",
+    "chinese": "昨天",
+    "romaji": "sakujitsu"
+  },
+  "3": {
+    "hiragana": "このたび",
+    "kanji": "この度",
+    "type": "〔名〕",
+    "chinese": "这次，此回",
+    "romaji": "konotabi"
+  },
+  "4": {
+    "hiragana": "わたくし",
+    "kanji": "私",
+    "type": "〔代〕",
+    "chinese": "我",
+    "romaji": "watakushi"
+  },
+  "5": {
+    "hiragana": "わたくしども",
+    "kanji": "私ども",
+    "type": "〔代〕",
+    "chinese": "我们",
+    "romaji": "watakushidomo"
+  },
+  "6": {
+    "hiragana": "しゃ",
+    "kanji": "社",
+    "type": "〔名〕",
+    "chinese": "公司",
+    "romaji": "sha"
+  },
+  "7": {
+    "hiragana": "もの",
+    "kanji": "(者)",
+    "type": "〔名〕",
+    "chinese": "人，有的人",
+    "romaji": "mono"
+  },
+  "8": {
+    "hiragana": "へいしゃ",
+    "kanji": "弊社",
+    "type": "〔名〕",
+    "chinese": "敝公司",
+    "romaji": "heisha"
+  },
+  "9": {
+    "hiragana": "しんしゃ",
+    "kanji": "新車",
+    "type": "〔名〕",
+    "chinese": "新车",
+    "romaji": "shinsha"
+  },
+  "10": {
+    "hiragana": "きず",
+    "kanji": "傷",
+    "type": "〔名〕",
+    "chinese": "瑕疵，创伤",
+    "romaji": "kizu"
+  },
+  "11": {
+    "hiragana": "しどう",
+    "kanji": "指導",
+    "type": "〔名〕",
+    "chinese": "指导，指导",
+    "romaji": "shidō"
+  },
+  "12": {
+    "hiragana": "おつり",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "找的零钱",
+    "romaji": "otsuri"
+  },
+  "13": {
+    "hiragana": "おうせつしつ",
+    "kanji": "応接室",
+    "type": "〔名〕",
+    "chinese": "会客室",
+    "romaji": "ōsetsu shitsu"
+  },
+  "14": {
+    "hiragana": "あんないじょう",
+    "kanji": "案内状",
+    "type": "〔名〕",
+    "chinese": "通知，请帖",
+    "romaji": "annai jō"
+  },
+  "15": {
+    "hiragana": "にゅうがくあんない",
+    "kanji": "入学案内",
+    "type": "〔名〕",
+    "chinese": "入学指南",
+    "romaji": "nyūgaku annai"
+  },
+  "16": {
+    "hiragana": "うかがいます",
+    "kanji": "伺います",
+    "type": "〔动1〕",
+    "chinese": "（自谦）去；问；拜访；请教",
+    "romaji": "ukagaimasu"
+  },
+  "17": {
+    "hiragana": "いたします",
+    "kanji": "",
+    "type": "〔动1〕",
+    "chinese": "（自谦）做，干",
+    "romaji": "itashimasu"
+  },
+  "18": {
+    "hiragana": "まいります",
+    "kanji": "参ります",
+    "type": "〔动1〕",
+    "chinese": "（自谦）来，去",
+    "romaji": "mairimasu"
+  },
+  "19": {
+    "hiragana": "いただきます",
+    "kanji": "",
+    "type": "〔动1〕",
+    "chinese": "（自谦）吃，喝，得到",
+    "romaji": "itadakimasu"
+  },
+  "20": {
+    "hiragana": "おります",
+    "kanji": "",
+    "type": "〔动1〕",
+    "chinese": "在",
+    "romaji": "orimasu"
+  },
+  "21": {
+    "hiragana": "ございます",
+    "kanji": "",
+    "type": "〔动1〕",
+    "chinese": "在，有，是",
+    "romaji": "gozaimasu"
+  },
+  "22": {
+    "hiragana": "さしあげます",
+    "kanji": "差し上げます",
+    "type": "〔动2〕",
+    "chinese": "（自谦）给",
+    "romaji": "sashiagemasu"
+  },
+  "23": {
+    "hiragana": "ぞんじています",
+    "kanji": "存じています",
+    "type": "〔动2〕",
+    "chinese": "（自谦）知道",
+    "romaji": "zonjiteimasu"
+  },
+  "24": {
+    "hiragana": "すすめます",
+    "kanji": "進めます",
+    "type": "〔动2〕",
+    "chinese": "推进，使前进",
+    "romaji": "susumemasu"
+  },
+  "25": {
+    "hiragana": "はいけんします",
+    "kanji": "拝見～",
+    "type": "〔动1〕",
+    "chinese": "（自谦）看",
+    "romaji": "haiken shimasu"
+  },
+  "26": {
+    "hiragana": "しょうちします",
+    "kanji": "承知～",
+    "type": "〔动3〕",
+    "chinese": "知道",
+    "romaji": "shōchi shimasu"
+  },
+  "27": {
+    "hiragana": "きたいします",
+    "kanji": "期待～",
+    "type": "〔动3〕",
+    "chinese": "希望，期待",
+    "romaji": "kitai shimasu"
+  },
+  "28": {
+    "hiragana": "せわします",
+    "kanji": "世話～",
+    "type": "〔动3〕",
+    "chinese": "帮助，照顾",
+    "romaji": "sewa shimasu"
+  },
+  "29": {
+    "hiragana": "きちょう",
+    "kanji": "貴重",
+    "type": "〔形2〕",
+    "chinese": "贵重",
+    "romaji": "kichō"
+  },
+  "30": {
+    "hiragana": "しょうしょう",
+    "kanji": "少々",
+    "type": "〔副〕",
+    "chinese": "稍稍，一点儿",
+    "romaji": "shōshō"
+  },
+  "31": {
+    "hiragana": "ただいま",
+    "kanji": "只今",
+    "type": "〔副〕",
+    "chinese": "这会儿，方才，马上，立刻",
+    "romaji": "tadaima"
+  },
+  "32": {
+    "hiragana": "とつぜん",
+    "kanji": "突然",
+    "type": "〔副〕",
+    "chinese": "突然",
+    "romaji": "totsuzen"
+  },
+  "33": {
+    "hiragana": "じつは",
+    "kanji": "実は",
+    "type": "〔副〕",
+    "chinese": "其实，实际上",
+    "romaji": "jitsu wa"
+  },
+  "34": {
+    "hiragana": "とうきょうりょうりスクール",
+    "kanji": "(東京料理～)",
+    "type": "〔专〕",
+    "chinese": "东京厨师学校",
+    "romaji": "Tōkyō ryōri sukūru"
+  },
+  "35": {
+    "hiragana": "ペキンにほんごがっこう",
+    "kanji": "北京日本語学校",
+    "type": "〔专〕",
+    "chinese": "北京日语学校",
+    "romaji": "Pekin Nihongo Gakkō"
+  },
+  "36": {
+    "hiragana": "ジェーシーじどうしゃ",
+    "kanji": "ＪＣ自動車",
+    "type": "〔专〕",
+    "chinese": "JC汽车公司",
+    "romaji": "Jēshī jidōsha"
+  },
+  "37": {
+    "hiragana": "なんのおかまいもしませんで",
+    "kanji": "何のお構いもしませんで",
+    "type": "",
+    "chinese": "招待不周",
+    "romaji": "nan no okamai mo shimasen de"
+  },
+  "38": {
+    "hiragana": "いつもおせわになっております",
+    "kanji": "いつもお世話になっております",
+    "type": "",
+    "chinese": "承蒙多方照顾",
+    "romaji": "itsumo osewa ni natte orimasu"
+  },
+  "39": {
+    "hiragana": "もうしわけございません",
+    "kanji": "申し訳ございません",
+    "type": "",
+    "chinese": "非常抱歉",
+    "romaji": "mōshiwake gozaimasen"
+  }
+}

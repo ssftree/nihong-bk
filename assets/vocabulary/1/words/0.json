@@ -112,132 +112,125 @@
     "romaji": "kega"
   },
   "16": {
-    "hiragana": "じさ",
-    "kanji": "時差",
-    "type": "〔名〕",
-    "chinese": "时差",
-    "romaji": "jisa"
-  },
-  "17": {
     "hiragana": "とまります",
     "kanji": "(泊まります)",
     "type": "〔动1〕",
     "chinese": "住，过夜，住宿",
     "romaji": "tomarimasu"
   },
-  "18": {
+  "17": {
     "hiragana": "むすびます",
     "kanji": "(結びます)",
     "type": "〔动1〕",
     "chinese": "连接，系",
     "romaji": "musubimasu"
   },
-  "19": {
+  "18": {
     "hiragana": "とります",
     "kanji": "(取ります)",
     "type": "〔动1〕",
     "chinese": "印，记下",
     "romaji": "torimasu"
   },
-  "20": {
+  "19": {
     "hiragana": "うまれます",
     "kanji": "(生まれます)",
     "type": "〔动2〕",
     "chinese": "出生，诞生",
     "romaji": "umaremasu"
   },
-  "21": {
+  "20": {
     "hiragana": "とうさんします",
     "kanji": "(倒産～)",
     "type": "〔动3〕",
     "chinese": "倒闭，破产",
     "romaji": "tōsanshimasu"
   },
-  "22": {
+  "21": {
     "hiragana": "じゅうたいします",
     "kanji": "(渋滞～)",
     "type": "〔动3〕",
     "chinese": "堵车，停滞",
     "romaji": "jūtai shimasu"
   },
-  "23": {
+  "22": {
     "hiragana": "チェックします",
     "kanji": "",
     "type": "〔动3〕",
     "chinese": "确认",
     "romaji": "chekku shimasu"
   },
-  "24": {
+  "23": {
     "hiragana": "ゆたか",
     "kanji": "(豊か)",
     "type": "〔形2〕",
     "chinese": "充裕，丰富",
     "romaji": "yutaka"
   },
-  "25": {
+  "24": {
     "hiragana": "おおきな",
     "kanji": "(大きな)",
     "type": "〔连体〕",
     "chinese": "大的",
     "romaji": "ōkina"
   },
-  "26": {
+  "25": {
     "hiragana": "ちいさな",
     "kanji": "(小さな)",
     "type": "〔连体〕",
     "chinese": "小的",
     "romaji": "chiisana"
   },
-  "27": {
+  "26": {
     "hiragana": "べつに",
     "kanji": "(別に)",
     "type": "〔副〕",
     "chinese": "并不",
     "romaji": "betsuni"
   },
-  "28": {
+  "27": {
     "hiragana": "たい",
     "kanji": "(戴)",
     "type": "〔专〕",
     "chinese": "戴",
     "romaji": "tai"
   },
-  "29": {
+  "28": {
     "hiragana": "しゅう",
     "kanji": "(周)",
     "type": "〔专〕",
     "chinese": "周",
     "romaji": "shū"
   },
-  "30": {
+  "29": {
     "hiragana": "とう",
     "kanji": "(唐)",
     "type": "〔专〕",
     "chinese": "唐",
     "romaji": "tō"
   },
-  "31": {
+  "30": {
     "hiragana": "ちゅうごくこうくう",
     "kanji": "(中国航空)",
     "type": "〔专〕",
     "chinese": "中国航空",
     "romaji": "chūgoku kōkū"
   },
-  "32": {
+  "31": {
     "hiragana": "てんあんはんてん",
     "kanji": "(天安飯店)",
     "type": "〔专〕",
     "chinese": "天安饭店",
     "romaji": "ten'an hanten"
   },
-  "33": {
+  "32": {
     "hiragana": "さんかんろ",
     "kanji": "(三環路)",
     "type": "〔专〕",
     "chinese": "三环路",
     "romaji": "sankanro"
   },
-  "34": {
+  "33": {
     "hiragana": "",
     "kanji": "",
     "type": "",

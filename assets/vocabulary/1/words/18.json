@@ -21,31 +21,31 @@
     "romaji": "kangae"
   },
   "3": {
-    "hiragana": "じょせいよう",
-    "kanji": "(女性用)",
+    "hiragana": "じょせいむけ",
+    "kanji": "女性向け",
     "type": "〔名〕",
     "chinese": "女性专用，专为女性",
-    "romaji": "joseiyō"
+    "romaji": "josei muke"
   },
   "4": {
     "hiragana": "もうしこみ",
-    "kanji": "申し込み",
+    "kanji": "申し出",
     "type": "〔名〕",
     "chinese": "申请，提议",
-    "romaji": "mōshikomi"
+    "romaji": "mōshide"
   },
   "5": {
-    "hiragana": "かんかん",
-    "kanji": "感ん",
+    "hiragana": "かんかく",
+    "kanji": "感覚",
     "type": "〔名〕",
-    "chinese": "感动",
-    "romaji": "kankan"
+    "chinese": "感觉",
+    "romaji": "kankaku"
   },
   "6": {
     "hiragana": "おおく",
     "kanji": "多く",
     "type": "〔名〕",
-    "chinese": "多多数",
+    "chinese": "多，多数",
     "romaji": "ooku"
   },
   "7": {
@@ -59,7 +59,7 @@
     "hiragana": "かんとく",
     "kanji": "監督",
     "type": "〔名〕",
-    "chinese": "教练、领队",
+    "chinese": "教练，领队",
     "romaji": "kantoku"
   },
   "9": {
@@ -71,303 +71,366 @@
   },
   "10": {
     "hiragana": "しょうひしゃ",
-    "kanji": "(消費者)",
+    "kanji": "消費者",
     "type": "〔名〕",
     "chinese": "消费者",
     "romaji": "shōhisha"
   },
   "11": {
-    "hiragana": "あんない",
-    "kanji": "案内",
+    "hiragana": "あんないやく",
+    "kanji": "案内役",
     "type": "〔名〕",
     "chinese": "向导，导游",
-    "romaji": "annai"
+    "romaji": "annaiyaku"
   },
   "12": {
-    "hiragana": "ため",
-    "kanji": "目",
+    "hiragana": "おや",
+    "kanji": "親",
     "type": "〔名〕",
-    "chinese": "存钱，积蓄",
-    "romaji": "tame"
+    "chinese": "双亲，父母",
+    "romaji": "oya"
   },
   "13": {
-    "hiragana": "はっぴょう",
-    "kanji": "発表",
-    "type": "〔名〕",
-    "chinese": "发表，宣布",
-    "romaji": "happyou"
-  },
-  "14": {
     "hiragana": "プレゼンテーション",
     "kanji": "",
     "type": "〔名〕",
-    "chinese": "策划案说明(图表）",
+    "chinese": "策划方案说明会",
     "romaji": "purezentēshon"
   },
-  "15": {
+  "14": {
     "hiragana": "アルファベット",
     "kanji": "",
     "type": "〔名〕",
     "chinese": "英文字母，拉丁字母",
     "romaji": "arufabetto"
   },
+  "15": {
+    "hiragana": "イメージ",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "形象，印象",
+    "romaji": "imēji"
+  },
   "16": {
+    "hiragana": "インパクト",
+    "kanji": "",
+    "type": "〔名〕",
+    "chinese": "冲击力，力量感",
+    "romaji": "inpakuto"
+  },
+  "17": {
     "hiragana": "ガラス",
     "kanji": "",
     "type": "〔名〕",
     "chinese": "玻璃，玻璃杯",
     "romaji": "garasu"
   },
-  "17": {
-    "hiragana": "きがま",
-    "kanji": "気が磨",
-    "type": "〔名〕",
-    "chinese": "气体",
-    "romaji": "kigama"
-  },
   "18": {
-    "hiragana": "しんさ",
-    "kanji": "進茶",
+    "hiragana": "きぶん",
+    "kanji": "気分",
     "type": "〔名〕",
-    "chinese": "评估，评定",
-    "romaji": "shinsa"
+    "chinese": "情绪，心情",
+    "romaji": "kibun"
   },
   "19": {
+    "hiragana": "しんきんかん",
+    "kanji": "親近感",
+    "type": "〔名〕",
+    "chinese": "亲切感",
+    "romaji": "shinkinkan"
+  },
+  "20": {
     "hiragana": "ひんしつ",
     "kanji": "品質",
     "type": "〔名〕",
     "chinese": "质量，品质",
     "romaji": "hinshitsu"
   },
-  "20": {
+  "21": {
     "hiragana": "ぶっか",
     "kanji": "物価",
     "type": "〔名〕",
     "chinese": "物价",
     "romaji": "bukka"
   },
-  "21": {
+  "22": {
+    "hiragana": "めんぜいてん",
+    "kanji": "免税店",
+    "type": "〔名〕",
+    "chinese": "免税店",
+    "romaji": "menzei ten"
+  },
+  "23": {
+    "hiragana": "せつめいしょ",
+    "kanji": "説明書",
+    "type": "〔名〕",
+    "chinese": "说明书",
+    "romaji": "setsumeisho"
+  },
+  "24": {
     "hiragana": "じゅく",
     "kanji": "塾",
     "type": "〔名〕",
     "chinese": "私塾，补习学校",
     "romaji": "juku"
   },
-  "22": {
-    "hiragana": "わたくし",
-    "kanji": "私",
+  "25": {
+    "hiragana": "れいぶん",
+    "kanji": "例文",
     "type": "〔名〕",
-    "chinese": "私的，私有",
-    "romaji": "watakushi"
+    "chinese": "例句",
+    "romaji": "reibun"
   },
-  "23": {
-    "hiragana": "りえふ",
-    "kanji": "礼服",
-    "type": "〔名〕",
-    "chinese": "礼服",
-    "romaji": "riefu"
-  },
-  "24": {
+  "26": {
     "hiragana": "かいじょう",
     "kanji": "会場",
     "type": "〔名〕",
     "chinese": "会场",
     "romaji": "kaijō"
   },
-  "25": {
-    "hiragana": "じてんしゃ",
-    "kanji": "自転車",
-    "type": "〔名〕",
-    "chinese": "自行车",
-    "romaji": "jitensha"
-  },
-  "26": {
+  "27": {
     "hiragana": "せつび",
     "kanji": "設備",
     "type": "〔名〕",
     "chinese": "设备",
     "romaji": "setsubi"
   },
-  "27": {
+  "28": {
+    "hiragana": "せんたくもの",
+    "kanji": "洗濯物",
+    "type": "〔名〕",
+    "chinese": "洗的衣服",
+    "romaji": "sentaku mono"
+  },
+  "29": {
     "hiragana": "もの",
     "kanji": "物",
     "type": "〔名〕",
     "chinese": "东西，事物",
     "romaji": "mono"
   },
-  "28": {
+  "30": {
+    "hiragana": "じ",
+    "kanji": "字",
+    "type": "〔名〕",
+    "chinese": "字",
+    "romaji": "ji"
+  },
+  "31": {
     "hiragana": "つま",
     "kanji": "妻",
     "type": "〔名〕",
     "chinese": "妻子",
     "romaji": "tsuma"
   },
-  "29": {
-    "hiragana": "わたし",
-    "kanji": "わたし",
+  "32": {
+    "hiragana": "われわれ",
+    "kanji": "我々",
     "type": "〔代〕",
-    "chinese": "我",
-    "romaji": "watashi"
+    "chinese": "我们",
+    "romaji": "wareware"
   },
-  "30": {
+  "33": {
     "hiragana": "ひっぱります",
     "kanji": "引っ張ります",
     "type": "〔动1〕",
     "chinese": "拉，拽",
     "romaji": "hipparimasu"
   },
-  "31": {
+  "34": {
     "hiragana": "うかびます",
     "kanji": "浮かびます",
     "type": "〔动1〕",
-    "chinese": "想起，浮，浮现",
+    "chinese": "想起，浮现",
     "romaji": "ukabimasu"
   },
-  "32": {
+  "35": {
     "hiragana": "ととのいます",
     "kanji": "整います",
     "type": "〔动1〕",
     "chinese": "齐备，完备",
     "romaji": "totonoimasu"
   },
-  "33": {
-    "hiragana": "おもいだします",
-    "kanji": "思い出します",
-    "type": "〔动1〕",
-    "chinese": "想起，浮现",
-    "romaji": "omoidasimasu"
-  },
-  "34": {
-    "hiragana": "かさねます",
-    "kanji": "重ねます",
-    "type": "〔动2〕",
-    "chinese": "堆积；重复",
-    "romaji": "kasanemasu"
-  },
-  "35": {
-    "hiragana": "とけます",
-    "kanji": "溶けます",
-    "type": "〔动2〕",
-    "chinese": "溶化，融解",
-    "romaji": "tokemasu"
-  },
   "36": {
-    "hiragana": "つれます",
-    "kanji": "連れます",
-    "type": "〔动2〕",
-    "chinese": "带,领",
-    "romaji": "tsuremasu"
+    "hiragana": "かわきます",
+    "kanji": "乾きます",
+    "type": "〔动1〕",
+    "chinese": "干，干燥",
+    "romaji": "kawakimasu"
   },
   "37": {
-    "hiragana": "やめます",
-    "kanji": "止めます",
-    "type": "〔动2〕",
-    "chinese": "停止，戒，罢",
-    "romaji": "yamemasu"
+    "hiragana": "くらします",
+    "kanji": "暮らします",
+    "type": "〔动1〕",
+    "chinese": "生活",
+    "romaji": "kurashimasu"
   },
   "38": {
-    "hiragana": "ひきうけます",
-    "kanji": "引き受けます",
+    "hiragana": "さけます",
+    "kanji": "避けます",
     "type": "〔动2〕",
-    "chinese": "承担",
-    "romaji": "hiki ukemasu"
+    "chinese": "回避，避免",
+    "romaji": "sakemasu"
   },
   "39": {
-    "hiragana": "しゃがみます",
-    "kanji": "",
-    "type": "〔动1〕",
-    "chinese": "蹲下，",
-    "romaji": "shagami masu"
+    "hiragana": "うれます",
+    "kanji": "売れます",
+    "type": "〔动2〕",
+    "chinese": "好卖，畅销",
+    "romaji": "uremasu"
   },
   "40": {
-    "hiragana": "ためします",
-    "kanji": "試します",
-    "type": "〔动1〕",
-    "chinese": "尝试",
-    "romaji": "tameshimasu"
+    "hiragana": "うけます",
+    "kanji": "受けます",
+    "type": "〔动2〕",
+    "chinese": "感受，受到",
+    "romaji": "ukemasu"
   },
   "41": {
-    "hiragana": "ほくせます",
-    "kanji": "",
-    "type": "〔动1〕",
-    "chinese": "容貌，适龄",
-    "romaji": "hokuse masu"
+    "hiragana": "あたためます",
+    "kanji": "温めます",
+    "type": "〔动2〕",
+    "chinese": "热，温",
+    "romaji": "atatamemasu"
   },
   "42": {
-    "hiragana": "あせます",
-    "kanji": "",
-    "type": "〔动1〕",
-    "chinese": "虑，虑虑",
-    "romaji": "ase masu"
+    "hiragana": "りかいします",
+    "kanji": "理解～",
+    "type": "〔动3〕",
+    "chinese": "理解",
+    "romaji": "rikai shimasu"
   },
   "43": {
-    "hiragana": "たすけます",
-    "kanji": "助けます",
-    "type": "〔动2〕",
-    "chinese": "帮助，协助",
-    "romaji": "tasukemasu"
+    "hiragana": "ていあんします",
+    "kanji": "提案～",
+    "type": "〔动3〕",
+    "chinese": "建议，提案",
+    "romaji": "teian shimasu"
   },
   "44": {
-    "hiragana": "ぶんけい",
-    "kanji": "文系",
-    "type": "〔名〕",
-    "chinese": "文系",
-    "romaji": "bunkei"
+    "hiragana": "しさくします",
+    "kanji": "試作～",
+    "type": "〔动3〕",
+    "chinese": "试作，试制",
+    "romaji": "shisaku shimasu"
   },
   "45": {
-    "hiragana": "ぜんれい",
-    "kanji": "全貌",
-    "type": "〔名〕",
-    "chinese": "全貌",
-    "romaji": "zenrei"
+    "hiragana": "けいけんします",
+    "kanji": "経験～",
+    "type": "〔动3〕",
+    "chinese": "经验，经历",
+    "romaji": "keiken shimasu"
   },
   "46": {
-    "hiragana": "こと",
-    "kanji": "事",
-    "type": "〔名〕",
-    "chinese": "事实",
-    "romaji": "koto"
+    "hiragana": "あんきします",
+    "kanji": "暗記～",
+    "type": "〔动3〕",
+    "chinese": "熟记，背诵",
+    "romaji": "anki shimasu"
   },
   "47": {
-    "hiragana": "もよう",
-    "kanji": "模様",
-    "type": "〔名〕",
-    "chinese": "模样",
-    "romaji": "moyō"
+    "hiragana": "そうたいします",
+    "kanji": "早退～",
+    "type": "〔动3〕",
+    "chinese": "早退",
+    "romaji": "sōtai shimasu"
   },
   "48": {
-    "hiragana": "ようつう",
-    "kanji": "腰痛",
-    "type": "〔名〕",
-    "chinese": "腰痛",
-    "romaji": "yōtsū"
+    "hiragana": "きゅうしょくします",
+    "kanji": "休職～",
+    "type": "〔动3〕",
+    "chinese": "（暂时）停职",
+    "romaji": "kyūshoku shimasu"
   },
   "49": {
-    "hiragana": "ひょうせい",
-    "kanji": "表層",
-    "type": "〔名〕",
-    "chinese": "表层",
-    "romaji": "hyōsei"
+    "hiragana": "ちからづよい",
+    "kanji": "力強い",
+    "type": "〔形1〕",
+    "chinese": "强有力，心里踏实",
+    "romaji": "chikarazuyoi"
   },
   "50": {
-    "hiragana": "ひるね",
-    "kanji": "昼寝",
-    "type": "〔动1〕",
-    "chinese": "午睡",
-    "romaji": "hirune"
+    "hiragana": "やわらかい",
+    "kanji": "柔らかい",
+    "type": "〔形1〕",
+    "chinese": "柔软",
+    "romaji": "yawarakai"
   },
   "51": {
-    "hiragana": "ざんさい",
-    "kanji": "残余",
-    "type": "〔名〕",
-    "chinese": "剩余",
-    "romaji": "zansai"
+    "hiragana": "かたい",
+    "kanji": "硬い",
+    "type": "〔形1〕",
+    "chinese": "硬",
+    "romaji": "katai"
   },
   "52": {
-    "hiragana": "かなめ",
-    "kanji": "要",
+    "hiragana": "あつい",
+    "kanji": "厚い",
+    "type": "〔形1〕",
+    "chinese": "厚",
+    "romaji": "atsui"
+  },
+  "53": {
+    "hiragana": "じゅうよう",
+    "kanji": "重要",
+    "type": "〔形2〕",
+    "chinese": "重要",
+    "romaji": "jūyō"
+  },
+  "54": {
+    "hiragana": "たんじゅん",
+    "kanji": "単純",
+    "type": "〔形2〕",
+    "chinese": "单纯",
+    "romaji": "tanjun"
+  },
+  "55": {
+    "hiragana": "りそうてき",
+    "kanji": "理想的",
+    "type": "〔形2〕",
+    "chinese": "理想",
+    "romaji": "risōteki"
+  },
+  "56": {
+    "hiragana": "ぐたいてき",
+    "kanji": "具体的",
+    "type": "〔形2〕",
+    "chinese": "具体",
+    "romaji": "gutaiteki"
+  },
+  "57": {
+    "hiragana": "ざんしん",
+    "kanji": "斬新",
+    "type": "〔形2〕",
+    "chinese": "新颖, 崭新",
+    "romaji": "zanshin"
+  },
+  "58": {
+    "hiragana": "ぐっと",
+    "kanji": "",
     "type": "〔副〕",
-    "chinese": "",
-    "romaji": "kaname"
+    "chinese": "更加; 用力",
+    "romaji": "gutto"
+  },
+  "59": {
+    "hiragana": "たとえば",
+    "kanji": "例えば",
+    "type": "〔副〕",
+    "chinese": "比如, 例如",
+    "romaji": "tatoeba"
+  },
+  "60": {
+    "hiragana": "しかも",
+    "kanji": "",
+    "type": "〔连〕",
+    "chinese": "而且",
+    "romaji": "shikamo"
+  },
+  "61": {
+    "hiragana": "そこで",
+    "kanji": "",
+    "type": "〔连〕",
+    "chinese": "因此, 所以, 那么",
+    "romaji": "sokode"
   }
 }

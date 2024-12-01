@@ -182,286 +182,272 @@
     "romaji": "gōbei kaisha"
   },
   "26": {
-    "hiragana": "しかします",
-    "kanji": "",
-    "type": "〔动1〕",
-    "chinese": "训，责备",
-    "romaji": "shikashimasu"
-  },
-  "27": {
-    "hiragana": "さけみます",
-    "kanji": "誘います",
-    "type": "〔动1〕",
-    "chinese": "邀请，约请",
-    "romaji": "sakemimasu"
-  },
-  "28": {
     "hiragana": "まきこみます",
     "kanji": "巻き込みます",
     "type": "〔动1〕",
     "chinese": "卷入，卷进",
     "romaji": "makikomi masu"
   },
-  "29": {
+  "27": {
     "hiragana": "たどりつきます",
     "kanji": "辿り着きます",
     "type": "〔动1〕",
     "chinese": "到达，达到",
     "romaji": "tadori tsukimasu"
   },
-  "30": {
+  "28": {
     "hiragana": "みつけます",
     "kanji": "見つけます",
     "type": "〔动1〕",
     "chinese": "找到，发现",
     "romaji": "mitsu kemasu"
   },
-  "31": {
+  "29": {
     "hiragana": "ふみます",
     "kanji": "踏みます",
     "type": "〔动1〕",
     "chinese": "踩，踏",
     "romaji": "fumimasu"
   },
-  "32": {
+  "30": {
     "hiragana": "はかります",
     "kanji": "測ります",
     "type": "〔动1〕",
     "chinese": "谋求，考虑",
     "romaji": "hakarimasu"
   },
-  "33": {
+  "31": {
     "hiragana": "こみます",
     "kanji": "隠します",
     "type": "〔动1〕",
     "chinese": "隐藏，把藏",
     "romaji": "komimasu"
   },
-  "34": {
+  "32": {
     "hiragana": "ぬかします",
     "kanji": "盗みます",
     "type": "〔动1〕",
     "chinese": "盗取，偷盗",
     "romaji": "nuka shimasu"
   },
-  "35": {
+  "33": {
     "hiragana": "おこします",
     "kanji": "起こします",
     "type": "〔动1〕",
     "chinese": "叫醒，唤醒",
     "romaji": "okoshimasu"
   },
-  "36": {
+  "34": {
     "hiragana": "ほめます",
     "kanji": "",
     "type": "〔动2〕",
     "chinese": "表扬，赞扬",
     "romaji": "homemasu"
   },
-  "37": {
+  "35": {
     "hiragana": "もとめます",
     "kanji": "求めます",
     "type": "〔动2〕",
     "chinese": "要求，追求，寻求",
     "romaji": "motomemasu"
   },
-  "38": {
+  "36": {
     "hiragana": "いじめます",
     "kanji": "",
     "type": "〔动2〕",
     "chinese": "欺负，折磨，欺凌",
     "romaji": "ijimemasu"
   },
-  "39": {
+  "37": {
     "hiragana": "ぶつけます",
     "kanji": "",
     "type": "〔动2〕",
     "chinese": "碰上，撞上；扔，投，掷",
     "romaji": "butsukemasu"
   },
-  "40": {
+  "38": {
     "hiragana": "はっけんします",
     "kanji": "発見〜",
     "type": "〔动3〕",
     "chinese": "发现",
     "romaji": "hakken shimasu"
   },
-  "41": {
+  "39": {
     "hiragana": "じしょくします",
     "kanji": "辞職〜",
     "type": "〔动3〕",
     "chinese": "辞职",
     "romaji": "jishoku shimasu"
   },
-  "42": {
+  "40": {
     "hiragana": "そうりつします",
     "kanji": "創立〜",
     "type": "〔动3〕",
     "chinese": "成立，创立",
     "romaji": "sōritsu shimasu"
   },
-  "43": {
+  "41": {
     "hiragana": "いらいします",
     "kanji": "依頼〜",
     "type": "〔动3〕",
     "chinese": "委托，请求",
     "romaji": "irai shimasu"
   },
-  "44": {
+  "42": {
     "hiragana": "はつばいします",
     "kanji": "発売〜",
     "type": "〔动3〕",
     "chinese": "上市，发售，出售",
     "romaji": "hatsubai shimasu"
   },
-  "45": {
+  "43": {
     "hiragana": "かいはつします",
     "kanji": "開発〜",
     "type": "〔动3〕",
     "chinese": "开发",
     "romaji": "kaihatsu shimasu"
   },
-  "46": {
+  "44": {
     "hiragana": "せいぞうします",
     "kanji": "製造〜",
     "type": "〔动3〕",
     "chinese": "生产，制造",
     "romaji": "seizō shimasu"
   },
-  "47": {
+  "45": {
     "hiragana": "かんりします",
     "kanji": "管理〜",
     "type": "〔动3〕",
     "chinese": "管理",
     "romaji": "kanri shimasu"
   },
-  "48": {
+  "46": {
     "hiragana": "じつげんします",
     "kanji": "実現〜",
     "type": "〔动3〕",
     "chinese": "实现",
     "romaji": "jitsugen shimasu"
   },
-  "49": {
+  "47": {
     "hiragana": "せんれんします",
     "kanji": "洗練〜",
     "type": "〔动3〕",
     "chinese": "精炼，洗练",
     "romaji": "senren shimasu"
   },
-  "50": {
+  "48": {
     "hiragana": "ほうそうします",
     "kanji": "放送〜",
     "type": "〔动3〕",
     "chinese": "广播，播送",
     "romaji": "hōsō shimasu"
   },
-  "51": {
+  "49": {
     "hiragana": "せいさんします",
     "kanji": "生産〜",
     "type": "〔动3〕",
     "chinese": "生产",
     "romaji": "seisan shimasu"
   },
-  "52": {
+  "50": {
     "hiragana": "ほんやくします",
     "kanji": "翻訳〜",
     "type": "〔动3〕",
     "chinese": "翻译，笔译",
     "romaji": "hon'yaku shimasu"
   },
-  "53": {
+  "51": {
     "hiragana": "はつめいします",
     "kanji": "発明〜",
     "type": "〔动3〕",
     "chinese": "发明",
     "romaji": "hatsumei shimasu"
   },
-  "54": {
+  "52": {
     "hiragana": "はばひろい",
     "kanji": "幅広い",
     "type": "〔形1〕",
     "chinese": "广泛，宽广，辽阔",
     "romaji": "habahiroi"
   },
-  "55": {
+  "53": {
     "hiragana": "おおはば",
     "kanji": "大幅",
     "type": "〔形2〕",
     "chinese": "大幅度，广泛",
     "romaji": "ōhaba"
   },
-  "56": {
+  "54": {
     "hiragana": "たいりょう",
     "kanji": "大量",
     "type": "〔形2〕",
     "chinese": "大量",
     "romaji": "tairyo"
   },
-  "57": {
+  "55": {
     "hiragana": "もっとも",
     "kanji": "最も",
     "type": "〔副〕",
     "chinese": "最",
     "romaji": "mottomo"
   },
-  "58": {
+  "56": {
     "hiragana": "いあや",
     "kanji": "(叹)",
     "type": "〔副〕",
     "chinese": "咯，嗨",
     "romaji": "iya"
   },
-  "59": {
+  "57": {
     "hiragana": "ニュートン",
     "kanji": "",
     "type": "〔专〕",
     "chinese": "牛顿",
     "romaji": "Nyūton"
   },
-  "60": {
+  "58": {
     "hiragana": "フォーベル",
     "kanji": "",
     "type": "〔专〕",
     "chinese": "诺贝尔",
     "romaji": "Fōberu"
   },
-  "61": {
+  "59": {
     "hiragana": "オーストラリア",
     "kanji": "",
     "type": "〔专〕",
     "chinese": "澳大利亚",
     "romaji": "Ōsutoraria"
   },
-  "62": {
+  "60": {
     "hiragana": "シーエスコンス",
     "kanji": "(CS公司)",
     "type": "〔专〕",
     "chinese": "CS公司",
     "romaji": "Shīesu konsu"
   },
-  "63": {
+  "61": {
     "hiragana": "チンタオビール",
     "kanji": "(青島～)",
     "type": "〔专〕",
     "chinese": "青岛啤酒",
     "romaji": "Chintābīru"
   },
-  "64": {
+  "62": {
     "hiragana": "あキューせいでん",
     "kanji": "(阿Q正伝)",
     "type": "〔专〕",
     "chinese": "阿Q正传",
     "romaji": "Akyū seiden"
   },
-  "65": {
+  "63": {
     "hiragana": "まいりました",
     "kanji": "参りました",
     "type": "",
     "chinese": "真糟糕，真倒霉",
     "romaji": "mairimashita"
   },
-  "66": {
+  "64": {
     "hiragana": "ばんゆういんりょくのほうそく",
     "kanji": "万有引力の法則",
     "type": "",
