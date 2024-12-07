@@ -1,6 +1,6 @@
 import 'package:daily_word/model/triplevoc.dart';
 
-import '../model/vocabulary.dart';
+import 'vocabulary.dart';
 
 class StoredVocabulary {
   int timestamp;

@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:daily_word/model/triplevoc.dart';
 import 'package:daily_word/model/vocabulary.dart';
-import 'package:daily_word/progress/book_progress.dart';
+import 'package:daily_word/model/book_progress.dart';
 import 'package:daily_word/shared_preferences_helper.dart';
 import 'package:flutter/material.dart';
 import 'package:audioplayers/audioplayers.dart';
@@ -62,14 +62,18 @@ class _CollectionFlashcardPageState extends State<CollectionFlashcardPage> {
   @override
   void initState() {
     super.initState();
-    _loadAllCollectedVocabularies();
-    _initVariables();
+    _loadAllCollectedVocabularies().then((_) {
+      // Move these calls after _loadAllCollectedVocabularies completes
+      _initVariables();
+      _loadVocabulary();
+    });
+    
     prefs.getAutoPlay().then((value) {
       setState(() {
         _autoPlay = value;
       });
     });
-    _loadVocabulary();
+    
     _vocabularyManager = VocabularyManager(
       prefs: prefs,
       showSnackBar: _showSnackBar,
@@ -342,14 +346,10 @@ class _CollectionFlashcardPageState extends State<CollectionFlashcardPage> {
       padding: const EdgeInsets.all(16),
       itemBuilder: (context, index) {
         final voc = _allCollectedVocs[index];
-
-        // Create a temporary TripleVoc for the current item
-        final currentVoc = TripleVoc(
-            bookId: curVoc.bookId,
-            lessonId: curVoc.lessonId,
-            vocabularyId: index // Use the current index
-            );
-        var insideVoc = widget.isFavoriteMode ? favoriteMap["${voc.bookId}-${voc.lessonId}-${voc.vocabularyId}"] :
+        
+        // 修复：使用实际的 voc 而不是创建新的 TripleVoc
+        var insideVoc = widget.isFavoriteMode ? 
+          favoriteMap["${voc.bookId}-${voc.lessonId}-${voc.vocabularyId}"] :
           completedMap["${voc.bookId}-${voc.lessonId}-${voc.vocabularyId}"];
         var vocab = insideVoc?.vocabulary ?? Vocabulary(id: '', kanji: '', japanese: '', romaji: '', chinese: '', type: '');
 
@@ -375,43 +375,46 @@ class _CollectionFlashcardPageState extends State<CollectionFlashcardPage> {
                 IconButton(
                   icon: const Icon(Icons.play_arrow),
                   onPressed: () {
-                    curVoc.vocabularyId = index;
+                    setState(() {
+                      curVoc = voc;  // 更新为使用实际的 voc
+                    });
                     _playAudio();
                   },
                 ),
                 IconButton(
                   icon: Icon(
                     Icons.check_circle,
-                    color: bookProgress.isCompleted(currentVoc)
+                    color: collectionIsCompleted(voc)  // 使用 collectionIsCompleted
                         ? Colors.green
                         : Colors.grey,
                   ),
                   onPressed: () {
-                    curVoc.vocabularyId = index;
-                    if (!bookProgress.isCompleted(currentVoc)) {
-                      // Use currentVoc instead
+                    setState(() {
+                      curVoc = voc;  // 更新为使用实际的 voc
+                    });
+                    if (!collectionIsCompleted(voc)) {
                       _markAsCompleted(vocab);
                     } else {
                       _removeFromCompleted();
                     }
-                    setState(() {});
                   },
                 ),
                 IconButton(
                   icon: Icon(
-                    bookProgress.isFavorite(currentVoc)
+                    collectionIsFavorite(voc)  // 使用 collectionIsFavorite
                         ? Icons.star
                         : Icons.star_border,
                     color: Colors.amber,
                   ),
                   onPressed: () {
-                    curVoc.vocabularyId = index;
-                    if (!bookProgress.isFavorite(currentVoc)) {
-                      _markAsFavorite(_vocabulary[currentVoc.vocabularyId]);
+                    setState(() {
+                      curVoc = voc;  // 更新为使用实际的 voc
+                    });
+                    if (!collectionIsFavorite(voc)) {
+                      _markAsFavorite(vocab);
                     } else {
                       _removeFromFavorite();
                     }
-                    setState(() {});
                   },
                 ),
               ],

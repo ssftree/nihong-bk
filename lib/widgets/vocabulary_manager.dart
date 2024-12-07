@@ -1,5 +1,5 @@
 import 'package:daily_word/model/triplevoc.dart';
-import 'package:daily_word/progress/book_progress.dart';
+import 'package:daily_word/model/book_progress.dart';
 import 'package:daily_word/shared_preferences_helper.dart';
 
 import '../model/vocabulary.dart';

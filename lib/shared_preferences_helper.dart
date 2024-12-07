@@ -1,7 +1,7 @@
 import 'dart:convert';
 import 'package:daily_word/model/constants.dart';
 import 'package:daily_word/model/vocabulary.dart';
-import 'package:daily_word/progress/book_progress.dart';
+import 'package:daily_word/model/book_progress.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 import 'model/triplevoc.dart';
