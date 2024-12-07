@@ -3,6 +3,7 @@ import 'package:daily_word/model/triplevoc.dart';
 import 'package:daily_word/model/vocabulary.dart';
 import 'package:daily_word/model/book_progress.dart';
 import 'package:daily_word/shared_preferences_helper.dart';
+import 'package:daily_word/widgets/common_widget.dart';
 import 'package:flutter/material.dart';
 import 'package:audioplayers/audioplayers.dart';
 import 'widgets/vocabulary_card.dart';
@@ -229,9 +230,9 @@ class _CollectionFlashcardPageState extends State<CollectionFlashcardPage> {
                     child: Stack(
                       alignment: Alignment.center,
                       children: [
-                        _buildBackgroundCard(context, 0.76, 24),
-                        _buildBackgroundCard(context, 0.8, 16),
-                        _buildBackgroundCard(context, 0.84, 8),
+                        buildBackgroundCard(context, 0.76, 24),
+                        buildBackgroundCard(context, 0.8, 16),
+                        buildBackgroundCard(context, 0.84, 8),
                         if (_isLoading)
                           const CircularProgressIndicator()
                         else
@@ -316,21 +317,6 @@ class _CollectionFlashcardPageState extends State<CollectionFlashcardPage> {
               label: '列表模式',
             ),
           ],
-        ),
-      ),
-    );
-  }
-
-  Widget _buildBackgroundCard(
-      BuildContext context, double scale, double topOffset) {
-    return Positioned(
-      top: topOffset,
-      child: Container(
-        width: MediaQuery.of(context).size.width * scale,
-        height: MediaQuery.of(context).size.height * 0.5,
-        decoration: BoxDecoration(
-          color: Colors.white.withOpacity(0.5),
-          borderRadius: BorderRadius.circular(20),
         ),
       ),
     );

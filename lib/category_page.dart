@@ -2,7 +2,6 @@ import 'dart:convert';
 import 'package:flutter/material.dart';
 import 'collection_flashcard_page.dart';
 import 'flashcard_page.dart';
-import 'model/triplevoc.dart';
 import 'model/book.dart';
 
 class CategoryPage extends StatefulWidget {
@@ -244,7 +243,7 @@ class _CategoryPageState extends State<CategoryPage> {
             MaterialPageRoute(
                 builder: (context) => FlashcardPage(
                       books: books,
-                      curVoc: TripleVoc(bookId: int.parse(book.bookId), lessonId: 0, vocabularyId: 0),
+                      bookId: int.parse(book.bookId)
                     )),
           );
         },
