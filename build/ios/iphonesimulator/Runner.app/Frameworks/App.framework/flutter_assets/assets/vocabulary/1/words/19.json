@@ -1,0 +1,522 @@
+[
+    {
+        "id": "0",
+        "japanese": "しゃいんりょこう",
+        "kanji": "社員旅行",
+        "type": "〔名〕",
+        "chinese": "员工旅行",
+        "romaji": "shain ryokō"
+    },
+    {
+        "id": "1",
+        "japanese": "しんにゅうしゃいん",
+        "kanji": "新入社員",
+        "type": "〔名〕",
+        "chinese": "新来的职员",
+        "romaji": "shinnyū shain"
+    },
+    {
+        "id": "2",
+        "japanese": "かいぎじょう",
+        "kanji": "会議場",
+        "type": "〔名〕",
+        "chinese": "会场",
+        "romaji": "kaigijō"
+    },
+    {
+        "id": "3",
+        "japanese": "こくさいかいぎ",
+        "kanji": "国際会議",
+        "type": "〔名〕",
+        "chinese": "国际会议",
+        "romaji": "kokusai kaigi"
+    },
+    {
+        "id": "4",
+        "japanese": "ビアガーデン",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "庭院式的啤酒店",
+        "romaji": "biāgāden"
+    },
+    {
+        "id": "5",
+        "japanese": "おおがたスーパー",
+        "kanji": "大型～",
+        "type": "〔名〕",
+        "chinese": "大型超市",
+        "romaji": "ōgata sūpā"
+    },
+    {
+        "id": "6",
+        "japanese": "みずうみ",
+        "kanji": "湖",
+        "type": "〔名〕",
+        "chinese": "湖",
+        "romaji": "mizūmi"
+    },
+    {
+        "id": "7",
+        "japanese": "パトカー",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "警车，巡逻车",
+        "romaji": "patokā"
+    },
+    {
+        "id": "8",
+        "japanese": "サイレン",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "警笛，报警器",
+        "romaji": "sairen"
+    },
+    {
+        "id": "9",
+        "japanese": "アニメ",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "动画片",
+        "romaji": "anime"
+    },
+    {
+        "id": "10",
+        "japanese": "パワー",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "能力，力量",
+        "romaji": "pawā"
+    },
+    {
+        "id": "11",
+        "japanese": "こころ",
+        "kanji": "心",
+        "type": "〔名〕",
+        "chinese": "心",
+        "romaji": "kokoro"
+    },
+    {
+        "id": "12",
+        "japanese": "たいど",
+        "kanji": "態度",
+        "type": "〔名〕",
+        "chinese": "态度",
+        "romaji": "taido"
+    },
+    {
+        "id": "13",
+        "japanese": "せいかく",
+        "kanji": "性格",
+        "type": "〔名〕",
+        "chinese": "性格",
+        "romaji": "seikaku"
+    },
+    {
+        "id": "14",
+        "japanese": "ひょうばん",
+        "kanji": "評判",
+        "type": "〔名〕",
+        "chinese": "评价，评论",
+        "romaji": "hyōban"
+    },
+    {
+        "id": "15",
+        "japanese": "ぎょうれつ",
+        "kanji": "行列",
+        "type": "〔名〕",
+        "chinese": "行列,队伍",
+        "romaji": "gyōretsu"
+    },
+    {
+        "id": "16",
+        "japanese": "ようき",
+        "kanji": "容器",
+        "type": "〔名〕",
+        "chinese": "容器",
+        "romaji": "yōki"
+    },
+    {
+        "id": "17",
+        "japanese": "ないよう",
+        "kanji": "内容",
+        "type": "〔名〕",
+        "chinese": "内容",
+        "romaji": "naiyō"
+    },
+    {
+        "id": "18",
+        "japanese": "うれゆき",
+        "kanji": "売れ行き",
+        "type": "〔名〕",
+        "chinese": "销路，销售（情况）",
+        "romaji": "ureyuki"
+    },
+    {
+        "id": "19",
+        "japanese": "のりもの",
+        "kanji": "乗り物",
+        "type": "〔名〕",
+        "chinese": "交通工具",
+        "romaji": "norimono"
+    },
+    {
+        "id": "20",
+        "japanese": "あせ",
+        "kanji": "汗",
+        "type": "〔名〕",
+        "chinese": "汗",
+        "romaji": "ase"
+    },
+    {
+        "id": "21",
+        "japanese": "ばい",
+        "kanji": "倍",
+        "type": "〔名〕",
+        "chinese": "倍，加倍",
+        "romaji": "bai"
+    },
+    {
+        "id": "22",
+        "japanese": "たて",
+        "kanji": "縦",
+        "type": "〔名〕",
+        "chinese": "纵，竖",
+        "romaji": "tate"
+    },
+    {
+        "id": "23",
+        "japanese": "ちゅうごくぜんど",
+        "kanji": "中国全土",
+        "type": "〔名〕",
+        "chinese": "全中国",
+        "romaji": "chūgoku zendo"
+    },
+    {
+        "id": "24",
+        "japanese": "ちょうきよほう",
+        "kanji": "長期予報",
+        "type": "〔名〕",
+        "chinese": "长期预报",
+        "romaji": "chōki yohō"
+    },
+    {
+        "id": "25",
+        "japanese": "わらい",
+        "kanji": "笑い",
+        "type": "〔名〕",
+        "chinese": "笑声",
+        "romaji": "warai"
+    },
+    {
+        "id": "26",
+        "japanese": "あつさ",
+        "kanji": "暑さ",
+        "type": "〔名〕",
+        "chinese": "暑热，暑气",
+        "romaji": "atsusa"
+    },
+    {
+        "id": "27",
+        "japanese": "うつくしさ",
+        "kanji": "美しさ",
+        "type": "〔名〕",
+        "chinese": "美好，美丽程度",
+        "romaji": "utsukushisa"
+    },
+    {
+        "id": "28",
+        "japanese": "おもしろさ",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "趣味，有趣程度",
+        "romaji": "omoshirosa"
+    },
+    {
+        "id": "29",
+        "japanese": "おおきさ",
+        "kanji": "大きさ",
+        "type": "〔名〕",
+        "chinese": "大小",
+        "romaji": "ōkisa"
+    },
+    {
+        "id": "30",
+        "japanese": "たかさ",
+        "kanji": "高さ",
+        "type": "〔名〕",
+        "chinese": "高度",
+        "romaji": "takasa"
+    },
+    {
+        "id": "31",
+        "japanese": "ふかさ",
+        "kanji": "深さ",
+        "type": "〔名〕",
+        "chinese": "深度",
+        "romaji": "fukasa"
+    },
+    {
+        "id": "32",
+        "japanese": "ながさ",
+        "kanji": "長さ",
+        "type": "〔名〕",
+        "chinese": "长度",
+        "romaji": "nagasa"
+    },
+    {
+        "id": "33",
+        "japanese": "ひろさ",
+        "kanji": "広さ",
+        "type": "〔名〕",
+        "chinese": "面积",
+        "romaji": "hirosa"
+    },
+    {
+        "id": "34",
+        "japanese": "ふとさ",
+        "kanji": "太さ",
+        "type": "〔名〕",
+        "chinese": "粗度",
+        "romaji": "futosa"
+    },
+    {
+        "id": "35",
+        "japanese": "おもさ",
+        "kanji": "重さ",
+        "type": "〔名〕",
+        "chinese": "重量",
+        "romaji": "omosa"
+    },
+    {
+        "id": "36",
+        "japanese": "あつさ",
+        "kanji": "厚さ",
+        "type": "〔名〕",
+        "chinese": "厚度",
+        "romaji": "atsusa"
+    },
+    {
+        "id": "37",
+        "japanese": "はやさ",
+        "kanji": "速さ",
+        "type": "〔名〕",
+        "chinese": "速度",
+        "romaji": "hayasa"
+    },
+    {
+        "id": "38",
+        "japanese": "べんりさ",
+        "kanji": "便利さ",
+        "type": "〔名〕",
+        "chinese": "方便程度",
+        "romaji": "benrisa"
+    },
+    {
+        "id": "39",
+        "japanese": "ふくざつさ",
+        "kanji": "複雑さ",
+        "type": "〔名〕",
+        "chinese": "复杂程度",
+        "romaji": "fukuzatsusa"
+    },
+    {
+        "id": "40",
+        "japanese": "おいしさ",
+        "kanji": "美味しさ",
+        "type": "〔名〕",
+        "chinese": "美味，好吃程度",
+        "romaji": "oishisa"
+    },
+    {
+        "id": "41",
+        "japanese": "じゅうようさ",
+        "kanji": "重要さ",
+        "type": "〔名〕",
+        "chinese": "重要性，重要程度",
+        "romaji": "jūyōsa"
+    },
+    {
+        "id": "42",
+        "japanese": "あまさ",
+        "kanji": "甘さ",
+        "type": "〔名〕",
+        "chinese": "甜度",
+        "romaji": "amasa"
+    },
+    {
+        "id": "43",
+        "japanese": "ひろがります",
+        "kanji": "広がります",
+        "type": "〔动1〕",
+        "chinese": "蔓延，拓宽",
+        "romaji": "hirogari masu"
+    },
+    {
+        "id": "44",
+        "japanese": "もどります",
+        "kanji": "戻ります",
+        "type": "〔动1〕",
+        "chinese": "返回，回到",
+        "romaji": "modorimasu"
+    },
+    {
+        "id": "45",
+        "japanese": "おどろきます",
+        "kanji": "驚きます",
+        "type": "〔动1〕",
+        "chinese": "惊讶，吃惊",
+        "romaji": "odorokimasu"
+    },
+    {
+        "id": "46",
+        "japanese": "しゃれます",
+        "kanji": "",
+        "type": "〔动2〕",
+        "chinese": "别致，风趣；打扮得漂亮",
+        "romaji": "sharemashita"
+    },
+    {
+        "id": "47",
+        "japanese": "じっかんします",
+        "kanji": "実感します",
+        "type": "〔动3〕",
+        "chinese": "切实感受，真切感受",
+        "romaji": "jikkan shimasu"
+    },
+    {
+        "id": "48",
+        "japanese": "ふかい",
+        "kanji": "深い",
+        "type": "〔形1〕",
+        "chinese": "深",
+        "romaji": "fukai"
+    },
+    {
+        "id": "49",
+        "japanese": "おとなしい",
+        "kanji": "",
+        "type": "〔形1〕",
+        "chinese": "温顺，老实",
+        "romaji": "otonashii"
+    },
+    {
+        "id": "50",
+        "japanese": "はずかしい",
+        "kanji": "恥ずかしい",
+        "type": "〔形1〕",
+        "chinese": "害羞，难为情",
+        "romaji": "hazukashii"
+    },
+    {
+        "id": "51",
+        "japanese": "めずらしい",
+        "kanji": "珍しい",
+        "type": "〔形1〕",
+        "chinese": "罕有，新奇",
+        "romaji": "mezurashii"
+    },
+    {
+        "id": "52",
+        "japanese": "ごうか",
+        "kanji": "豪華",
+        "type": "〔形2〕",
+        "chinese": "豪华，奢华",
+        "romaji": "gōka"
+    },
+    {
+        "id": "53",
+        "japanese": "こうちょう",
+        "kanji": "好調",
+        "type": "〔形2〕",
+        "chinese": "顺利，情况良好",
+        "romaji": "kōchō"
+    },
+    {
+        "id": "54",
+        "japanese": "ひかえめ",
+        "kanji": "控えめ",
+        "type": "〔形2〕",
+        "chinese": "分量少，节制，控制，拘谨",
+        "romaji": "hikaeme"
+    },
+    {
+        "id": "55",
+        "japanese": "こうひょう",
+        "kanji": "好評",
+        "type": "〔形2〕",
+        "chinese": "好评，称赞",
+        "romaji": "kōhyō"
+    },
+    {
+        "id": "56",
+        "japanese": "だいじ",
+        "kanji": "大事",
+        "type": "〔形2〕",
+        "chinese": "重要，宝贵",
+        "romaji": "daiji"
+    },
+    {
+        "id": "57",
+        "japanese": "かなり",
+        "kanji": "",
+        "type": "〔副〕",
+        "chinese": "颇，相当",
+        "romaji": "kanari"
+    },
+    {
+        "id": "58",
+        "japanese": "けっこう",
+        "kanji": "",
+        "type": "〔副〕",
+        "chinese": "很，相当",
+        "romaji": "kekkō"
+    },
+    {
+        "id": "59",
+        "japanese": "ささき",
+        "kanji": "佐々木",
+        "type": "〔专〕",
+        "chinese": "佐佐木",
+        "romaji": "Sasaki"
+    },
+    {
+        "id": "60",
+        "japanese": "びわこ",
+        "kanji": "琵琶湖",
+        "type": "〔专〕",
+        "chinese": "琵琶湖",
+        "romaji": "Biwako"
+    },
+    {
+        "id": "61",
+        "japanese": "のぞみ",
+        "kanji": "希望号",
+        "type": "〔专〕",
+        "chinese": "希望号（新干线的名称）",
+        "romaji": "Nozomi"
+    },
+    {
+        "id": "62",
+        "japanese": "おかげさまで",
+        "kanji": "",
+        "type": "",
+        "chinese": "托您的福",
+        "romaji": "okage sama de"
+    },
+    {
+        "id": "63",
+        "japanese": "なんといっても",
+        "kanji": "何と言っても",
+        "type": "",
+        "chinese": "首要是，无论如何",
+        "romaji": "nante itte mo"
+    },
+    {
+        "id": "64",
+        "japanese": "〜キロ／〜キログラム／〜センチ",
+        "kanji": "",
+        "type": "",
+        "chinese": "",
+        "romaji": "kiro/kiruguramu/senchi"
+    }
+]

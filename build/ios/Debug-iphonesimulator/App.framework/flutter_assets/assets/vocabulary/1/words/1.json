@@ -1,0 +1,378 @@
+[
+    {
+        "id": "0",
+        "japanese": "おおあめ",
+        "kanji": "大雨",
+        "type": "〔名〕",
+        "chinese": "大雨",
+        "romaji": "ooame"
+    },
+    {
+        "id": "1",
+        "japanese": "さくら",
+        "kanji": "桜",
+        "type": "〔名〕",
+        "chinese": "樱花",
+        "romaji": "sakura"
+    },
+    {
+        "id": "2",
+        "japanese": "かぜ",
+        "kanji": "風",
+        "type": "〔名〕",
+        "chinese": "风",
+        "romaji": "kaze"
+    },
+    {
+        "id": "3",
+        "japanese": "つき",
+        "kanji": "月",
+        "type": "〔名〕",
+        "chinese": "月亮",
+        "romaji": "tsuki"
+    },
+    {
+        "id": "4",
+        "japanese": "ひょう",
+        "kanji": "表",
+        "type": "〔名〕",
+        "chinese": "表",
+        "romaji": "hyō"
+    },
+    {
+        "id": "5",
+        "japanese": "あくしゅ",
+        "kanji": "握手",
+        "type": "〔名〕",
+        "chinese": "握手",
+        "romaji": "akushu"
+    },
+    {
+        "id": "6",
+        "japanese": "しゅうかん",
+        "kanji": "習慣",
+        "type": "〔名〕",
+        "chinese": "习惯",
+        "romaji": "shūkan"
+    },
+    {
+        "id": "7",
+        "japanese": "おじぎ",
+        "kanji": "お辞儀",
+        "type": "〔名〕",
+        "chinese": "鞠躬",
+        "romaji": "ojigi"
+    },
+    {
+        "id": "8",
+        "japanese": "あいさつ",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "寒喧",
+        "romaji": "aisatsu"
+    },
+    {
+        "id": "9",
+        "japanese": "て",
+        "kanji": "手",
+        "type": "〔名〕",
+        "chinese": "手",
+        "romaji": "te"
+    },
+    {
+        "id": "10",
+        "japanese": "おきゃくさん",
+        "kanji": "お客さん",
+        "type": "〔名〕",
+        "chinese": "顾客，客人",
+        "romaji": "okyakusan"
+    },
+    {
+        "id": "11",
+        "japanese": "ふつう",
+        "kanji": "普通",
+        "type": "〔名〕",
+        "chinese": "一般，普通",
+        "romaji": "futsū"
+    },
+    {
+        "id": "12",
+        "japanese": "つぎ",
+        "kanji": "次",
+        "type": "〔名〕",
+        "chinese": "这回，下面，下回",
+        "romaji": "tsugi"
+    },
+    {
+        "id": "13",
+        "japanese": "すーぱー",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "超市",
+        "romaji": "sūpā"
+    },
+    {
+        "id": "14",
+        "japanese": "りょうきん",
+        "kanji": "料金",
+        "type": "〔名〕",
+        "chinese": "费用",
+        "romaji": "ryōkin"
+    },
+    {
+        "id": "15",
+        "japanese": "かいひ",
+        "kanji": "会費",
+        "type": "〔名〕",
+        "chinese": "会费",
+        "romaji": "kaihi"
+    },
+    {
+        "id": "16",
+        "japanese": "ばーげん",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "降价出售",
+        "romaji": "bāgen"
+    },
+    {
+        "id": "17",
+        "japanese": "くれじっとかーど",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "信用卡",
+        "romaji": "kurejitto kādo"
+    },
+    {
+        "id": "18",
+        "japanese": "いろえんぴつ",
+        "kanji": "色鉛筆",
+        "type": "〔名〕",
+        "chinese": "彩色铅笔",
+        "romaji": "iro enpitsu"
+    },
+    {
+        "id": "19",
+        "japanese": "ほうさく",
+        "kanji": "豊作",
+        "type": "〔名〕",
+        "chinese": "丰收",
+        "romaji": "hōsaku"
+    },
+    {
+        "id": "20",
+        "japanese": "なか",
+        "kanji": "仲",
+        "type": "〔名〕",
+        "chinese": "关系，友情，友谊",
+        "romaji": "naka"
+    },
+    {
+        "id": "21",
+        "japanese": "わすれもの",
+        "kanji": "忘れ物",
+        "type": "〔名〕",
+        "chinese": "忘记的东西，遗忘的物品",
+        "romaji": "wasuremono"
+    },
+    {
+        "id": "22",
+        "japanese": "ふせぎます",
+        "kanji": "(防ぎます)",
+        "type": "〔动1〕",
+        "chinese": "防御，防备，防守",
+        "romaji": "fusegimasu"
+    },
+    {
+        "id": "23",
+        "japanese": "まわります",
+        "kanji": "(回ります)",
+        "type": "〔动1〕",
+        "chinese": "走访；转；绕弯",
+        "romaji": "mawarimasu"
+    },
+    {
+        "id": "24",
+        "japanese": "はしります",
+        "kanji": "(走ります)",
+        "type": "〔动1〕",
+        "chinese": "跑，奔跑",
+        "romaji": "hashirimasu"
+    },
+    {
+        "id": "25",
+        "japanese": "ふきます",
+        "kanji": "(吹きます)",
+        "type": "〔动1〕",
+        "chinese": "吹",
+        "romaji": "fukimasu"
+    },
+    {
+        "id": "26",
+        "japanese": "あげます",
+        "kanji": "(挙げます)",
+        "type": "〔动2〕",
+        "chinese": "举，举起",
+        "romaji": "agemasu"
+    },
+    {
+        "id": "27",
+        "japanese": "たります",
+        "kanji": "(足ります)",
+        "type": "〔动2〕",
+        "chinese": "足，够",
+        "romaji": "tarimasu"
+    },
+    {
+        "id": "28",
+        "japanese": "すけっちします",
+        "kanji": "",
+        "type": "〔动3〕",
+        "chinese": "素描，写生",
+        "romaji": "suketchi shimasu"
+    },
+    {
+        "id": "29",
+        "japanese": "はつげんします",
+        "kanji": "(発言～)",
+        "type": "〔动3〕",
+        "chinese": "发言",
+        "romaji": "hatsugen shimasu"
+    },
+    {
+        "id": "30",
+        "japanese": "ゆうしょうします",
+        "kanji": "(優勝～)",
+        "type": "〔动3〕",
+        "chinese": "得冠军",
+        "romaji": "yūshō shimasu"
+    },
+    {
+        "id": "31",
+        "japanese": "ごうかくします",
+        "kanji": "(合格～)",
+        "type": "〔动3〕",
+        "chinese": "及格，合格",
+        "romaji": "gōkaku shimasu"
+    },
+    {
+        "id": "32",
+        "japanese": "やくそくします",
+        "kanji": "(約束～)",
+        "type": "〔动3〕",
+        "chinese": "约定",
+        "romaji": "yakusoku shimasu"
+    },
+    {
+        "id": "33",
+        "japanese": "もしかしたら",
+        "kanji": "",
+        "type": "〔副〕",
+        "chinese": "也许",
+        "romaji": "moshikashitara"
+    },
+    {
+        "id": "34",
+        "japanese": "つい",
+        "kanji": "",
+        "type": "〔副〕",
+        "chinese": "不知不觉地，无意中",
+        "romaji": "tsui"
+    },
+    {
+        "id": "35",
+        "japanese": "すぐに",
+        "kanji": "",
+        "type": "〔副〕",
+        "chinese": "就要，立刻，马上",
+        "romaji": "sugu ni"
+    },
+    {
+        "id": "36",
+        "japanese": "ほとんど",
+        "kanji": "",
+        "type": "〔副〕",
+        "chinese": "大部分，几乎",
+        "romaji": "hotondo"
+    },
+    {
+        "id": "37",
+        "japanese": "それで",
+        "kanji": "",
+        "type": "〔连〕",
+        "chinese": "因此",
+        "romaji": "sorede"
+    },
+    {
+        "id": "38",
+        "japanese": "すずき",
+        "kanji": "(鈴木)",
+        "type": "〔专〕",
+        "chinese": "铃木",
+        "romaji": "Suzuki"
+    },
+    {
+        "id": "39",
+        "japanese": "よう",
+        "kanji": "(楊)",
+        "type": "〔专〕",
+        "chinese": "杨",
+        "romaji": "Yō"
+    },
+    {
+        "id": "40",
+        "japanese": "かとう",
+        "kanji": "(加藤)",
+        "type": "〔专〕",
+        "chinese": "加藤",
+        "romaji": "Katō"
+    },
+    {
+        "id": "41",
+        "japanese": "ようこ",
+        "kanji": "(葉子)",
+        "type": "〔专〕",
+        "chinese": "叶子",
+        "romaji": "Yōko"
+    },
+    {
+        "id": "42",
+        "japanese": "ひかりでぱーと",
+        "kanji": "(光～)",
+        "type": "〔专〕",
+        "chinese": "阳光百货商店",
+        "romaji": "Hikari Depāto"
+    },
+    {
+        "id": "43",
+        "japanese": "ぺきんたいがーす",
+        "kanji": "(北京～)",
+        "type": "〔专〕",
+        "chinese": "北京猛虎队（棒球队名称）",
+        "romaji": "Pekin Taigāsu"
+    },
+    {
+        "id": "44",
+        "japanese": "あいさつまわり",
+        "kanji": "(あいさつ回り)",
+        "type": "〔名〕",
+        "chinese": "寒喧拜访",
+        "romaji": "aisatsu mawari"
+    },
+    {
+        "id": "45",
+        "japanese": "いけない",
+        "kanji": "",
+        "type": "",
+        "chinese": "不行，不好，不可以",
+        "romaji": "ikenai"
+    },
+    {
+        "id": "46",
+        "japanese": "～しゃ",
+        "kanji": "",
+        "type": "",
+        "chinese": "～社",
+        "romaji": "sha"
+    }
+]

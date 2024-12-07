@@ -1,0 +1,138 @@
+[
+    {
+        "id": "0",
+        "japanese": "したみ",
+        "kanji": "下見",
+        "type": "〔名〕",
+        "chinese": "视察",
+        "romaji": "shitami"
+    },
+    {
+        "id": "1",
+        "japanese": "スタッフ",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "职员，同事",
+        "romaji": "sutaffu"
+    },
+    {
+        "id": "2",
+        "japanese": "おこさん",
+        "kanji": "お子さん",
+        "type": "〔名〕",
+        "chinese": "您的孩子",
+        "romaji": "okosan"
+    },
+    {
+        "id": "3",
+        "japanese": "めしあがります",
+        "kanji": "召し上がります",
+        "type": "〔动1〕",
+        "chinese": "（尊他）吃，喝",
+        "romaji": "meshiagarimasu"
+    },
+    {
+        "id": "4",
+        "japanese": "ごらんになります",
+        "kanji": "ご覧になります",
+        "type": "〔动1〕",
+        "chinese": "（尊他）看，读",
+        "romaji": "goran ni narimasu"
+    },
+    {
+        "id": "5",
+        "japanese": "おっしゃいます",
+        "kanji": "",
+        "type": "〔动1〕",
+        "chinese": "（尊他）说，讲",
+        "romaji": "osshaimasu"
+    },
+    {
+        "id": "6",
+        "japanese": "いらっしゃいます",
+        "kanji": "",
+        "type": "〔动1〕",
+        "chinese": "（尊他）去，来，在",
+        "romaji": "irasshaimasu"
+    },
+    {
+        "id": "7",
+        "japanese": "おいでになります",
+        "kanji": "",
+        "type": "〔动1〕",
+        "chinese": "（尊他）去，来，在",
+        "romaji": "oide ni narimasu"
+    },
+    {
+        "id": "8",
+        "japanese": "なさいます",
+        "kanji": "",
+        "type": "〔动1〕",
+        "chinese": "（尊他）做，干",
+        "romaji": "nasaimasu"
+    },
+    {
+        "id": "9",
+        "japanese": "くださいます",
+        "kanji": "",
+        "type": "〔动1〕",
+        "chinese": "（尊他）给",
+        "romaji": "kudasaimasu"
+    },
+    {
+        "id": "10",
+        "japanese": "チェックインします",
+        "kanji": "",
+        "type": "〔动3〕",
+        "chinese": "办理入住手续",
+        "romaji": "chekkuin shimasu"
+    },
+    {
+        "id": "11",
+        "japanese": "ちょっこうします",
+        "kanji": "直行～",
+        "type": "〔动3〕",
+        "chinese": "直接去，直达",
+        "romaji": "chokkō shimasu"
+    },
+    {
+        "id": "12",
+        "japanese": "さきほど",
+        "kanji": "先ほど",
+        "type": "〔副〕",
+        "chinese": "刚才，方才",
+        "romaji": "sakihodo"
+    },
+    {
+        "id": "13",
+        "japanese": "きむら",
+        "kanji": "木村",
+        "type": "〔专〕",
+        "chinese": "木村",
+        "romaji": "Kimura"
+    },
+    {
+        "id": "14",
+        "japanese": "こう",
+        "kanji": "黄",
+        "type": "〔专〕",
+        "chinese": "黄",
+        "romaji": "Kō"
+    },
+    {
+        "id": "15",
+        "japanese": "ペキンくうこう",
+        "kanji": "北京空港",
+        "type": "〔专〕",
+        "chinese": "北京机场",
+        "romaji": "Pekin kūkō"
+    },
+    {
+        "id": "16",
+        "japanese": "ごぞんじです",
+        "kanji": "ご存じです",
+        "type": "〔尊他〕",
+        "chinese": "知道",
+        "romaji": "gozonji desu"
+    }
+]

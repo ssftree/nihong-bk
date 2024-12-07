@@ -1,0 +1,290 @@
+[
+    {
+        "id": "0",
+        "japanese": "まふらー",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "围巾",
+        "romaji": "mafurā"
+    },
+    {
+        "id": "1",
+        "japanese": "ねっくれす",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "项链",
+        "romaji": "nekkuresu"
+    },
+    {
+        "id": "2",
+        "japanese": "かぐ",
+        "kanji": "家具",
+        "type": "〔名〕",
+        "chinese": "家具",
+        "romaji": "kagu"
+    },
+    {
+        "id": "3",
+        "japanese": "ぶんしょう",
+        "kanji": "文章",
+        "type": "〔名〕",
+        "chinese": "文章",
+        "romaji": "bunshō"
+    },
+    {
+        "id": "4",
+        "japanese": "いみ",
+        "kanji": "意味",
+        "type": "〔名〕",
+        "chinese": "意味",
+        "romaji": "imi"
+    },
+    {
+        "id": "5",
+        "japanese": "ふんいき",
+        "kanji": "雰囲気",
+        "type": "〔名〕",
+        "chinese": "气氛",
+        "romaji": "fun'iki"
+    },
+    {
+        "id": "6",
+        "japanese": "はつおん",
+        "kanji": "発音",
+        "type": "〔名〕",
+        "chinese": "发音",
+        "romaji": "hatsuon"
+    },
+    {
+        "id": "7",
+        "japanese": "ふどうさんや",
+        "kanji": "不動産屋",
+        "type": "〔名〕",
+        "chinese": "房地产公司",
+        "romaji": "fudōsanya"
+    },
+    {
+        "id": "8",
+        "japanese": "いんしょくてん",
+        "kanji": "飲食店",
+        "type": "〔名〕",
+        "chinese": "饮食店",
+        "romaji": "inshokuten"
+    },
+    {
+        "id": "9",
+        "japanese": "たいしかん",
+        "kanji": "大使館",
+        "type": "〔名〕",
+        "chinese": "大使馆",
+        "romaji": "taishikan"
+    },
+    {
+        "id": "10",
+        "japanese": "しんきょ",
+        "kanji": "新居",
+        "type": "〔名〕",
+        "chinese": "新居",
+        "romaji": "shinkyo"
+    },
+    {
+        "id": "11",
+        "japanese": "ひっこし",
+        "kanji": "引っ越し",
+        "type": "〔名〕",
+        "chinese": "搬家",
+        "romaji": "hikkoshi"
+    },
+    {
+        "id": "12",
+        "japanese": "きんじょ",
+        "kanji": "近所",
+        "type": "〔名〕",
+        "chinese": "附近",
+        "romaji": "kinjo"
+    },
+    {
+        "id": "13",
+        "japanese": "まご",
+        "kanji": "孫",
+        "type": "〔名〕",
+        "chinese": "孙子，孙女",
+        "romaji": "mago"
+    },
+    {
+        "id": "14",
+        "japanese": "かかり",
+        "kanji": "係",
+        "type": "〔名〕",
+        "chinese": "工作人员，主管人员",
+        "romaji": "kakari"
+    },
+    {
+        "id": "15",
+        "japanese": "ししゃちょう",
+        "kanji": "支社長",
+        "type": "〔名〕",
+        "chinese": "分公司经理",
+        "romaji": "shishachō"
+    },
+    {
+        "id": "16",
+        "japanese": "しゅうしょく",
+        "kanji": "就職",
+        "type": "〔名〕",
+        "chinese": "就业",
+        "romaji": "shūshoku"
+    },
+    {
+        "id": "17",
+        "japanese": "インターネット",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "互联网",
+        "romaji": "intānetto"
+    },
+    {
+        "id": "18",
+        "japanese": "ひろいます",
+        "kanji": "(拾います)",
+        "type": "〔动1〕",
+        "chinese": "捡，拾",
+        "romaji": "hiroimasu"
+    },
+    {
+        "id": "19",
+        "japanese": "やくします",
+        "kanji": "(訳します)",
+        "type": "〔动1〕",
+        "chinese": "翻译",
+        "romaji": "yakushimasu"
+    },
+    {
+        "id": "20",
+        "japanese": "くれます",
+        "kanji": "",
+        "type": "〔动2〕",
+        "chinese": "给",
+        "romaji": "kuremasu"
+    },
+    {
+        "id": "21",
+        "japanese": "とどけます",
+        "kanji": "(届けます)",
+        "type": "〔动2〕",
+        "chinese": "送到，送去",
+        "romaji": "todokemasu"
+    },
+    {
+        "id": "22",
+        "japanese": "あんないします",
+        "kanji": "(案内～)",
+        "type": "〔动3〕",
+        "chinese": "向导,导游",
+        "romaji": "annai shimasu"
+    },
+    {
+        "id": "23",
+        "japanese": "こうかんします",
+        "kanji": "(交換～)",
+        "type": "〔动3〕",
+        "chinese": "换,交换",
+        "romaji": "kōkan shimasu"
+    },
+    {
+        "id": "24",
+        "japanese": "しょうかいします",
+        "kanji": "(紹介～)",
+        "type": "〔动3〕",
+        "chinese": "介绍",
+        "romaji": "shōkai shimasu"
+    },
+    {
+        "id": "25",
+        "japanese": "すてき",
+        "kanji": "",
+        "type": "〔形2〕",
+        "chinese": "漂亮，极好",
+        "romaji": "suteki"
+    },
+    {
+        "id": "26",
+        "japanese": "とくい",
+        "kanji": "(得意)",
+        "type": "〔形2〕",
+        "chinese": "擅长",
+        "romaji": "tokui"
+    },
+    {
+        "id": "27",
+        "japanese": "しんせん",
+        "kanji": "(新鮮)",
+        "type": "〔形2〕",
+        "chinese": "新鲜",
+        "romaji": "shinsen"
+    },
+    {
+        "id": "28",
+        "japanese": "うまく",
+        "kanji": "",
+        "type": "〔副〕",
+        "chinese": "高明地,很好地",
+        "romaji": "umaku"
+    },
+    {
+        "id": "29",
+        "japanese": "それに",
+        "kanji": "",
+        "type": "〔连〕",
+        "chinese": "而且",
+        "romaji": "soreni"
+    },
+    {
+        "id": "30",
+        "japanese": "なかた",
+        "kanji": "(中田)",
+        "type": "〔专〕",
+        "chinese": "中田",
+        "romaji": "Nakata"
+    },
+    {
+        "id": "31",
+        "japanese": "こくさいぼうえきセンター",
+        "kanji": "(国際貿易～)",
+        "type": "〔专〕",
+        "chinese": "国际贸中心",
+        "romaji": "Kokusai Bōeki Sentā"
+    },
+    {
+        "id": "32",
+        "japanese": "こくぼう",
+        "kanji": "(国貿)",
+        "type": "〔专〕",
+        "chinese": "国际贸易中心、国贸",
+        "romaji": "Kokubō"
+    },
+    {
+        "id": "33",
+        "japanese": "どういたしまして",
+        "kanji": "",
+        "type": "",
+        "chinese": "没关系",
+        "romaji": "dō itashimashite"
+    },
+    {
+        "id": "34",
+        "japanese": "どのへん (どの辺)",
+        "kanji": "",
+        "type": "",
+        "chinese": "哪儿",
+        "romaji": "dono hen"
+    },
+    {
+        "id": "35",
+        "japanese": "～さき",
+        "kanji": "～先",
+        "type": "",
+        "chinese": "",
+        "romaji": "saki"
+    }
+]

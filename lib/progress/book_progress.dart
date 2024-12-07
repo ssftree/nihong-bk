@@ -1,9 +1,17 @@
 import 'package:daily_word/model/triplevoc.dart';
 
+import '../model/vocabulary.dart';
+
+class StoredVocabulary {
+  int timestamp;
+  Vocabulary vocabulary;
+  StoredVocabulary({required this.vocabulary, required this.timestamp});
+}
+
 class BookProgress {
   // key: "lessonId-vocId", value: timestamp
-  late Map<String, int> completedWords;
-  late Map<String, int> favoriteWords;
+  late Map<String, StoredVocabulary> completedWords;
+  late Map<String, StoredVocabulary> favoriteWords;
   late int totalCompleted;
 
   BookProgress() {
@@ -24,13 +32,19 @@ class BookProgress {
     return favoriteWords.containsKey(concatKey(voc));
   }
 
-  void markAsCompleted(TripleVoc voc) {
-    completedWords[concatKey(voc)] = DateTime.now().millisecondsSinceEpoch;
+  void markAsCompleted(TripleVoc voc, Vocabulary vocabulary) {
+    completedWords[concatKey(voc)] = StoredVocabulary(
+      vocabulary: vocabulary ,
+      timestamp: DateTime.now().millisecondsSinceEpoch,
+    );
     totalCompleted++;
   }
 
-  void markAsFavorite(TripleVoc voc) {
-    favoriteWords[concatKey(voc)] = DateTime.now().millisecondsSinceEpoch;
+  void markAsFavorite(TripleVoc voc, Vocabulary vocabulary) {
+    favoriteWords[concatKey(voc)] = StoredVocabulary(
+      vocabulary: vocabulary ,
+      timestamp: DateTime.now().millisecondsSinceEpoch,
+    );
   }
 
   void removeCompleted(TripleVoc voc) {
@@ -44,16 +58,38 @@ class BookProgress {
 
   Map<String, dynamic> toJson() {
     return {
-      'completedWords': completedWords,
-      'favoriteWords': favoriteWords,
+      'completedWords': completedWords.map((key, value) => MapEntry(key, {
+            'timestamp': value.timestamp,
+            'vocabulary': value.vocabulary.toJson(),
+          })),
+      'favoriteWords': favoriteWords.map((key, value) => MapEntry(key, {
+            'timestamp': value.timestamp,
+            'vocabulary': value.vocabulary.toJson(),
+          })),
       'totalCompleted': totalCompleted,
     };
   }
 
   factory BookProgress.fromJson(Map<String, dynamic> json) {
     final progress = BookProgress();
-    progress.completedWords = Map<String, int>.from(json['completedWords']);
-    progress.favoriteWords = Map<String, int>.from(json['favoriteWords']);
+    progress.completedWords = (json['completedWords'] as Map<String, dynamic>).map(
+      (key, value) => MapEntry(
+        key,
+        StoredVocabulary(
+          timestamp: value['timestamp'],
+          vocabulary: Vocabulary.fromJson(value['vocabulary']),
+        ),
+      ),
+    );
+    progress.favoriteWords = (json['favoriteWords'] as Map<String, dynamic>).map(
+      (key, value) => MapEntry(
+        key,
+        StoredVocabulary(
+          timestamp: value['timestamp'],
+          vocabulary: Vocabulary.fromJson(value['vocabulary']),
+        ),
+      ),
+    );
     progress.totalCompleted = json['totalCompleted'];
     return progress;
   }

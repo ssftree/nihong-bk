@@ -1,0 +1,274 @@
+[
+    {
+        "id": "0",
+        "japanese": "きせつ",
+        "kanji": "季節",
+        "type": "〔名〕",
+        "chinese": "季节",
+        "romaji": "kisetsu"
+    },
+    {
+        "id": "1",
+        "japanese": "ふゆ",
+        "kanji": "冬",
+        "type": "〔名〕",
+        "chinese": "冬天，冬季",
+        "romaji": "fuyu"
+    },
+    {
+        "id": "2",
+        "japanese": "はる",
+        "kanji": "春",
+        "type": "〔名〕",
+        "chinese": "春天，春季",
+        "romaji": "haru"
+    },
+    {
+        "id": "3",
+        "japanese": "にほんりょうり",
+        "kanji": "日本料理",
+        "type": "〔名〕",
+        "chinese": "日式饭菜",
+        "romaji": "nihon ryōri"
+    },
+    {
+        "id": "4",
+        "japanese": "すし",
+        "kanji": "寿司",
+        "type": "〔名〕",
+        "chinese": "寿司",
+        "romaji": "sushi"
+    },
+    {
+        "id": "5",
+        "japanese": "ナシ",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "梨",
+        "romaji": "nashi"
+    },
+    {
+        "id": "6",
+        "japanese": "バナナ",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "香蕉",
+        "romaji": "banana"
+    },
+    {
+        "id": "7",
+        "japanese": "ミカン",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "橘子",
+        "romaji": "mikan"
+    },
+    {
+        "id": "8",
+        "japanese": "しょうちゅう",
+        "kanji": "焼酎",
+        "type": "〔名〕",
+        "chinese": "烧酒",
+        "romaji": "shōchū"
+    },
+    {
+        "id": "9",
+        "japanese": "にほんしゅ",
+        "kanji": "日本酒",
+        "type": "〔名〕",
+        "chinese": "日本酒",
+        "romaji": "nihonshu"
+    },
+    {
+        "id": "10",
+        "japanese": "こうちゃ",
+        "kanji": "紅茶",
+        "type": "〔名〕",
+        "chinese": "红茶",
+        "romaji": "kōcha"
+    },
+    {
+        "id": "11",
+        "japanese": "ウーロンちゃ",
+        "kanji": "～茶",
+        "type": "〔名〕",
+        "chinese": "乌龙茶",
+        "romaji": "ūrōncha"
+    },
+    {
+        "id": "12",
+        "japanese": "ジャスミンちゃ",
+        "kanji": "～茶",
+        "type": "〔名〕",
+        "chinese": "茉莉花茶",
+        "romaji": "jasumincha"
+    },
+    {
+        "id": "13",
+        "japanese": "りょくちゃ",
+        "kanji": "緑茶",
+        "type": "〔名〕",
+        "chinese": "绿茶",
+        "romaji": "ryokucha"
+    },
+    {
+        "id": "14",
+        "japanese": "ジュース",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "果汁",
+        "romaji": "jūsu"
+    },
+    {
+        "id": "15",
+        "japanese": "にんき",
+        "kanji": "人気",
+        "type": "〔名〕",
+        "chinese": "声望，受欢迎",
+        "romaji": "ninki"
+    },
+    {
+        "id": "16",
+        "japanese": "せき",
+        "kanji": "席",
+        "type": "〔名〕",
+        "chinese": "座位，席位",
+        "romaji": "seki"
+    },
+    {
+        "id": "17",
+        "japanese": "クラス",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "班级",
+        "romaji": "kurasu"
+    },
+    {
+        "id": "18",
+        "japanese": "しゅるい",
+        "kanji": "種類",
+        "type": "〔名〕",
+        "chinese": "种类",
+        "romaji": "shurui"
+    },
+    {
+        "id": "19",
+        "japanese": "せ",
+        "kanji": "背",
+        "type": "〔名〕",
+        "chinese": "个子",
+        "romaji": "se"
+    },
+    {
+        "id": "20",
+        "japanese": "あに",
+        "kanji": "兄",
+        "type": "〔名〕",
+        "chinese": "哥哥，兄长",
+        "romaji": "ani"
+    },
+    {
+        "id": "21",
+        "japanese": "さいきん",
+        "kanji": "最近",
+        "type": "〔名〕",
+        "chinese": "最近，近来",
+        "romaji": "saikin"
+    },
+    {
+        "id": "22",
+        "japanese": "ふります",
+        "kanji": "降ります",
+        "type": "〔动1〕",
+        "chinese": "下（雨，雪），降（雨，雪）",
+        "romaji": "furimasu"
+    },
+    {
+        "id": "23",
+        "japanese": "わかい",
+        "kanji": "若い",
+        "type": "〔形1〕",
+        "chinese": "年轻",
+        "romaji": "wakai"
+    },
+    {
+        "id": "24",
+        "japanese": "あたたかい",
+        "kanji": "暖かい",
+        "type": "〔形1〕",
+        "chinese": "暖和，温暖",
+        "romaji": "atatakai"
+    },
+    {
+        "id": "25",
+        "japanese": "すずしい",
+        "kanji": "涼しい",
+        "type": "〔形1〕",
+        "chinese": "凉爽",
+        "romaji": "suzushii"
+    },
+    {
+        "id": "26",
+        "japanese": "はやい",
+        "kanji": "速い",
+        "type": "〔形1〕",
+        "chinese": "快",
+        "romaji": "hayai"
+    },
+    {
+        "id": "27",
+        "japanese": "だいすき",
+        "kanji": "大好き",
+        "type": "〔形2〕",
+        "chinese": "非常喜欢",
+        "romaji": "daisuki"
+    },
+    {
+        "id": "28",
+        "japanese": "いちばん",
+        "kanji": "",
+        "type": "〔副〕",
+        "chinese": "最，第一",
+        "romaji": "ichiban"
+    },
+    {
+        "id": "29",
+        "japanese": "ずっと",
+        "kanji": "",
+        "type": "〔副〕",
+        "chinese": "～得多",
+        "romaji": "zutto"
+    },
+    {
+        "id": "30",
+        "japanese": "やはり/やっぱり",
+        "kanji": "",
+        "type": "〔副〕",
+        "chinese": "仍然，还是",
+        "romaji": "yahari/yappari"
+    },
+    {
+        "id": "31",
+        "japanese": "チョモランマ",
+        "kanji": "珠穆朗玛",
+        "type": "〔专〕",
+        "chinese": "珠穆朗玛峰",
+        "romaji": "chomoranma"
+    },
+    {
+        "id": "32",
+        "japanese": "にんきがあります",
+        "kanji": "人気があります",
+        "type": "",
+        "chinese": "受欢迎",
+        "romaji": "ninki ga arimasu"
+    },
+    {
+        "id": "33",
+        "japanese": "～ねんかん",
+        "kanji": "～年間",
+        "type": "",
+        "chinese": "～年间",
+        "romaji": "~nenkan"
+    }
+]

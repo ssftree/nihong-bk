@@ -1,0 +1,434 @@
+[
+    {
+        "id": "0",
+        "japanese": "うた",
+        "kanji": "歌",
+        "type": "〔名〕",
+        "chinese": "歌，歌曲",
+        "romaji": "uta"
+    },
+    {
+        "id": "1",
+        "japanese": "カラオケ",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "卡拉OK",
+        "romaji": "karaoke"
+    },
+    {
+        "id": "2",
+        "japanese": "ロック",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "摇滚乐",
+        "romaji": "rokku"
+    },
+    {
+        "id": "3",
+        "japanese": "ポップス",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "流行音乐",
+        "romaji": "poppusu"
+    },
+    {
+        "id": "4",
+        "japanese": "クラシック",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "西方古典音乐",
+        "romaji": "kurashikku"
+    },
+    {
+        "id": "5",
+        "japanese": "ピアノ",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "钢琴",
+        "romaji": "piano"
+    },
+    {
+        "id": "6",
+        "japanese": "え",
+        "kanji": "絵",
+        "type": "〔名〕",
+        "chinese": "画儿",
+        "romaji": "e"
+    },
+    {
+        "id": "7",
+        "japanese": "えいご",
+        "kanji": "英語",
+        "type": "〔名〕",
+        "chinese": "英语",
+        "romaji": "eigo"
+    },
+    {
+        "id": "8",
+        "japanese": "スペインご",
+        "kanji": "～語",
+        "type": "〔名〕",
+        "chinese": "西班牙语",
+        "romaji": "supeingo"
+    },
+    {
+        "id": "9",
+        "japanese": "スポーツ",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "体育，运动",
+        "romaji": "supōtsu"
+    },
+    {
+        "id": "10",
+        "japanese": "すいえい",
+        "kanji": "水泳",
+        "type": "〔名〕",
+        "chinese": "游泳",
+        "romaji": "suiei"
+    },
+    {
+        "id": "11",
+        "japanese": "ゴルフ",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "高尔夫球",
+        "romaji": "gorufu"
+    },
+    {
+        "id": "12",
+        "japanese": "うんてん",
+        "kanji": "運転",
+        "type": "〔名〕",
+        "chinese": "开车",
+        "romaji": "unten"
+    },
+    {
+        "id": "13",
+        "japanese": "のみもの",
+        "kanji": "飲み物",
+        "type": "〔名〕",
+        "chinese": "饮料",
+        "romaji": "nomimono"
+    },
+    {
+        "id": "14",
+        "japanese": "おさけ",
+        "kanji": "お酒",
+        "type": "〔名〕",
+        "chinese": "酒，酒类",
+        "romaji": "osake"
+    },
+    {
+        "id": "15",
+        "japanese": "にく",
+        "kanji": "肉",
+        "type": "〔名〕",
+        "chinese": "肉",
+        "romaji": "niku"
+    },
+    {
+        "id": "16",
+        "japanese": "やさい",
+        "kanji": "野菜",
+        "type": "〔名〕",
+        "chinese": "蔬菜",
+        "romaji": "yasai"
+    },
+    {
+        "id": "17",
+        "japanese": "くだもの",
+        "kanji": "果物",
+        "type": "〔名〕",
+        "chinese": "水果",
+        "romaji": "kudamono"
+    },
+    {
+        "id": "18",
+        "japanese": "ヒマワリ",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "向日葵",
+        "romaji": "himawari"
+    },
+    {
+        "id": "19",
+        "japanese": "バラ",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "蔷薇，玫瑰",
+        "romaji": "bara"
+    },
+    {
+        "id": "20",
+        "japanese": "コンピューター",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "计算机，电脑",
+        "romaji": "konpyūtā"
+    },
+    {
+        "id": "21",
+        "japanese": "まど",
+        "kanji": "窓",
+        "type": "〔名〕",
+        "chinese": "窗，窗户",
+        "romaji": "mado"
+    },
+    {
+        "id": "22",
+        "japanese": "けっこんしき",
+        "kanji": "結婚式",
+        "type": "〔名〕",
+        "chinese": "结婚典礼",
+        "romaji": "kekkonshiki"
+    },
+    {
+        "id": "23",
+        "japanese": "しゃしんてん",
+        "kanji": "写真展",
+        "type": "〔名〕",
+        "chinese": "摄影展",
+        "romaji": "shashinten"
+    },
+    {
+        "id": "24",
+        "japanese": "りょかん",
+        "kanji": "旅館",
+        "type": "〔名〕",
+        "chinese": "旅馆，旅店",
+        "romaji": "ryokan"
+    },
+    {
+        "id": "25",
+        "japanese": "べっそう",
+        "kanji": "別荘",
+        "type": "〔名〕",
+        "chinese": "别墅",
+        "romaji": "bessō"
+    },
+    {
+        "id": "26",
+        "japanese": "よせぎざいく",
+        "kanji": "寄木細工",
+        "type": "〔名〕",
+        "chinese": "木片拼花工艺品",
+        "romaji": "yosegizaiku"
+    },
+    {
+        "id": "27",
+        "japanese": "はなよう",
+        "kanji": "花桜",
+        "type": "〔名〕",
+        "chinese": "花纹，纹案",
+        "romaji": "hanayō"
+    },
+    {
+        "id": "28",
+        "japanese": "がいこく",
+        "kanji": "外国",
+        "type": "〔名〕",
+        "chinese": "外国",
+        "romaji": "gaikoku"
+    },
+    {
+        "id": "29",
+        "japanese": "かいぎ",
+        "kanji": "会議",
+        "type": "〔名〕",
+        "chinese": "会议",
+        "romaji": "kaigi"
+    },
+    {
+        "id": "30",
+        "japanese": "あし",
+        "kanji": "脚",
+        "type": "〔名〕",
+        "chinese": "腿",
+        "romaji": "ashi"
+    },
+    {
+        "id": "31",
+        "japanese": "ぼく",
+        "kanji": "",
+        "type": "〔代〕",
+        "chinese": "我（男性自称）",
+        "romaji": "boku"
+    },
+    {
+        "id": "32",
+        "japanese": "わかります",
+        "kanji": "分かります",
+        "type": "〔动1〕",
+        "chinese": "懂，明白",
+        "romaji": "wakarimasu"
+    },
+    {
+        "id": "33",
+        "japanese": "まよいます",
+        "kanji": "迷います",
+        "type": "〔动1〕",
+        "chinese": "犹豫，难以决定",
+        "romaji": "mayoimasu"
+    },
+    {
+        "id": "34",
+        "japanese": "できます",
+        "kanji": "",
+        "type": "〔动2〕",
+        "chinese": "会；能；完成",
+        "romaji": "dekimasu"
+    },
+    {
+        "id": "35",
+        "japanese": "しめます",
+        "kanji": "閉めます",
+        "type": "〔动2〕",
+        "chinese": "关闭，关门",
+        "romaji": "shimemasu"
+    },
+    {
+        "id": "36",
+        "japanese": "つかれます",
+        "kanji": "疲れます",
+        "type": "〔动2〕",
+        "chinese": "疲倦，疲惫",
+        "romaji": "tsukaremasu"
+    },
+    {
+        "id": "37",
+        "japanese": "さんぽします",
+        "kanji": "散歩します",
+        "type": "〔动3〕",
+        "chinese": "散步",
+        "romaji": "sanpo shimasu"
+    },
+    {
+        "id": "38",
+        "japanese": "こわい",
+        "kanji": "怖い",
+        "type": "〔形1〕",
+        "chinese": "害怕，恐怖",
+        "romaji": "kowai"
+    },
+    {
+        "id": "39",
+        "japanese": "あかい",
+        "kanji": "赤い",
+        "type": "〔形1〕",
+        "chinese": "红",
+        "romaji": "akai"
+    },
+    {
+        "id": "40",
+        "japanese": "いたい",
+        "kanji": "痛い",
+        "type": "〔形1〕",
+        "chinese": "疼，疼痛",
+        "romaji": "itai"
+    },
+    {
+        "id": "41",
+        "japanese": "じょうず",
+        "kanji": "上手",
+        "type": "〔形2〕",
+        "chinese": "擅长，高明，水平高",
+        "romaji": "jōzu"
+    },
+    {
+        "id": "42",
+        "japanese": "へた",
+        "kanji": "下手",
+        "type": "〔形2〕",
+        "chinese": "不高明，水平低",
+        "romaji": "heta"
+    },
+    {
+        "id": "43",
+        "japanese": "にがて",
+        "kanji": "苦手",
+        "type": "〔形2〕",
+        "chinese": "不擅长，不善于",
+        "romaji": "nigate"
+    },
+    {
+        "id": "44",
+        "japanese": "ときどき",
+        "kanji": "時々",
+        "type": "〔副〕",
+        "chinese": "有时，时而",
+        "romaji": "tokidoki"
+    },
+    {
+        "id": "45",
+        "japanese": "よく",
+        "kanji": "",
+        "type": "〔副〕",
+        "chinese": "经常，常常",
+        "romaji": "yoku"
+    },
+    {
+        "id": "46",
+        "japanese": "たまに",
+        "kanji": "",
+        "type": "〔副〕",
+        "chinese": "偶尔，很少",
+        "romaji": "tamani"
+    },
+    {
+        "id": "47",
+        "japanese": "また",
+        "kanji": "",
+        "type": "〔副〕",
+        "chinese": "还，再，又",
+        "romaji": "mata"
+    },
+    {
+        "id": "48",
+        "japanese": "どうして",
+        "kanji": "",
+        "type": "〔副〕",
+        "chinese": "为什么",
+        "romaji": "dōshite"
+    },
+    {
+        "id": "49",
+        "japanese": "だから/ですから",
+        "kanji": "",
+        "type": "〔连〕",
+        "chinese": "所以，因此",
+        "romaji": "dakara/desukara"
+    },
+    {
+        "id": "50",
+        "japanese": "うーん",
+        "kanji": "",
+        "type": "〔叹〕",
+        "chinese": "嗯……，这个……",
+        "romaji": "ūn"
+    },
+    {
+        "id": "51",
+        "japanese": "けっこうです",
+        "kanji": "結構です",
+        "type": "",
+        "chinese": "不用了，不要",
+        "romaji": "kekkō desu"
+    },
+    {
+        "id": "52",
+        "japanese": "きにいります",
+        "kanji": "気に入ります",
+        "type": "",
+        "chinese": "喜欢，中意",
+        "romaji": "ki ni irimasu"
+    },
+    {
+        "id": "53",
+        "japanese": "など",
+        "kanji": "",
+        "type": "",
+        "chinese": "等等",
+        "romaji": "nado"
+    }
+]

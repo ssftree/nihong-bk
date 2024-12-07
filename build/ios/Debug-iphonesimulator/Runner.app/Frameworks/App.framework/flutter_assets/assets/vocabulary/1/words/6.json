@@ -1,0 +1,322 @@
+[
+    {
+        "id": "0",
+        "japanese": "ボタン",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "按钮；纽扣",
+        "romaji": "botan"
+    },
+    {
+        "id": "1",
+        "japanese": "ブローチ",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "胸针",
+        "romaji": "burōchi"
+    },
+    {
+        "id": "2",
+        "japanese": "カーテン",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "窗帘，帘子",
+        "romaji": "kāten"
+    },
+    {
+        "id": "3",
+        "japanese": "コンクリート",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "混凝土，水泥",
+        "romaji": "konkurīto"
+    },
+    {
+        "id": "4",
+        "japanese": "プラスチック",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "塑胶，塑料",
+        "romaji": "purasuchikku"
+    },
+    {
+        "id": "5",
+        "japanese": "ひすい",
+        "kanji": "翡翠",
+        "type": "〔名〕",
+        "chinese": "翡翠",
+        "romaji": "hisui"
+    },
+    {
+        "id": "6",
+        "japanese": "サービスセンター",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "维修服务中心",
+        "romaji": "sābisu sentā"
+    },
+    {
+        "id": "7",
+        "japanese": "かいいん",
+        "kanji": "会員",
+        "type": "〔名〕",
+        "chinese": "会员",
+        "romaji": "kaiin"
+    },
+    {
+        "id": "8",
+        "japanese": "とくてん",
+        "kanji": "特典",
+        "type": "〔名〕",
+        "chinese": "优惠",
+        "romaji": "tokuten"
+    },
+    {
+        "id": "9",
+        "japanese": "おてあらい",
+        "kanji": "お手洗い",
+        "type": "〔名〕",
+        "chinese": "洗手间，厕所",
+        "romaji": "otearai"
+    },
+    {
+        "id": "10",
+        "japanese": "かいだん",
+        "kanji": "階段",
+        "type": "〔名〕",
+        "chinese": "楼梯，台阶",
+        "romaji": "kaidan"
+    },
+    {
+        "id": "11",
+        "japanese": "いこう",
+        "kanji": "以降",
+        "type": "〔名〕",
+        "chinese": "以后",
+        "romaji": "ikō"
+    },
+    {
+        "id": "12",
+        "japanese": "そば",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "旁边",
+        "romaji": "soba"
+    },
+    {
+        "id": "13",
+        "japanese": "たっきゅうだい",
+        "kanji": "卓球台",
+        "type": "〔名〕",
+        "chinese": "乒乓球台",
+        "romaji": "takkyūdai"
+    },
+    {
+        "id": "14",
+        "japanese": "サイズ",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "大小，尺寸",
+        "romaji": "saizu"
+    },
+    {
+        "id": "15",
+        "japanese": "にんげん",
+        "kanji": "人間",
+        "type": "〔名〕",
+        "chinese": "人，人类",
+        "romaji": "ningen"
+    },
+    {
+        "id": "16",
+        "japanese": "はくちょう",
+        "kanji": "白鳥",
+        "type": "〔名〕",
+        "chinese": "天鹅",
+        "romaji": "hakuchō"
+    },
+    {
+        "id": "17",
+        "japanese": "でんげん",
+        "kanji": "電源",
+        "type": "〔名〕",
+        "chinese": "电源",
+        "romaji": "dengen"
+    },
+    {
+        "id": "18",
+        "japanese": "スイカ",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "西瓜",
+        "romaji": "suika"
+    },
+    {
+        "id": "19",
+        "japanese": "おします",
+        "kanji": "(押します)",
+        "type": "〔动1〕",
+        "chinese": "按，推，挤",
+        "romaji": "oshimasu"
+    },
+    {
+        "id": "20",
+        "japanese": "つきます",
+        "kanji": "",
+        "type": "〔动1〕",
+        "chinese": "灯亮，灯开",
+        "romaji": "tsukimasu"
+    },
+    {
+        "id": "21",
+        "japanese": "さがります",
+        "kanji": "(下がります)",
+        "type": "〔动1〕",
+        "chinese": "下降，降低",
+        "romaji": "sagarimasu"
+    },
+    {
+        "id": "22",
+        "japanese": "おこります",
+        "kanji": "(怒ります)",
+        "type": "〔动1〕",
+        "chinese": "生气",
+        "romaji": "okorimasu"
+    },
+    {
+        "id": "23",
+        "japanese": "いいまわします",
+        "kanji": "(回します)",
+        "type": "〔动1〕",
+        "chinese": "转，传送，传递",
+        "romaji": "iimawashimasu"
+    },
+    {
+        "id": "24",
+        "japanese": "うごかします",
+        "kanji": "(動かします)",
+        "type": "〔动1〕",
+        "chinese": "运转，转动",
+        "romaji": "ugokashimasu"
+    },
+    {
+        "id": "25",
+        "japanese": "いかします",
+        "kanji": "(生かします)",
+        "type": "〔动2〕",
+        "chinese": "活，生存",
+        "romaji": "ikashimasu"
+    },
+    {
+        "id": "26",
+        "japanese": "さげます",
+        "kanji": "(下げます)",
+        "type": "〔动2〕",
+        "chinese": "下，下来",
+        "romaji": "sagemasu"
+    },
+    {
+        "id": "27",
+        "japanese": "まとめます",
+        "kanji": "",
+        "type": "〔动2〕",
+        "chinese": "总结，整理；汇集",
+        "romaji": "matomemasu"
+    },
+    {
+        "id": "28",
+        "japanese": "フリーズします",
+        "kanji": "",
+        "type": "〔动3〕",
+        "chinese": "死机",
+        "romaji": "furīzu shimasu"
+    },
+    {
+        "id": "29",
+        "japanese": "こしょうします",
+        "kanji": "(故障～)",
+        "type": "〔动3〕",
+        "chinese": "故障",
+        "romaji": "koshō shimasu"
+    },
+    {
+        "id": "30",
+        "japanese": "うつくしい",
+        "kanji": "(美しい)",
+        "type": "〔形1〕",
+        "chinese": "美丽",
+        "romaji": "utsukushii"
+    },
+    {
+        "id": "31",
+        "japanese": "うまい",
+        "kanji": "",
+        "type": "〔形1〕",
+        "chinese": "高明，好吃，可口",
+        "romaji": "umai"
+    },
+    {
+        "id": "32",
+        "japanese": "くわしい",
+        "kanji": "(詳しい)",
+        "type": "〔形1〕",
+        "chinese": "详悉",
+        "romaji": "kuwashii"
+    },
+    {
+        "id": "33",
+        "japanese": "じゆう",
+        "kanji": "(自由)",
+        "type": "〔形2〕",
+        "chinese": "随便，自由",
+        "romaji": "jiyū"
+    },
+    {
+        "id": "34",
+        "japanese": "ていねい",
+        "kanji": "(丁寧)",
+        "type": "〔形2〕",
+        "chinese": "精心，细心，恭敬",
+        "romaji": "teinei"
+    },
+    {
+        "id": "35",
+        "japanese": "きもちよく",
+        "kanji": "(気持ちよく)",
+        "type": "〔副〕",
+        "chinese": "好好地；正经地",
+        "romaji": "kimochi yoku"
+    },
+    {
+        "id": "36",
+        "japanese": "ただし",
+        "kanji": "",
+        "type": "〔连〕",
+        "chinese": "不过，只是",
+        "romaji": "tadashi"
+    },
+    {
+        "id": "37",
+        "japanese": "もしかすると",
+        "kanji": "",
+        "type": "〔连〕",
+        "chinese": "可是，但是",
+        "romaji": "moshika suru to"
+    },
+    {
+        "id": "38",
+        "japanese": "きもちわるい",
+        "kanji": "(気持ち悪い)",
+        "type": "",
+        "chinese": "不舒服",
+        "romaji": "kimochi warui"
+    },
+    {
+        "id": "39",
+        "japanese": "～めーとる／～つ目",
+        "kanji": "",
+        "type": "",
+        "chinese": "～米／第～个",
+        "romaji": "mētoro/tsu me"
+    }
+]

@@ -1,7 +1,9 @@
 import 'dart:convert';
 import 'package:daily_word/shared_preferences_helper.dart';
 import 'package:flutter/material.dart';
+import 'collection_flashcard_page.dart';
 import 'flashcard_page.dart';
+import 'model/collectionbook.dart';
 import 'model/triplevoc.dart';
 import 'model/book.dart';
 import 'model/lesson.dart';
@@ -137,15 +139,15 @@ class _CategoryPageState extends State<CategoryPage> {
                     _buildCard(
                       icon: Icons.star,
                       title: '我的收藏',
-                      count: '5 cards',
                       iconColor: Colors.pink[200]!,
+                      isFavoriteMode: true,
                     ),
                     const SizedBox(width: 16),
                     _buildCard(
                       icon: Icons.check,
                       title: '我已完成',
-                      count: '5 cards',
                       iconColor: Colors.green[200]!,
+                      isFavoriteMode: false,
                     ),
                     // Add more cards as needed
                   ],
@@ -186,10 +188,21 @@ class _CategoryPageState extends State<CategoryPage> {
   Widget _buildCard({
     required IconData icon,
     required String title,
-    required String count,
     required Color iconColor,
+    required bool isFavoriteMode,
   }) {
-    return Container(
+    return GestureDetector(
+        onTap: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (context) => CollectionFlashcardPage(
+                isFavoriteMode: isFavoriteMode,
+              ),
+            ),
+          );
+    },
+    child: Container(
       padding: const EdgeInsets.all(16),
       decoration: BoxDecoration(
         color: Colors.white,
@@ -219,17 +232,9 @@ class _CategoryPageState extends State<CategoryPage> {
               fontWeight: FontWeight.bold,
             ),
           ),
-          if (count.isNotEmpty)
-            Text(
-              count,
-              style: TextStyle(
-                fontSize: 14,
-                color: Colors.grey[600],
-              ),
-            ),
         ],
       ),
-    );
+    ));
   }
 
   Widget _buildCategoryItem(Book book, Map<String, String> completedVocabularies) {

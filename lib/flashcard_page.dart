@@ -9,6 +9,7 @@ import 'helpers/vocabulary_nevigate.dart';
 import 'model/book.dart';
 import 'model/lesson.dart';
 import 'widgets/vocabulary_card.dart';
+import 'widgets/vocabulary_manager.dart';
 
 class FlashcardPage extends StatefulWidget {
   final List<Book> books;
@@ -37,6 +38,7 @@ class _FlashcardPageState extends State<FlashcardPage> {
   int _selectedIndex = 0;
   bool _autoPlay = true;
   BookProgress bookProgress = BookProgress();
+  late VocabularyManager _vocabularyManager;
 
   void _initVariables() {
     _totalVocabularies = widget.books[widget.curVoc.bookId].totalVocabularies;
@@ -60,6 +62,21 @@ class _FlashcardPageState extends State<FlashcardPage> {
       });
     });
     _loadVocabulary();
+    _vocabularyManager = VocabularyManager(
+      prefs: prefs,
+      showSnackBar: _showSnackBar,
+      onStateChanged: (bookProgress, isMarked, completedSize) {
+        setState(() {
+          this.bookProgress = bookProgress;
+          if (bookProgress.isFavorite(widget.curVoc) != _isFavorite) {
+            _isFavorite = isMarked;
+          } else {
+            _isCompleted = isMarked;
+          }
+          _completedSize = completedSize;
+        });
+      },
+    );
   }
 
   Future<void> _loadVocabulary() async {
@@ -114,41 +131,10 @@ class _FlashcardPageState extends State<FlashcardPage> {
     );
   }
 
-  void _markAsCompleted() async {
-    bookProgress = await prefs.addCompletedVocabulary(widget.curVoc);
-    setState(() {
-      _isCompleted = true;
-      _completedSize = bookProgress.totalCompleted;
-    });
-    _showSnackBar('🎉 恭喜你完成了第${_completedSize}个单词');
-  }
-
-  void _removeFromCompleted() async {
-    bookProgress = await prefs.removeCompletedVocabulary(widget.curVoc);
-    setState(() {
-      _isCompleted = false;
-      _completedSize = bookProgress.totalCompleted;
-    });
-    _showSnackBar('🎉 取消已完成');
-  }
-
-  void _markAsFavorite() async {
-    bookProgress = await prefs.addFavoriteVocabulary(widget.curVoc);
-    setState(() {
-      _isFavorite = true;
-      _completedSize = bookProgress.totalCompleted;
-    });
-    _showSnackBar('🎉 添加到已收藏');
-  }
-
-  void _removeFromFavorite() async {
-    bookProgress = await prefs.removeFavoriteVocabulary(widget.curVoc);
-    setState(() {
-      _isFavorite = false;
-      _completedSize = bookProgress.totalCompleted;
-    });
-    _showSnackBar('🎉 取消收藏');
-  }
+  void _markAsCompleted(Vocabulary vocabulary) => _vocabularyManager.markAsCompleted(widget.curVoc, vocabulary);
+  void _removeFromCompleted() => _vocabularyManager.removeFromCompleted(widget.curVoc);
+  void _markAsFavorite(Vocabulary vocabulary) => _vocabularyManager.markAsFavorite(widget.curVoc, vocabulary);
+  void _removeFromFavorite() => _vocabularyManager.removeFromFavorite(widget.curVoc);
 
   @override
   void dispose() {
@@ -317,14 +303,14 @@ class _FlashcardPageState extends State<FlashcardPage> {
                             onNext: _navigateToNextVocabulary,
                             onToggleComplete: () {
                               if (!_isCompleted) {
-                                _markAsCompleted();
+                                _markAsCompleted(_vocabulary[widget.curVoc.vocabularyId]);
                               } else {
                                 _removeFromCompleted();
                               }
                             },
                             onToggleFavorite: () {
                               if (!_isFavorite) {
-                                _markAsFavorite();
+                                _markAsFavorite(_vocabulary[widget.curVoc.vocabularyId]);
                               } else {
                                 _removeFromFavorite();
                               }
@@ -451,14 +437,12 @@ class _FlashcardPageState extends State<FlashcardPage> {
                 IconButton(
                   icon: Icon(
                     Icons.check_circle,
-                    color: bookProgress.isCompleted(currentVoc)  // Use currentVoc instead
-                        ? Colors.green
-                        : Colors.grey,
+                    color: bookProgress.isCompleted(currentVoc) ? Colors.green : Colors.grey,
                   ),
                   onPressed: () {
                     widget.curVoc.vocabularyId = index;
                     if (!bookProgress.isCompleted(currentVoc)) {  // Use currentVoc instead
-                      _markAsCompleted();
+                      _markAsCompleted(_vocabulary[currentVoc.vocabularyId]);
                     } else {
                       _removeFromCompleted();
                     }
@@ -467,15 +451,13 @@ class _FlashcardPageState extends State<FlashcardPage> {
                 ),
                 IconButton(
                   icon: Icon(
-                    bookProgress.isFavorite(currentVoc)  // Use currentVoc instead
-                        ? Icons.star
-                        : Icons.star_border,
+                    bookProgress.isFavorite(currentVoc) ? Icons.star : Icons.star_border,
                     color: Colors.amber,
                   ),
                   onPressed: () {
                     widget.curVoc.vocabularyId = index;
-                    if (!bookProgress.isFavorite(currentVoc)) {  // Use currentVoc instead
-                      _markAsFavorite();
+                    if (!bookProgress.isFavorite(currentVoc)) {
+                      _markAsFavorite(_vocabulary[currentVoc.vocabularyId]);
                     } else {
                       _removeFromFavorite();
                     }

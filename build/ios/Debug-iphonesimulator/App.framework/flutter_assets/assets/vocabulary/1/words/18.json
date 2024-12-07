@@ -1,0 +1,498 @@
+[
+    {
+        "id": "0",
+        "japanese": "おてつだい",
+        "kanji": "お手伝い",
+        "type": "〔名〕",
+        "chinese": "帮忙，帮助",
+        "romaji": "otetsudai"
+    },
+    {
+        "id": "1",
+        "japanese": "のりかえ",
+        "kanji": "乗り換え",
+        "type": "〔名〕",
+        "chinese": "换车，换乘",
+        "romaji": "norikae"
+    },
+    {
+        "id": "2",
+        "japanese": "かんがえ",
+        "kanji": "考え",
+        "type": "〔名〕",
+        "chinese": "想法，思想",
+        "romaji": "kangae"
+    },
+    {
+        "id": "3",
+        "japanese": "じょせいむけ",
+        "kanji": "女性向け",
+        "type": "〔名〕",
+        "chinese": "女性专用，专为女性",
+        "romaji": "josei muke"
+    },
+    {
+        "id": "4",
+        "japanese": "もうしこみ",
+        "kanji": "申し出",
+        "type": "〔名〕",
+        "chinese": "申请，提议",
+        "romaji": "mōshide"
+    },
+    {
+        "id": "5",
+        "japanese": "かんかく",
+        "kanji": "感覚",
+        "type": "〔名〕",
+        "chinese": "感觉",
+        "romaji": "kankaku"
+    },
+    {
+        "id": "6",
+        "japanese": "おおく",
+        "kanji": "多く",
+        "type": "〔名〕",
+        "chinese": "多，多数",
+        "romaji": "ooku"
+    },
+    {
+        "id": "7",
+        "japanese": "ぶか",
+        "kanji": "部下",
+        "type": "〔名〕",
+        "chinese": "部下",
+        "romaji": "buka"
+    },
+    {
+        "id": "8",
+        "japanese": "かんとく",
+        "kanji": "監督",
+        "type": "〔名〕",
+        "chinese": "教练，领队",
+        "romaji": "kantoku"
+    },
+    {
+        "id": "9",
+        "japanese": "せんしゅ",
+        "kanji": "選手",
+        "type": "〔名〕",
+        "chinese": "运动员，选手",
+        "romaji": "senshu"
+    },
+    {
+        "id": "10",
+        "japanese": "しょうひしゃ",
+        "kanji": "消費者",
+        "type": "〔名〕",
+        "chinese": "消费者",
+        "romaji": "shōhisha"
+    },
+    {
+        "id": "11",
+        "japanese": "あんないやく",
+        "kanji": "案内役",
+        "type": "〔名〕",
+        "chinese": "向导，导游",
+        "romaji": "annaiyaku"
+    },
+    {
+        "id": "12",
+        "japanese": "おや",
+        "kanji": "親",
+        "type": "〔名〕",
+        "chinese": "双亲，父母",
+        "romaji": "oya"
+    },
+    {
+        "id": "13",
+        "japanese": "プレゼンテーション",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "策划方案说明会",
+        "romaji": "purezentēshon"
+    },
+    {
+        "id": "14",
+        "japanese": "アルファベット",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "英文字母，拉丁字母",
+        "romaji": "arufabetto"
+    },
+    {
+        "id": "15",
+        "japanese": "イメージ",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "形象，印象",
+        "romaji": "imēji"
+    },
+    {
+        "id": "16",
+        "japanese": "インパクト",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "冲击力，力量感",
+        "romaji": "inpakuto"
+    },
+    {
+        "id": "17",
+        "japanese": "ガラス",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "玻璃，玻璃杯",
+        "romaji": "garasu"
+    },
+    {
+        "id": "18",
+        "japanese": "きぶん",
+        "kanji": "気分",
+        "type": "〔名〕",
+        "chinese": "情绪，心情",
+        "romaji": "kibun"
+    },
+    {
+        "id": "19",
+        "japanese": "しんきんかん",
+        "kanji": "親近感",
+        "type": "〔名〕",
+        "chinese": "亲切感",
+        "romaji": "shinkinkan"
+    },
+    {
+        "id": "20",
+        "japanese": "ひんしつ",
+        "kanji": "品質",
+        "type": "〔名〕",
+        "chinese": "质量，品质",
+        "romaji": "hinshitsu"
+    },
+    {
+        "id": "21",
+        "japanese": "ぶっか",
+        "kanji": "物価",
+        "type": "〔名〕",
+        "chinese": "物价",
+        "romaji": "bukka"
+    },
+    {
+        "id": "22",
+        "japanese": "めんぜいてん",
+        "kanji": "免税店",
+        "type": "〔名〕",
+        "chinese": "免税店",
+        "romaji": "menzei ten"
+    },
+    {
+        "id": "23",
+        "japanese": "せつめいしょ",
+        "kanji": "説明書",
+        "type": "〔名〕",
+        "chinese": "说明书",
+        "romaji": "setsumeisho"
+    },
+    {
+        "id": "24",
+        "japanese": "じゅく",
+        "kanji": "塾",
+        "type": "〔名〕",
+        "chinese": "私塾，补习学校",
+        "romaji": "juku"
+    },
+    {
+        "id": "25",
+        "japanese": "れいぶん",
+        "kanji": "例文",
+        "type": "〔名〕",
+        "chinese": "例句",
+        "romaji": "reibun"
+    },
+    {
+        "id": "26",
+        "japanese": "かいじょう",
+        "kanji": "会場",
+        "type": "〔名〕",
+        "chinese": "会场",
+        "romaji": "kaijō"
+    },
+    {
+        "id": "27",
+        "japanese": "せつび",
+        "kanji": "設備",
+        "type": "〔名〕",
+        "chinese": "设备",
+        "romaji": "setsubi"
+    },
+    {
+        "id": "28",
+        "japanese": "せんたくもの",
+        "kanji": "洗濯物",
+        "type": "〔名〕",
+        "chinese": "洗的衣服",
+        "romaji": "sentaku mono"
+    },
+    {
+        "id": "29",
+        "japanese": "もの",
+        "kanji": "物",
+        "type": "〔名〕",
+        "chinese": "东西，事物",
+        "romaji": "mono"
+    },
+    {
+        "id": "30",
+        "japanese": "じ",
+        "kanji": "字",
+        "type": "〔名〕",
+        "chinese": "字",
+        "romaji": "ji"
+    },
+    {
+        "id": "31",
+        "japanese": "つま",
+        "kanji": "妻",
+        "type": "〔名〕",
+        "chinese": "妻子",
+        "romaji": "tsuma"
+    },
+    {
+        "id": "32",
+        "japanese": "われわれ",
+        "kanji": "我々",
+        "type": "〔代〕",
+        "chinese": "我们",
+        "romaji": "wareware"
+    },
+    {
+        "id": "33",
+        "japanese": "ひっぱります",
+        "kanji": "引っ張ります",
+        "type": "〔动1〕",
+        "chinese": "拉，拽",
+        "romaji": "hipparimasu"
+    },
+    {
+        "id": "34",
+        "japanese": "うかびます",
+        "kanji": "浮かびます",
+        "type": "〔动1〕",
+        "chinese": "想起，浮现",
+        "romaji": "ukabimasu"
+    },
+    {
+        "id": "35",
+        "japanese": "ととのいます",
+        "kanji": "整います",
+        "type": "〔动1〕",
+        "chinese": "齐备，完备",
+        "romaji": "totonoimasu"
+    },
+    {
+        "id": "36",
+        "japanese": "かわきます",
+        "kanji": "乾きます",
+        "type": "〔动1〕",
+        "chinese": "干，干燥",
+        "romaji": "kawakimasu"
+    },
+    {
+        "id": "37",
+        "japanese": "くらします",
+        "kanji": "暮らします",
+        "type": "〔动1〕",
+        "chinese": "生活",
+        "romaji": "kurashimasu"
+    },
+    {
+        "id": "38",
+        "japanese": "さけます",
+        "kanji": "避けます",
+        "type": "〔动2〕",
+        "chinese": "回避，避免",
+        "romaji": "sakemasu"
+    },
+    {
+        "id": "39",
+        "japanese": "うれます",
+        "kanji": "売れます",
+        "type": "〔动2〕",
+        "chinese": "好卖，畅销",
+        "romaji": "uremasu"
+    },
+    {
+        "id": "40",
+        "japanese": "うけます",
+        "kanji": "受けます",
+        "type": "〔动2〕",
+        "chinese": "感受，受到",
+        "romaji": "ukemasu"
+    },
+    {
+        "id": "41",
+        "japanese": "あたためます",
+        "kanji": "温めます",
+        "type": "〔动2〕",
+        "chinese": "热，温",
+        "romaji": "atatamemasu"
+    },
+    {
+        "id": "42",
+        "japanese": "りかいします",
+        "kanji": "理解～",
+        "type": "〔动3〕",
+        "chinese": "理解",
+        "romaji": "rikai shimasu"
+    },
+    {
+        "id": "43",
+        "japanese": "ていあんします",
+        "kanji": "提案～",
+        "type": "〔动3〕",
+        "chinese": "建议，提案",
+        "romaji": "teian shimasu"
+    },
+    {
+        "id": "44",
+        "japanese": "しさくします",
+        "kanji": "試作～",
+        "type": "〔动3〕",
+        "chinese": "试作，试制",
+        "romaji": "shisaku shimasu"
+    },
+    {
+        "id": "45",
+        "japanese": "けいけんします",
+        "kanji": "経験～",
+        "type": "〔动3〕",
+        "chinese": "经验，经历",
+        "romaji": "keiken shimasu"
+    },
+    {
+        "id": "46",
+        "japanese": "あんきします",
+        "kanji": "暗記～",
+        "type": "〔动3〕",
+        "chinese": "熟记，背诵",
+        "romaji": "anki shimasu"
+    },
+    {
+        "id": "47",
+        "japanese": "そうたいします",
+        "kanji": "早退～",
+        "type": "〔动3〕",
+        "chinese": "早退",
+        "romaji": "sōtai shimasu"
+    },
+    {
+        "id": "48",
+        "japanese": "きゅうしょくします",
+        "kanji": "休職～",
+        "type": "〔动3〕",
+        "chinese": "（暂时）停职",
+        "romaji": "kyūshoku shimasu"
+    },
+    {
+        "id": "49",
+        "japanese": "ちからづよい",
+        "kanji": "力強い",
+        "type": "〔形1〕",
+        "chinese": "强有力，心里踏实",
+        "romaji": "chikarazuyoi"
+    },
+    {
+        "id": "50",
+        "japanese": "やわらかい",
+        "kanji": "柔らかい",
+        "type": "〔形1〕",
+        "chinese": "柔软",
+        "romaji": "yawarakai"
+    },
+    {
+        "id": "51",
+        "japanese": "かたい",
+        "kanji": "硬い",
+        "type": "〔形1〕",
+        "chinese": "硬",
+        "romaji": "katai"
+    },
+    {
+        "id": "52",
+        "japanese": "あつい",
+        "kanji": "厚い",
+        "type": "〔形1〕",
+        "chinese": "厚",
+        "romaji": "atsui"
+    },
+    {
+        "id": "53",
+        "japanese": "じゅうよう",
+        "kanji": "重要",
+        "type": "〔形2〕",
+        "chinese": "重要",
+        "romaji": "jūyō"
+    },
+    {
+        "id": "54",
+        "japanese": "たんじゅん",
+        "kanji": "単純",
+        "type": "〔形2〕",
+        "chinese": "单纯",
+        "romaji": "tanjun"
+    },
+    {
+        "id": "55",
+        "japanese": "りそうてき",
+        "kanji": "理想的",
+        "type": "〔形2〕",
+        "chinese": "理想",
+        "romaji": "risōteki"
+    },
+    {
+        "id": "56",
+        "japanese": "ぐたいてき",
+        "kanji": "具体的",
+        "type": "〔形2〕",
+        "chinese": "具体",
+        "romaji": "gutaiteki"
+    },
+    {
+        "id": "57",
+        "japanese": "ざんしん",
+        "kanji": "斬新",
+        "type": "〔形2〕",
+        "chinese": "新颖, 崭新",
+        "romaji": "zanshin"
+    },
+    {
+        "id": "58",
+        "japanese": "ぐっと",
+        "kanji": "",
+        "type": "〔副〕",
+        "chinese": "更加; 用力",
+        "romaji": "gutto"
+    },
+    {
+        "id": "59",
+        "japanese": "たとえば",
+        "kanji": "例えば",
+        "type": "〔副〕",
+        "chinese": "比如, 例如",
+        "romaji": "tatoeba"
+    },
+    {
+        "id": "60",
+        "japanese": "しかも",
+        "kanji": "",
+        "type": "〔连〕",
+        "chinese": "而且",
+        "romaji": "shikamo"
+    },
+    {
+        "id": "61",
+        "japanese": "そこで",
+        "kanji": "",
+        "type": "〔连〕",
+        "chinese": "因此, 所以, 那么",
+        "romaji": "sokode"
+    }
+]

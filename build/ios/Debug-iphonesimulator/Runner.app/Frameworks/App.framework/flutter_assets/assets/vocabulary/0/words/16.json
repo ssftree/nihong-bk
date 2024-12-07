@@ -1,0 +1,250 @@
+[
+    {
+        "id": "0",
+        "japanese": "ようふく",
+        "kanji": "洋服",
+        "type": "〔名〕",
+        "chinese": "西服",
+        "romaji": "yōfuku"
+    },
+    {
+        "id": "1",
+        "japanese": "セーター",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "毛衣",
+        "romaji": "sētā"
+    },
+    {
+        "id": "2",
+        "japanese": "ノートパソコン",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "笔记本电脑",
+        "romaji": "nōto pasokon"
+    },
+    {
+        "id": "3",
+        "japanese": "バイク",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "摩托车",
+        "romaji": "baiku"
+    },
+    {
+        "id": "4",
+        "japanese": "おしるこ",
+        "kanji": "お汁粉",
+        "type": "〔名〕",
+        "chinese": "年糕小豆汤",
+        "romaji": "oshiruko"
+    },
+    {
+        "id": "5",
+        "japanese": "てんぷら",
+        "kanji": "天ぷら",
+        "type": "〔名〕",
+        "chinese": "天麸罗",
+        "romaji": "tenpura"
+    },
+    {
+        "id": "6",
+        "japanese": "はつもうで",
+        "kanji": "初詣",
+        "type": "〔名〕",
+        "chinese": "新年后首次参拜",
+        "romaji": "hatsumōde"
+    },
+    {
+        "id": "7",
+        "japanese": "けんこう",
+        "kanji": "健康",
+        "type": "〔名〕",
+        "chinese": "健康",
+        "romaji": "kenkō"
+    },
+    {
+        "id": "8",
+        "japanese": "れんあい",
+        "kanji": "恋愛",
+        "type": "〔名〕",
+        "chinese": "恋爱",
+        "romaji": "ren'ai"
+    },
+    {
+        "id": "9",
+        "japanese": "ドラマ",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "连续剧",
+        "romaji": "dorama"
+    },
+    {
+        "id": "10",
+        "japanese": "あいて",
+        "kanji": "相手",
+        "type": "〔名〕",
+        "chinese": "对象，对方",
+        "romaji": "aite"
+    },
+    {
+        "id": "11",
+        "japanese": "こいびと",
+        "kanji": "恋人",
+        "type": "〔名〕",
+        "chinese": "恋人",
+        "romaji": "koibito"
+    },
+    {
+        "id": "12",
+        "japanese": "せんぱい",
+        "kanji": "先輩",
+        "type": "〔名〕",
+        "chinese": "前辈",
+        "romaji": "senpai"
+    },
+    {
+        "id": "13",
+        "japanese": "だんせい",
+        "kanji": "男性",
+        "type": "〔名〕",
+        "chinese": "男性",
+        "romaji": "dansei"
+    },
+    {
+        "id": "14",
+        "japanese": "がいこくじん",
+        "kanji": "外国人",
+        "type": "〔名〕",
+        "chinese": "外国人",
+        "romaji": "gaikokujin"
+    },
+    {
+        "id": "15",
+        "japanese": "なつ",
+        "kanji": "夏",
+        "type": "〔名〕",
+        "chinese": "夏天",
+        "romaji": "natsu"
+    },
+    {
+        "id": "16",
+        "japanese": "ことし",
+        "kanji": "今年",
+        "type": "〔名〕",
+        "chinese": "今年",
+        "romaji": "kotoshi"
+    },
+    {
+        "id": "17",
+        "japanese": "はじめます",
+        "kanji": "始めます",
+        "type": "〔动2〕",
+        "chinese": "开始",
+        "romaji": "hajimemasu"
+    },
+    {
+        "id": "18",
+        "japanese": "れんらくします",
+        "kanji": "連絡～",
+        "type": "〔动3〕",
+        "chinese": "联系",
+        "romaji": "renraku shimasu"
+    },
+    {
+        "id": "19",
+        "japanese": "ほしい",
+        "kanji": "欲しい",
+        "type": "〔形1〕",
+        "chinese": "想要",
+        "romaji": "hoshii"
+    },
+    {
+        "id": "20",
+        "japanese": "りっぱ",
+        "kanji": "立派",
+        "type": "〔形2〕",
+        "chinese": "美观，杰出",
+        "romaji": "rippa"
+    },
+    {
+        "id": "21",
+        "japanese": "こんど",
+        "kanji": "今度",
+        "type": "〔副〕",
+        "chinese": "下次；这回",
+        "romaji": "kondo"
+    },
+    {
+        "id": "22",
+        "japanese": "ぜひ",
+        "kanji": "",
+        "type": "〔副〕",
+        "chinese": "一定",
+        "romaji": "zehi"
+    },
+    {
+        "id": "23",
+        "japanese": "そろそろ",
+        "kanji": "",
+        "type": "〔副〕",
+        "chinese": "快要",
+        "romaji": "sorosoro"
+    },
+    {
+        "id": "24",
+        "japanese": "まず",
+        "kanji": "",
+        "type": "〔副〕",
+        "chinese": "先，首先",
+        "romaji": "mazu"
+    },
+    {
+        "id": "25",
+        "japanese": "ベートーベン",
+        "kanji": "",
+        "type": "〔专〕",
+        "chinese": "贝多芬",
+        "romaji": "bētōben"
+    },
+    {
+        "id": "26",
+        "japanese": "ショパン",
+        "kanji": "",
+        "type": "〔专〕",
+        "chinese": "肖邦",
+        "romaji": "shopan"
+    },
+    {
+        "id": "27",
+        "japanese": "こきゅう",
+        "kanji": "故宮",
+        "type": "〔专〕",
+        "chinese": "故宫",
+        "romaji": "kokyū"
+    },
+    {
+        "id": "28",
+        "japanese": "ヨーロッパ",
+        "kanji": "",
+        "type": "〔专〕",
+        "chinese": "欧洲",
+        "romaji": "yōroppa"
+    },
+    {
+        "id": "29",
+        "japanese": "ホンコン",
+        "kanji": "香港",
+        "type": "〔专〕",
+        "chinese": "香港",
+        "romaji": "honkon"
+    },
+    {
+        "id": "30",
+        "japanese": "スイス",
+        "kanji": "",
+        "type": "〔专〕",
+        "chinese": "瑞士",
+        "romaji": "suisu"
+    }
+]

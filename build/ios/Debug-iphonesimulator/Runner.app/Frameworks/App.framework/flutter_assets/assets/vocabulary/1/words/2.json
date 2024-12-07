@@ -1,0 +1,426 @@
+[
+    {
+        "id": "0",
+        "japanese": "けいざい",
+        "kanji": "経済",
+        "type": "〔名〕",
+        "chinese": "经济",
+        "romaji": "keizai"
+    },
+    {
+        "id": "1",
+        "japanese": "こくさいかんけいがく",
+        "kanji": "国際関係学",
+        "type": "〔名〕",
+        "chinese": "国际关系学",
+        "romaji": "kokusai kankeigaku"
+    },
+    {
+        "id": "2",
+        "japanese": "おおぜい",
+        "kanji": "大勢",
+        "type": "〔名〕",
+        "chinese": "许多，众多",
+        "romaji": "ōzei"
+    },
+    {
+        "id": "3",
+        "japanese": "こうこう",
+        "kanji": "高校",
+        "type": "〔名〕",
+        "chinese": "高中",
+        "romaji": "kōkō"
+    },
+    {
+        "id": "4",
+        "japanese": "にっき",
+        "kanji": "日記",
+        "type": "〔名〕",
+        "chinese": "日记",
+        "romaji": "nikki"
+    },
+    {
+        "id": "5",
+        "japanese": "きょうし",
+        "kanji": "教師",
+        "type": "〔名〕",
+        "chinese": "教师",
+        "romaji": "kyōshi"
+    },
+    {
+        "id": "6",
+        "japanese": "おとしより",
+        "kanji": "お年寄り",
+        "type": "〔名〕",
+        "chinese": "老年人",
+        "romaji": "otoshiyori"
+    },
+    {
+        "id": "7",
+        "japanese": "ラジオたいそう",
+        "kanji": "～体操",
+        "type": "〔名〕",
+        "chinese": "广播体操",
+        "romaji": "rajio taisō"
+    },
+    {
+        "id": "8",
+        "japanese": "しゃこうダンス",
+        "kanji": "(社交～)",
+        "type": "〔名〕",
+        "chinese": "交际舞",
+        "romaji": "shakō dansu"
+    },
+    {
+        "id": "9",
+        "japanese": "たっきゅう",
+        "kanji": "卓球",
+        "type": "〔名〕",
+        "chinese": "乒乓球",
+        "romaji": "takkyū"
+    },
+    {
+        "id": "10",
+        "japanese": "バスケットボール",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "篮球",
+        "romaji": "basukettobōru"
+    },
+    {
+        "id": "11",
+        "japanese": "スポーツセンター",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "体育中心",
+        "romaji": "supōtsu sentā"
+    },
+    {
+        "id": "12",
+        "japanese": "にゅうえんりょう",
+        "kanji": "(入園料)",
+        "type": "〔名〕",
+        "chinese": "门票，入园费",
+        "romaji": "nyūenryō"
+    },
+    {
+        "id": "13",
+        "japanese": "ゆうりょう",
+        "kanji": "(有料)",
+        "type": "〔名〕",
+        "chinese": "收费",
+        "romaji": "yūryō"
+    },
+    {
+        "id": "14",
+        "japanese": "しょう",
+        "kanji": "(賞)",
+        "type": "〔名〕",
+        "chinese": "奖",
+        "romaji": "shō"
+    },
+    {
+        "id": "15",
+        "japanese": "きょく",
+        "kanji": "曲",
+        "type": "〔名〕",
+        "chinese": "乐曲,歌曲",
+        "romaji": "kyoku"
+    },
+    {
+        "id": "16",
+        "japanese": "し",
+        "kanji": "(詩)",
+        "type": "〔名〕",
+        "chinese": "诗歌",
+        "romaji": "shi"
+    },
+    {
+        "id": "17",
+        "japanese": "しんごう",
+        "kanji": "信号",
+        "type": "〔名〕",
+        "chinese": "信号，红绿灯",
+        "romaji": "shingō"
+    },
+    {
+        "id": "18",
+        "japanese": "はこ",
+        "kanji": "箱",
+        "type": "〔名〕",
+        "chinese": "箱子",
+        "romaji": "hako"
+    },
+    {
+        "id": "19",
+        "japanese": "ぶひん",
+        "kanji": "部品",
+        "type": "〔名〕",
+        "chinese": "零部件",
+        "romaji": "buhin"
+    },
+    {
+        "id": "20",
+        "japanese": "アルバイト",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "打工,副业,兼职",
+        "romaji": "arubaito"
+    },
+    {
+        "id": "21",
+        "japanese": "スピーチ",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "演说,演讲",
+        "romaji": "supīchi"
+    },
+    {
+        "id": "22",
+        "japanese": "プラン",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "社交",
+        "romaji": "puran"
+    },
+    {
+        "id": "23",
+        "japanese": "きかく",
+        "kanji": "企画",
+        "type": "〔名〕",
+        "chinese": "策划,计划",
+        "romaji": "kikaku"
+    },
+    {
+        "id": "24",
+        "japanese": "せつめい",
+        "kanji": "説明",
+        "type": "〔名〕",
+        "chinese": "说明",
+        "romaji": "setsumei"
+    },
+    {
+        "id": "25",
+        "japanese": "ごはん",
+        "kanji": "ご飯",
+        "type": "〔名〕",
+        "chinese": "饭",
+        "romaji": "gohan"
+    },
+    {
+        "id": "26",
+        "japanese": "さとう",
+        "kanji": "砂糖",
+        "type": "〔名〕",
+        "chinese": "砂糖",
+        "romaji": "satō"
+    },
+    {
+        "id": "27",
+        "japanese": "かいがいりょこう",
+        "kanji": "海外旅行",
+        "type": "〔名〕",
+        "chinese": "海外旅行",
+        "romaji": "kaigairyokō"
+    },
+    {
+        "id": "28",
+        "japanese": "こと",
+        "kanji": "事",
+        "type": "〔名〕",
+        "chinese": "事,事情",
+        "romaji": "koto"
+    },
+    {
+        "id": "29",
+        "japanese": "おじいさん",
+        "kanji": "",
+        "type": "〔代〕",
+        "chinese": "爷爷;老大爷",
+        "romaji": "ojiisan"
+    },
+    {
+        "id": "30",
+        "japanese": "おばあさん",
+        "kanji": "",
+        "type": "〔代〕",
+        "chinese": "奶奶;老奶奶",
+        "romaji": "obāsan"
+    },
+    {
+        "id": "31",
+        "japanese": "あね",
+        "kanji": "姉",
+        "type": "〔代〕",
+        "chinese": "姐姐",
+        "romaji": "ane"
+    },
+    {
+        "id": "32",
+        "japanese": "かよいます",
+        "kanji": "(通います)",
+        "type": "〔动1〕",
+        "chinese": "上学,来往",
+        "romaji": "kayoimasu"
+    },
+    {
+        "id": "33",
+        "japanese": "あつまります",
+        "kanji": "(集まります)",
+        "type": "〔动1〕",
+        "chinese": "聚,集合",
+        "romaji": "atsumarimasu"
+    },
+    {
+        "id": "34",
+        "japanese": "おどります",
+        "kanji": "(踊ります)",
+        "type": "〔动1〕",
+        "chinese": "跳舞",
+        "romaji": "odorimasu"
+    },
+    {
+        "id": "35",
+        "japanese": "いります",
+        "kanji": "(要ります)",
+        "type": "〔动1〕",
+        "chinese": "要",
+        "romaji": "irimasu"
+    },
+    {
+        "id": "36",
+        "japanese": "こまります",
+        "kanji": "(困ります)",
+        "type": "〔动1〕",
+        "chinese": "为难,难办",
+        "romaji": "komarimasu"
+    },
+    {
+        "id": "37",
+        "japanese": "たたきます",
+        "kanji": "",
+        "type": "〔动1〕",
+        "chinese": "拍,敲,打",
+        "romaji": "tatakimasu"
+    },
+    {
+        "id": "38",
+        "japanese": "いれます",
+        "kanji": "(入れます)",
+        "type": "〔动2〕",
+        "chinese": "放入,放进",
+        "romaji": "iremasu"
+    },
+    {
+        "id": "39",
+        "japanese": "かんごうします",
+        "kanji": "(看病～)",
+        "type": "〔动3〕",
+        "chinese": "护埋",
+        "romaji": "kangō shimasu"
+    },
+    {
+        "id": "40",
+        "japanese": "けんかします",
+        "kanji": "",
+        "type": "〔动3〕",
+        "chinese": "吵架,打架",
+        "romaji": "kenka shimasu"
+    },
+    {
+        "id": "41",
+        "japanese": "りょうします",
+        "kanji": "(利用～)",
+        "type": "〔动3〕",
+        "chinese": "利用",
+        "romaji": "ryō shimasu"
+    },
+    {
+        "id": "42",
+        "japanese": "そうだんします",
+        "kanji": "(相談～)",
+        "type": "〔动3〕",
+        "chinese": "商谈",
+        "romaji": "sōdan shimasu"
+    },
+    {
+        "id": "43",
+        "japanese": "ほかに",
+        "kanji": "",
+        "type": "〔副〕",
+        "chinese": "另外",
+        "romaji": "hokani"
+    },
+    {
+        "id": "44",
+        "japanese": "いかが",
+        "kanji": "",
+        "type": "〔副〕",
+        "chinese": "好久,好久,片刻",
+        "romaji": "ikaga"
+    },
+    {
+        "id": "45",
+        "japanese": "へえ",
+        "kanji": "(叹)",
+        "type": "",
+        "chinese": "哎,哎呀,哎唷",
+        "romaji": "hē"
+    },
+    {
+        "id": "46",
+        "japanese": "きのした",
+        "kanji": "(木下)",
+        "type": "〔专〕",
+        "chinese": "木下",
+        "romaji": "Kinoshita"
+    },
+    {
+        "id": "47",
+        "japanese": "たむら",
+        "kanji": "(田村)",
+        "type": "〔专〕",
+        "chinese": "田村",
+        "romaji": "Tamura"
+    },
+    {
+        "id": "48",
+        "japanese": "",
+        "kanji": "このまえ (この前)",
+        "type": "",
+        "chinese": "前几天,之前,最近",
+        "romaji": "kono mae"
+    },
+    {
+        "id": "49",
+        "japanese": "そういえば (そう言えば)",
+        "kanji": "",
+        "type": "",
+        "chinese": "说起来,这么说来",
+        "romaji": "sō ieba"
+    },
+    {
+        "id": "50",
+        "japanese": "きがつきます (気がつきます)",
+        "kanji": "",
+        "type": "",
+        "chinese": "察觉",
+        "romaji": "ki ga tsukimasu"
+    },
+    {
+        "id": "51",
+        "japanese": "しばらくです",
+        "kanji": "",
+        "type": "",
+        "chinese": "好久不见",
+        "romaji": "shibaraku desu"
+    },
+    {
+        "id": "52",
+        "japanese": "～いき (～行き)",
+        "kanji": "",
+        "type": "",
+        "chinese": "前往",
+        "romaji": "iki"
+    }
+]

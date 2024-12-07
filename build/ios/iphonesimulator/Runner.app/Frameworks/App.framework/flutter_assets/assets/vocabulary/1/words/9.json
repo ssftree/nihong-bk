@@ -1,0 +1,426 @@
+[
+    {
+        "id": "0",
+        "japanese": "カレンダー",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "挂历，日历",
+        "romaji": "karendā"
+    },
+    {
+        "id": "1",
+        "japanese": "ポスター",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "宣传画，海报",
+        "romaji": "posutā"
+    },
+    {
+        "id": "2",
+        "japanese": "ハードスケジュール",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "紧张的日程",
+        "romaji": "hādo sukejūru"
+    },
+    {
+        "id": "3",
+        "japanese": "カレーライス",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "咖喱饭",
+        "romaji": "karē raisu"
+    },
+    {
+        "id": "4",
+        "japanese": "とっておき",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "珍藏，私藏",
+        "romaji": "totteoki"
+    },
+    {
+        "id": "5",
+        "japanese": "ほんこん",
+        "kanji": "本場",
+        "type": "〔名〕",
+        "chinese": "原产地，发源地",
+        "romaji": "honkon"
+    },
+    {
+        "id": "6",
+        "japanese": "げんかん",
+        "kanji": "玄関",
+        "type": "〔名〕",
+        "chinese": "门口，玄关",
+        "romaji": "genkan"
+    },
+    {
+        "id": "7",
+        "japanese": "ロッカー",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "橱柜，文件柜",
+        "romaji": "rokkā"
+    },
+    {
+        "id": "8",
+        "japanese": "バッグ",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "包，手提包",
+        "romaji": "baggu"
+    },
+    {
+        "id": "9",
+        "japanese": "りょこうしゃ",
+        "kanji": "(旅行社)",
+        "type": "〔名〕",
+        "chinese": "旅行社",
+        "romaji": "ryokōsha"
+    },
+    {
+        "id": "10",
+        "japanese": "しゅうだん",
+        "kanji": "(集団)",
+        "type": "〔名〕",
+        "chinese": "集团",
+        "romaji": "shūdan"
+    },
+    {
+        "id": "11",
+        "japanese": "とうちゃく",
+        "kanji": "到着",
+        "type": "〔名〕",
+        "chinese": "到达，抵达",
+        "romaji": "tōchaku"
+    },
+    {
+        "id": "12",
+        "japanese": "かえり",
+        "kanji": "(帰り)",
+        "type": "〔名〕",
+        "chinese": "回来，返回，回家",
+        "romaji": "kaeri"
+    },
+    {
+        "id": "13",
+        "japanese": "もちかえり",
+        "kanji": "(持ち帰り)",
+        "type": "〔名〕",
+        "chinese": "打包，带回",
+        "romaji": "mochikaeri"
+    },
+    {
+        "id": "14",
+        "japanese": "じこ",
+        "kanji": "(事故)",
+        "type": "〔名〕",
+        "chinese": "事故",
+        "romaji": "jiko"
+    },
+    {
+        "id": "15",
+        "japanese": "はなだん",
+        "kanji": "(花壇)",
+        "type": "〔名〕",
+        "chinese": "花坛",
+        "romaji": "hanadan"
+    },
+    {
+        "id": "16",
+        "japanese": "はっぴょうかい",
+        "kanji": "(発表会)",
+        "type": "〔名〕",
+        "chinese": "发布会",
+        "romaji": "happyoukai"
+    },
+    {
+        "id": "17",
+        "japanese": "ちゅうもん",
+        "kanji": "(注文)",
+        "type": "〔名〕",
+        "chinese": "订货",
+        "romaji": "chūmon"
+    },
+    {
+        "id": "18",
+        "japanese": "ダイエット",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "减肥",
+        "romaji": "daietto"
+    },
+    {
+        "id": "19",
+        "japanese": "オリンピック",
+        "kanji": "",
+        "type": "〔名〕",
+        "chinese": "奥运会，奥林匹克",
+        "romaji": "orinpikku"
+    },
+    {
+        "id": "20",
+        "japanese": "あちこち",
+        "kanji": "あっちこっち",
+        "type": "〔代〕",
+        "chinese": "到处，处处",
+        "romaji": "achikochi"
+    },
+    {
+        "id": "21",
+        "japanese": "やきます",
+        "kanji": "(焼きます)",
+        "type": "〔动1〕",
+        "chinese": "烤，烧，焚烧",
+        "romaji": "yakimasu"
+    },
+    {
+        "id": "22",
+        "japanese": "かせぎます",
+        "kanji": "(稼ぎます)",
+        "type": "〔动1〕",
+        "chinese": "赚，挣钱",
+        "romaji": "kasegimasu"
+    },
+    {
+        "id": "23",
+        "japanese": "つつみます",
+        "kanji": "(包みます)",
+        "type": "〔动1〕",
+        "chinese": "卷，包裹",
+        "romaji": "tsutsumimasu"
+    },
+    {
+        "id": "24",
+        "japanese": "たのみます",
+        "kanji": "(頼みます)",
+        "type": "〔动1〕",
+        "chinese": "点；请求；托付",
+        "romaji": "tanomimasu"
+    },
+    {
+        "id": "25",
+        "japanese": "します",
+        "kanji": "(粘ります)",
+        "type": "〔动1〕",
+        "chinese": "粘，贴",
+        "romaji": "shimasu"
+    },
+    {
+        "id": "26",
+        "japanese": "かざります",
+        "kanji": "(飾ります)",
+        "type": "〔动1〕",
+        "chinese": "装饰",
+        "romaji": "kazarimasu"
+    },
+    {
+        "id": "27",
+        "japanese": "しまいます",
+        "kanji": "",
+        "type": "〔动1〕",
+        "chinese": "收拾起来，放到一边",
+        "romaji": "shimaimasu"
+    },
+    {
+        "id": "28",
+        "japanese": "あいます",
+        "kanji": "(合います)",
+        "type": "〔动1〕",
+        "chinese": "合适，适合",
+        "romaji": "aimasu"
+    },
+    {
+        "id": "29",
+        "japanese": "もどします",
+        "kanji": "(戻します)",
+        "type": "〔动1〕",
+        "chinese": "放回，返回，返还",
+        "romaji": "modoshimasu"
+    },
+    {
+        "id": "30",
+        "japanese": "たまります",
+        "kanji": "",
+        "type": "〔动2〕",
+        "chinese": "积攒，储存",
+        "romaji": "tamarimasu"
+    },
+    {
+        "id": "31",
+        "japanese": "ならべます",
+        "kanji": "(並べます)",
+        "type": "〔动2〕",
+        "chinese": "排列",
+        "romaji": "narabemasu"
+    },
+    {
+        "id": "32",
+        "japanese": "あずけます",
+        "kanji": "(預けます)",
+        "type": "〔动2〕",
+        "chinese": "寄存，托付",
+        "romaji": "azukemasu"
+    },
+    {
+        "id": "33",
+        "japanese": "つづけます",
+        "kanji": "(続けます)",
+        "type": "〔动2〕",
+        "chinese": "继续，持续",
+        "romaji": "tsuzukemasu"
+    },
+    {
+        "id": "34",
+        "japanese": "やせます",
+        "kanji": "",
+        "type": "〔动2〕",
+        "chinese": "瘦",
+        "romaji": "yasemasu"
+    },
+    {
+        "id": "35",
+        "japanese": "ほうもんします",
+        "kanji": "(訪問～)",
+        "type": "〔动3〕",
+        "chinese": "拜访，访问",
+        "romaji": "hōmon shimasu"
+    },
+    {
+        "id": "36",
+        "japanese": "ちょきんします",
+        "kanji": "(貯金～)",
+        "type": "〔动3〕",
+        "chinese": "存钱，储蓄",
+        "romaji": "chokin shimasu"
+    },
+    {
+        "id": "37",
+        "japanese": "かんぱいします",
+        "kanji": "(乾杯～)",
+        "type": "〔动3〕",
+        "chinese": "干杯",
+        "romaji": "kanpai shimasu"
+    },
+    {
+        "id": "38",
+        "japanese": "よういします",
+        "kanji": "(用意〜)",
+        "type": "〔动3〕",
+        "chinese": "准备",
+        "romaji": "yōi shimasu"
+    },
+    {
+        "id": "39",
+        "japanese": "おかしい",
+        "kanji": "",
+        "type": "〔形1〕",
+        "chinese": "可笑，奇怪",
+        "romaji": "okashii"
+    },
+    {
+        "id": "40",
+        "japanese": "ひどい",
+        "kanji": "",
+        "type": "〔形1〕",
+        "chinese": "严重，厉害",
+        "romaji": "hidoi"
+    },
+    {
+        "id": "41",
+        "japanese": "もったいない",
+        "kanji": "",
+        "type": "〔形1〕",
+        "chinese": "可惜，浪费，过分",
+        "romaji": "mottainai"
+    },
+    {
+        "id": "42",
+        "japanese": "ゆうしゅう",
+        "kanji": "(優秀)",
+        "type": "〔形2〕",
+        "chinese": "优秀",
+        "romaji": "yūshū"
+    },
+    {
+        "id": "43",
+        "japanese": "さいこう",
+        "kanji": "(最高)",
+        "type": "〔形2〕",
+        "chinese": "最棒，最高",
+        "romaji": "saikō"
+    },
+    {
+        "id": "44",
+        "japanese": "しっかり",
+        "kanji": "",
+        "type": "〔副〕",
+        "chinese": "充足，充足",
+        "romaji": "shikkari"
+    },
+    {
+        "id": "45",
+        "japanese": "ひじょうに",
+        "kanji": "(非常に)",
+        "type": "〔副〕",
+        "chinese": "非常",
+        "romaji": "hijō ni"
+    },
+    {
+        "id": "46",
+        "japanese": "こんなに",
+        "kanji": "",
+        "type": "〔副〕",
+        "chinese": "这么，这样地",
+        "romaji": "konna ni"
+    },
+    {
+        "id": "47",
+        "japanese": "いっしょうけんめい",
+        "kanji": "(一生懸命)",
+        "type": "〔副〕",
+        "chinese": "拼命地，努力地",
+        "romaji": "isshōkenmei"
+    },
+    {
+        "id": "48",
+        "japanese": "うわあ",
+        "kanji": "",
+        "type": "〔叹〕",
+        "chinese": "哇",
+        "romaji": "uwā"
+    },
+    {
+        "id": "49",
+        "japanese": "このまま",
+        "kanji": "",
+        "type": "〔组〕",
+        "chinese": "就这样，照这样，如此",
+        "romaji": "kono mama"
+    },
+    {
+        "id": "50",
+        "japanese": "いただきます",
+        "kanji": "",
+        "type": "",
+        "chinese": "我吃了，我开始吃了",
+        "romaji": "itadakimasu"
+    },
+    {
+        "id": "51",
+        "japanese": "えんなく",
+        "kanji": "(遠慮なく)",
+        "type": "",
+        "chinese": "不客气",
+        "romaji": "enryo naku"
+    },
+    {
+        "id": "52",
+        "japanese": "〜ぶ",
+        "kanji": "(～部)",
+        "type": "",
+        "chinese": "",
+        "romaji": "bu"
+    }
+]

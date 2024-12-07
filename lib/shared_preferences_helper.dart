@@ -1,5 +1,6 @@
 import 'dart:convert';
 import 'package:daily_word/model/constants.dart';
+import 'package:daily_word/model/vocabulary.dart';
 import 'package:daily_word/progress/book_progress.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
@@ -26,24 +27,24 @@ class SharedPreferencesHelper {
     }
   }
 
-  Future<BookProgress> addVocabulary(TripleVoc voc, String key) async {
+  Future<BookProgress> addVocabulary(TripleVoc voc, Vocabulary vocabulary, String key) async {
     final SharedPreferences prefs = await SharedPreferences.getInstance();
     final BookProgress progress = await getProgressByKey(voc.bookId);
     if (key == Enums.favoritesKey) {
-      progress.markAsFavorite(voc);
+      progress.markAsFavorite(voc, vocabulary);
     } else {
-      progress.markAsCompleted(voc);
+      progress.markAsCompleted(voc, vocabulary);
     }
-    await prefs.setString("${_custom}.${voc.bookId}", json.encode(progress.toJson()));
+    await prefs.setString(_custom + voc.bookId.toString(), json.encode(progress.toJson()));
     return progress;
   }
 
-  Future<BookProgress> addFavoriteVocabulary(TripleVoc voc) async {
-    return addVocabulary(voc, Enums.favoritesKey);
+  Future<BookProgress> addFavoriteVocabulary(TripleVoc voc, Vocabulary vocabulary) async {
+    return addVocabulary(voc, vocabulary, Enums.favoritesKey);
   }
 
-  Future<BookProgress> addCompletedVocabulary(TripleVoc voc) async {
-    return addVocabulary(voc, Enums.completedKey);
+  Future<BookProgress> addCompletedVocabulary(TripleVoc voc, Vocabulary vocabulary) async {
+    return addVocabulary(voc, vocabulary, Enums.completedKey);
   }
 
   Future<BookProgress> removeVocabulary(TripleVoc voc, String key) async {
@@ -54,7 +55,7 @@ class SharedPreferencesHelper {
     } else {
       progress.removeCompleted(voc);
     }
-    await prefs.setString("${_custom}${voc.bookId}", json.encode(progress.toJson()));
+    await prefs.setString(_custom + voc.bookId.toString(), json.encode(progress.toJson()));
     return progress;
   }
 
@@ -68,7 +69,7 @@ class SharedPreferencesHelper {
 
   Future<bool> getAutoPlay() async {
     final SharedPreferences prefs = await SharedPreferences.getInstance();
-    return prefs.getBool(_autoPlayKey) ?? false;
+    return prefs.getBool(_autoPlayKey) ?? true;
   }
 
   Future setAutoPlay(bool value) async {
