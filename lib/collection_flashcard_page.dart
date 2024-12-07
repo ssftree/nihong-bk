@@ -1,4 +1,3 @@
-import 'dart:convert';
 import 'package:daily_word/model/triplevoc.dart';
 import 'package:daily_word/model/vocabulary.dart';
 import 'package:daily_word/model/book_progress.dart';
@@ -24,8 +23,7 @@ class CollectionFlashcardPage extends StatefulWidget {
 
 class _CollectionFlashcardPageState extends State<CollectionFlashcardPage> {
   List<TripleVoc> _allCollectedVocs = [];
-  List<Vocabulary> _vocabulary = [];
-  bool _isLoading = true;
+  bool _isLoading = false;
   final AudioPlayer _audioPlayer = AudioPlayer();
   bool _isVisible = true;
   final SharedPreferencesHelper prefs = SharedPreferencesHelper();
@@ -60,13 +58,20 @@ class _CollectionFlashcardPageState extends State<CollectionFlashcardPage> {
     });
   }
 
+  Vocabulary getInsideVocabulary(TripleVoc voc) {
+    var insideVoc = widget.isFavoriteMode ?
+    favoriteMap["${voc.bookId}-${voc.lessonId}-${voc.vocabularyId}"] :
+    completedMap["${voc.bookId}-${voc.lessonId}-${voc.vocabularyId}"];
+    var vocab = insideVoc?.vocabulary ?? Vocabulary(id: '', kanji: '', japanese: '', romaji: '', chinese: '', type: '');
+    return vocab;
+  }
+
   @override
   void initState() {
     super.initState();
     _loadAllCollectedVocabularies().then((_) {
-      // Move these calls after _loadAllCollectedVocabularies completes
       _initVariables();
-      _loadVocabulary();
+      _playAudio();
     });
     
     prefs.getAutoPlay().then((value) {
@@ -132,23 +137,6 @@ class _CollectionFlashcardPageState extends State<CollectionFlashcardPage> {
     });
   }
 
-  Future<void> _loadVocabulary() async {
-    try {
-      String path =
-          'assets/vocabulary/${curVoc.bookId}/words/${curVoc.lessonId}.json';
-      final String response =
-          await DefaultAssetBundle.of(context).loadString(path);
-      _vocabulary = Vocabulary.listFromJson(json.decode(response));
-      if (_autoPlay) await _playAudio();
-    } catch (e) {
-      print('Error loading vocabulary: $e');
-    } finally {
-      setState(() {
-        _isLoading = false;
-      });
-    }
-  }
-
   Future<void> _playAudio() async {
     await _audioPlayer.play(AssetSource(
         "vocabulary/${curVoc.bookId}/mp3/${curVoc.lessonId}/${curVoc.vocabularyId}.mp3"));
@@ -169,7 +157,7 @@ class _CollectionFlashcardPageState extends State<CollectionFlashcardPage> {
 
     setState(() {
       curVoc = _allCollectedVocs[newIndex];
-      _loadVocabulary();
+      _playAudio();
       _initVariables();
     });
   }
@@ -237,7 +225,7 @@ class _CollectionFlashcardPageState extends State<CollectionFlashcardPage> {
                           const CircularProgressIndicator()
                         else
                           VocabularyCard(
-                            vocabulary: _vocabulary[curVoc.vocabularyId],
+                            vocabulary: getInsideVocabulary(curVoc),
                             curVoc: curVoc,
                             isVisible: _isVisible,
                             isCompleted: _isCompleted,
@@ -249,14 +237,14 @@ class _CollectionFlashcardPageState extends State<CollectionFlashcardPage> {
                             onNext: _navigateToNextVocabulary,
                             onToggleComplete: () {
                               if (!_isCompleted) {
-                                _markAsCompleted(_vocabulary[curVoc.vocabularyId]);
+                                _markAsCompleted(getInsideVocabulary(curVoc));
                               } else {
                                 _removeFromCompleted();
                               }
                             },
                             onToggleFavorite: () {
                               if (!_isFavorite) {
-                                _markAsFavorite(_vocabulary[curVoc.vocabularyId]);
+                                _markAsFavorite(getInsideVocabulary(curVoc));
                               } else {
                                 _removeFromFavorite();
                               }
@@ -332,12 +320,7 @@ class _CollectionFlashcardPageState extends State<CollectionFlashcardPage> {
       padding: const EdgeInsets.all(16),
       itemBuilder: (context, index) {
         final voc = _allCollectedVocs[index];
-        
-        // 修复：使用实际的 voc 而不是创建新的 TripleVoc
-        var insideVoc = widget.isFavoriteMode ? 
-          favoriteMap["${voc.bookId}-${voc.lessonId}-${voc.vocabularyId}"] :
-          completedMap["${voc.bookId}-${voc.lessonId}-${voc.vocabularyId}"];
-        var vocab = insideVoc?.vocabulary ?? Vocabulary(id: '', kanji: '', japanese: '', romaji: '', chinese: '', type: '');
+        var vocab = getInsideVocabulary(voc);
 
         return Card(
           margin: const EdgeInsets.only(bottom: 12),
